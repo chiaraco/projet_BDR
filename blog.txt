@@ -1,1 +1,3 @@
 04/03/2020 début du projet
+
+24/03/2020 réflexion sur l'organisation des tables de la base de données (cf organisation_base.pdf)
