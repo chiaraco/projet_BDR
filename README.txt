@@ -9,7 +9,6 @@ Etat actuel de la réalisation du projet :
 Description des fichiers du dépôt :
   - blog.txt : idées, problèmes et réalisations au jour le jour
   - organisation_base.pdf : organisation des tables de notre base (avec son évolution)
-  - projet_BDR : notre projet
  
 Etat de la récupération des données, du nettoyage et de la mise en forme :
   - récupération en cours
