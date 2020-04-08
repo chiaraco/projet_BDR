@@ -5,3 +5,17 @@ Sujet envisagé : ETUDE DES ACCIDENTS D'AVION --> on essaiera de créer un site 
 Etat actuel de la réalisation du projet : 
   - récupération des données en cours
   - projet créé sur django : rédaction des classes dans models.py en cours 
+  
+Description des fichiers du dépôt :
+  - blog.txt : idées, problèmes et réalisations au jour le jour
+  - organisation_base.pdf : organisation des tables de notre base (avec son évolution)
+  - projet_BDR : notre projet
+ 
+Etat de la récupération des données, du nettoyage et de la mise en forme :
+  - récupération en cours
+  
+Etat de la base de données réalisée :
+    - vide
+    
+Programmes réalisés et fonctionnalités opérationnelles :
+    - aucun pour l'instant
