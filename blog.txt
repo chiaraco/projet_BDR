@@ -1,3 +1,18 @@
 04/03/2020 début du projet
 
 24/03/2020 réflexion sur l'organisation des tables de la base de données (cf organisation_base.pdf)
+
+03/04/2020 recherches pour la récupération des données du site https://aviation-safety.net/database/
+03/04/2020 tests sur python avec BeautifulSoup
+
+04/04/2020 découverte et test de l'application web scraper
+
+06/04/2020 récupération des données du site https://aviation-safety.net/database/ avec web scrapper mais on a constaté qu'il manquait des données (peut-être dû à des problèmes de connexion internet)
+
+07/04/2020 début de récupération des données du site https://aviation-safety.net/database/ avec web scrapper (année par année pour minimiser les pertes)
+
+08/04/2020 récupération des données du site https://aviation-safety.net/database/ encore en cours
+08/04/2020 création du projet dans django
+08/04/2020 création des classes dans models.py
+08/04/2020 modifications de l'organisation des tables (cf organisation_base.pdf)
+08/04/2020 on va devoir vérifier que notre base est sous forme normale
