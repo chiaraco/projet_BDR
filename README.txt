@@ -10,6 +10,7 @@ Description des fichiers du dépôt :
   - blog.txt : idées, problèmes et réalisations au jour le jour
   - organisation_base.pdf : organisation des tables de notre base (avec son évolution)
   - projet_BDR : dossier du projet créé avec django
+  - script_recup_data.py : pour récupérer des données du site https://openflights.org/data.html et peupler la base (sauf la table Accident)
  
 Etat de la récupération des données, du nettoyage et de la mise en forme :
   - récupération en cours
