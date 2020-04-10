@@ -14,5 +14,10 @@
 08/04/2020 récupération des données du site https://aviation-safety.net/database/ encore en cours
 08/04/2020 création du projet dans django
 08/04/2020 création des classes dans models.py
-08/04/2020 modifications de l'organisation des tables (cf organisation_base.pdf)
+08/04/2020 modification de l'organisation des tables (cf organisation_base.pdf)
 08/04/2020 on va devoir vérifier que notre base est sous forme normale
+
+09/04/2020 rédaction de script_recup_data.py pour récupérer les données du site https://openflights.org/data.html et pour peupler la base
+
+10/04/2020 modification de models.py (en se basant sur la nouvelle version de organisation_base.pdf)
+10/04/2020 ajout de script_recup_data.py
