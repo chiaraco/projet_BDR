@@ -22,3 +22,6 @@
 10/04/2020 modification de models.py (en se basant sur la nouvelle version de organisation_base.pdf)
 10/04/2020 rédaction peuplement_tables.py
 10/04/2020 ajout de recup_data.py et peuplement_tables.py
+
+11/04/2020 données du site https://aviation-safety.net/database/ entièrement récupérer, début du nettoyage
+
