@@ -9,7 +9,7 @@
 
 06/04/2020 récupération des données du site https://aviation-safety.net/database/ avec web scrapper mais on a constaté qu'il manquait des données (peut-être dû à des problèmes de connexion internet)
 
-07/04/2020 début de récupération des données du site https://aviation-safety.net/database/ avec web scrapper (année par année pour éviter les pertes)
+07/04/2020 début de récupération des données du site https://aviation-safety.net/database/ avec web scrapper (année par année pour éviter les pertes dues aux problèmes de connexion)
 
 08/04/2020 récupération des données du site https://aviation-safety.net/database/ encore en cours
 08/04/2020 création du projet dans django
