@@ -25,3 +25,7 @@
 
 11/04/2020 données du site https://aviation-safety.net/database/ entièrement récupérées, début du nettoyage
 
+18/04/2020 données du site http://aviation-safety.net/ entièrement nettoyées
+
+
+
