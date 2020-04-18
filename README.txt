@@ -13,6 +13,7 @@ Description des fichiers du dépôt :
 	- recup_data.py : pour récupérer des données du site https://openflights.org/data.html
 	- aeroport.csv, avion.csv, compagnie.csv, pays.csv : fichiers des données récupérées
 	- peuplement_tables.py : pour peupler la base (sauf la table Accident)
+	- Donnees_accidents.csv : Données récupérer et nettoyer du site http://aviation-safety.net/
  
 Etat de la récupération des données, du nettoyage et de la mise en forme :
 	- récupération faite
