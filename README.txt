@@ -4,7 +4,8 @@ Sujet envisagé : ETUDE DES ACCIDENTS D'AVION --> on essaiera de créer un site 
 
 Etat actuel de la réalisation du projet :
 	- projet créé sur django : rédaction des classes dans models.py faite 
-	- nettoyage des données récupérées en cours
+	- nettoyage des données fait
+	- début du peuplement des classes
   
 Description des fichiers du dépôt :
 	- blog.txt : idées, problèmes et réalisations au jour le jour
@@ -17,7 +18,7 @@ Description des fichiers du dépôt :
  
 Etat de la récupération des données, du nettoyage et de la mise en forme :
 	- récupération faite
-	- nettoyage en cours
+	- nettoyage fait
   
 Etat de la base de données réalisée :
 	- vide
