@@ -12,7 +12,7 @@ Angola;AO
 American Samoa;AS
 Argentina;AR
 Australia;AU
-Ashmore and Cartier Islands;\N
+Ashmore and Cartier Islands;
 Austria;AT
 Anguilla;AI
 Antarctica;AQ
@@ -30,7 +30,7 @@ Myanmar;MM
 Benin;BJ
 Belarus;BY
 Solomon Islands;SB
-Navassa Island;\N
+Navassa Island;
 Brazil;BR
 India;IN
 Bhutan;BT
@@ -52,7 +52,7 @@ Cameroon;CM
 Comoros;KM
 Colombia;CO
 Northern Mariana Islands;MP
-Coral Sea Islands;\N
+Coral Sea Islands;
 Costa Rica;CR
 Central African Republic;CF
 Cuba;CU
@@ -62,7 +62,7 @@ Cyprus;CY
 Denmark;DK
 Djibouti;DJ
 Dominica;DM
-Jarvis Island;\N
+Jarvis Island;
 Dominican Republic;DO
 Ecuador;EC
 Egypt;EG
@@ -72,7 +72,7 @@ Estonia;EE
 Eritrea;ER
 El Salvador;SV
 Ethiopia;ET
-Europa Island;\N
+Europa Island;
 Czech Republic;CZ
 French Guiana;GF
 Finland;FI
@@ -81,7 +81,7 @@ Falkland Islands;FK
 Micronesia, Fed. Sts.;FM
 Faeroe Islands;FO
 French Polynesia;PF
-Baker Island;\N
+Baker Island;
 France;FR
 French Southern Territories;TF
 Gambia;GM
@@ -93,7 +93,7 @@ Grenada;GD
 Guernsey;GG
 Greenland;GL
 Germany;DE
-Glorioso Islands;\N
+Glorioso Islands;
 Guadeloupe;GP
 Guam;GU
 Greece;GR
@@ -105,7 +105,7 @@ Haiti;HT
 Hong Kong;HK
 Heard and McDonald Islands;HM
 Honduras;HN
-Howland Island;\N
+Howland Island;
 Croatia;HR
 Hungary;HU
 Iceland;IS
@@ -113,7 +113,7 @@ Indonesia;ID
 Isle of Man;IM
 India;IN
 British Indian Ocean Territory;IO
-Clipperton Island;\N
+Clipperton Island;
 Iran;IR
 Israel;IL
 Italy;IT
@@ -122,14 +122,14 @@ Iraq;IQ
 Japan;JP
 Jersey;JE
 Jamaica;JM
-Jan Mayen;\N
+Jan Mayen;
 Jordan;JO
-Johnston Atoll;\N
-Juan de Nova Island;\N
+Johnston Atoll;
+Juan de Nova Island;
 Kenya;KE
 Kyrgyz Republic;KG
 North Korea;KP
-Kingman Reef;\N
+Kingman Reef;
 Kiribati;KI
 South Korea;KR
 Christmas Island;CX
@@ -141,7 +141,7 @@ Latvia;LV
 Lithuania;LT
 Liberia;LR
 Slovakia;SK
-Palmyra Atoll;\N
+Palmyra Atoll;
 Lesotho;LS
 Luxembourg;LU
 Libya;LY
@@ -159,7 +159,7 @@ Mali;ML
 Monaco;MC
 Morocco;MA
 Mauritius;MU
-Midway Islands;\N
+Midway Islands;
 Mauritania;MR
 Malta;MT
 Oman;OM
@@ -184,8 +184,8 @@ New Zealand;NZ
 Paraguay;PY
 Pitcairn;PN
 Peru;PE
-Paracel Islands;\N
-Spratly Islands;\N
+Paracel Islands;
+Spratly Islands;
 Pakistan;PK
 Poland;PL
 Panama;PA
@@ -223,7 +223,7 @@ South Georgia and South Sandwich Is.;GS
 Syria;SY
 Switzerland;CH
 Trinidad and Tobago;TT
-Tromelin Island;\N
+Tromelin Island;
 Thailand;TH
 Tajikistan;TJ
 Turks and Caicos Islands;TC
@@ -254,7 +254,7 @@ Namibia;
 Palestine;PS
 Wallis and Futuna Islands;WF
 Western Sahara;EH
-Wake Island;\N
+Wake Island;
 Samoa;WS
 Eswatini;SZ
 Yemen;YE

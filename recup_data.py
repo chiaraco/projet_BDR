@@ -27,6 +27,11 @@ avion.to_csv(r'C:\Users\cordi\Documents\projet_BDR\avion.csv',sep=';',index=Fals
 col_aeroport=["Nom","Ville","Pays","IATA","OACI","Lat","Lon","Alt"]
 aeroport=pd.read_csv("https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat", delimiter=",", names=col_aeroport, usecols=[1,2,3,4,5,6,7,8])
 #print(aeroport)
+
+ville=aeroport.loc[:,["Ville","Pays"]]
+ville.to_csv(r'C:\Users\cordi\Documents\projet_BDR\ville.csv',sep=';',index=False)
+
+del(aeroport["Pays"])
 aeroport.to_csv(r'C:\Users\cordi\Documents\projet_BDR\aeroport.csv',sep=';',index=False)
 
 
@@ -36,11 +41,6 @@ compagnie=pd.read_csv("https://raw.githubusercontent.com/jpatokal/openflights/ma
 compagnie.to_csv(r'C:\Users\cordi\Documents\projet_BDR\compagnie.csv',sep=';',index=False)
 
 
-
-
-    
-    
-    
     
     
     
