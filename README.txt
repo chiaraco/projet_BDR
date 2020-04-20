@@ -1,4 +1,4 @@
-Le groupe est composé de : Chiara Cordier et Nolwenn David
+﻿Le groupe est composé de : Chiara Cordier et Nolwenn David
 
 Sujet envisagé : ETUDE DES ACCIDENTS D'AVION --> on essaiera de créer un site pour pouvoir rechercher des informations sur ces accidents en fonction des lieux, des compagnies, des types d'avion, et des années
 
@@ -12,9 +12,9 @@ Description des fichiers du dépôt :
 	- organisation_base.pdf : organisation des tables de notre base (avec son évolution)
 	- projet_BDR : dossier du projet créé avec django
 	- recup_data.py : pour récupérer des données du site https://openflights.org/data.html
-	- aeroport.csv, avion.csv, compagnie.csv, pays.csv : fichiers des données récupérées
+	- aeroport.csv, avion.csv, compagnie.csv, pays.csv, ville.csv : fichiers des données récupérées
 	- peuplement_tables.py : pour peupler la base (sauf la table Accident)
-	- Donnees_accidents.csv : Données récupérer et nettoyer du site http://aviation-safety.net/
+	- Donnees_accidents.csv : données récupérées et nettoyées du site http://aviation-safety.net/
  
 Etat de la récupération des données, du nettoyage et de la mise en forme :
 	- récupération faite
