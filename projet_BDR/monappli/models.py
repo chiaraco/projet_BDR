@@ -14,6 +14,10 @@ class Compagnie(models.Model):
 	IATA = models.CharField(max_length=2)
 	OACI = models.CharField(max_length=3)
 	NomPays = models.ForeignKey(Pays, on_delete=models.CASCADE)
+
+class Ville(models.Model):
+	NomVille = models.CharField(max_length=200,primary_key=True)
+	NomPays = models.ForeignKey(Pays, on_delete=models.CASCADE)
 	 
 class Pays(models.Model):
 	NomPays = models.CharField(max_length=200,primary_key=True)
