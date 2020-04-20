@@ -27,7 +27,7 @@
 
 18/04/2020 données du site http://aviation-safety.net/ entièrement nettoyées
 
-20/04/2020 ajout de la table Ville pour avoir une base sous forme normale (cf organisation_base.pdf)
+20/04/2020 ajout de la table Ville pour avoir une base sous forme normale (cf organisation_base.pdf, models.py, ville.csv, recup_data.py et peuplement_tables.py)
 
 
 
