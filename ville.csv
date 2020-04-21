@@ -7030,8 +7030,8 @@ Biała Podlaska;Poland
 Lębork;Poland
 Dęblin;Poland
 Leczyca;Poland
-;Poland
-;Poland
+nan;Poland
+nan;Poland
 Tomaszów Mazowiecki;Poland
 Björkvik;Sweden
 Ljungbyhed;Sweden
@@ -7136,8 +7136,8 @@ Comayagua;Honduras
 Upala;Costa Rica
 San Nicolás;Cuba
 Pinar Del Rio;Cuba
-;Saudi Arabia
-;Saudi Arabia
+nan;Saudi Arabia
+nan;Saudi Arabia
 Riyadh;Saudi Arabia
 Kangan;Iran
 Hamadan;Iran
@@ -7157,14 +7157,14 @@ Al Cut;Iraq
 Nenana;United States
 Wasilla;United States
 Gangshan;Taiwan
-;Japan
+nan;Japan
 Iwakuni;Japan
-;Japan
-;South Korea
+nan;Japan
+nan;South Korea
 Ie;Japan
 Surallah;Philippines
-;Philippines
-;Philippines
+nan;Philippines
+nan;Philippines
 Villa Maria;Argentina
 Barretos;Brazil
 Taubaté;Brazil
@@ -7183,14 +7183,14 @@ Tres Esquinas;Colombia
 Marandúa;Colombia
 Rioja;Peru
 Jaén;Peru
-;Venezuela
+nan;Venezuela
 Tamchy;Kyrgyzstan
 Kant;Kyrgyzstan
 Ayaguz;Kazakhstan
 Chelkar;Kazakhstan
 Kyzyl-Syr;Russia
 Vilyuisk;Russia
-;Russia
+nan;Russia
 Dzhermuk;Armenia
 Sovetskaya Gavan;Russia
 Sovetskaya Gavan;Russia
@@ -7220,7 +7220,7 @@ Svetlogorsk;Russia
 Valek;Russia
 Maykop;Russia
 Dudinka;Russia
-;Russia
+nan;Russia
 Tashkent;Uzbekistan
 Moscow;Russia
 Lukhovitsy;Russia
@@ -7232,12 +7232,12 @@ Zhigansk;Russia
 Ufa;Russia
 Buguruslan;Russia
 Samara;Russia
-;India
+nan;India
 Polonnaruwa Town;Sri Lanka
 Durgapur;India
-;India
-;India
-;India
+nan;India
+nan;India
+nan;India
 Puttaparthi;India
 Meiktila;Burma
 Singapore;Singapore
@@ -7248,46 +7248,46 @@ Kamyshin;Russia
 Smolensk;Russia
 Rtishchevo;Russia
 Alpha;Australia
-;Australia
-;Australia
-;Australia
-;Australia
-;Australia
-;Australia
-;Australia
-;Australia
-;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
 Deniliquin;Australia
-;Australia
-;Australia
+nan;Australia
+nan;Australia
 Forbes;Australia
-;Australia
-;Australia
-;Australia
-;Australia
-;Australia
-;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
 Morwell;Australia
-;Australia
-;Australia
-;Australia
-;Australia
-;Australia
-;Australia
-;Australia
-;Australia
-;Australia
-;Australia
-;Australia
-;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
 Sale;Australia
 West Wyalong;Australia
-;Australia
+nan;Australia
 Guanghua;China
 Shiyan;China
 Sunchon;North Korea
 Mengnai;China
-;Mongolia
+nan;Mongolia
 Bengbu;China
 Rugao;China
 Wuhu;China
@@ -7640,7 +7640,7 @@ Oceanside;United States
 Castelo Branco;Portugal
 Ponte de Sôr;Portugal
 Maia;Portugal
-;Bahamas
+nan;Bahamas
 Kenebetsu;Japan
 Natal;Brazil
 Ajmer;India
@@ -7679,7 +7679,7 @@ Yambol;Bulgaria
 Byaroza;Belarus
 Yuanmou;China
 Changsha;China
-;China
+nan;China
 Geçitkale;Cyprus
 Mbeya;Tanzania
 Kalocsa/Foktő;Hungary
