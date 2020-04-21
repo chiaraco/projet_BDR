@@ -22,8 +22,8 @@ for i in range(len(pays)) :
 
 for j in range(len(ville)) :
 	pays=Pays.objects.get(NomPays=ville.iloc[j][1])
-    vi = Ville(NomVille=ville.iloc[j][0], NomPays=pays)
-    vi.save()
+	vi = Ville(NomVille=ville.iloc[j][0], NomPays=pays)
+	vi.save()
   
     
 for k in range(len(avion)) : 
@@ -33,14 +33,14 @@ for k in range(len(avion)) :
 
 for l in range(len(aeroport)) : 
 	ville=Ville.objects.get(NomVille=aeroport.iloc[l][1])
-    ae = Aeroport(NomAeroport=aeroport.iloc[l][0], IATA=aeroport.iloc[l][3], OACI=aeroport.iloc[l][4], Latitude=aeroport.iloc[l][5], Longitude=aeroport.iloc[l][6], Altitude=aeroport.iloc[l][7], Ville=ville)
-    ae.save()   
+	ae = Aeroport(NomAeroport=aeroport.iloc[l][0], IATA=aeroport.iloc[l][3], OACI=aeroport.iloc[l][4], Latitude=aeroport.iloc[l][5], Longitude=aeroport.iloc[l][6], Altitude=aeroport.iloc[l][7], Ville=ville)
+	ae.save()   
     
     
 for m in range(len(compagnie)) : 
 	pa=Pays.objects.get(NomPays=compagnie.iloc[m][4])
-    co = Compagnie(NomCompagnie=compagnie.iloc[m][0], Alias=compagnie.iloc[m][1], IATA=compagnie.iloc[m][2], OACI=compagnie.iloc[m][3], NomPays=pa)
-    co.save()  
+	co = Compagnie(NomCompagnie=compagnie.iloc[m][0], Alias=compagnie.iloc[m][1], IATA=compagnie.iloc[m][2], OACI=compagnie.iloc[m][3], NomPays=pa)
+	co.save()  
 
 import datetime
 index_avion=[]

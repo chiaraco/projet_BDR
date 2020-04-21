@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'projet_BDR.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'db.sqlite3',
+        'NAME': 'projet',
         'USER': 'gp6',
         'PASSWORD': '7391',
         'HOST': 'data.stud',

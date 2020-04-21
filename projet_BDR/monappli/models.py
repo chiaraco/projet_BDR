@@ -1,6 +1,9 @@
 from django.db import models
 
 # Create your models here.
+class Pays(models.Model):
+	NomPays = models.CharField(max_length=200,primary_key=True)
+	ISO = models.CharField(max_length=2)
 
 class Avion(models.Model):
 	IdAvion =  models.AutoField(primary_key=True)
@@ -18,10 +21,6 @@ class Compagnie(models.Model):
 class Ville(models.Model):
 	NomVille = models.CharField(max_length=200,primary_key=True)
 	NomPays = models.ForeignKey(Pays, on_delete=models.CASCADE)
-	 
-class Pays(models.Model):
-	NomPays = models.CharField(max_length=200,primary_key=True)
-	ISO = models.CharField(max_length=2)
 
 class Aeroport(models.Model):
 	IdAeroport = models.AutoField(primary_key=True)
@@ -31,8 +30,7 @@ class Aeroport(models.Model):
 	Latitude = models.FloatField()
 	Longitude = models.FloatField()
 	Altitude = models.FloatField()
-	Ville = models.CharField(max_length=200)
-	NomPays = models.ForeignKey(Pays, on_delete=models.CASCADE)
+	Ville = models.ForeignKey(Ville,on_delete=models.CASCADE)
 
 class Accident(models.Model):
 	IdAccident = models.AutoField(primary_key=True)
@@ -40,8 +38,8 @@ class Accident(models.Model):
 	IdAvion = models.ForeignKey(Avion, on_delete=models.CASCADE)
 	NomCompagnie = models.ForeignKey(Compagnie, on_delete=models.CASCADE)
 	NomPays = models.ForeignKey(Pays, on_delete=models.CASCADE)
-	IdAeroport_depart = models.ForeignKey(Aeroport, on_delete=models.CASCADE)
-	IdAeroport_arrivee = models.ForeignKey(Aeroport, on_delete=models.CASCADE)
+	IdAeroport_depart = models.ForeignKey(Aeroport,related_name='depart',on_delete=models.CASCADE, default=None)
+	IdAeroport_arrivee = models.ForeignKey(Aeroport,related_name='arrivee',on_delete=models.CASCADE,default=None)
 	Nb_occupants = models.IntegerField()
 	Nb_deces = models.IntegerField()
 	Emplacement = models.CharField(max_length=200)

@@ -29,5 +29,9 @@
 
 20/04/2020 ajout de la table Ville pour avoir une base sous forme normale (cf organisation_base.pdf, models.py, ville.csv, recup_data.py et peuplement_tables.py)
 
+21/04/2020 suite de la rédaction peuplement_tables.py
+21/04/2020 création des tables
+21/04/2020 essai de peuplement de table (erreur dans le programme peuplement_tables.py)
+
 
 
