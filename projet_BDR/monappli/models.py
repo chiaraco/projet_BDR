@@ -48,6 +48,7 @@ class Accident(models.Model):
 	Phase_de_vol = models.CharField(max_length=200)
 	Nature = models.CharField(max_length=200)
 	Statut = models.CharField(max_length=200)
+	Degats = models.CharField(max_length=200)
 
 
 
