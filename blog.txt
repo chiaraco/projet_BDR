@@ -31,7 +31,11 @@
 
 21/04/2020 suite de la rédaction peuplement_tables.py
 21/04/2020 création des tables
-21/04/2020 essai de peuplement de table (erreur dans le programme peuplement_tables.py)
+21/04/2020 essai de peuplement des tables (erreur dans le programme peuplement_tables.py)
+
+22/04/2020 essais de peuplement des tables (on a vu qu'il y avait des erreurs dans certaines données : on doit donc les modifier)
+22/04/2020 on a donc fait des modifications sur recup_data.py et peuplement_tables.py (les fichiers csv ont donc eux aussi changé)
+22/04/2020 modification de models.py (ajout de blank=True, pour accepter les chaînes vides)
 
 
 

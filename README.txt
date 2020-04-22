@@ -5,7 +5,7 @@ Sujet envisagé : ETUDE DES ACCIDENTS D'AVION --> on essaiera de créer un site 
 Etat actuel de la réalisation du projet :
 	- projet créé sur django : rédaction des classes dans models.py faite 
 	- nettoyage des données fait
-	- début du peuplement des classes
+	- début du peuplement des tables
   
 Description des fichiers du dépôt :
 	- blog.txt : idées, problèmes et réalisations au jour le jour
@@ -13,7 +13,7 @@ Description des fichiers du dépôt :
 	- projet_BDR : dossier du projet créé avec django
 	- recup_data.py : pour récupérer des données du site https://openflights.org/data.html
 	- aeroport.csv, avion.csv, compagnie.csv, pays.csv, ville.csv : fichiers des données récupérées
-	- peuplement_tables.py : pour peupler la base (sauf la table Accident)
+	- peuplement_tables.py : pour peupler la base
 	- Donnees_accidents.csv : données récupérées et nettoyées du site http://aviation-safety.net/
  
 Etat de la récupération des données, du nettoyage et de la mise en forme :
