@@ -11,8 +11,9 @@ Description des fichiers du dépôt :
 	- blog.txt : idées, problèmes et réalisations au jour le jour
 	- organisation_base.pdf : organisation des tables de notre base (avec son évolution)
 	- projet_BDR : dossier du projet créé avec django
-	- recup_data.py : pour récupérer des données du site https://openflights.org/data.html
-	- aeroport.csv, avion.csv, compagnie.csv, pays.csv, ville.csv : fichiers des données récupérées
+	- recup_data.py : pour récupérer et nettoyer des données du site https://openflights.org/data.html
+	- aeroport.csv, avion.csv, compagnie.csv, pays.csv, villeV1.csv : fichiers des données récupérées
+	- ville.csv : amélioration de villeV1.csv
 	- peuplement_tables.py : pour peupler la base
 	- Donnees_accidents.csv : données récupérées et nettoyées du site http://aviation-safety.net/
  
