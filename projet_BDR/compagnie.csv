@@ -1,6 +1,5 @@
 Nom;Alias;IATA;OACI;Pays
-Unknown;;-;;
-Private flight;;-;;
+Private flight;;;;
 135 Airways;;;GNL;United States
 1Time Airline;;1T;RNX;South Africa
 2 Sqn No 1 Elementary Flying Training School;;;WYT;United Kingdom
@@ -2078,7 +2077,7 @@ Dynamic Air;;;DYE;Netherlands
 dba;;DI;BAG;Germany
 E H Darby Aviation;;;EHD;United States
 Electronic Data Systems;;1C;;Switzerland
-Electronic Data Systems;;;1Y;
+Electronic Data Systems;;;;
 EAA Escola De Aviacao Aerocondor;;;EAD;Portugal
 Executive Airlines Services;;;EXW;Nigeria
 EFAOS- Agencia De Viagens e Turismo;;;EFS;Angola
@@ -5546,7 +5545,7 @@ Kostromskie avialinii;;K1;KOQ;Russia
 Greenfly;;XX;GFY;Spain
 Tajik Air;;7J;;Tajikistan
 Air Mozambique;;TM;;Mozambique
-ELK Airways;;--;ELK;Estonia
+ELK Airways;;;ELK;Estonia
 Gabon Airlines;;GY;GBK;Gabon
 MCA Airlines;;;MCA;Sweden
 Maldivo Airlines;;ML;MAV;Maldives
@@ -5568,7 +5567,7 @@ Epic Holiday;Epic Holidays;FA;4AA;United States
 Indochina Airlines;;;AXC;Vietnam
 JetWind;;;JWW;United States
 Air Comet Chile;;3I;;Chile
-Nazca;;-.;;Peru
+Nazca;;;;Peru
 German Air Force - FLB;;;FLB;Germany
 City-Air Germany;;;CIP;Germany
 Voronezhskie Airlanes;;DN;;Russia
@@ -5630,7 +5629,7 @@ VIP Ecuador;;V6;;Ecuador
 Transportes Aereos Cielos Andinos;;;NDN;Peru
 Peruvian Airlines;;P9;;Peru
 EasyFly;;;EFY;Colombia
-Polar Airlines;;ЯП;;Russia
+Polar Airlines;;;;Russia
 Catovair;;OC;;Mauritius
 Andalus Lineas Aereas;;;ANU;Spain
 Air 26;;;DCD;Angola
@@ -5702,15 +5701,15 @@ Parmiss Airlines (IPV);;PA;IPV;Iran
 EuropeSky;;ES;EUV;Germany
 BRAZIL AIR;BRAZIL AIR;GB;BZE;Brazil
 Homer Air;Homer Sky;MR;OME;Germany
-Court Line;;??;???;United Kingdom
-South West Africa Territory Force;SWATF;??;***;Namibia
-Lombards Air;;++;---;South Africa
-U.S. Air;;-+;--+;United States
-Flitestar;;GM;===;South Africa
-Jayrow;;\\';\\'\\;Australia
-Llloyd Helicopters;;::;:::;Australia
-Wilderness Air;;";;";;Australia
-Whitaker Air;;^^;;Australia
+Court Line;;;;United Kingdom
+South West Africa Territory Force;SWATF;;;Namibia
+Lombards Air;;;;South Africa
+U.S. Air;;;;United States
+Flitestar;;GM;;South Africa
+Jayrow;;;;Australia
+Llloyd Helicopters;;;;Australia
+Wilderness Air;;;;Australia
+Whitaker Air;;;;Australia
 PanAm World Airways;;WQ;PQW;United States
 Virginwings;;YY;VWA;Germany
 KSY;Kreta Sky;KY;KSY;Greece
@@ -5724,7 +5723,7 @@ Cambodia Angkor Air (K6);;K6;;Cambodia
 Skyline nepc;;D5;;India
 THREE;;H3;T33;China
 Royal European Airlines;;69;;United Kingdom
-Tom\\'s & co airliners;Tom\\'s air;&T;T&O;France
+Tom\\'s & co airliners;Tom\\'s air;;;France
 Azul;Azul Linhas Aéreas Brasileiras;AD;AZU;Brazil
 LSM Airlines;slowbird;PQ;LOO;Russia
 Zapolyarie Airlines;Zapolyarye Airlines;;PZY;Russia
@@ -5784,7 +5783,7 @@ AUOS;AUOS;;AUK;United Kingdom
 CB Airways UK ( Interliging Flights );;1F;CIF;United Kingdom
 Fly Colombia ( Interliging Flights );;3F;3FF;Colombia
 Trans Pas Air;;T6;TP6;United States
-KMV;;МИ;;Russia
+KMV;;;;Russia
 Himalayan Airlines;Himalaya;HC;HYM;Nepal
 Indya Airline Group;Indya1;G1;IG1;India
 Sunwing;;WG;;Canada
@@ -5967,7 +5966,7 @@ Lina Congo;;GC;;Congo (Brazzaville)
 Hermes Airlines;;;HRM;Greece
 Flightlink Tanzania;Flightlink;Z9;;Tanzania
 IzAvia;;I8;;Russia
-Катэкавиа;;;КТК;Russia
+Катэкавиа;;;;Russia
 Псковавиа;Псков Авиа;;PKV;Russia
 3 Valleys Airlines;;3V;VA3;France
 Maryland Air;Maryland;M1;M1F;United States
@@ -6014,7 +6013,7 @@ Tomsk-Avia;;;TKS;Russia
 Vintage Props and Jets;;;VPP;United States
 Malawian Airlines;;3W;;Malawi
 Yeti Airlines ;;;NYT;Nepal
-Avilu;Avilu' SA;..;...;Switzerland
+Avilu;Avilu' SA;;;Switzerland
 Air Serbia;;JU;ASL;Serbia
 Skyline Ulasim Ticaret A.S.;Skyline Ulasim Ticaret A.S.;;KCU;Turkey
 Air Lituanica;Air Lituanica;LT;LTU;Lithuania
@@ -6038,7 +6037,7 @@ Regionalia México;Regionalia México;N4;J88;Mexico
 All Europe;All Europe;N9;N99;United Kingdom
 All Spain;All Spain;N7;N77;Spain
 Regional Air Iceland;Regional Air Iceland;9N;N78;Iceland
-British Air Ferries;;??;??!;United Kingdom
+British Air Ferries;;;;United Kingdom
 Voestar;Voestar Brasil;8K;K88;Brazil
 All Colombia;All Colombia;7O;7KK;Colombia
 Regionalia Uruguay;Regionalia Uruguay;2X;2K2;Uruguay
@@ -6075,7 +6074,7 @@ San Dima Air;(Cyber Airlines) Not Real;;SDI;United States
 All America CO;All America Colombia;0Y;7ZC;Colombia
 All America MX;All America México;0M;0MM;Mexico
 FOX Linhas Aereas;;FX;FOX;Brazil
-Wings of England;;EX;..,;United Kingdom
+Wings of England;;EX;;United Kingdom
 Air Kenya (Priv);;QP;;Kenya
 Via Conectia Airlines;Via Conectia;6V;CZV;Uruguay
 Hebradran Air Services;;;HBR;United Kingdom
@@ -6112,7 +6111,7 @@ Aguilar Connect;;3X;GUI;Chile
 ROYAL BRITAIN;Flying Brits;7V;ROB;United Kingdom
 INAVIA Internacional;Internacional;Z5;IIR;Argentina
 Liberty Airways;;LE;LTY;United States
-Аэросервис;;АЯ;;Russia
+Аэросервис;;;;Russia
 Aeronautica Militare;;;IAM;Italy
 Bassaka airlines;;5B;BSX;Cambodia
 Jetstar Japan ;;;JJP;Japan
