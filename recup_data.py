@@ -10,12 +10,32 @@
 
 
 import pandas as pd
-
+import re
+import numpy as np
 
 col_pays=["Pays","ISO"]
 pays=pd.read_csv("https://raw.githubusercontent.com/jpatokal/openflights/master/data/countries.dat", delimiter=",", names=col_pays, usecols=[0,1])
 #print(pays)
-pays.to_csv(r'C:\Users\cordi\Documents\projet_BDR\pays.csv',sep=';',index=False)
+motif =re.compile(r"\\N")
+len_ISO=[]
+len_Nom=[]
+pays.loc[pays.index[251],'ISO']=''
+for i in range(len(pays)):
+    ligne=pays.iloc[i]['ISO']
+    ligne2=pays.iloc[i]['Pays']
+
+    found=motif.search(str(ligne))
+    if found :
+        pays.loc[pays.index[i],'ISO']=''
+    
+    if len(str(ligne))==3:
+        print(ligne)
+        print(str(ligne))
+        print(i,type(ligne))
+    len_Nom.append(len(str(ligne2)))
+    len_ISO.append(len(str(ligne)))
+print(max(len_ISO),max(len_Nom))
+pays.to_csv(r'pays.csv',sep=';',index=False)
 
 
 col_avion=["Modele","IATA","OACI"]
@@ -38,7 +58,20 @@ aeroport.to_csv(r'C:\Users\cordi\Documents\projet_BDR\aeroport.csv',sep=';',inde
 col_compagnie=["Nom","Alias","IATA","OACI","Pays"]
 compagnie=pd.read_csv("https://raw.githubusercontent.com/jpatokal/openflights/master/data/airlines.dat", delimiter=",", names=col_compagnie, usecols=[1,2,3,4,6])
 #print(compagnie)
-compagnie.to_csv(r'C:\Users\cordi\Documents\projet_BDR\compagnie.csv',sep=';',index=False)
+len_IATA=[]
+len_OACI=[]
+for i in range(len(compagnie)):
+    ligne=compagnie.iloc[i]['IATA']
+    ligne2=compagnie.iloc[i]['OACI']
+    if str(ligne)=='nan':
+        compagnie.loc[compagnie.index[i],'IATA']=''
+        print(i,ligne,type(ligne),"IATA")
+    if len(str(ligne2))>3:   
+        print(i,ligne2,type(ligne2),"OACI")
+    len_IATA.append(len(str(ligne)))
+    len_OACI.append(len(str(ligne2)))
+print(max(len_IATA),max(len_OACI))
+compagnie.to_csv(r'compagnie.csv',sep=';',index=False)
 
 
     

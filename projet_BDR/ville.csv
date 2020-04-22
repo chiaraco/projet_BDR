@@ -615,7 +615,7 @@ Skrydstrup;Denmark
 Skive;Denmark
 Thisted;Denmark
 Kolding;Denmark
-Vagar;Faroe Islands
+Vagar;Faeroe Islands
 Vesthimmerland;Denmark
 Stauning;Denmark
 Aalborg;Denmark
@@ -648,7 +648,7 @@ Notodden;Norway
 Orland;Norway
 Roros;Norway
 Rygge;Norway
-Svalbard;Norway
+Svalbard and Jan Mayen Islands;Norway
 Skien;Norway
 Stord;Norway
 Sandnessjoen;Norway
@@ -862,16 +862,16 @@ Kasane;Botswana
 Maun;Botswana
 Gaberone;Botswana
 Selebi-phikwe;Botswana
-Brazzaville;Congo (Brazzaville)
-Owando;Congo (Kinshasa)
-Ouesso;Congo (Kinshasa)
-Pointe-noire;Congo (Brazzaville)
-Manzini;Swaziland
+Brazzaville;Congo Republic
+Owando;DR Congo
+Ouesso;DR Congo
+Pointe-noire;Congo Republic
+Manzini;Eswatini
 Bangui;Central African Republic
 Berberati;Central African Republic
 Bata;Equatorial Guinea
 Malabo;Equatorial Guinea
-Wide Awake;Saint Helena
+Wide Awake;St. Helena
 Plaisance;Mauritius
 Rodriguez Island;Mauritius
 Diego Garcia Island;British Indian Ocean Territory
@@ -996,30 +996,30 @@ Lilongwe;Malawi
 Mzuzu;Malawi
 Maseru;Lesotho
 Maseru;Lesotho
-Kinshasa;Congo (Kinshasa)
-Kinshasa;Congo (Kinshasa)
-Muanda;Congo (Kinshasa)
-Kitona Base;Congo (Kinshasa)
-Bandoundu;Congo (Kinshasa)
-Kikwit;Congo (Kinshasa)
-Mbandaka;Congo (Kinshasa)
-Gbadolite;Congo (Kinshasa)
-Gemena;Congo (Kinshasa)
-Kotakoli;Congo (Kinshasa)
-Lisala;Congo (Kinshasa)
-Kisangani;Congo (Kinshasa)
-Isiro;Congo (Kinshasa)
-Bunia;Congo (Kinshasa)
-Buta Zega;Congo (Kinshasa)
-Bukavu/kavumu;Congo (Kinshasa)
-Goma;Congo (Kinshasa)
-Kindu;Congo (Kinshasa)
-Lubumashi;Congo (Kinshasa)
-Kolwezi;Congo (Kinshasa)
-Kalemie;Congo (Kinshasa)
-Kamina Base;Congo (Kinshasa)
-Kananga;Congo (Kinshasa)
-Mbuji-mayi;Congo (Kinshasa)
+Kinshasa;DR Congo
+Kinshasa;DR Congo
+Muanda;DR Congo
+Kitona Base;DR Congo
+Bandoundu;DR Congo
+Kikwit;DR Congo
+Mbandaka;DR Congo
+Gbadolite;DR Congo
+Gemena;DR Congo
+Kotakoli;DR Congo
+Lisala;DR Congo
+Kisangani;DR Congo
+Isiro;DR Congo
+Bunia;DR Congo
+Buta Zega;DR Congo
+Bukavu/kavumu;DR Congo
+Goma;DR Congo
+Kindu;DR Congo
+Lubumashi;DR Congo
+Kolwezi;DR Congo
+Kalemie;DR Congo
+Kamina Base;DR Congo
+Kananga;DR Congo
+Mbuji-mayi;DR Congo
 Bamako;Mali
 Gao;Mali
 Kayes;Mali
@@ -1076,11 +1076,11 @@ Bir Moghrein;Mauritania
 Fira;Guinea
 Faranah;Guinea
 Labe;Guinea
-Amilcar Cabral;Cape Verde
-Boa Vista;Cape Verde
-Maio;Cape Verde
-Sao Nocolau Island;Cape Verde
-Sao Vicente Island;Cape Verde
+Amilcar Cabral;Cabo Verde
+Boa Vista;Cabo Verde
+Maio;Cabo Verde
+Sao Nocolau Island;Cabo Verde
+Sao Vicente Island;Cabo Verde
 Addis Ababa;Ethiopia
 Addis Ababa;Ethiopia
 Arba Minch;Ethiopia
@@ -1403,8 +1403,8 @@ Luxeuil;France
 Cuers;France
 Hyeres;France
 Nimes;France
-Miquelon;Saint Pierre and Miquelon
-St.-pierre;Saint Pierre and Miquelon
+Miquelon;St. Pierre and Miquelon
+St.-pierre;St. Pierre and Miquelon
 Amberieu;France
 Damblain;France
 Andravida;Greece
@@ -1899,7 +1899,7 @@ Tongatapu;Tonga
 Vava'u;Tonga
 Tarawa;Kiribati
 Tabiteuea North;Kiribati
-Wallis;Wallis and Futuna
+Wallis;Wallis and Futuna Islands
 Faleolo;Samoa
 Pago Pago;American Samoa
 Rurutu;French Polynesia
@@ -2086,7 +2086,7 @@ Amman;Jordan
 Amman;Jordan
 Aqaba;Jordan
 Hotel Four;Jordan
-Jerusalem;West Bank
+Jerusalem;Israel
 Mafraq;Jordan
 Kuwait;Kuwait
 Beirut;Lebanon
@@ -2157,11 +2157,11 @@ Kwajalein;Marshall Islands
 Kwajalein;Marshall Islands
 Kiritimati;Kiribati
 Midway;Midway Islands
-Chuuk;Micronesia
-Pohnpei;Micronesia
+Chuuk;Micronesia, Fed. Sts.
+Pohnpei;Micronesia, Fed. Sts.
 Babelthuap;Palau
-Kosrae;Micronesia
-Yap;Micronesia
+Kosrae;Micronesia, Fed. Sts.
+Yap;Micronesia, Fed. Sts.
 Kinmen;Taiwan
 Pingtung;Taiwan
 Longtang;Taiwan
@@ -2737,17 +2737,17 @@ Fort-de-france;Martinique
 St. Martin;Guadeloupe
 Pointe-a-pitre;Guadeloupe
 Point Salines;Grenada
-St. Thomas;Virgin Islands
-St. Croix Island;Virgin Islands
+St. Thomas;United States Virgin Islands
+St. Croix Island;United States Virgin Islands
 Aguadilla;Puerto Rico
 Fajardo;Puerto Rico
 San Juan;Puerto Rico
 Mayaguez;Puerto Rico
 Ponce;Puerto Rico
 San Juan;Puerto Rico
-Basse Terre;Saint Kitts and Nevis
-Castries;Saint Lucia
-Hewandorra;Saint Lucia
+Basse Terre;St. Kitts and Nevis
+Castries;St. Lucia
+Hewandorra;St. Lucia
 Oranjestad;Aruba
 Kralendijk;Netherlands Antilles
 Willemstad;Netherlands Antilles
@@ -2757,15 +2757,15 @@ The Valley;Anguilla
 Scarborough;Trinidad and Tobago
 Port-of-spain;Trinidad and Tobago
 Tortola;British Virgin Islands
-Canouan Island;Saint Vincent and the Grenadines
-Mustique;Saint Vincent and the Grenadines
-Kingstown;Saint Vincent and the Grenadines
+Canouan Island;St. Vincent and the Grenadines
+Mustique;St. Vincent and the Grenadines
+Kingstown;St. Vincent and the Grenadines
 Alma-ata;Kazakhstan
 Balkhash;Kazakhstan
 Tselinograd;Kazakhstan
 Dzhambul;Kazakhstan
-Bishkek;Kyrgyzstan
-Osh;Kyrgyzstan
+Bishkek;Kyrgyz Republic
+Osh;Kyrgyz Republic
 Chimkent;Kazakhstan
 Uralsk;Kazakhstan
 Pavlodar;Kazakhstan
@@ -2956,7 +2956,7 @@ Phong Savanh;Laos
 Savannakhet;Laos
 Sam Neua;Laos
 Vientiane;Laos
-Macau;Macau
+Macau;Macao
 Bhairawa;Nepal
 Janakpur;Nepal
 Kathmandu;Nepal
@@ -3028,32 +3028,32 @@ Nhatrang;Vietnam
 Hue;Vietnam
 Phuquoc;Vietnam
 Ho Chi Minh City;Vietnam
-Ann;Burma
-Anisakan;Burma
-Bagan;Burma
-Coco Island;Burma
-Heho;Burma
-Hommalin;Burma
-Kengtung;Burma
-Kyaukpyu;Burma
-Lashio;Burma
-Lanywa;Burma
-Mandalay;Burma
-Myeik;Burma
-Myitkyina;Burma
-Momeik;Burma
-Mong Hsat;Burma
-Nampong;Burma
-Namsang;Burma
-Hpa-an;Burma
-Putao;Burma
-Pyay;Burma
-Shante;Burma
-Sittwe;Burma
-Thandwe;Burma
-Tachilek;Burma
-Taungoo;Burma
-Yangon;Burma
+Ann;Myanmar
+Anisakan;Myanmar
+Bagan;Myanmar
+Coco Island;Myanmar
+Heho;Myanmar
+Hommalin;Myanmar
+Kengtung;Myanmar
+Kyaukpyu;Myanmar
+Lashio;Myanmar
+Lanywa;Myanmar
+Mandalay;Myanmar
+Myeik;Myanmar
+Myitkyina;Myanmar
+Momeik;Myanmar
+Mong Hsat;Myanmar
+Nampong;Myanmar
+Namsang;Myanmar
+Hpa-an;Myanmar
+Putao;Myanmar
+Pyay;Myanmar
+Shante;Myanmar
+Sittwe;Myanmar
+Thandwe;Myanmar
+Tachilek;Myanmar
+Taungoo;Myanmar
+Yangon;Myanmar
 Ujung Pandang;Indonesia
 Biak;Indonesia
 Nabire;Indonesia
@@ -3084,7 +3084,7 @@ Lahad Datu;Malaysia
 Kota Kinabalu;Malaysia
 Labuan;Malaysia
 Tawau;Malaysia
-Bandar Seri Begawan;Brunei
+Bandar Seri Begawan;Brunei Darussalam
 Pekanbaru;Indonesia
 Dumai;Indonesia
 Jakarta;Indonesia
@@ -3116,9 +3116,9 @@ Langkawi;Malaysia
 Malacca;Malaysia
 Kuala Terengganu;Malaysia
 Penang;Malaysia
-Suai;East Timor
-Dili;East Timor
-Baucau;East Timor
+Suai;Timor-Leste
+Dili;Timor-Leste
+Baucau;Timor-Leste
 Sembawang;Singapore
 Paya Lebar;Singapore
 Tengah;Singapore
@@ -3921,8 +3921,8 @@ Geralds;Montserrat
 Petersburg;United States
 Luoyang;China
 Xuzhou;China
-Magwe;Burma
-Khamti;Burma
+Magwe;Myanmar
+Khamti;Myanmar
 Dalat;Vietnam
 Dong Hoi;Vietnam
 Rach Gia;Vietnam
@@ -4016,7 +4016,7 @@ Vineyard Haven MA;United States
 Concord NH;United States
 Groton CT;United States
 Saint Cloud;United States
-Bagan;Burma
+Bagan;Myanmar
 Columbus Mississippi;United States
 Nizhniy Novgorod;Russia
 Hoquiam;United States
@@ -4313,7 +4313,7 @@ Ghanzi;Botswana
 Orapa;Botswana
 Shakawe;Botswana
 Tuli Lodge;Botswana
-Loubomo;Congo (Brazzaville)
+Loubomo;Congo Republic
 Chipata;Zambia
 Solwesi;Zambia
 Moroni;Comoros
@@ -4347,15 +4347,15 @@ Ondangwa;Namibia
 Oranjemund;Namibia
 Swakopmund;Namibia
 Windhoek;Namibia
-Boma;Congo (Kinshasa)
-Matadi;Congo (Kinshasa)
-Inongo;Congo (Kinshasa)
-Nioki;Congo (Kinshasa)
-Kiri;Congo (Kinshasa)
-Basankusu;Congo (Kinshasa)
-Tshikapa;Congo (Kinshasa)
-Lodja;Congo (Kinshasa)
-Ilebo;Congo (Kinshasa)
+Boma;DR Congo
+Matadi;DR Congo
+Inongo;DR Congo
+Nioki;DR Congo
+Kiri;DR Congo
+Basankusu;DR Congo
+Tshikapa;DR Congo
+Lodja;DR Congo
+Ilebo;DR Congo
 Outer Skerries;United Kingdom
 La Gomera;Spain
 Bonthe;Sierra Leone
@@ -4367,8 +4367,8 @@ Dakhla;Western Sahara
 Essadouira;Morocco
 El Aaiún;Western Sahara
 El Aroui;Morocco
-Praia, Santiago Island;Cape Verde
-Sao Filipe, Fogo Island;Cape Verde
+Praia, Santiago Island;Cabo Verde
+Sao Filipe, Fogo Island;Cabo Verde
 Baco;Ethiopia
 Beica;Ethiopia
 Dessie;Ethiopia
@@ -4552,7 +4552,7 @@ Angaha, Niuafo'ou Island;Tonga
 Niuatoputapu;Tonga
 Vanua Balavu;Fiji
 Alofi;Niue
-Futuna Island;Wallis and Futuna
+Futuna Island;Wallis and Futuna Islands
 Savaii Island;Samoa
 Apataki;French Polynesia
 Ahe;French Polynesia
@@ -4719,10 +4719,10 @@ Grande Anse;Guadeloupe
 Basse Terre;Guadeloupe
 St-François;Guadeloupe
 Grand Bourg;Guadeloupe
-Charlestown;Saint Kitts and Nevis
+Charlestown;St. Kitts and Nevis
 Spanish Town;British Virgin Islands
-Bequia;Saint Vincent and the Grenadines
-Union Island;Saint Vincent and the Grenadines
+Bequia;St. Vincent and the Grenadines
+Union Island;St. Vincent and the Grenadines
 Kokshetau;Kazakhstan
 Petropavlosk;Kazakhstan
 Zhezkazgan;Kazakhstan
@@ -4828,13 +4828,13 @@ Dienbienphu;Vietnam
 Phucat;Vietnam
 Pleiku;Vietnam
 Vinh;Vietnam
-Banmaw;Burma
-Dawei;Burma
-Kawthoung;Burma
-Loikaw;Burma
-Mawlamyine;Burma
-Pathein;Burma
-Pakhokku;Burma
+Banmaw;Myanmar
+Dawei;Myanmar
+Kawthoung;Myanmar
+Loikaw;Myanmar
+Mawlamyine;Myanmar
+Pathein;Myanmar
+Pakhokku;Myanmar
 Sumbawa Island;Indonesia
 Waikabubak-Sumba Island;Indonesia
 Bokondini-Papua Island;Indonesia
@@ -5070,7 +5070,7 @@ Tannheim;Germany
 Unst;United Kingdom
 Pagerungan;Indonesia
 Provincetown;United States
-Seria;Brunei
+Seria;Brunei Darussalam
 Gustavia;France
 Kostroma;Russia
 Sukhumi;Georgia
@@ -5267,10 +5267,10 @@ Puntarenas;Costa Rica
 Altay;China
 Null;Bosnia and Herzegovina
 Dallas;United States
-Naypyidaw;Burma
-Kyauktu;Burma
+Naypyidaw;Myanmar
+Kyauktu;Myanmar
 Jan Mayen;Norway
-Bokepyin;Burma
+Bokepyin;Myanmar
 Manzhouli;China
 Wuhai;China
 Gary;United States
@@ -5495,7 +5495,7 @@ Carrillo;Costa Rica
 Constanza;Dominican Republic
 Negril;Jamaica
 Ceiba;Puerto Rico
-Charlotte Amalie;Virgin Islands
+Charlotte Amalie;United States Virgin Islands
 Alto Rio Senguer;Argentina
 Jose de San Martin;Argentina
 Uyuni;Bolivia
@@ -5591,8 +5591,8 @@ Enfidha;Tunisia
 Kidepo;Uganda
 Kitgum;Uganda
 Pakuba;Uganda
-Sveagruva;Svalbard
-Ny-Alesund;Svalbard
+Sveagruva;Svalbard and Jan Mayen Islands
+Ny-Alesund;Svalbard and Jan Mayen Islands
 Hatay;Turkey
 Kihnu;Estonia
 Ruhnu;Estonia
@@ -5811,7 +5811,7 @@ Zonguldak;Turkey
 Broomfield-CO;United States
 Salem;United States
 Tunica;United States
-Batken;Kyrgyzstan
+Batken;Kyrgyz Republic
 Kasaba Bay;Zambia
 Lindau;Germany
 Hoogeveen;Netherlands
@@ -5856,7 +5856,7 @@ Oshawa;Canada
 Recklinghausen;Germany
 Farila;Sweden
 Lahr;Germany
-Monywa;Burma
+Monywa;Myanmar
 Athens;United States
 Springfield;United States
 South Aari Atoll;Maldives
@@ -5921,7 +5921,7 @@ Welzow;Germany
 Taichung;Taiwan
 Wheeling;United States
 Fitzgerald;United States
-Ye;Burma
+Ye;Myanmar
 Isla San Felix;Chile
 Shaybah;Saudi Arabia
 Dubai;United Arab Emirates
@@ -5973,7 +5973,7 @@ New York;United States
 Leverkusen;Germany
 Wershofen;Germany
 Khost;Afghanistan
-Naypyidaw;Burma
+Naypyidaw;Myanmar
 Bend;United States
 Christmas Valley;United States
 Burns;United States
@@ -5992,7 +5992,7 @@ Suffield;Canada
 BLUMENAU;Brazil
 Stupino;Russia
 Charelvoix;United States
-Mykines;Faroe Islands
+Mykines;Faeroe Islands
 Cornwall;Canada
 Bosschenhoofd;Netherlands
 St.Stephan;Switzerland
@@ -6470,7 +6470,7 @@ Sulawesi Tenggara;Indonesia
 Cambria;United States
 Yichun;China
 Petersburg;United States
-Kasongo;Congo (Kinshasa)
+Kasongo;DR Congo
 McMurdo Station;Antarctica
 Klatovy;Czech Republic
 Sheboygan;United States
@@ -6791,9 +6791,9 @@ Meschede;Germany
 Tena;Ecuador
 Rio de Janeiro;Brazil
 Fuyuan;China
-Skuvoy;Faroe Islands
-Stora Dimun;Faroe Islands
-Frooba;Faroe Islands
+Skuvoy;Faeroe Islands
+Stora Dimun;Faeroe Islands
+Frooba;Faeroe Islands
 Roxboro;United States
 Phinda;South Africa
 Liupanshui;China
@@ -6891,9 +6891,9 @@ Marica;Brazil
 Resende;Brazil
 Saquarema;Brazil
 Drumheller;Canada
-Mwene-Ditu;Congo (Kinshasa)
-Kabinda;Congo (Kinshasa)
-Ikela;Congo (Kinshasa)
+Mwene-Ditu;DR Congo
+Kabinda;DR Congo
+Ikela;DR Congo
 Aripuana;Brazil
 Juruena;Brazil
 Juina;Brazil
@@ -6904,13 +6904,13 @@ Chapada dos Guimaraes;Brazil
 Tangara da Serra;Brazil
 Canarana;Brazil
 Vila Bela da Santissima Trindade ;Brazil
-Bumba;Congo (Kinshasa)
+Bumba;DR Congo
 Sobral;Brazil
 Arapiraca;Brazil
 Floriano;Brazil
 Picos;Brazil
-Beni;Congo (Kinshasa)
-Boende;Congo (Kinshasa)
+Beni;DR Congo
+Boende;DR Congo
 Montauk;United States
 Valparaiso IN;United States
 DHARAVANDHOO;Maldives
@@ -6923,9 +6923,9 @@ Horsham;Australia
 Swan Hill;Australia
 Turtle Island;Fiji
 Karimunjawa;Indonesia
-Kongolo;Congo (Kinshasa)
+Kongolo;DR Congo
 Attopeu;Laos
-Kahemba;Congo (Kinshasa)
+Kahemba;DR Congo
 Caracas;Venezuela
 Sao Miguel do Oeste;Brazil
 Ludington;United States
@@ -7030,6 +7030,8 @@ Biała Podlaska;Poland
 Lębork;Poland
 Dęblin;Poland
 Leczyca;Poland
+nan;Poland
+nan;Poland
 Tomaszów Mazowiecki;Poland
 Björkvik;Sweden
 Ljungbyhed;Sweden
@@ -7134,6 +7136,8 @@ Comayagua;Honduras
 Upala;Costa Rica
 San Nicolás;Cuba
 Pinar Del Rio;Cuba
+nan;Saudi Arabia
+nan;Saudi Arabia
 Riyadh;Saudi Arabia
 Kangan;Iran
 Hamadan;Iran
@@ -7153,9 +7157,14 @@ Al Cut;Iraq
 Nenana;United States
 Wasilla;United States
 Gangshan;Taiwan
+nan;Japan
 Iwakuni;Japan
+nan;Japan
+nan;South Korea
 Ie;Japan
 Surallah;Philippines
+nan;Philippines
+nan;Philippines
 Villa Maria;Argentina
 Barretos;Brazil
 Taubaté;Brazil
@@ -7174,12 +7183,14 @@ Tres Esquinas;Colombia
 Marandúa;Colombia
 Rioja;Peru
 Jaén;Peru
-Tamchy;Kyrgyzstan
-Kant;Kyrgyzstan
+nan;Venezuela
+Tamchy;Kyrgyz Republic
+Kant;Kyrgyz Republic
 Ayaguz;Kazakhstan
 Chelkar;Kazakhstan
 Kyzyl-Syr;Russia
 Vilyuisk;Russia
+nan;Russia
 Dzhermuk;Armenia
 Sovetskaya Gavan;Russia
 Sovetskaya Gavan;Russia
@@ -7209,6 +7220,7 @@ Svetlogorsk;Russia
 Valek;Russia
 Maykop;Russia
 Dudinka;Russia
+nan;Russia
 Tashkent;Uzbekistan
 Moscow;Russia
 Lukhovitsy;Russia
@@ -7220,10 +7232,14 @@ Zhigansk;Russia
 Ufa;Russia
 Buguruslan;Russia
 Samara;Russia
+nan;India
 Polonnaruwa Town;Sri Lanka
 Durgapur;India
+nan;India
+nan;India
+nan;India
 Puttaparthi;India
-Meiktila;Burma
+Meiktila;Myanmar
 Singapore;Singapore
 Soltsy;Russia
 Severomorsk;Russia
@@ -7232,15 +7248,46 @@ Kamyshin;Russia
 Smolensk;Russia
 Rtishchevo;Russia
 Alpha;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
 Deniliquin;Australia
+nan;Australia
+nan;Australia
 Forbes;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
 Morwell;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
+nan;Australia
 Sale;Australia
 West Wyalong;Australia
+nan;Australia
 Guanghua;China
 Shiyan;China
 Sunchon;North Korea
 Mengnai;China
+nan;Mongolia
 Bengbu;China
 Rugao;China
 Wuhu;China
@@ -7329,7 +7376,7 @@ Grundarfjordur;Iceland
 Prairie du Chien;United States
 Kobok;Indonesia
 Orlando;United States
-Torshavn;Faroe Islands
+Torshavn;Faeroe Islands
 Otjiwarongo;Namibia
 Mona;United Kingdom
 Rerik;Germany
@@ -7373,7 +7420,7 @@ Bajawa;Indonesia
 Gransee;Germany
 San Antonio de Pale;Equatorial Guinea
 Huangshan;China
-Oyo;Congo (Brazzaville)
+Oyo;Congo Republic
 Port Hardy;Canada
 Parsons;United States
 Phongsaly;Laos
@@ -7461,7 +7508,7 @@ Troy;United States
 Stratford;Canada
 Edmundston;Canada
 Red Dog;United States
-Impfondo;Congo (Brazzaville)
+Impfondo;Congo Republic
 El Bayadh;Algeria
 Zintan;Libya
 Monkey Bay;Malawi
@@ -7472,7 +7519,7 @@ Gombe;Nigeria
 Dutse;Nigeria
 Jalingo;Nigeria
 Kolda;Senegal
-Manzini;Swaziland
+Manzini;Eswatini
 Kilwa Masoko;Tanzania
 Kilimanjaro;Tanzania
 Moshi;Tanzania
@@ -7527,9 +7574,9 @@ Jask;Iran
 Frankfort;United States
 Cheboygan;United States
 Kozushima;Japan
-Kazarman;Kyrgyzstan
-Kerben;Kyrgyzstan
-Naryn;Kyrgyzstan
+Kazarman;Kyrgyz Republic
+Kerben;Kyrgyz Republic
+Naryn;Kyrgyz Republic
 Sainyabuli;Laos
 Baglung;Nepal
 Rajbiraj;Nepal
@@ -7593,6 +7640,7 @@ Oceanside;United States
 Castelo Branco;Portugal
 Ponte de Sôr;Portugal
 Maia;Portugal
+nan;Bahamas
 Kenebetsu;Japan
 Natal;Brazil
 Ajmer;India
@@ -7615,7 +7663,7 @@ Whitehorse;Canada
 Pertominsk;Russia
 Laverton;Australia
 Kidston;Australia
-Klaksvik;Faroe Islands
+Klaksvik;Faeroe Islands
 Mitchell;United States
 Tubu Tree Camp;Botswana
 Geita;Tanzania
@@ -7631,12 +7679,13 @@ Yambol;Bulgaria
 Byaroza;Belarus
 Yuanmou;China
 Changsha;China
+nan;China
 Geçitkale;Cyprus
 Mbeya;Tanzania
 Kalocsa/Foktő;Hungary
 Sugapa-Papua Island;Indonesia
 Bengaluru;India
-Jalal-Abad;Kyrgyzstan
+Jalal-Abad;Kyrgyz Republic
 Eilat;Israel
 Al Masna'ah;Oman
 Cagayan de Oro City;Philippines

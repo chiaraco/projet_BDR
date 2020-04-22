@@ -1,6 +1,6 @@
 Nom;Alias;IATA;OACI;Pays
-Unknown;;;;
-Private flight;;;;
+Unknown;;-;;
+Private flight;;-;;
 135 Airways;;;GNL;United States
 1Time Airline;;1T;RNX;South Africa
 2 Sqn No 1 Elementary Flying Training School;;;WYT;United Kingdom
@@ -47,7 +47,7 @@ Alberta Citylink;;;ABK;Canada
 APSA Colombia;;;ABO;Colombia
 Aerovias Bueno;;;ABU;Colombia
 Aerocenter;;;ACR;AEROCENTER
-Antrak Air;;4;ABV;Ghana
+Antrak Air;;04;ABV;Ghana
 Airborne Express;;GB;ABX;United States
 ABX Air;;GB;ABX;United States
 ATA Brasil;;;ABZ;Brazil
@@ -5607,7 +5607,7 @@ Safi Airlines;;4Q;;Afghanistan
 SeaPort Airlines;;K5;SQH;United States
 Salmon Air;;S6;;United States
 Fly Illi;;IL;ILY;United States
-Bobb Air Freight;;1;;Germany
+Bobb Air Freight;;01;;Germany
 Star1 Airlines;;V9;HCW;Lithuania
 Pelita;;6D;;Indonesia
 Alpi Eagles (E8);;E8;;Italy
@@ -5886,9 +5886,9 @@ Dexter (DXT);Декстер авиатакси;;DXT;Russia
 Sky Wing Pacific;;C7;CR7;South Korea
 Bateleur Air;;;BEU;South Africa
 Air Indus;Indus Airlines Pak;PP;AI0;Pakistan
-Samurai Airlines;Samurai Airlines (DUMMY);7;770;Pakistan
-AirOne Continental;AirOne Continental;0;0;Slovakia
-AirOne Polska;AirOne Polska;U1;1;Poland
+Samurai Airlines;Samurai Airlines (DUMMY);07;770;Pakistan
+AirOne Continental;AirOne Continental;00;000;Slovakia
+AirOne Polska;AirOne Polska;U1;001;Poland
 Orbit International Airlines;;;OAI;United States
 Orbit Regional Airlines;;;OAR;United States
 Orbit Atlantic Airways;;;OAN;United States
@@ -5947,7 +5947,7 @@ CheapFlyingInternational;CheapFlying;WL;FQR;France
 Aviaexpresscruise;;E6;;Russia
 Euro Jet;;24;;Germany
 Ukraine Atlantic;;;UAT;Ukraine
-AirOne Atlantic;AirOneAtlantic;0;AO1;Slovakia
+AirOne Atlantic;AirOneAtlantic;00;AO1;Slovakia
 HQ- Business Express;;HQ;;United States
 Nesma Airlines;;;NMA;Egypt
 East Horizon;;;EHN;Afghanistan
