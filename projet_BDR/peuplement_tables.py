@@ -54,7 +54,6 @@ for m in range(len(compagnie)) :
 			compagnie_nan.append(m)
 		print("compagnie",compagnie.iloc[m][4],m)
 		compt+=1
-		pa=""
 	co = Compagnie(NomCompagnie=compagnie.iloc[m][0], Alias=compagnie.iloc[m][1], IATA=compagnie.iloc[m][2], OACI=compagnie.iloc[m][3], NomPays=pa)
 	co.save()  
 print("Nombre de pays non trouvés dans compagnie:",compt)
@@ -67,56 +66,56 @@ index_compagnie=[]
 index_pays=[]
 index_depart=[]
 index_arrivee=[]
+save=True
 for n in range(len(accident)):
 	try:
 		modele_avion=Avion.objects.get(Modele=accident.iloc[n][8])#elle existe, on ne fait rien de plus
-	except ObjectDoesNotExist as err:
+	except ObjectDoesNotExist:
+		print('modele_avion',n,accident.iloc[n][8])
 		index_avion.append(n)
-		modele_avion=''
-		
+		save=False
 	
 	try:
 		compagnie=Compagnie.objects.get(NomCompagnie=accident.iloc[n][7])
-	except ObjectDoesNotExist as err:
+	except ObjectDoesNotExist:
 		index_compagnie.append(n)
-		compagnie=''
+		save=False
 
 	try:
 		pays=Pays.objects.get(NomPays=accident.iloc[n][12])
-	except ObjectDoesNotExist as err:
+	except ObjectDoesNotExist :
 		index_pays.append(n)
-		pays=''
+		save=False
 
 	try:depart=Aeroport.objects.get(OACI=accident.iloc[n][15])
-	except MultipleObjectsReturned :
-		print("OACI", accident.iloc[n][15])
-	except ObjectDoesNotExist as err:
+	except (ObjectDoesNotExist,MultipleObjectsReturned):
 
 		try:depart=Aeroport.objects.get(IATA=accident.iloc[n][17])
-		except ObjectDoesNotExist as err:
+		except (ObjectDoesNotExist,MultipleObjectsReturned):
 
 			try:depart=Aeroport.objects.get(NomAeroport=accident.iloc[n][4])
-			except ObjectDoesNotExist as err:
+			except (ObjectDoesNotExist,MultipleObjectsReturned):
 				index_depart.append(n)
-				depart=''
+				save=False
+				
 					
 #########
 	try:arrivee=Aeroport.objects.get(OACI=accident.iloc[n][16])
-	except MultipleObjectsReturned :
-		print("OACI_arrivee", accident.iloc[n][16])
-	except ObjectDoesNotExist as err:
-
+	except (ObjectDoesNotExist,MultipleObjectsReturned):
+		
 		try:arrivee=Aeroport.objects.get(IATA=accident.iloc[n][18])
-		except ObjectDoesNotExist as err:
+		except (ObjectDoesNotExist,MultipleObjectsReturned):
 
 			try:arrivee=Aeroport.objects.get(NomAeroport=accident.iloc[n][5])
-			except ObjectDoesNotExist as err:
+			except (ObjectDoesNotExist,MultipleObjectsReturned):
 				index_arrivee.append(n)
-				arrivee=''
+				save=False
 
 	Degats=accident.iloc[n][9]
-	Nb_occupants=int(accident.iloc[n][11])
-	Nb_deces=int(accident.iloc[n][10])
+	if pd.isnull(accident.iloc[n][11]):Nb_occupants=''
+	else:Nb_occupants=int(accident.iloc[n][11])
+	if pd.isnull(accident.iloc[n][10]):Nb_deces=''
+	else:Nb_deces=int(accident.iloc[n][10])
 	Emplacement=accident.iloc[n][0]
 	Phase_de_vol=accident.iloc[n][2]
 	Nature=accident.iloc[n][3]
@@ -130,11 +129,11 @@ for n in range(len(accident)):
 				if pd.isnull(accident.iloc[n][21]):#mois
 					if pd.isnull(accident.iloc[n][22]):#annee
 						print("pas de date")
-						T=''
+						
 					else:
-						T=datetime.datetime(year=int(accident.iloc[n][22]))
+						T=datetime.datetime(year=int(accident.iloc[n][22]),month=1,day=1)
 				else:
-					T=datetime.datetime(year=int(accident.iloc[n][22]),month=int(accident.iloc[n][21]))
+					T=datetime.datetime(year=int(accident.iloc[n][22]),month=int(accident.iloc[n][21]),day=1)
 			else:
 				T=datetime.datetime(year=int(accident.iloc[n][22]),month=int(accident.iloc[n][21]),day=int(accident.iloc[n][20]))	
 		else:
@@ -142,13 +141,14 @@ for n in range(len(accident)):
 	else:
 		T=datetime.datetime(year=int(accident.iloc[n][22]),month=int(accident.iloc[n][21]),day=int(accident.iloc[n][20]),hour=int(accident.iloc[n][1]),minute=int(accident.iloc[n][19]))
 
-	print(n, T)
+
 
 
 #	T=datetime(year=int(accident.iloc[n][22]),month=int(accident.iloc[n][21]),day=int(accident.iloc[n][20]),hour=int(accident.iloc[n][1]),minute=int(accident.iloc[n][19]))
 	
-	ac=Accident(Time=T,IdAvion=modele_avion,NomCompagnie=compagnie,NomPays=pays,IdAeroport_depart=depart,IdAeroport_arrivee=arrivee,Nb_occupant=Nb_occupant,Nb_deces=Nb_deces,Emplacement=Emplacement,Pase_de_vol=Pase_de_vol,Nature=Nature,Statut=Statut,Degats=Degats)
-	ac.save()
+	if save:
+		ac=Accident(Time=T,IdAvion=modele_avion,NomCompagnie=compagnie,NomPays=pays,IdAeroport_depart=depart,IdAeroport_arrivee=arrivee,Nb_occupant=Nb_occupant,Nb_deces=Nb_deces,Emplacement=Emplacement,Pase_de_vol=Pase_de_vol,Nature=Nature,Statut=Statut,Degats=Degats)
+		ac.save()
 print("index_avion",index_avion)
 print("index_compagnie",index_compagnie)
 print("index_pays",index_pays)

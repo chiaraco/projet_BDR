@@ -38,5 +38,5 @@
 22/04/2020 modification de models.py (ajout de blank=True, pour accepter les chaînes vides)
 22/04/2020 dans models.py, on va devoir modifier max_length de Alias dans la classe Compagnie  (on avait mis 10, il faut 30)
 
-
+30/04/2020 suite du peuplement des tables, problème des dates réglé, problème de modèle d'avion (il faut en rajouter dans la classe avion)
 
