@@ -13,10 +13,10 @@ class Avion(models.Model):
 	
 class Compagnie(models.Model):
 	NomCompagnie = models.CharField(max_length=200,primary_key=True)
-	Alias = models.CharField(max_length=10, blank=True)
+	Alias = models.CharField(max_length=30, blank=True)
 	IATA = models.CharField(max_length=3, blank=True)
 	OACI = models.CharField(max_length=3, blank=True)
-	NomPays = models.ForeignKey(Pays, on_delete=models.CASCADE)
+	NomPays = models.ForeignKey(Pays, on_delete=models.CASCADE,blank=True)
 
 class Ville(models.Model):
 	NomVille = models.CharField(max_length=200,primary_key=True)
@@ -35,11 +35,11 @@ class Aeroport(models.Model):
 class Accident(models.Model):
 	IdAccident = models.AutoField(primary_key=True)
 	Time = models.DateTimeField(blank=True)
-	IdAvion = models.ForeignKey(Avion, on_delete=models.CASCADE)
-	NomCompagnie = models.ForeignKey(Compagnie, on_delete=models.CASCADE)
-	NomPays = models.ForeignKey(Pays, on_delete=models.CASCADE)
-	IdAeroport_depart = models.ForeignKey(Aeroport,related_name='depart',on_delete=models.CASCADE, default=None)
-	IdAeroport_arrivee = models.ForeignKey(Aeroport,related_name='arrivee',on_delete=models.CASCADE,default=None)
+	IdAvion = models.ForeignKey(Avion, on_delete=models.CASCADE,blank=True)
+	NomCompagnie = models.ForeignKey(Compagnie, on_delete=models.CASCADE,blank=True)
+	NomPays = models.ForeignKey(Pays, on_delete=models.CASCADE,blank=True)
+	IdAeroport_depart = models.ForeignKey(Aeroport,related_name='depart',on_delete=models.CASCADE, default=None,blank=True)
+	IdAeroport_arrivee = models.ForeignKey(Aeroport,related_name='arrivee',on_delete=models.CASCADE,default=None,blank=True)
 	Nb_occupants = models.IntegerField(blank=True)
 	Nb_deces = models.IntegerField(blank=True)
 	Emplacement = models.CharField(max_length=200, blank=True)
