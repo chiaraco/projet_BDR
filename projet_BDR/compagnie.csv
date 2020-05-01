@@ -26,17 +26,17 @@ American Airlines;;AA;AAL;United States
 Aviation Management Corporation;;;AAM;United States
 Atlantis Airlines (USA);;;AAO;United States
 Aerovista Airlines;;;AAP;United Arab Emirates
-Asiana Airlines;;OZ;AAR;Republic of Korea
+Asiana Airlines;;OZ;AAR;South Korea
 Askari Aviation;;4K;AAS;Pakistan
 Australia Asia Airlines;;;AAU;Australia
 Astro Air International;;;AAV;United States
 Afriqiyah Airways;;8U;AAW;Libya
 Afrinat International Airlines;;Q9;AFU;Gambia
-Afric'air Express;;;AAX;Ivory Coast
+Afric'air Express;;;AAX;Cote d'Ivoire
 Allegiant Air;;G4;AAY;United States
 Angus Aviation;;;AAZ;Canada
 Artem-Avia;;;ABA;Ukraine
-African Business and Transportations;;;ABB;Democratic Republic of the Congo
+African Business and Transportations;;;ABB;DR Congo
 Aban Air;;K5;ABE;Iran
 Aerial Oy;;;ABF;Finland
 Abakan-Avia;;;ABG;Russia
@@ -61,19 +61,19 @@ Air Charter Service;;;ACV;United Kingdom
 Aero Asia International;;E4;RSO;Pakistan
 Air Charters;;;ACX;Canada
 Air Togo;;YT;TGA;Togo
-Air Somalia;;;RSM;Somali Republic
+Air Somalia;;;RSM;Somalia
 Atlas Cargo Lines;;;ACY;Morocco
 Airservices Australia;;;ADA;Australia
 Advance Leasing Company;;4G;;United States
 Aztec Worldwide Airlines;;7A;;United States
-Air Tindi;;8T;;Canadian Territories
+Air Tindi;;8T;;Canada
 Antonov Airlines;;;ADB;Ukraine
 Air Atlantic Dominicana;;;ADC;Dominican Republic
 Advanced Air Co.;;;ADD;Japan
 Ada Air;;ZY;ADE;Albania
 Aerea Flying Training Organization;;;ADG;Spain
 Audeli Air;;;ADI;Spain
-Abicar;;;ADJ;Ivory Coast
+Abicar;;;ADJ;Cote d'Ivoire
 ADC Airlines;;Z7;ADK;Nigeria
 Aero Dynamics;;;ADL;United Kingdom
 Aerolineas Dominicanas;;;ADM;Dominican Republic
@@ -142,7 +142,7 @@ Air Caledonia;;;ACM;Canada
 Air Guam;;;AGM;United States
 Air Gabon;;GN;AGN;Gabon
 Air Data;;;AFS;United Kingdom
-Air Afrique Vacancies;;;AFV;Ivory Coast
+Air Afrique Vacancies;;;AFV;Cote d'Ivoire
 Air Cargo America;;;MVM;United States
 Air Salone;;2O;;Sierra Leone
 Air-Angol;;;NGO;Angola
@@ -155,7 +155,7 @@ Air Namibia;;SW;NMB;Namibia
 Air Intersalonika;;;NSK;Greece
 Air Anatolia;;;NTL;Turkey
 Air Saigon;;;SGA;Vietnam
-Afrique Regional Airways;;;AFW;Ivory Coast
+Afrique Regional Airways;;;AFW;Cote d'Ivoire
 Airfreight Express;;;AFX;United Kingdom
 Africa Chartered Services;;;AFY;Nigeria
 Africa Freight Services;;;AFZ;Zambia
@@ -202,7 +202,7 @@ Alpine Air Chile;;;AIH;Chile
 Air Integra;;;AII;Canada
 ABC Aerolineas;;;AIJ;Mexico
 African Airlines International Limited;;;AIK;Kenya
-African International Airways;;;AIN;Swaziland
+African International Airways;;;AIN;Eswatini
 Alpine Air Express;;5A;AIP;United States
 Alicante Internacional Airlines;;;AIU;Spain
 Aba Air;;;ABP;Czech Republic
@@ -211,7 +211,7 @@ Airmark Aviation;;;THM;Thailand
 Airlift International;;;AIR;United States
 Airest;;;AIT;Estonia
 Air Baffin;;;BFF;Canada
-Air Bandama;;;BDM;Ivory Coast
+Air Bandama;;;BDM;Cote d'Ivoire
 Air Berlin;;AB;BER;Germany
 Air Brousse;;;ABT;Canada
 Air Contractors;;AG;ABR;Ireland
@@ -250,14 +250,14 @@ ANA & JP Express;;;AJV;Japan
 Alpha Jet International;;;AJW;United States
 Air Japan;;NQ;AJX;Japan
 Ajet;;;AJY;Cyprus
-Air Korea Co. Ltd.;;;AKA;Republic of Korea
+Air Korea Co. Ltd.;;;AKA;South Korea
 Air Livonia;;;LIV;Estonia
 Air BC;;;ABL;Canada
 Air Fret Senegal;;;ABN;Senegal
 Air Jamahiriya Company;;;LJA;Libya
 Aktjubavia;;;AKB;Kazakhstan
 Arca Aerovias Colombianas Ltda.;;;AKC;Colombia
-Anikay Air Company;;;AKF;Kyrgyzstan
+Anikay Air Company;;;AKF;Kyrgyz Republic
 Akhal;;;AKH;Turkmenistan
 Aeromilenio;;;MNI;Mexico
 Aklak Air;;;AKK;Canada
@@ -394,7 +394,7 @@ Aeropro;;;APO;Canada
 Aerolineas Pacifico Atlantico;;;APP;AEROPERLAS
 Aspen Aviation;;;APQ;United States
 Aeropuma;;;APU;AEROPUMA
-Air Plan International;;;APV;Democratic Republic of the Congo
+Air Plan International;;;APV;DR Congo
 Arrow Air;;JW;APW;United States
 Apex Air Cargo;;;APX;United States
 APA Internacional;;;APY;Dominican Republic
@@ -484,7 +484,7 @@ Aero Taxis Y Servicios Alfe;;;FES;Mexico
 Avialesookhrana;;;FFA;Russia
 Africair Service;;;FFB;Senegal
 Atlas Airlines;;;ATR;United States
-Air Transport Service;;;ATS;Democratic Republic of the Congo
+Air Transport Service;;;ATS;DR Congo
 Aer Turas;;;ATT;Ireland
 Atlant Aerobatics Ltd.;;;ATU;Hungary
 Avanti Air;;;ATV;Germany
@@ -519,7 +519,7 @@ Alamo Aviacion;;;AVD;ALAMO
 Aviair Aviation Ltd.;;;AVF;Canada
 Air Falcon;;;AVG;Djibouti
 AV8 Helicopters;;;AVH;United Kingdom
-Avia Traffic Company;;;AVJ;Kyrgyzstan
+Avia Traffic Company;;;AVJ;Kyrgyz Republic
 AV8 Helicopters;;;AVK;South Africa
 Aviacion Ejecutiva Mexicana;;;AVM;AVEMEX
 Air Vanuatu;;NF;AVN;Vanuatu
@@ -539,7 +539,7 @@ Aviapaslauga;;;AVX;Lithuania
 ASL;;;XXX;Belgium
 Air Yugoslavia;;;YRG;Serbia
 Airlink Zambia;;K8;ZAK;Zambia
-Agence Nationale des Aerodromes et de la Meteorologie;;;ZZM;Ivory Coast
+Agence Nationale des Aerodromes et de la Meteorologie;;;ZZM;Cote d'Ivoire
 Airbus Transport International;;;BGA;France
 Air Bangladesh;;B9;BGD;Bangladesh
 Aviodetachment-28;;;BGF;Bulgaria
@@ -548,7 +548,7 @@ Aerotaxis De La Bahia;;;BHC;Mexico
 Air Mediterranee;;DR;BIE;France
 Aviaservice;;;BIV;Georgia
 Aerolineas De El Salvador;;;SZA;El Salvador
-Swaziland Airlink;;;SZL;Swaziland
+Swaziland Airlink;;;SZL;Eswatini
 Air Moorea;;;TAH;France
 Aerovaradero;;;AVY;AEROVARADERO
 Air Valencia;;;AVZ;Spain
@@ -680,7 +680,7 @@ Aero Virel;;;VLS;Mexico
 Aeronautical Radio Inc;;;XAA;United States
 Aerovuelox;;;VUO;Mexico
 Aeronaves TSM;;;VTM;Mexico
-Air Ivoire;;VU;VUN;Ivory Coast
+Air Ivoire;;VU;VUN;Cote d'Ivoire
 Air Botswana;;BP;BOT;Botswana
 Air-Rep;;;XPR;United States
 Air Excel;;;XLL;Tanzania
@@ -722,7 +722,7 @@ Aviaexpress Aircompany;;;VXX;Ukraine
 AMR Services Corporation;;;XAM;United States
 Airline Operations Services;;;XAO;United States
 Airlines 400;;;VAZ;Russia
-ATRAN Cargo Airlines;;V8;VAS;Russian Federation
+ATRAN Cargo Airlines;;V8;VAS;Russia
 Ameravia;;;VAM;Uruguay
 Angkor Air;;;VAV;Cambodia
 AVB-2004 Ltd;;;VBC;Bulgaria
@@ -756,13 +756,13 @@ Aerotrans;;;CDU;Russia
 Airline Skol;;;CDV;Russia
 Aerofan;;;CFF;Spain
 ACEF;;;CFM;Portugal
-Africa One;;;CFR;Democratic Republic of the Congo
+Africa One;;;CFR;DR Congo
 Aero Calafia;;;CFV;Mexico
 Air Cargo Belize;;;CGB;Belize
 Aero Clube Do Algarve;;;CGV;Portugal
 Air Great Wall;;;CGW;China
 Aircompany Chaika;;;CHJ;Ukraine
-Air Charter Services;;;CHR;Democratic Republic of the Congo
+Air Charter Services;;;CHR;DR Congo
 Air Charter Professionals;;;CHV;United States
 Asia Continental Airlines;;;CID;Kazakhstan
 Arctic Circle Air Service;;5F;CIR;United States
@@ -879,14 +879,14 @@ Aerodata Flight Inspection;;;FII;Germany
 Airfix Aviation;;;FIX;Finland
 Air Pacific;;FJ;FJI;Fiji
 Air Falcon;;;FLD;Pakistan
-Atlantic Airways;;RC;FLI;Faroe Islands
+Atlantic Airways;;RC;FLI;Faeroe Islands
 Air Florida;;QH;FLZ;United States
 Air Fret De Mauritanie;;;FMT;Mauritania
 Avio Nord;;;FNM;Italy
 Aeroflota Del Noroeste;;;FNO;Spain
 Aero Fenix;;;FNX;France
 Ford Motor Company;;;FRD;United States
-African Company Airlines;;;FPY;Democratic Republic of the Congo
+African Company Airlines;;;FPY;DR Congo
 Afrijet Airlines;;;FRJ;Nigeria
 Afrika Aviation Handlers;;;FRK;Kenya
 Afrique Chart'air;;;FRQ;Cameroon
@@ -982,7 +982,7 @@ Aerosmith Aviation;;;JPR;United States
 Arrendamiento de Aviones Jets;;;JTS;Mexico
 Aero Juarez;;;JUA;Mexico
 Air Canada Jazz;;QK;JZA;Canada
-Asia Aero Survey and Consulting Engineers;;;KAA;Republic of Korea
+Asia Aero Survey and Consulting Engineers;;;KAA;South Korea
 Air Kirovograd;;;KAD;Ukraine
 Air Mach;;;KAM;Italy
 Air Kufra;;;KAV;Libya
@@ -996,7 +996,7 @@ Air South;;;KKB;United States
 Atlasjet;;KK;KKK;Turkey
 Air Mali International;;;KLB;Mali
 Aerokaluz;;;KLZ;Mexico
-Air Koryo;;JS;KOR;Democratic People's Republic of Korea
+Air Koryo;;JS;KOR;North Korea
 Araiavia;;;KOY;Kazakhstan
 AeroSucre;;;KRE;Colombia
 Air Kokshetau;;;KRT;Kazakhstan
@@ -1057,7 +1057,7 @@ Air Lazur;;;LZR;Bulgaria
 Aerodromo De La Mancha;;;MAM;Spain
 Air Mauritius;;MK;MAU;Mauritius
 Avag Air;;;MBA;Austria
-Air Manas;;;MBB;Kyrgyzstan
+Air Manas;;;MBB;Kyrgyz Republic
 Airjet Exploracao Aerea De Carga;;;MBC;Angola
 Aeriantur-M;;;MBV;Moldova
 Air Mercia;;;MCB;United Kingdom
@@ -1106,7 +1106,7 @@ Aero Yaqui Mayo;;;MYS;Mexico
 AVC Airlines;;;MZK;Japan
 Aerovias Montes Azules;;;MZL;Mexico
 Aeroland Airways;;3S;;Greece
-Astair;;8D;;Russian Federation
+Astair;;8D;;Russia
 Albarka Air;;F4;NBK;Nigeria
 ACA-Ancargo Air Sociedade de Transporte de Carga Lda;;;NCL;Angola
 Aero Servicios de Nuevo Laredo;;;NEL;Mexico
@@ -1119,7 +1119,7 @@ Atlantic Airlines;;;NPT;United Kingdom
 Atlantic Richfield Company;;;NRS;United States
 Aerolineas Sosa;;;NSO;Honduras
 Aero Norte;;;NTD;Mexico
-Air Inter Ivoire;;;NTV;Ivory Coast
+Air Inter Ivoire;;;NTV;Cote d'Ivoire
 Aeroservicios De Nuevo Leon;;;NUL;Mexico
 Avial NV Aviation Company;;;NVI;Russia
 Airwing;;;NWG;Norway
@@ -1190,16 +1190,16 @@ Aero-Rent;;;REN;Mexico
 Australian Maritime Safety Authority;;;RES;Australia
 Air Austral;;UU;REU;France
 Aero-Rey;;;REY;Mexico
-Aero Africa;;;RFC;Swaziland
+Aero Africa;;;RFC;Eswatini
 Aerotransportes Rafilher;;;RFD;Mexico
 Argo;;;RGO;Dominican Republic
 Airbourne School of Flying;;;RGT;United Kingdom
 Air Archipels;;;RHL;France
-Aviation Ministry of the Interior of the Russian Federation;;;RIF;Russian Federation
+Aviation Ministry of the Interior of the Russian Federation;;;RIF;Russia
 Aeris Gestion;;;RIS;Spain
 Asian Spirit;;6K;RIT;Philippines
 Aeroservicios Jet;;;RJS;Mexico
-Air Afrique;;RK;RKA;Ivory Coast
+Air Afrique;;RK;RKA;Cote d'Ivoire
 Airlinair;;A5;RLA;France
 Air Nelson;;;RLK;New Zealand
 Air Leone;;;RLL;Sierra Leone
@@ -1227,7 +1227,7 @@ Aero Roca;;;RRC;Mexico
 Aerotransportes Internacionales De Torreon;;;RRE;Mexico
 Acvila Air-Romanian Carrier;;;RRM;Romania
 Aerolineas Ejecutivas Tarascas;;;RSC;Mexico
-Aero-Service;;BF;RSR;Republic of the Congo
+Aero-Service;;BF;RSR;Congo Republic
 Aerosur;;5L;RSU;Bolivia
 Aeronorte;;;RTE;Portugal
 Artis;;;RTH;France
@@ -1388,7 +1388,7 @@ Business Flight Sweden;;;BFS;Sweden
 Bahrain Defence Force;;;BFW;Bahrain
 BH Air;;;BGH;Bulgaria
 British Gulf International;;;BGI;S
-British Gulf International-Fez;;;BGK;Kyrgyzstan
+British Gulf International-Fez;;;BGK;Kyrgyz Republic
 Benin Golf Air;;A8;BGL;Benin
 Bugulma Air Enterprise;;;BGM;Russia
 Budget Air Bangladesh;;;BGR;Bangladesh
@@ -1476,12 +1476,12 @@ BASE Regional Airlines;;;BRO;Netherlands
 Brazilian Air Force;;;BRS;Brazil
 British Regional Airlines;;;BRT;United Kingdom
 Belavia Belarusian Airlines;;B2;BRU;Belarus
-Bravo Air Congo;;K6;BRV;Democratic Republic of the Congo
+Bravo Air Congo;;K6;BRV;DR Congo
 Bright Aviation Services;;;BRW;Bulgaria
 Braniff International Airways;;BN;BNF;United States
 Buffalo Express Airlines;;;BRX;United States
 Burundayavia;;;BRY;Kazakhstan
-Bistair - Fez;;;BSC;Kyrgyzstan
+Bistair - Fez;;;BSC;Kyrgyz Republic
 Blue Star Airlines;;;BSD;Mexico
 Brasair Transportes Aereos;;;BSI;Brazil
 Blue Swann Aviation;;;BSJ;United Kingdom
@@ -1494,12 +1494,12 @@ BAL Bashkirian Airlines;;V9;BTC;Russia
 Baltijas Helicopters;;;BTH;Latvia
 Baltyka;;;BTK;Ukraine
 Baltia Air Lines;;;BTL;United States
-Botir-Avia;;;BTR;Kyrgyzstan
+Botir-Avia;;;BTR;Kyrgyz Republic
 Business Express;;;GAA;United States
 BT-Slavuta;;;BTT;Ukraine
 Metro Batavia;;7P;BTV;Indonesia
 Bulgarian Air Charter;;;BUC;Bulgaria
-Blue Airlines;;;BUL;Democratic Republic of the Congo
+Blue Airlines;;;BUL;DR Congo
 Buryat Airlines Aircompany;;;BUN;Russia
 Buzz Stansted;;;BUZ;United Kingdom
 Buffalo Airways;;;BVA;United States
@@ -1571,7 +1571,7 @@ Baseops International;;;XBO;United States
 Bureau Veritas;;;XDA;France
 British Airways;;;XMS;United Kingdom
 Boskovic Air Charters Limited;;;ZBA;Kenya
-C Air Jet Airlines;;;SRJ;Syrian Arab Republic
+C Air Jet Airlines;;;SRJ;Syria
 C N Air;;;ORO;Spain
 C and M Aviation;;;TIP;United States
 C&M Airways;;;RWG;United States
@@ -1587,7 +1587,7 @@ CHC Denmark;;;HBI;Denmark
 CHC Helicopters;;;HEM;Australia
 CHC Airways;;AW;SCH;Netherlands
 CHC Helikopter Service;;;HKS;Norway
-CI-Tours;;;VCI;Ivory Coast
+CI-Tours;;;VCI;Cote d'Ivoire
 CKC Services;;;CKC;United States
 CM Stair;;;CMZ;Mauritania
 CNET;;;CNT;France
@@ -1598,7 +1598,7 @@ CSA Air;;;IRO;United States
 CSE Aviation;;;CSE;United Kingdom
 CTK Network Aviation;;;CTQ;Ghana
 Cabair College of Air Training;;;CBR;United Kingdom
-Cabo Verde Express;;;CVE;Cape Verde
+Cabo Verde Express;;;CVE;Cabo Verde
 Caernarfon Airworld;;;CWD;United Kingdom
 Cairo Air Transport Company;;;CCE;Egypt
 Cal Gulf Aviation;;;CGC;Sao Tome and Principe
@@ -1648,7 +1648,7 @@ Carga Aerea Dominicana;;;CDM;Dominican Republic
 Carga Express Internacional;;;EST;Mexico
 Cargo 360;;GG;GGC;United States
 Cargo Express;;;MCX;Mauritania
-Cargo Ivoire;;;CRV;Ivory Coast
+Cargo Ivoire;;;CRV;Cote d'Ivoire
 Cargo Link (Caribbean);;;CLM;Barbados
 Cargo Three;;;CTW;Panama
 Cargoitalia;;2G;CRG;Italy
@@ -1677,7 +1677,7 @@ Castle Aviation;;;CSJ;United States
 Cat Aviation;;;CAZ;Switzerland
 Catalina Flying Boats;;;CBT;United States
 Catex;;;TEX;France
-Cathay Pacific;;CX;CPA;Hong Kong SAR of China
+Cathay Pacific;;CX;CPA;Hong Kong
 Caverton Helicopters;;;CJR;Nigeria
 Cayman Airways;;KX;CAY;Cayman Islands
 Cebu Pacific;;5J;CEB;Philippines
@@ -1692,7 +1692,7 @@ Centennial Flight Centre;;;CNS;Canada
 Center Vol;;;CVO;Spain
 Center-South;;;CTS;Russia
 Centrafrican Airlines;;;CET;Central African Republic
-Central Air Express;;;CAX;Democratic Republic of Congo
+Central Air Express;;;CAX;DR Congo
 Central Airlines;;;CTL;United States
 Central Airways;;;CNY;Sierra Leone
 Central American Airlines;;;ACN;Nicaragua
@@ -1715,7 +1715,7 @@ Centurion Air Cargo;;WE;CWC;United States
 Century Aviation;;;URY;Mexico
 Century Aviation International;;;HAI;Canada
 Certified Air Dispatch;;;XAD;United States
-Cetraca Aviation Service;;;CER;Democratic Republic of the Congo
+Cetraca Aviation Service;;;CER;DR Congo
 Chabahar Airlines;;;IRU;Iran
 Chalair Aviation;;;CLG;France
 Chalk's Ocean Airways;;OP;CHK;United States
@@ -1805,7 +1805,7 @@ Claessens International Limited;;;FMC;United Kingdom
 Clark Aviation;;;CLK;United States
 Clasair;;;CSF;United Kingdom
 Clay Lacy Aviation;;;CLY;United States
-Click Airways;;;CGK;Kyrgyzstan
+Click Airways;;;CGK;Kyrgyz Republic
 Cloud 9 Air Charters;;;CLZ;South Africa
 Clowes Estates Limited;;;CLD;United Kingdom
 Club 328;;;SDJ;United Kingdom
@@ -1911,7 +1911,7 @@ Cosmic Air;;F5;COZ;Nepal
 Cougar Helicopters;;;CHI;Canada
 Coulson Flying Service;;;MGB;United Kingdom
 Country Connection Airlines;;;NSW;Australia
-Country International Airlines;;;CIK;Kyrgyzstan
+Country International Airlines;;;CIK;Kyrgyz Republic
 Courier Services;;;CSD;United States
 Court Helicopters;;;CUT;South Africa
 Coval Air;;;CVL;Canada
@@ -1950,7 +1950,7 @@ D&K Aviation;;;DNK;United States
 DAP Helicopteros;;;DHE;Chile
 DFS UK Limited;;;VLF;United Kingdom
 DAS Air Cargo;;WD;DSR;Uganda
-DAS Airlines;;;RKC;Democratic Republic of the Congo
+DAS Airlines;;;RKC;DR Congo
 DAT Danish Air Transport;;DX;DTR;Denmark
 DAT Enterprise Limited;;;ENT;United Kingdom
 DERA Boscombe Down;;;BDN;United Kingdom
@@ -1965,14 +1965,14 @@ DHL de Guatemala;;L3;JOS;Guatemala
 DSWA;;;RSK;United States
 Daallo Airlines;;D3;DAO;Djibouti
 Dagestan Airlines;;N2;DAG;Russia
-Dahla Airlines;;;DHA;Democratic Republic of Congo
+Dahla Airlines;;;DHA;DR Congo
 Daimler Chrysler Aviation;;;DCS;Germany
 Daimler-Chrysler;;;DCX;United States
 Daka;;;DKA;Kazakhstan
 Dala Air Services;;;DLR;Nigeria
 Dalavia;;H8;KHB;Russia
 Dallas Express Airlines;;;DXP;United States
-Damascene Airways;;;DAS;Syrian Arab Republic
+Damascene Airways;;;DAS;Syria
 Danbury Airways;;;DSA;United States
 Dancopter;;;DOP;Denmark
 Danish Air Force;;;DAF;Denmark
@@ -2197,13 +2197,13 @@ Empresa de Aviacion Aerogaviota;;;GTV;Cuba
 Empressa Brasileira de Infra-Estrutura Aeroportuaria-Infraero;;;XLT;Brazil
 Endecots;;;ENC;Ecuador
 Enimex;;;ENI;Estonia
-Enkor JSC;;G8;ENK;Russia]]
+Enkor JSC;;G8;ENK;Russia
 Enrique Gleisner Vivanco;;;EGV;Chile
 Ensenada Vuelos Especiales;;;ESE;Mexico
 Entergy Services;;;ENS;United States
-Enterprise World Airways;;;EWS;Democratic Republic of the Congo
+Enterprise World Airways;;;EWS;DR Congo
 Eos Airlines;;E0;ESS;United States
-Equaflight Service;;;EKA;Republic of the Congo
+Equaflight Service;;;EKA;Congo Republic
 Equatair Air Services (Zambia);;;EQZ;Zambia
 Equatorial Airlines;;;EQT;Equatorial Guinea
 Era Helicopters;;;ERH;United States
@@ -2212,7 +2212,7 @@ Erfoto;;;ERF;Portugal
 Erie Airways;;;ERE;United States
 Eritrean Airlines;;B8;ERT;Eritrea
 Escuela De Pilotos Are Aviacion;;;CTV;Spain
-Espace Aviation Services;;;EPC;Democratic Republic of the Congo
+Espace Aviation Services;;;EPC;DR Congo
 Esso Resources Canada;;;ERC;Canada
 Estafeta Carga Aerea;;E7;ESF;Mexico
 Estonian Air;;OV;ELL;Estonia
@@ -2306,7 +2306,7 @@ FMG Verkehrsfliegerschule Flughafen Paderborn-Lippstadt;;;FMG;Germany
 FR Aviation;;;FRA;United Kingdom
 FSB Flugservice & Development;;;FSB;Germany
 FSH Luftfahrtunternehmen;;;LEJ;Germany
-Fab Air;;;FBA;Kyrgyzstan
+Fab Air;;;FBA;Kyrgyz Republic
 Facts Air;;;FCS;Mexico
 Fair Aviation;;;FAV;South Africa
 Fair Wind Air Charter;;;FWD;United Arab Emirates
@@ -2328,7 +2328,7 @@ Farnair Netherlands;;;FRN;Netherlands
 Farnair Switzerland;;;FAT;Switzerland
 Farnas Aviation Services;;;RAF;Sudan
 Faroecopter;;;HBL;Denmark
-Faroejet;;F6;RCK;Faroe Islands
+Faroejet;;F6;RCK;Faeroe Islands
 Farwest Airlines;;;FRW;United States
 Faso Airways;;F3;FSW;Burkina Faso
 Fast Helicopters;;;FHL;United Kingdom
@@ -2343,7 +2343,7 @@ Federal Express;;FX;FDX;United States
 Feniks Airline;;;FNK;Kazakhstan
 Feria Aviacion;;;FER;Spain
 Fika Salaama Airlines;;N8;HGK;Uganda
-Finalair Congo;;4S;FNC;Republic of the Congo
+Finalair Congo;;4S;FNC;Congo Republic
 Financial Airxpress;;;FAK;United States
 Fine Airlines;;;FBF;United States
 Finist'air;;;FTR;France
@@ -2475,7 +2475,7 @@ Full Express;;;GAX;United States
 Fumigacion Aerea Andaluza;;;FAM;Spain
 Fun Flying Thai Air Service;;;FFY;Thailand
 Fundació Rego;;;ROG;Spain
-Funtshi Aviation Service;;;FUN;Democratic Republic of the Congo
+Funtshi Aviation Service;;;FUN;DR Congo
 Futura Gael;;;FGL;Ireland
 Futura International Airways;;FH;FUA;Spain
 G & L Aviation;;;GML;South Africa
@@ -2505,7 +2505,7 @@ Gail Force Express;;;GFC;United States
 Gain Jet Aviation;;;GNJ;Greece
 Galair International;;;SWF;United Kingdom
 Galaircervis;;;GLS;Ukraine
-Galaxy Air;;7O;GAL;Kyrgyzstan
+Galaxy Air;;7O;GAL;Kyrgyz Republic
 Galaxy Airlines;;;GXY;Japan
 Galena Air Service;;;GAS;United States
 Galileo International;;1G;;United States
@@ -2559,7 +2559,7 @@ Global Air Charter;;;RPS;United States
 Global Air Operations;;;GAG;Comoros
 Global Air Services Nigeria;;;GBS;Nigeria
 Global Aircargo;;;GLC;Bahrain
-Global Airways;;;BSP;Democratic Republic of Congo
+Global Airways;;;BSP;DR Congo
 Global Aviation Operations;;;GBB;South Africa
 Global Aviation and Services Group;;;GAK;Libya
 Global Georgian Airways;;;GGZ;Georgia
@@ -2585,7 +2585,7 @@ Goldeck-Flug;;;GDK;Austria
 Golden Air;;DC;GAO;Sweden
 Golden Airlines;;;GDD;United States
 Golden Pacific Airlines;;;GPA;United States
-Golden Rule Airlines;;;GRS;Kyrgyzstan
+Golden Rule Airlines;;;GRS;Kyrgyz Republic
 Golden Star Air Cargo;;;GLD;Sudan
 Goldfields Air Services;;;GOS;Australia
 Golfe Air Quebec;;;GAQ;Canada
@@ -2594,7 +2594,7 @@ Gomel Airlines;;;GOM;Belarus
 Goodridge (UK) Limited;;;RDR;United Kingdom
 Gorkha Airlines;;G1;IKA;Nepal
 Gorlitsa Airlines;;;GOR;Ukraine
-Government Flying Service;;;HKG;Hong Kong SAR of China
+Government Flying Service;;;HKG;Hong Kong
 Government of Zambia Communications Flight;;;GRZ;Zambia
 Grampian Flight Centre;;;HLD;United Kingdom
 Granada Aviacion;;;GAV;Spain
@@ -2676,7 +2676,7 @@ Hamra Air;;;HMM;United Arab Emirates
 Hand D Aviation;;;WVA;United States
 Hangar 8;;;HGR;United Kingdom
 Hangard Aviation;;;HGD;Mongolia
-Hansung Airlines;;;HAN;Republic of Korea
+Hansung Airlines;;;HAN;South Korea
 TUIfly;;X3;HLX;Germany
 Hapagfly;;HF;HLF;Germany
 Harbor Airlines;;HB;HAR;United States
@@ -2695,7 +2695,7 @@ Heavylift Cargo Airlines;;HN;HVY;Australia
 Heavylift International;;;HVL;United Arab Emirates
 Helcopteros De Cataluna;;;HDC;Spain
 Helenair (Barbados);;;HCB;Barbados
-Helenair Corporation;;;HCL;Saint Lucia
+Helenair Corporation;;;HCL;St. Lucia
 Helenia Helicopter Service;;;HHP;Denmark
 Heli Air Services;;;HLR;Bulgaria
 Heli Ambulance Team;;;ALJ;Austria
@@ -2752,7 +2752,7 @@ Henebury Aviation;;;HAC;Australia
 Heritiage Flight (Valley Air Services);;;SSH;United States
 Herman's Markair Express;;;MRX;United States
 Herritage Aviation Developments;;;HED;United Kingdom
-Hewa Bora Airways;;EO;ALX;Democratic Republic of the Congo
+Hewa Bora Airways;;EO;ALX;DR Congo
 Hex'Air;;UD;HER;France
 Hi-Jet Helicopter Services;;;HHS;Suriname
 Hi Fly;;5K;HFY;Portugal
@@ -2769,8 +2769,8 @@ Holiday Airlines;;;HOL;United States
 Holstenair Lubeck;;;HTR;Germany
 Homac Aviation;;;HMV;Luxembourg
 Honduras Airlines;;;HAS;Honduras
-Hong Kong Airlines;;HX;CRK;Hong Kong SAR of China
-Hong Kong Express Airways;;UO;HKE;Hong Kong SAR of China
+Hong Kong Airlines;;HX;CRK;Hong Kong
+Hong Kong Express Airways;;UO;HKE;Hong Kong
 Honiara Cargo Express;;;HEX;Solomon Islands
 Hop-A-Jet;;;HPJ;United States
 Hope Air;;HH;;Canada
@@ -2863,13 +2863,13 @@ Innotech Aviation;;;IVA;Canada
 Insel Air International;;;INC;Netherlands Antilles
 Instituto Cartografico de Cataluna;;;ICC;Spain
 Intair;;;INT;Canada
-Intal Avia;;;INL;Kyrgyzstan
+Intal Avia;;;INL;Kyrgyz Republic
 Intavia Limited;;;FFL;United Kingdom
 InteliJet Airways;;IJ;IJT;Colombia
 Intensive Air;;;XRA;South Africa
 Inter Air;;;ITW;Bulgaria
 Inter Express;;;INX;Turkey
-Inter Islands Airlines;;H4;IIN;Cape Verde
+Inter Islands Airlines;;H4;IIN;Cabo Verde
 Inter RCA;;;CAR;Central African Republic
 Inter Tropic Airlines;;;NTT;Sierra Leone
 Inter-Air;;;ITA;United States
@@ -2954,10 +2954,10 @@ Israir;;6H;ISR;Israel
 Istanbul Airlines;;;IST;Turkey
 Itali Airlines;;9X;ACL;Italy
 Italy First;;;IFS;Italy
-Itek Air;;GI;IKA;Kyrgyzstan
-Ivoire Aero Services;;;IVS;Ivory Coast
-Ivoire Airways;;;IVW;Ivory Coast
-Ivoire Jet Express;;;IJE;Ivory Coast
+Itek Air;;GI;IKA;Kyrgyz Republic
+Ivoire Aero Services;;;IVS;Cote d'Ivoire
+Ivoire Airways;;;IVW;Cote d'Ivoire
+Ivoire Jet Express;;;IJE;Cote d'Ivoire
 Iwamoto Crane Co Ltd;;;OIC;Japan
 Ixair;;;IXR;France
 Izair;;H9;IZM;Turkey
@@ -2978,7 +2978,7 @@ JS Aviation;;;JES;Mexico
 Jackson Air Services;;;JCK;Canada
 Jade Cargo International;;;JAE;China
 Jamahiriya Airways;;;JAW;Libya
-Jambo Africa Airlines;;;JMB;Democratic Republic of Congo
+Jambo Africa Airlines;;;JMB;DR Congo
 Jana-Arka;;;JAK;Kazakhstan
 Janair;;;JAX;United States
 Japan Air Commuter;;;JAC;Japan
@@ -2990,7 +2990,7 @@ Japan Transocean Air;;NU;JTA;Japan
 Jat Airways;;JU;JAT;Serbia
 Jatayu Airlines;;VJ;JTY;Indonesia
 Jazeera Airways;;J9;JZR;Kuwait
-Jeju Air;;7C;JJA;Republic of Korea
+Jeju Air;;7C;JJA;South Korea
 Jenney Beechcraft;;;JNY;United States
 Jeppesen Data Plan;;;XLD;United States
 Jeppesen UK;;;JPN;United Kingdom
@@ -3024,7 +3024,7 @@ Jet-2000;;;JTT;Russia
 Jet-Ops;;;OPS;United Arab Emirates
 Jet2.com;;LS;EXS;United Kingdom
 Jet4You;;8J;JFU;Morocco
-JetAfrica Swaziland;;;OSW;Swaziland
+JetAfrica Swaziland;;;OSW;Eswatini
 JetBlue Airways;;B6;JBU;United States
 JetConnect;;;QNZ;New Zealand
 JetMagic;;;JMG;Ireland
@@ -3075,7 +3075,7 @@ Jorvik;;;JVK;Iceland
 Ju-Air;;;JUR;Switzerland
 Juanda Flying School;;;JFS;Indonesia
 Juba Cargo Services & Aviation Company;;;JUC;Sudan
-Jubba Airways;;;JUB;Somali Republic
+Jubba Airways;;;JUB;Somalia
 Jubilee Airways;;;DKE;United Kingdom
 Juneyao Airlines;;HO;DKH;China
 Justair Scandinavia;;;MEY;Sweden
@@ -3142,7 +3142,7 @@ Kingfisher Airlines;;IT;KFR;India
 Knighthawk Air Express;;;KNX;Canada
 Kingston Air Services;;;KAS;Canada
 Kinnarps;;;KIP;Sweden
-Kinshasa Airways;;;KNS;Democratic Republic of the Congo
+Kinshasa Airways;;;KNS;DR Congo
 Kirov Air Enterprise;;;KTA;Russia
 Kish Air;;Y9;IRK;Iran
 Kitty Hawk Aircargo;;;KHA;United States
@@ -3159,7 +3159,7 @@ Komiaviatrans State Air Enterprise;;;KMA;Russia
 Komiinteravia;;8J;KMV;Russia
 Komsomolsk-on-Amur Air Enterprise;;;KNM;Russia
 Koob-Corp - 96 KFT;;;KOB;Hungary
-Korean Air;;KE;KAL;Republic of Korea
+Korean Air;;KE;KAL;South Korea
 Kosmas Air;;;KMG;Serbia
 Kosmos;;;KSM;Russia
 Kosova Airlines;;;KOS;Serbia
@@ -3177,14 +3177,14 @@ Kurzemes Avio;;;KZA;Russia
 Kustbevakningen;;;KBV;Sweden
 Kuwait Airways;;KU;KAC;Kuwait
 Kuzu Airlines Cargo;;GO;KZU;Turkey
-Kvadro Aero;;;QVR;Kyrgyzstan
+Kvadro Aero;;;QVR;Kyrgyz Republic
 Kwena Air;;;KWN;South Africa
-Kyrgyz Airlines;;N5;KGZ;Kyrgyzstan
-Kyrgyz Trans Avia;;;KTC;Kyrgyzstan
-Kyrgyzstan;;QH;LYN;Kyrgyzstan
-Kyrgyzstan Airlines;;R8;KGA;Kyrgyzstan
-Kyrgyzstan Department of Aviation;;;DAM;Kyrgyzstan
-Kyrgz General Aviation;;;KGB;Kyrgyzstan
+Kyrgyz Airlines;;N5;KGZ;Kyrgyz Republic
+Kyrgyz Trans Avia;;;KTC;Kyrgyz Republic
+Kyrgyzstan;;QH;LYN;Kyrgyz Republic
+Kyrgyzstan Airlines;;R8;KGA;Kyrgyz Republic
+Kyrgyzstan Department of Aviation;;;DAM;Kyrgyz Republic
+Kyrgz General Aviation;;;KGB;Kyrgyz Republic
 Kibris T;;KY;KYV;Turkey
 L A Helicopter;;;LAH;United States
 L J Aviation;;;LJY;United States
@@ -3228,9 +3228,9 @@ Langtry Flying Group;;;PAP;United Kingdom
 Lankair;;IK;LKN;Sri Lanka
 Lanza Air;;;LZA;Spain
 Lanzarote Aerocargo;;;LZT;Spain
-Lao Air Company;;;LLL;Lao Peoples Democratic Republic
-Lao Airlines;;QV;LAO;Lao Peoples Democratic Republic
-Lao Capricorn Air;;;LKA;Lao Peoples Democratic Republic
+Lao Air Company;;;LLL;Laos
+Lao Airlines;;QV;LAO;Laos
+Lao Capricorn Air;;;LKA;Laos
 Laoag International Airlines;;L7;LPN;Philippines
 Laredo Air;;;LRD;United States
 LatCharter;;;LTC;Latvia
@@ -3256,10 +3256,10 @@ Libyan Airlines;;;LYW;Libya
 Libyan Arab Airlines;;LN;LAA;Libya
 Libyan Arab Air Cargo;;;LCR;Libya
 Lid Air;;;LIQ;Sweden
-Lignes Aeriennes Congolaises;;;LCG;Democratic Republic of the Congo
+Lignes Aeriennes Congolaises;;;LCG;DR Congo
 Lignes Aeriennes Du Tchad;;;LKD;Chad
 Lignes Mauritaniennes Air Express;;;LME;Mauritania
-Lignes Nationales Aeriennes - Linacongo;;;GCB;Republic of the Congo
+Lignes Nationales Aeriennes - Linacongo;;;GCB;Congo Republic
 Lincoln Air National Guard;;;GDQ;United States
 Lincoln Airlines;;;LRT;Australia
 Lindsay Aviation;;;LSY;United States
@@ -3376,7 +3376,7 @@ Malaysia Airlines;;MH;MAS;Malaysia
 Mali Air;;;MAE;Austria
 Mali Air Express;;;VXP;Mali
 Mali Airways;;;MTZ;Mali
-Malila Airlift;;;MLC;Democratic Republic of the Congo
+Malila Airlift;;;MLC;DR Congo
 Mall Airways;;;MLS;United States
 Malmo Aviation;;;SCW;Sweden
 Malmoe Air Taxi;;;LOD;Sweden
@@ -3423,7 +3423,7 @@ Mauritanienne Airways;;;MWY;Mauritania
 Mauritanienne De Transport Aerien;;;MDE;Mauritania
 Maverick Airways;;;MVR;United States
 Mavial Magadan Airlines;;H5;MVL;Russia
-Max Avia;;;MAI;Kyrgyzstan
+Max Avia;;;MAI;Kyrgyz Republic
 Max Sea Food;;;MSF;El Salvador
 Max-Aviation;;;MAX;Canada
 Maxair;;8M;MXL;Sweden
@@ -3467,7 +3467,7 @@ Methow Aviation;;;MER;United States
 Metro Business Aviation;;;MVI;United Kingdom
 Metro Express;;;MEX;United States
 Metroflight;;;MTR;United States
-Metrojet;;;MTJ;Hong Kong SAR of China
+Metrojet;;;MTJ;Hong Kong
 Metropix UK;;;PIX;United Kingdom
 Metroplis;;;MPS;Netherlands
 Mex Blue;;;MXB;Mexico
@@ -3551,7 +3551,7 @@ Mountain High Aviation;;;MHA;United States
 Mountain Pacific Air;;;MPC;Canada
 Mountain Valley Air Service;;;MTV;United States
 Mowhawk Airlines;;;MOW;United States
-Mudan Airlines;;;MDN;Somali Republic
+Mudan Airlines;;;MDN;Somalia
 Mudanjiang General Aviation;;;CMJ;China
 Multi Taxi;;;MTX;Mexico
 Multi-Aero;;;WBR;United States
@@ -3566,7 +3566,7 @@ Myanma Airways;;UB;UBA;Myanmar
 Myanmar Airways International;;8M;MMM;Myanmar
 Myflug;;;MYA;Iceland
 Mytravel Airways;;;VKG;Denmark
-NEL Cargo;;;NLG;Ivory Coast
+NEL Cargo;;;NLG;Cote d'Ivoire
 NHT Lineas Aereas;;;NHG;Brazil
 NZ Warbirds Association;;;WAR;New Zealand
 Nacoia Lda;;;ANL;Angola
@@ -3764,7 +3764,7 @@ Odyssey International;;;ODY;Canada
 Office Federal De'Aviation Civile;;;FOC;Switzerland
 Ogooue Air Cargo;;;GBO;Gabon
 Okada Airlines;;;OKJ;Nigeria
-Okapi Airways;;;OKP;Democratic Republic of Congo
+Okapi Airways;;;OKP;DR Congo
 Okay Airways;;;OKA;China
 Oklahoma Department of Public Safety;;;OKL;United States
 Olimex Aerotaxi;;;OLX;Czech Republic
@@ -3801,7 +3801,7 @@ Orel State Air Enterprise;;;ORM;Russia
 Orenburg Airlines;;R2;ORB;Russia
 Organizacion De Transportes Aereos;;;OTA;Mexico
 Organizacoes Mambra;;;OML;Angola
-Orient Air;;;OVV;Syrian Arab Republic
+Orient Air;;;OVV;Syria
 Orient Airlines;;;OTR;Sudan
 Orient Airways;;;ORN;Pakistan
 Orient Thai Airlines;;OX;OEA;Thailand
@@ -3813,7 +3813,7 @@ Orion-x;;;OIX;Russia
 Orlan-2000;;;KOV;Kazakhstan
 Ornage Aircraft Leasing;;;RNG;Netherlands
 Orscom Tourist Installations Company;;;OAD;Egypt
-Osh Avia;;;OSH;Kyrgyzstan
+Osh Avia;;;OSH;Kyrgyz Republic
 Ostend Air College;;;OCO;Belgium
 Ostfriesische Lufttransport;;OL;OLT;Germany
 Oulun Tilauslento;;;FNL;Finland
@@ -3883,7 +3883,7 @@ Pan Europeenne Air Service;;;PEA;France
 Pan Havacilik Ve Ticaret;;;PHT;Turkey
 Pan Malaysian Air Transport;;;PMA;Malaysia
 Pan-Air;;;PNC;Mexico
-Panafrican Airways;;PQ;PNF;Ivory Coast
+Panafrican Airways;;PQ;PNF;Cote d'Ivoire
 Panagra Airways;;;PGI;United States
 Panamedia;;;PEI;Spain
 Panavia;;;PVI;Panama
@@ -3958,7 +3958,7 @@ Phoenix Air Transport;;;PPG;United States
 Phoenix Airline Services;;;WDY;United States
 Phoenix Airways;;HP;;Switzerland
 Phoenix Avia;;;PHY;Armenia
-Phoenix Aviation;;;PHG;Kyrgyzstan
+Phoenix Aviation;;;PHG;Kyrgyz Republic
 Phoenix Flight Operations;;;XPX;United States
 Phuket Air;;9R;VAP;Thailand
 Piedmont Airlines (1948-1989);;PI;PDT;United States
@@ -4113,7 +4113,7 @@ Lossiemouth Flying Training Unit;;;LOS;United Kingdom
 Marham Flying Training Unit;;;MRH;United Kingdom
 Northwood Headquarters (RAF;;;NWO;United Kingdom
 RAF Scampton;;;SMZ;United Kingdom
-RAF St Athan;;;STN;UNited Kingdom
+RAF St Athan;;;STN;United Kingdom
 RAF St Mawgan Search and Rescue;;;SMG;United Kingdom
 RAF Topcliffe Flying Training Unit;;;TOF;United Kingdom
 RAF Valley Flying Training Unit;;;VYT;United Kingdom
@@ -4157,7 +4157,7 @@ Red Star;;;STR;United Arab Emirates
 Redhill Aviation;;8L;RHC;United Kingdom
 Reed Aviation;;;RAV;United Kingdom
 Reef Air;;;REF;New Zealand
-Reem Air;;V4;REK;Kyrgyzstan
+Reem Air;;V4;REK;Kyrgyz Republic
 Reeve Aleutian Airways;;;RVV;United States
 Regal Bahamas International Airways;;;RBH;Bahamas
 Regency Airlines;;;RGY;United States
@@ -4193,7 +4193,7 @@ Rick Lucas Helicopters;;;HPR;New Zealand
 Rico Linhas A;;C7;RLE;Brazil
 Ridder Avia;;;RID;Kazakhstan
 Riga Airclub;;;RAK;Latvia
-Rijnmond Air Services;;;RAZ;Netherland
+Rijnmond Air Services;;;RAZ;Netherlands
 Rikspolisstyrelsen;;;POL;Sweden
 Rimrock Airlines;;;RIM;United States
 Rio Air Express;;;SKA;Brazil
@@ -4247,7 +4247,7 @@ Royal Aruban Airline;;V5;RYL;Aruba
 Royal Australian Air Force;;;ASY;Australia
 Royal Aviation Express;;;RXP;Canada
 Royal Bahrain Airlines;;;RYB;Bahrain
-Royal Brunei Airlines;;BI;RBA;Brunei
+Royal Brunei Airlines;;BI;RBA;Brunei Darussalam
 Royal Daisy Airlines;;;KDR;Uganda
 Royal Ghanaian Airlines;;;RGA;Ghana
 Royal Jet;;;ROJ;United Arab Emirates
@@ -4257,7 +4257,7 @@ Royal Khmer Airlines;;RK;RKH;Cambodia
 Royal Malaysian Air Force;;;RMF;Malaysia
 Royal Navy;;;NVY;United Kingdom
 Royal Nepal Airlines;;RA;RNA;Nepal
-Royal Netherland Navy;;;NRN;Netherlands
+Royal Netherlands Navy;;;NRN;Netherlands
 Royal Netherlands Air Force;;;NAF;Netherlands
 Royal New Zealand Air Force;;;KIW;New Zealand
 Royal Norwegian Air Force;;;NOW;Norway
@@ -4266,7 +4266,7 @@ Royal Phnom Penh Airways;;;PPW;Cambodia
 Royal Rwanda Airlines;;;RRA;Rwanda
 Royal Saudi Air Force;;;RSF;Saudi Arabia
 Royal Sky;;;RYS;Thailand
-Royal Swazi National Airways;;;RSN;Swaziland
+Royal Swazi National Airways;;;RSN;Eswatini
 Royal Tongan Airlines;;WR;HRH;Tonga
 Royal West Airlines;;;RWE;United States
 Rubystar;;;RSB;Belarus
@@ -4296,7 +4296,7 @@ South Asian Airlines;;;BDS;Bangladesh
 State Air Company Berkut;;;BEC;Kazakhstan
 SATA International;;S4;RZO;Portugal
 South African Airways;SAA South African Airways;SA;SAA;South Africa
-Sky Way Air;;;SAB;Kyrgyzstan
+Sky Way Air;;;SAB;Kyrgyz Republic
 SASCO Airlines;;;SAC;Sudan
 Republic of Singapore Air Force;;;SAF;Singapore
 SOS Flygambulans;;;SAG;Sweden
@@ -4311,7 +4311,7 @@ Secretaria de Marina;;;ANX;Mexico
 Springbank Aviation;;;SAQ;Canada
 Scandinavian Airlines System;SAS Scandinavian Airlines;SK;SAS;Sweden
 Samal Air;;;SAV;Kazakhstan
-Sham Wing Airlines;;;SAW;Syrian Arab Republic
+Sham Wing Airlines;;;SAW;Syria
 Sabah Air;;;SAX;Malaysia
 ScotAirways;;;SAY;United Kingdom
 Swiss Air-Ambulance;;;SAZ;Switzerland
@@ -4328,7 +4328,7 @@ Saber Aviation;;;SBR;United States
 Seaborne Airlines;;BB;SBS;United States
 Saint Barth Commuter;;;SBU;France
 Star Air;;;URJ;Pakistan
-Scibe Airlift;;;SBZ;Democratic Republic of the Congo
+Scibe Airlift;;;SBZ;DR Congo
 Spanish Air Force;;;AME;Spain
 South Central Air;;;SCA;United States
 Seacoast Airlines;;;SCC;United States
@@ -4389,7 +4389,7 @@ Solent Flight;;;SFU;United Kingdom
 S.K. Logistics;;;SFX;United States
 Sky King;;;SGB;United States
 Southern Right Air Charter;;;SGC;South Africa
-Sky Gate International Aviation;;;SGD;Kyrgyzstan
+Sky Gate International Aviation;;;SGD;Kyrgyz Republic
 STAC Swiss Government Flights;;;SGF;Switzerland
 Servisair;;;SGH;United Kingdom
 Servicios Aereos Agricolas;;;SGI;Chile
@@ -4402,12 +4402,12 @@ Skygate;;;SGT;Netherlands
 Samgau;;;SGU;Kazakhstan
 Saga Airlines;;;SGX;Turkey
 Skagway Air Service;;N5;SGY;United States
-Shabair;;;SHB;Democratic Republic of the Congo
+Shabair;;;SHB;DR Congo
 Sky Harbor Air Service;;;SHC;United States
 Sahara Airlines;;;SHD;Algeria
 Shell Aircraft;;;SHE;United Kingdom
 Shoprite Group;;;SHG;United Kingdom
-Seoul Air International;;;SHI;Republic of Korea
+Seoul Air International;;;SHI;South Korea
 Sharjah Ruler's Flight;;;SHJ;United Arab Emirates
 Shorouk Air;;;SHK;Egypt
 Samson Aviation;;;SHL;United Kingdom
@@ -4504,7 +4504,7 @@ Stapleford Flight Centre;;;STL;United Kingdom
 Streamline Ops;;;STO;Russia
 Star Air;;;STQ;Indonesia
 Servicios de Transportes A;;FS;STU;Argentina
-Star African Air;;;STU;Somali Republic
+Star African Air;;;STU;Somalia
 Southern Aviation;;;STV;Ghana
 South West Air Corporation;;;STW;Philippines
 Stars Away Aviation;;;STX;South Africa
@@ -4514,7 +4514,7 @@ Suburban Air Freight;;;SUB;United States
 Sudan Airways;;SD;SUD;Sudan
 Sun Air (Fiji);;PI;SUF;Fiji
 Sunu Air;;;SUG;Senegal
-Sun Light;;;SUH;Kyrgyzstan
+Sun Light;;;SUH;Kyrgyz Republic
 Swiss Air Force;;;SUI;Switzerland
 Superior Aviation Services;;;SUK;Kenya
 State Unitary Air Enterprise;;;SUM;Russia
@@ -4524,7 +4524,7 @@ Sistemas Aeronauuticos 2000;;;SUT;Mexico
 Star West Aviation;;;SUU;United States
 Sundance Air;;;SUV;Venezuela
 Saudi Arabian Airlines;;SV;SVA;Saudi Arabia
-St. Vincent Grenadines Air (1990);;;SVD;Saint Vincent and the Grenadines
+St. Vincent Grenadines Air (1990);;;SVD;St. Vincent and the Grenadines
 Swedish Armed Forces;;;SVF;Sweden
 Sahel Airlines;;;AWJ;Niger
 Sterling Helicopters;;;SVH;United Kingdom
@@ -4556,7 +4556,7 @@ Swiftair;;;SWT;Spain
 Swiss European Air Lines;Swiss European;;SWU;Switzerland
 Swe Fly;;WV;SWV;Sweden
 Shovkoviy Shlyah;;S8;SWW;Ukraine
-Swazi Express Airways;;;SWX;Swaziland
+Swazi Express Airways;;;SWX;Eswatini
 Sky Jet;;;SWY;Switzerland
 Servair;;;SWZ;SWISSBIRD
 Southern Cross Aviation;;;SXA;United States
@@ -4576,7 +4576,7 @@ Sonalysts;;;SYI;United States
 Slate Falls Airways;;;SYJ;Canada
 Satsair;;;SYK;United States
 Syncrude Canada;;;SYN;Canada
-Syrian Arab Airlines;;RB;SYR;Syrian Arab Republic
+Syrian Arab Airlines;;RB;SYR;Syria
 Shawbury Flying Training Unit;;;SYS;United Kingdom
 Special Aviation Systems;;;SYV;United States
 Skywalk Airlines;;AL;SYX;United States
@@ -4788,7 +4788,7 @@ Southern Cargo Air Lines;;;SOC;Russia
 Southern Ohio Aviation Sales;;;SOH;United States
 Southern Aviation;;;SOI;Zambia
 Solomon Airlines;;IE;SOL;Solomon Islands
-Somali Airlines;;;SOM;Somali Republic
+Somali Airlines;;;SOM;Somalia
 Sunshine Air Tours;;;SON;United States
 Southern Air;;;SOO;United States
 Solinair;;;SOP;Slovenia
@@ -4797,7 +4797,7 @@ Southeast Correct Craft;;;SOT;United States
 Southern Airways;;;SOU;United States
 Saratov Aviation Division;;6W;SOV;Russia
 Sowind Air;;;SOW;Canada
-Solid Air;;;SOX;Netherland
+Solid Air;;;SOX;Netherlands
 Sat Airlines;;HZ;SOZ;Kazakhstan
 Sierra Pacific Airlines;;;SPA;United States
 Springbok Classic Air;;;SPB;South Africa
@@ -4895,7 +4895,7 @@ TRADO;;;TDO;Dominican Republic
 Trade Air;;;TDR;Croatia
 Taxi Aero Nacional Del Evora;;;TDV;Mexico
 Tradewinds Airlines;;;TDX;United States
-Tenir Airlines;;;TEB;Kyrgyzstan
+Tenir Airlines;;;TEB;Kyrgyz Republic
 Teamline Air;;L9;TLW;Austria
 Tecnicas Fotograficas;;;TEF;Spain
 Tempelhof Airways;;;TEH;United States
@@ -4956,13 +4956,13 @@ Tyrolean Jet Service;;;TJS;Austria
 Twin Jet;;T7;TJT;France
 Tikal Jets Airlines;;;TKC;Guatemala
 Take Air Line;;;TKE;France
-Tropical International Airways;;;TKX;Saint Kitts and Nevis
+Tropical International Airways;;;TKX;St. Kitts and Nevis
 Thai Sky Airlines;;9I;TKY;Thailand
 Translift Airways;;;TLA;Ireland
 Transport Africa;;;TLF;Sierra Leone
 Trans Atlantic Airlines;;;TLL;Sierra Leone
 Eagle Canyon Airlines;;;TLO;United States
-Tulip Air;;TD;TLP;Netherland
+Tulip Air;;TD;TLP;Netherlands
 Tunisavia;;;TAJ;Tunisia
 TLC Air;;;TLS;United States
 Turtle Airways;;;TLT;Fiji
@@ -5036,7 +5036,7 @@ TRAGSA (Medios Aereos);;;TRG;Spain
 Trans Euro Air;;;TRJ;United Kingdom
 Transport Aerien de Mauritanie;;;TRM;Mauritania
 Tropic Airlines-Air Molokai;;;TRO;United States
-Turdus Airways;;;TRQ;Netherland
+Turdus Airways;;;TRQ;Netherlands
 Tramson Limited;;;TRR;Sudan
 Trans Arabian Air Transport;;;TRT;Sudan
 Triangle Airline (Uganda);;;TRU;Uganda
@@ -5046,10 +5046,10 @@ TransMeridian Airlines;;T9;TRZ;United States
 Transair France;;;TSA;France
 TAF-Linhas Aereas;;;TSD;Brazil
 Transmile Air Services;;TH;TSE;Malaysia
-Trans-Air-Congo;;;TSG;Republic of the Congo
+Trans-Air-Congo;;;TSG;Congo Republic
 Transport'air;;;TSI;France
-Trast Aero;;S5;TSJ;Kyrgyzstan
-Trast Aero;;;TSK;Kyrgyzstan
+Trast Aero;;S5;TSJ;Kyrgyz Republic
+Trast Aero;;;TSK;Kyrgyz Republic
 Thai Aviation Services;;;TSL;Thailand
 Taftan Airlines;;;SBT;Iran
 Transwest Air;;9T;ABS;Canada
@@ -5057,7 +5057,7 @@ Trans Sayegh Airport Services;;;TSM;Lebanon
 Trans-Air Services;;;TSN;Nigeria
 Transaero Airlines;;UN;TSO;Russia
 Transportes Aereos Inter;;;TSP;Guatemala
-Trans Service Airlift;;;TSR;Democratic Republic of Congo
+Trans Service Airlift;;;TSR;DR Congo
 Tri-State Aero;;;TSS;United States
 TRAST;;;TST;Kazakhstan
 Tropair Airservices;;;TSV;United Kingdom
@@ -5222,7 +5222,7 @@ United Aviation Services;;;SAU;Spain
 Ural Airlines;;U6;SVR;Russia
 Ukraine Transavia;;;TRB;Ukraine
 United Arab Emirates Air Force;;;UAF;United Arab Emirates
-Union Africaine des Transports;;;UAI;Ivory Coast
+Union Africaine des Transports;;;UAI;Cote d'Ivoire
 Uganda Air Cargo;;;UCC;Uganda
 US Airports Air Charter;;;UCH;United States
 Ucoaviacion;;;UCO;Spain
@@ -5426,12 +5426,12 @@ Wiking Helikopter Service;;;WHS;Germany
 Wilbur's Flight Operations;;;WFO;United States
 Williams Air;;;WLS;United States
 Williams Grand Prix Engineering;;;WGP;United Kingdom
-Wimbi Dira Airways;;;WDA;Democratic Republic of Congo
+Wimbi Dira Airways;;;WDA;DR Congo
 Winair;;;WNA;United States
 Wind Jet;;IV;JET;Italy
 Wind Spirit Air;;;WSI;United States
 Windrose Air;;;QGA;Germany
-Windward Islands Airways International;;;WIA;Netherland
+Windward Islands Airways International;;;WIA;Netherlands
 Wings Air;;IW;WON;Indonesia
 Wings Air Transport;;;WAT;Sudan
 Wings Airways;;;WAW;United States
@@ -5439,7 +5439,7 @@ Wings Aviation;;;WOL;Guyana
 Wings Express;;;WEX;United States
 Wings of Alaska;;K5;WAK;United States
 Wings of Lebanon Aviation;;;WLB;Lebanon
-Winlink;;;WIN;Saint Lucia
+Winlink;;;WIN;St. Lucia
 Wisconsin Air National Guard;;;WAG;United States
 Wisman Aviation;;;WSM;United States
 Wizz Air;;W6;WZZ;Hungary
@@ -5448,7 +5448,7 @@ Wondair on Demand Aviation;;;WNR;Spain
 Woodgate Executive Air Charter;;;CWY;United Kingdom
 World Airways;;WO;WOA;United States
 World Weatherwatch;;;XWW;Canada
-World Wing Aviation;;;WWM;Kyrgyzstan
+World Wing Aviation;;;WWM;Kyrgyz Republic
 Worldspan;;1P;;United States
 Worldwide Air Charter Systems;;;CSW;Canada
 Worldwide Aviation Services;;;WWS;Pakistan
@@ -5481,8 +5481,8 @@ Yuzhnaya Aircompany;;;UGN;Kazakhstan
 Yuzhmashavia;;;UMK;Ukraine
 Z-Avia;;;RZV;Armenia
 Zagros Airlines;;;IZG;Iran
-Zaire Aero Service;;;ZAI;Democratic Republic of Congo
-Zairean Airlines;;;ZAR;Democratic Republic of Congo
+Zaire Aero Service;;;ZAI;DR Congo
+Zairean Airlines;;;ZAR;DR Congo
 Zambian Airways;;Q3;MBN;Zambia
 Zambezi Airlines;;;ZMA;Zambia
 Zanair;;;TAN;Tanzania
@@ -5508,10 +5508,10 @@ Maldivian Air Taxi;;8Q;;Maldives
 Sky Express;SkyExpress;XW;SXR;Russia
 Yellow Air Taxi;;Y0;;United States
 Royal Air Cambodge;;VJ;RAC;Cambodia
-Air Mandalay;;6T;;Burma
+Air Mandalay;;6T;;Myanmar
 TEA Switzerland;;;4SW;Switzerland
 TAN-SAHSA;;SH;;Honduras
-Air Busan;;BX;ABL;Republic of Korea
+Air Busan;;BX;ABL;South Korea
 TUI Airlines Belgium;now Jetairlfy;TB;TUB;Belgium
 Arctic Air;;;AKR;Norway
 Braathens;Braathens SAFE;BU;BRA;Norway
@@ -5551,7 +5551,7 @@ MCA Airlines;;;MCA;Sweden
 Maldivo Airlines;;ML;MAV;Maldives
 Virgin Pacific;;VH;VNP;Fiji
 Zest Air;;Z2;;Philippines
-Yangon Airways;;HK;;Burma
+Yangon Airways;;HK;;Myanmar
 Transport Aérien Transrégional;TAT;IJ;;France
 LÍO Flugmennt;;;LIO;Iceland
 Minerva Airlines;;N4;;Italy
@@ -5618,7 +5618,7 @@ Island Spirit;;IP;ISX;Iceland
 TACA Peru;;T0;;Peru
 Orbest;;;OBS;Portugal
 Southern Air Charter;;;SOA;Bahamas
-SVG Air;;;SVG;Saint Vincent and the Grenadines
+SVG Air;;;SVG;St. Vincent and the Grenadines
 Air Century;;;CEY;Dominican Republic
 Pan Am World Airways Dominicana;PAWA Dominicana;7Q;;Dominican Republic
 Primera Air;;PF;;Iceland
@@ -5635,9 +5635,9 @@ Andalus Lineas Aereas;;;ANU;Spain
 Air 26;;;DCD;Angola
 Mauritania Airways;;;MTW;Mauritania
 CEIBA Intercontinental;;;CEL;Equatorial Guinea
-Halcyonair;;7Z;;Cape Verde
-Business Aviation;;4P;;Congo (Kinshasa)
-Compagnie Africaine d\\'Aviation;;E9;;Congo (Kinshasa)
+Halcyonair;;7Z;;Cabo Verde
+Business Aviation;;4P;;DR Congo
+Compagnie Africaine d\\'Aviation;;E9;;DR Congo
 Zambia Skyways;;K8;;Zambia
 AlMasria Universal Airlines;;UJ;LMU;Egypt
 EgyptAir Express;;;MSE;Egypt
@@ -5685,7 +5685,7 @@ Maldivian;;Q2;;Maldives
 Xpressair;;XN;;Indonesia
 Strategic Airlines;;VC;;Australia
 Fars Air Qeshm;;;QFZ;Iran
-Eastok Avia;;;EAA;Kyrgyzstan
+Eastok Avia;;;EAA;Kyrgyz Republic
 Jupiter Airlines;;;JPU;United Arab Emirates
 Vision Air International;;;VIS;Pakistan
 Al-Naser Airlines;;;;Iraq
@@ -5731,7 +5731,7 @@ Finlandian;;;FN1;Finland
 LionXpress;lionXpress;C4;LIX;Cameroon
 Nik Airways;;X1;;Saudi Arabia
 Genesis;;GK;;Pakistan
-Congo Express;;XZ;;Congo (Kinshasa)
+Congo Express;;XZ;;DR Congo
 Fly Dubai;;FZ;FDB;United Arab Emirates
 Domenican Airlines;Domenican;D1;MDO;Dominican Republic
 ConneX European Airline;;;2CO;Austria
@@ -5794,7 +5794,7 @@ Norte Lineas Aereas;NORTE;N0;;Argentina
 Austral Brasil;Austral Brasil lineas aereas;W7;;Brazil
 PEGASUS AIRLINES-;;H9;;Turkey
 AirLiberté;;IJ;;France
-Nihon.jet connect;;;NX1;Kyrgyzstan
+Nihon.jet connect;;;NX1;Kyrgyz Republic
 Camair-co;;QC;;Cameroon
 Aerocontinente (Priv);;N6;;Peru
 Sky Regional;Air Canada Express;RS;SKV;Canada
@@ -5859,7 +5859,7 @@ Air Bucharest;;;BUR;Romania
 AlbaStar;;;LAV;Spain
 Mauritania Airlines International;;L6;MAI;Mauritania
 MAT Airways;;6F;MKD;Macedonia
-Asian Wings Airways;;AW;AWM;Burma
+Asian Wings Airways;;AW;AWM;Myanmar
 Air Arabia Egypt;;E5;RBG;Egypt
 Eagles Airlines;;;EGS;Italy
 YES Airways;;;YEP;Poland
@@ -5899,7 +5899,7 @@ Russia State Transport;Federal State Budget Inst;;RSD;Russia
 Malaysia Wings;;;MWI;Malaysia
 Aviabus;;U1;ABI;Russia
 Michael Airlines;Javi;DF;MJG;Puerto Rico
-Korongo Airlines;;ZC;KGO;Congo (Kinshasa)
+Korongo Airlines;;ZC;KGO;DR Congo
 Indonesia Sky;;I5;IDS;Indonesia
 Pelangi ;;9P;;Malaysia
 Aws express;;B0;666;United States
@@ -5935,9 +5935,9 @@ Royal Airways;Royal Inc.;KG;RAW;United States
 FlyHigh Airlines Ireland (FH);;FH;FHI;Ireland
 Executive AirShare;;;XSR;United States
 Hebei Airlines;;;HBH;China
-Air KBZ;;;KBZ;Burma
+Air KBZ;;;KBZ;Myanmar
 Aero VIP (2D);;2D;;Portugal
-Yangon Airways Ltd.;;YH;;Burma
+Yangon Airways Ltd.;;YH;;Myanmar
 T.J. Air;;TJ;TJA;United States
 SkyWork Airlines ;;SX;;Switzerland
 ValueJet;;J7;VJA;United States
@@ -5962,7 +5962,7 @@ WestAir Airlines ;;OE;;United States
 North Pacific Airlines;;NO;;United States
 Malindo Air;;OD;MXD;Malaysia
 Tramm Airlines;Tramm Airlines;9F;TLM;Netherlands Antilles
-Lina Congo;;GC;;Congo (Brazzaville)
+Lina Congo;;GC;;Congo Republic
 Hermes Airlines;;;HRM;Greece
 Flightlink Tanzania;Flightlink;Z9;;Tanzania
 IzAvia;;I8;;Russia
@@ -5985,7 +5985,7 @@ Flyme (VP);;;VQI;Maldives
 Thai Lion Air;;SL;;Thailand
 Deutsche Luftverkehrsgesellschaft;;DW;DLT;Germany
 Nürnberger Flugdienst;;;NFD;Germany
-Golden Myanmar Airlines;;;GMR;Burma
+Golden Myanmar Airlines;;;GMR;Myanmar
 ViznAir;;;VZA;United States
 Canaryfly;;;CNF;Spain
 Sunrise Airways;;;KSZ;Haiti
@@ -6088,7 +6088,7 @@ Fuzhou Airlines;;;FZA;China
 Sky Angkor Airlines (ZA);;;SWM;Cambodia
 OneJet;;J1;;United States
 Global Airlines;Global Airlines;0G;GA0;Argentina
-Mann Yadanarpon Airlines;;;MYP;Burma
+Mann Yadanarpon Airlines;;;MYP;Myanmar
 International Flying Service;IFS;F4;;Italy
 Air Vistara;Tata SIA Airlines;UK;VTI;India
 TransRussiaAirlines;TransRus;1E;RGG;Russia
@@ -6147,7 +6147,7 @@ BudgetAir;BudgetAir;1K;BG1;Germany
 Dynamic Airways;;;DYA;United States
 Fly One;Fly One;F5;FI5;Moldova
 Nordica;;EE;;Estonia
-Tez Jet Airlines;;;TEZ;Kyrgyzstan
+Tez Jet Airlines;;;TEZ;Kyrgyz Republic
 Kush Air;;;KUH;South Sudan
 Dummy;;0E;;France
 ViaAir;Charter Air Transport;;SRY;United States

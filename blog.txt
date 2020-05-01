@@ -40,3 +40,8 @@
 
 30/04/2020 suite du peuplement des tables, problème des dates réglé, problème de modèle d'avion (il faut en rajouter dans la classe avion)
 
+01/05/2020 Suite du peuplement des tables
+- Ajout de Unknown dans le peuplement des tables : Avion, Compagnie, Ville, Pays, Aeroport. 
+- Changement du fichier compagnie.csv pour faire coordonner ses pays avec la table Pays.
+- Modification du fichier récup_data.py car certains noms de ville étaient égaux et idem pour les aéroports.
+
