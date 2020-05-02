@@ -1,17 +1,17 @@
-#Projet de Bases de Données Relationnelles - M1DS
+# Projet de Bases de Données Relationnelles - M1DS
 
-##Composition du groupe : 
+## Composition du groupe : 
 Chiara CORDIER et Nolwenn DAVID
 
-##Sujet envisagé : 
+## Sujet envisagé : 
 **ETUDE DES ACCIDENTS D'AVION** --> on essaiera de créer un site pour pouvoir rechercher des informations sur ces accidents en fonction des lieux, des compagnies, des types d'avion, et des années
 
-##Etat actuel de la réalisation du projet :
+## Etat actuel de la réalisation du projet :
 	- [x] projet créé sur django : rédaction des classes dans models.py faite 
 	- [x] nettoyage des données fait
 	- [ ] peuplement des tables en cours
   
-##Description des fichiers du dépôt :
+## Description des fichiers du dépôt :
 	- blog.txt : idées, problèmes et réalisations au jour le jour
 	- organisation_base.pdf : organisation des tables de notre base (avec son évolution)
 	- projet_BDR : dossier du projet créé avec django
@@ -21,7 +21,7 @@ Chiara CORDIER et Nolwenn DAVID
 	- peuplement_tables.py : pour peupler la base
 	- Donnees_accidents.csv : données récupérées et nettoyées du site http://aviation-safety.net/
  
-##Etat de la récupération des données, du nettoyage et de la mise en forme :
+## Etat de la récupération des données, du nettoyage et de la mise en forme :
 	- [x] récupération faite
 	- [x] nettoyage fait
 	- [ ] modifications à apporter pour cohérence entre les tables 
