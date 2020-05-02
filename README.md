@@ -26,9 +26,9 @@ Chiara CORDIER et Nolwenn DAVID
 	- [x] nettoyage fait
 	- [ ] modifications à apporter pour cohérence entre les tables 
   
-##Etat de la base de données réalisée :
+## Etat de la base de données réalisée :
 	- [x] le remplissage fonctionne 
 	- [ ] à refaire une fois que les données seront bien mises en forme
     
-##Programmes réalisés et fonctionnalités opérationnelles :
+## Programmes réalisés et fonctionnalités opérationnelles :
 	- aucun pour l'instant
