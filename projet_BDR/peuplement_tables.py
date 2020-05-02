@@ -13,7 +13,7 @@ pays=pd.read_csv('pays.csv',sep=';')
 avion=pd.read_csv('avion.csv',sep=';')
 aeroport=pd.read_csv('aeroport.csv',sep=';')
 compagnie=pd.read_csv('compagnie.csv',sep=';')
-ville=pd.read_csv('ville.csv',sep=';')
+ville=pd.read_csv('villeV1.csv',sep=';')
 accident=pd.read_csv('Donnees_accidents.csv',sep=';')
 
 pa = Pays(NomPays='Unknown', ISO='')
