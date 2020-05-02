@@ -1,5 +1,7 @@
 # Projet de Bases de Données Relationnelles - M1DS
 
+MD_FLAG_TASKLISTS
+
 ## Composition du groupe 
 Chiara CORDIER et Nolwenn DAVID
 
@@ -7,9 +9,9 @@ Chiara CORDIER et Nolwenn DAVID
 **ETUDE DES ACCIDENTS D'AVION** --> on essaiera de créer un site pour pouvoir rechercher des informations sur ces accidents en fonction des lieux, des compagnies, des types d'avion, et des années
 
 ## Etat actuel de la réalisation du projet
-	- [x] projet créé sur django : rédaction des classes dans models.py faite 
-	- [x] nettoyage des données fait
-	- [ ] peuplement des tables en cours
+ - [x] projet créé sur django : rédaction des classes dans models.py faite 
+ - [x] nettoyage des données fait
+ - [ ] peuplement des tables en cours
   
 ## Description des fichiers du dépôt
 	- blog.txt : idées, problèmes et réalisations au jour le jour
