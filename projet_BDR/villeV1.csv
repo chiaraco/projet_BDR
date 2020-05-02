@@ -71,7 +71,6 @@ Gjoa Haven;Canada
 Hamilton;Canada
 Montreal;Canada
 Hay River;Canada
-Halifax;Canada
 Atikokan;Canada
 Pond Inlet;Canada
 St. Jean;Canada
@@ -91,7 +90,6 @@ Moose Jaw;Canada
 Fort Mcmurray;Canada
 Moosonee;Canada
 Maniwaki;Canada
-Montreal;Canada
 Natashquan;Canada
 Gatineau;Canada
 Matagami;Canada
@@ -141,9 +139,7 @@ Cape Dorset;Canada
 Thompson;Canada
 Trenton;Canada
 Timmins;Canada
-Toronto;Canada
 Tuktoyaktuk;Canada
-Montreal;Canada
 Repulse Bay;Canada
 Hall Beach;Canada
 Rouyn;Canada
@@ -157,12 +153,10 @@ Vancouver;Canada
 Buffalo Narrows;Canada
 Wiarton;Canada
 Petawawa;Canada
-Winnipeg;Canada
 Wabush;Canada
 Williams Lake;Canada
 Wrigley;Canada
 Cranbrook;Canada
-Edmonton;Canada
 Saskatoon;Canada
 Medicine Hat;Canada
 Fort Saint John;Canada
@@ -190,8 +184,6 @@ St. John's;Canada
 Kapuskasing;Canada
 Armstrong;Canada
 Mont Joli;Canada
-Toronto;Canada
-Toronto;Canada
 Gore Bay;Canada
 Yellowknife;Canada
 Slave Lake;Canada
@@ -227,7 +219,6 @@ Tindouf;Algeria
 Ech-cheliff;Algeria
 Oran;Algeria
 Tlemcen;Algeria
-Oran;Algeria
 Sidi Bel Abbes;Algeria
 Ghriss;Algeria
 Adrar;Algeria
@@ -338,7 +329,6 @@ Erfurt;Germany
 Frankfurt;Germany
 Munster;Germany
 Hamburg;Germany
-Berlin;Germany
 Cologne;Germany
 Duesseldorf;Germany
 Munich;Germany
@@ -346,7 +336,6 @@ Nuernberg;Germany
 Leipzig;Germany
 Saarbruecken;Germany
 Stuttgart;Germany
-Berlin;Germany
 Hannover;Germany
 Bremen;Germany
 Egelsbach;Germany
@@ -357,7 +346,6 @@ Worms;Germany
 Mainz;Germany
 Eisenach;Germany
 Siegerland;Germany
-Hamburg;Germany
 Kiel;Germany
 Luebeck;Germany
 Dahlemer Binz;Germany
@@ -416,7 +404,6 @@ Enontekio;Finland
 Eura;Finland
 Halli;Finland
 Helsinki;Finland
-Helsinki;Finland
 Hameenkyro;Finland
 Hanko;Finland
 Hyvinkaa;Finland
@@ -462,7 +449,6 @@ Varkaus;Finland
 Ylivieska-raudaskyla;Finland
 Belfast;United Kingdom
 Enniskillen;United Kingdom
-Belfast;United Kingdom
 Londonderry;United Kingdom
 Birmingham;United Kingdom
 Coventry;United Kingdom
@@ -486,7 +472,7 @@ Cardiff;United Kingdom
 Swansea;United Kingdom
 Bristol;United Kingdom
 Liverpool;United Kingdom
-London;United Kingdom
+London (1);United Kingdom
 Plymouth;United Kingdom
 Bournemouth;United Kingdom
 Southampton;United Kingdom
@@ -496,12 +482,12 @@ Guernsey;Guernsey
 Jersey;Jersey
 Shoreham By Sea;United Kingdom
 Biggin Hill;United Kingdom
-London;United Kingdom
-London;United Kingdom
+London (2);United Kingdom
+London (3);United Kingdom
 Farnborough;United Kingdom
 Chalsgrove;United Kingdom
 Blackbushe;United Kingdom
-London;United Kingdom
+London (4);United Kingdom
 Southend;United Kingdom
 Lydd;United Kingdom
 Manston;United Kingdom
@@ -539,14 +525,13 @@ Tiree;United Kingdom
 Leuchars;United Kingdom
 Lossiemouth;United Kingdom
 Cambridge;United Kingdom
-Peterborough;United Kingdom
+Peterborough (5);United Kingdom
 Norwich;United Kingdom
-London;United Kingdom
+London (6);United Kingdom
 North Weald;United Kingdom
 Fowlmere;United Kingdom
 Cranfield;United Kingdom
 Exeter;United Kingdom
-Bristol;United Kingdom
 Oxford;United Kingdom
 Benson;United Kingdom
 Lakenheath;United Kingdom
@@ -608,7 +593,6 @@ Laeso;Denmark
 Maribo;Denmark
 Odense;Denmark
 Krusa-padborg;Denmark
-Copenhagen;Denmark
 Ronne;Denmark
 Soenderborg;Denmark
 Skrydstrup;Denmark
@@ -660,14 +644,12 @@ Warsaw;Poland
 Gdansk;Poland
 Krakow;Poland
 Katowice;Poland
-Katowice;Poland
 Mielec;Poland
 Poznan;Poland
 Rzeszow;Poland
 Szczecin;Poland
 Slupsk;Poland
 Shapaja;Poland
-Warsaw;Poland
 Wroclaw;Poland
 Zielona Gora;Poland
 Linkoeping;Sweden
@@ -679,7 +661,6 @@ Gothenborg;Sweden
 Joenkoeping;Sweden
 Falkoping;Sweden
 Lidkoping;Sweden
-Gothenborg;Sweden
 Skovde;Sweden
 Trollhattan;Sweden
 Karlsborg;Sweden
@@ -687,7 +668,6 @@ Satenas;Sweden
 Stockholm;Sweden
 Karlskoga;Sweden
 Mora;Sweden
-Stockholm;Sweden
 Arvika;Sweden
 Emmaboda;Sweden
 Ljungby;Sweden
@@ -724,13 +704,9 @@ Vasteras;Sweden
 Lulea;Sweden
 Vidsel;Sweden
 Arboga;Sweden
-Stockholm;Sweden
-Stockholm;Sweden
 Borlange;Sweden
 Hultsfred;Sweden
 Gavle;Sweden
-Linkoeping;Sweden
-Norrkoeping;Sweden
 Eskilstuna;Sweden
 Visby;Sweden
 Kalixfors;Sweden
@@ -794,14 +770,12 @@ Harmony;South Africa
 Harrismith;South Africa
 Hoedspruit;South Africa
 Hendrik Verwoerddam;South Africa
-Johannesburg;South Africa
 Klerksdorp;South Africa
 Kimberley;South Africa
 Krugersdorp;South Africa
 Kroonstad;South Africa
 Kuruman;South Africa
 Kleinsee;South Africa
-Johannesburg;South Africa
 Lichtenburg;South Africa
 Lambertsbaai;South Africa
 Langebaanweg;South Africa
@@ -813,7 +787,7 @@ Majuba Power Station;South Africa
 Malalane;South Africa
 Musina;South Africa
 Mkuze;South Africa
-Newcastle;South Africa
+Newcastle (7);South Africa
 Nylstroom;South Africa
 Overberg;South Africa
 Oudtshoorn;South Africa
@@ -840,14 +814,12 @@ Sishen;South Africa
 Swellendam;South Africa
 Skukuza;South Africa
 Tommy's Field;South Africa
-Bloemfontein;South Africa
 Tutuka;South Africa
 Tzaneen;South Africa
 Ulundi;South Africa
 Upington;South Africa
 Umtata;South Africa
 Vryburg;South Africa
-Durban;South Africa
 Vredendal;South Africa
 Vereeniging;South Africa
 Pretoria;South Africa
@@ -981,7 +953,6 @@ Bulawayo;Zimbabwe
 Harare;Zimbabwe
 Chiredzi;Zimbabwe
 Victoria Falls;Zimbabwe
-Harare;Zimbabwe
 Kariba;Zimbabwe
 Mutoko;Zimbabwe
 Mutare;Zimbabwe
@@ -995,8 +966,6 @@ Kasungu;Malawi
 Lilongwe;Malawi
 Mzuzu;Malawi
 Maseru;Lesotho
-Maseru;Lesotho
-Kinshasa;Congo (Kinshasa)
 Kinshasa;Congo (Kinshasa)
 Muanda;Congo (Kinshasa)
 Kitona Base;Congo (Kinshasa)
@@ -1033,11 +1002,9 @@ Santa Cruz De La Palma;Spain
 Gran Canaria;Spain
 Arrecife;Spain
 Tenerife;Spain
-Tenerife;Spain
 Melilla;Spain
 Freetown;Sierra Leone
 Cufar;Guinea-Bissau
-Monrovia;Liberia
 Monrovia;Liberia
 Agadir;Morocco
 Tan Tan;Morocco
@@ -1082,7 +1049,6 @@ Maio;Cape Verde
 Sao Nocolau Island;Cape Verde
 Sao Vicente Island;Cape Verde
 Addis Ababa;Ethiopia
-Addis Ababa;Ethiopia
 Arba Minch;Ethiopia
 Axum;Ethiopia
 Bahar Dar;Ethiopia
@@ -1100,7 +1066,6 @@ Kismayu;Somalia
 Alexandria;Egypt
 Abu Simbel;Egypt
 Cairo;Egypt
-Cairo;Egypt
 Hurghada;Egypt
 El Gorah;Egypt
 Luxor;Egypt
@@ -1117,7 +1082,6 @@ Lodwar;Kenya
 Lamu;Kenya
 Mombasa;Kenya
 Naivasha;Kenya
-Nairobi;Kenya
 Nairobi;Kenya
 Wajir;Kenya
 Buattifel;Libya
@@ -1153,7 +1117,7 @@ Kilimanjaro;Tanzania
 Lake Manyara;Tanzania
 Mtwara;Tanzania
 Mwanza;Tanzania
-Pemba;Tanzania
+Pemba (8);Tanzania
 Tanga;Tanzania
 Zanzibar;Tanzania
 Entebbe;Uganda
@@ -1190,18 +1154,15 @@ Badajoz;Spain
 La Coruna;Spain
 Granada;Spain
 Gerona;Spain
-Granada;Spain
 Madrid;Spain
 Ibiza;Spain
 Jerez;Spain
 Murcia;Spain
-Madrid;Spain
 Malaga;Spain
 Menorca;Spain
 Sevilla;Spain
 Ocana;Spain
 Pamplona;Spain
-Murcia;Spain
 Reus;Spain
 Rota;Spain
 Salamanca;Spain
@@ -1210,14 +1171,12 @@ San Luis;Spain
 San Sebastian;Spain
 Santiago;Spain
 Seo De Urgel;Spain
-Madrid;Spain
 Valencia;Spain
 Valladolid;Spain
 Vitoria;Spain
 Vigo;Spain
 Santander;Spain
 Zaragoza;Spain
-Sevilla;Spain
 Calais;France
 Peronne;France
 Nangis;France
@@ -1237,7 +1196,6 @@ Montlucon-gueret;France
 Limoges;France
 Mont-de-marsan;France
 Niort;France
-Toulouse;France
 Pau;France
 La Rochelle;France
 Tarbes;France
@@ -1250,7 +1208,6 @@ St.-girons;France
 Arcachon;France
 Albi;France
 Castres;France
-Toulouse;France
 Millau;France
 Graulhet;France
 Rodez;France
@@ -1295,7 +1252,6 @@ Auxerre;France
 Chambery;France
 Clermont-Ferrand;France
 Bourges;France
-Chambery;France
 Chalon;France
 Annemasse;France
 Lyon;France
@@ -1309,7 +1265,6 @@ Valence;France
 Vichy;France
 Aurillac;France
 Chateauroux;France
-Lyon;France
 Aix-les-milles;France
 Le Luc;France
 Cannes;France
@@ -1342,14 +1297,11 @@ Rouen;France
 Tours;France
 Cholet;France
 Laval;France
-Orleans;France
 Paris;France
 Creil;France
-Paris;France
 Coulommiers;France
 Melun;France
 Toussous-le-noble;France
-Paris;France
 Pontoise;France
 Villacoublay;France
 Reims;France
@@ -1387,30 +1339,26 @@ Morlaix;France
 Vannes;France
 St.-nazaire;France
 Mulhouse;France
-Colmar;France
 Dijon;France
-Metz;France
 Epinal;France
 Haguenau;France
 St.-dizier;France
 Montbeliard;France
 Nancy;France
-Nancy;France
 Pontarlier;France
-Reims;France
 Strasbourg;France
 Luxeuil;France
 Cuers;France
 Hyeres;France
 Nimes;France
 Miquelon;Saint Pierre and Miquelon
-St.-pierre;Saint Pierre and Miquelon
+St.-pierre (9);Saint Pierre and Miquelon
 Amberieu;France
 Damblain;France
 Andravida;Greece
 Agrinion;Greece
 Alexandroupolis;Greece
-Alexandria;Greece
+Alexandria (10);Greece
 Nea Anghialos;Greece
 Elefsis;Greece
 Chios;Greece
@@ -1425,7 +1373,6 @@ Kos;Greece
 Karpathos;Greece
 Kerkyra/corfu;Greece
 Kasos;Greece
-Kavala;Greece
 Kozani;Greece
 Leros;Greece
 Limnos;Greece
@@ -1434,7 +1381,6 @@ Megara;Greece
 Mykonos;Greece
 Mytilini;Greece
 Preveza;Greece
-Rhodos;Greece
 Rhodos;Greece
 Patras;Greece
 Chania;Greece
@@ -1472,7 +1418,6 @@ Catania;Italy
 Lampedusa;Italy
 Pantelleria;Italy
 Palermo;Italy
-Palermo;Italy
 Reggio Calabria;Italy
 Trapani;Italy
 Sigonella;Italy
@@ -1482,7 +1427,6 @@ Cagliari;Italy
 Olbia;Italy
 Tortoli;Italy
 Turin;Italy
-Milano;Italy
 Milano;Italy
 Bergamo;Italy
 Torino;Italy
@@ -1505,7 +1449,6 @@ Verona;Italy
 Brescia;Italy
 Ronchi De Legionari;Italy
 Rimini;Italy
-Treviso;Italy
 Vicenza;Italy
 Padova;Italy
 Villafranca;Italy
@@ -1513,7 +1456,6 @@ Venice;Italy
 Siena;Italy
 Rome;Italy
 Pratica Di Mare;Italy
-Rome;Italy
 Guidonia;Italy
 Marina Di Campo;Italy
 Latina;Italy
@@ -1522,7 +1464,6 @@ Naples;Italy
 Pisa;Italy
 Florence;Italy
 Grosseto;Italy
-Rome;Italy
 Viterbo;Italy
 Perugia;Italy
 Cerklje;Slovenia
@@ -1562,7 +1503,6 @@ Nevatim;Israel
 Ovda;Israel
 Ramat David;Israel
 Ramon;Israel
-Tel-aviv;Israel
 Malta;Malta
 Wiener Neustadt Ost;Austria
 Wels;Austria
@@ -1582,7 +1522,7 @@ Cascais;Portugal
 Covilha;Portugal
 Evora;Portugal
 Flores;Portugal
-Faro;Portugal
+Faro (11);Portugal
 Graciosa Island;Portugal
 Horta;Portugal
 Lajes (terceira Island);Portugal
@@ -1612,7 +1552,6 @@ Caransebes;Romania
 Craiova;Romania
 Iasi;Romania
 Oradea;Romania
-Bucharest;Romania
 Sibiu;Romania
 Satu Mare;Romania
 Suceava;Romania
@@ -1636,10 +1575,6 @@ Zurich;Switzerland
 Altenrhein;Switzerland
 Samedan;Switzerland
 Ankara;Turkey
-Ankara;Turkey
-Ankara;Turkey
-Ankara;Turkey
-Adana;Turkey
 Adana;Turkey
 Afyon;Turkey
 Antalya;Turkey
@@ -1649,7 +1584,6 @@ Konya;Turkey
 Malatya;Turkey
 Merzifon;Turkey
 Sivas;Turkey
-Malatya;Turkey
 Kayseri;Turkey
 Sivrihisar;Turkey
 Tokat;Turkey
@@ -1659,8 +1593,6 @@ Balikesir;Turkey
 Bandirma;Turkey
 Eskisehir;Turkey
 Izmir;Turkey
-Izmir;Turkey
-Izmir;Turkey
 Isparta;Turkey
 Kutahya;Turkey
 Yalova;Turkey
@@ -1668,7 +1600,6 @@ Topel;Turkey
 Dalaman;Turkey
 Akhisar;Turkey
 Bodrum;Turkey
-Istanbul;Turkey
 Elazig;Turkey
 Diyabakir;Turkey
 Erzincan;Turkey
@@ -1677,8 +1608,6 @@ Trabzon;Turkey
 Van;Turkey
 Batman;Turkey
 Siirt;Turkey
-Izmir;Turkey
-Izmir;Turkey
 Saltsy;Moldova
 Chisinau;Moldova
 Ohrid;Macedonia
@@ -1708,7 +1637,7 @@ Punta Cana;Dominican Republic
 Puerto Plata;Dominican Republic
 Santo Domingo;Dominican Republic
 San Isidoro;Dominican Republic
-Santiago;Dominican Republic
+Santiago (12);Dominican Republic
 Bananera;Guatemala
 Coban;Guatemala
 Guatemala City;Guatemala
@@ -1722,10 +1651,10 @@ Tela;Honduras
 Tegucigalpa;Honduras
 Trujillo;Honduras
 Ocho Rios;Jamaica
-Kingston;Jamaica
+Kingston (13);Jamaica
 Montego Bay;Jamaica
 Port Antonio;Jamaica
-Kingston;Jamaica
+Kingston (14);Jamaica
 Acapulco;Mexico
 Monterrey;Mexico
 Aguascalientes;Mexico
@@ -1766,7 +1695,6 @@ Morelia;Mexico
 Minatitlan;Mexico
 Monclova;Mexico
 Mexico City;Mexico
-Monterrey;Mexico
 Mazatlan;Mexico
 Nogales;Mexico
 Nuevo Laredo;Mexico
@@ -1787,7 +1715,6 @@ San Luis Potosi;Mexico
 Tlaxcala;Mexico
 Tuxtla Gutierrez;Mexico
 Torreon;Mexico
-Tuxtla Gutierrez;Mexico
 Tijuana;Mexico
 Tampico;Mexico
 Tamuin;Mexico
@@ -1811,7 +1738,7 @@ Changuinola;Panama
 David;Panama
 Howard;Panama
 Panama;Panama
-Santiago;Panama
+Santiago (15);Panama
 Panama City;Panama
 Buenos Aires;Costa Rica
 Coto 47;Costa Rica
@@ -1824,13 +1751,12 @@ Liberia;Costa Rica
 Los Chiles;Costa Rica
 Limon;Costa Rica
 Nosara Beach;Costa Rica
-San Jose;Costa Rica
+San Jose (16);Costa Rica
 Pandora;Costa Rica
 Palmar Sur;Costa Rica
 Quepos;Costa Rica
 Santa Clara;Costa Rica
 San Vito De Jaba;Costa Rica
-San Salvador;El Salvador
 San Salvador;El Salvador
 Cayes;Haiti
 Cap Haitien;Haiti
@@ -1846,17 +1772,15 @@ Camaguey;Cuba
 Santiago De Cuba;Cuba
 Florida;Cuba
 Guantanamo;Cuba
-Guantanamo;Cuba
 Havana;Cuba
 Holguin;Cuba
 La Coloma;Cuba
 Moa;Cuba
-Manzanillo;Cuba
+Manzanillo (17);Cuba
 Nueva Gerona;Cuba
-Baracoa Playa;Cuba
 Pinar Del Rio Norte;Cuba
 San Antonio De Banos;Cuba
-Santa Clara;Cuba
+Santa Clara (18);Cuba
 Santa Lucia;Cuba
 Siguanea;Cuba
 Sancti Spiritus;Cuba
@@ -1934,7 +1858,6 @@ Noumea;New Caledonia
 Mare;New Caledonia
 Touho;New Caledonia
 Ouvea;New Caledonia
-Noumea;New Caledonia
 Auckland;New Zealand
 Taupo;New Zealand
 Ardmore;New Zealand
@@ -1944,7 +1867,7 @@ Dunedin;New Zealand
 Gisborne;New Zealand
 Glentanner;New Zealand
 Hokitika;New Zealand
-Hamilton;New Zealand
+Hamilton (19);New Zealand
 Hastings;New Zealand
 Kerikeri;New Zealand
 Kaitaia;New Zealand
@@ -1987,7 +1910,6 @@ Shindand;Afghanistan
 Sheberghan;Afghanistan
 Kunduz;Afghanistan
 Bahrain;Bahrain
-Bahrain;Bahrain
 Abha;Saudi Arabia
 Al-ahsa;Saudi Arabia
 El-baha;Saudi Arabia
@@ -2000,7 +1922,6 @@ Gassim;Saudi Arabia
 Guriat;Saudi Arabia
 Hail;Saudi Arabia
 Jubail;Saudi Arabia
-Jeddah;Saudi Arabia
 Jeddah;Saudi Arabia
 King Khalid Mil.city;Saudi Arabia
 Madinah;Saudi Arabia
@@ -2046,21 +1967,17 @@ Sanandaj;Iran
 Daran;Iran
 Esfahan;Iran
 Kashan;Iran
-Esfahan;Iran
 Sepah;Iran
 Rasht;Iran
 Arak;Iran
 Abe-ali;Iran
 Kushke Nosrat;Iran
 Teheran;Iran
-Teheran;Iran
-Teheran;Iran
 Ghazvin;Iran
 Khoram Dareh;Iran
 Bandar Abbas;Iran
 Jiroft;Iran
 Kerman;Iran
-Bandar Abbas;Iran
 Gheshm I.;Iran
 Sirjan;Iran
 Birjand;Iran
@@ -2083,7 +2000,6 @@ Zahedan;Iran
 Iran Shahr;Iran
 Saravan;Iran
 Amman;Jordan
-Amman;Jordan
 Aqaba;Jordan
 Hotel Four;Jordan
 Jerusalem;West Bank
@@ -2092,10 +2008,8 @@ Kuwait;Kuwait
 Beirut;Lebanon
 Kleiat;Lebanon
 Abu Dhabi;United Arab Emirates
-Abu Dhabi;United Arab Emirates
 Al Hamra;United Arab Emirates
 Jebel Dhana;United Arab Emirates
-Abu Dhabi;United Arab Emirates
 Arzana;United Arab Emirates
 Das Island;United Arab Emirates
 Zirku;United Arab Emirates
@@ -2115,12 +2029,10 @@ Gilgit;Pakistan
 Jacobsbad;Pakistan
 Karachi;Pakistan
 Lahore;Pakistan
-Lahore;Pakistan
 Mangla;Pakistan
 Muzaffarabad;Pakistan
 Mianwali;Pakistan
 Moenjodaro;Pakistan
-Karachi;Pakistan
 Multan;Pakistan
 Nawabshah;Pakistan
 Okara;Pakistan
@@ -2147,13 +2059,12 @@ Latakia;Syria
 Palmyra;Syria
 Doha;Qatar
 Canton Island;Kiribati
-Rota;Northern Mariana Islands
+Rota (20);Northern Mariana Islands
 Saipan;Northern Mariana Islands
 Andersen;Guam
 Agana;Guam
 West Tinian;Northern Mariana Islands
 Majuro;Marshall Islands
-Kwajalein;Marshall Islands
 Kwajalein;Marshall Islands
 Kiritimati;Kiribati
 Midway;Midway Islands
@@ -2175,8 +2086,6 @@ Tainan;Taiwan
 Hsinchu;Taiwan
 Makung;Taiwan
 Taitung;Taiwan
-Pingtung;Taiwan
-Taipei;Taiwan
 Taipei;Taiwan
 Wang An;Taiwan
 Hualien;Taiwan
@@ -2237,7 +2146,6 @@ Osaka;Japan
 Tottori;Japan
 Tokushima;Japan
 Takamatsu;Japan
-Osaka;Japan
 Ozuki;Japan
 Aomori;Japan
 Yamagata;Japan
@@ -2256,7 +2164,6 @@ Kisarazu;Japan
 Shimofusa;Japan
 Oshima;Japan
 Zama;Japan
-Tokyo;Japan
 Yokota;Japan
 Kwangju;South Korea
 Jhunju;South Korea
@@ -2298,7 +2205,7 @@ Baguio;Philippines
 Daet;Philippines
 Floridablanca;Philippines
 Lingayen;Philippines
-San Jose;Philippines
+San Jose (21);Philippines
 Lipa;Philippines
 Mamburao;Philippines
 Vigan;Philippines
@@ -2312,15 +2219,15 @@ Guiuan;Philippines
 Iloilo;Philippines
 Kalibo;Philippines
 Puerto Princesa;Philippines
-San Jose;Philippines
+San Jose (22);Philippines
 Concordia;Argentina
 Gualeguaychu;Argentina
 Junin;Argentina
 Parana;Argentina
 Rosario;Argentina
 Santa Fe;Argentina
-Buenos Aires;Argentina
-Cordoba;Argentina
+Buenos Aires (23);Argentina
+Cordoba (24);Argentina
 Gobernador Gordillo;Argentina
 San Fernando;Argentina
 Jose C. Paz;Argentina
@@ -2344,7 +2251,7 @@ Villa Dolores;Argentina
 Laboulaye;Argentina
 Marcos Juarez;Argentina
 Villa Reynolds;Argentina
-San Luis;Argentina
+San Luis (25);Argentina
 Corrientes;Argentina
 Resistencia;Argentina
 Formosa;Argentina
@@ -2355,7 +2262,7 @@ Posadas;Argentina
 Presidencia R.s.pena;Argentina
 Salta;Argentina
 Jujuy;Argentina
-Oran;Argentina
+Oran (26);Argentina
 La Quiaca;Argentina
 El Dorado;Argentina
 Goya;Argentina
@@ -2405,11 +2312,10 @@ Curitiba;Brazil
 Barbacena;Brazil
 Brasilia;Brazil
 Bauru;Brazil
-Boa Vista;Brazil
+Boa Vista (27);Brazil
 Barra Do Garcas;Brazil
 Cascavel;Brazil
 Itaituba;Brazil
-Belo Horizonte;Brazil
 Campo Grande;Brazil
 Chapeco;Brazil
 Carolina;Brazil
@@ -2417,7 +2323,6 @@ Criciuma;Brazil
 Porto Alegre;Brazil
 Campos;Brazil
 Corumba;Brazil
-Curitiba;Brazil
 Caravelas;Brazil
 Caxias Do Sul;Brazil
 Cuiaba;Brazil
@@ -2431,20 +2336,16 @@ Florianopolis;Brazil
 Fernando Do Noronha;Brazil
 Alpinopolis;Brazil
 Fortaleza;Brazil
-Rio De Janeiro;Brazil
 Guajara-mirim;Brazil
 Goiania;Brazil
 Macae;Brazil
 Sao Paulo;Brazil
 Guaratingueta;Brazil
 Altamira;Brazil
-Itaituba;Brazil
-Itaituba;Brazil
 Ilheus;Brazil
 Ipatinga;Brazil
 Itumbiara;Brazil
 Imperatriz;Brazil
-Belem;Brazil
 Juiz De Fora;Brazil
 Joao Pessoa;Brazil
 Joinville;Brazil
@@ -2459,17 +2360,14 @@ Maraba;Brazil
 Almeirim;Brazil
 Maringa;Brazil
 Montes Claros;Brazil
-Manaus;Brazil
 Maceio;Brazil
 Macapa;Brazil
 Mocord;Brazil
-Sao Paulo;Brazil
 Manicore;Brazil
 Navegantes;Brazil
 Santo Angelo;Brazil
 Natal;Brazil
 Oioiapoque;Brazil
-Porto Alegre;Brazil
 Parnaiba;Brazil
 Pocos De Caldas;Brazil
 Passo Fundo;Brazil
@@ -2480,12 +2378,9 @@ Ponta Pora;Brazil
 Porto Velho;Brazil
 Rio Branco;Brazil
 Recife;Brazil
-Rio De Janeiro;Brazil
 Ribeirao Preto;Brazil
-Rio De Janeiro;Brazil
 Sao Jose Dos Campos;Brazil
 Sao Luis;Brazil
-Sao Paulo;Brazil
 Sao Jose Do Rio Preto;Brazil
 Santos;Brazil
 Salvador;Brazil
@@ -2504,19 +2399,19 @@ Uberlandia;Brazil
 Uberaba;Brazil
 Varginha;Brazil
 Vilhena;Brazil
-Vitoria;Brazil
+Vitoria (28);Brazil
 Iauarete;Brazil
 Piracununga;Brazil
 Arica;Chile
 Balmaceda;Chile
-Santiago;Chile
+Santiago (29);Chile
 Chile Chico;Chile
 Calama;Chile
 Chillan;Chile
 Punta Arenas;Chile
 Coyhaique;Chile
 Iquique;Chile
-Santiago;Chile
+Santiago (30);Chile
 Antofagasta;Chile
 Porvenir;Chile
 Futaleufu;Chile
@@ -2529,7 +2424,7 @@ Vallenar;Chile
 Rancagua;Chile
 Isla Rey Jorge;Antarctica
 La Serena;Chile
-Santiago;Chile
+Santiago (31);Chile
 Temuco;Chile
 Puerto Montt;Chile
 Chaiten;Chile
@@ -2556,9 +2451,9 @@ Portoviejo;Ecuador
 Quevedo;Ecuador
 Quito;Ecuador
 Riobamba;Ecuador
-Santa Rosa;Ecuador
+Santa Rosa (32);Ecuador
 Salinas;Ecuador
-Santo Domingo;Ecuador
+Santo Domingo (33);Ecuador
 Taura;Ecuador
 Tena;Ecuador
 Tarapoa;Ecuador
@@ -2598,7 +2493,7 @@ Monteria;Colombia
 Mitu;Colombia
 Manizales;Colombia
 Neiva;Colombia
-Ocana;Colombia
+Ocana (34);Colombia
 Otu;Colombia
 Puerto Bolivar;Colombia
 Puerto Carreno;Colombia
@@ -2624,7 +2519,7 @@ Bermejo;Bolivia
 Cochabamba;Bolivia
 Chapacura;Bolivia
 Cobija;Bolivia
-La Paz;Bolivia
+La Paz (35);Bolivia
 Oruro;Bolivia
 Potosi;Bolivia
 Puerto Suarez;Bolivia
@@ -2633,7 +2528,7 @@ Sucre;Bolivia
 Tarija;Bolivia
 Trinidad;Bolivia
 Villa Montes;Bolivia
-Santa Cruz;Bolivia
+Santa Cruz (36);Bolivia
 Yacuiba;Bolivia
 Zandery;Suriname
 Cayenne;French Guiana
@@ -2663,7 +2558,7 @@ Chachapoyas;Peru
 Iquitos;Peru
 Arequipa;Peru
 San Ramon;Peru
-Trujillo;Peru
+Trujillo (37);Peru
 Pisco;Peru
 Tarapoto;Peru
 Tacna;Peru
@@ -2673,12 +2568,11 @@ Talara;Peru
 Cuzco;Peru
 Montevideo;Uruguay
 Durazno;Uruguay
-Montevideo;Uruguay
 Salto;Uruguay
 Acarigua;Venezuela
 Anaco;Venezuela
 San Fernando Deatabapo;Venezuela
-Barcelona;Venezuela
+Barcelona (38);Venezuela
 Barinas;Venezuela
 Maracaibo;Venezuela
 Barquisimeto;Venezuela
@@ -2693,7 +2587,7 @@ Coro;Venezuela
 Caracas;Venezuela
 Cumana;Venezuela
 Carrizal;Venezuela
-El Dorado;Venezuela
+El Dorado (39);Venezuela
 Elorza;Venezuela
 Guasdualito;Venezuela
 Guiria;Venezuela
@@ -2704,10 +2598,8 @@ Paraguana;Venezuela
 San Juan De Los Morros;Venezuela
 La Fria;Venezuela
 La Orchila;Venezuela
-Maracaibo;Venezuela
-Merida;Venezuela
+Merida (40);Venezuela
 Porlamar;Venezuela
-Caracas;Venezuela
 Maturin;Venezuela
 Puerto Ayacucho;Venezuela
 Puerto Cabello;Venezuela
@@ -2717,14 +2609,13 @@ Palmarito;Venezuela
 San Antonio;Venezuela
 Santa Barbara;Venezuela
 Santa Ana De Uairen;Venezuela
-Santo Domingo;Venezuela
+Santo Domingo (41);Venezuela
 San Felipe;Venezuela
 San Fernando De Apure;Venezuela
 San Tome;Venezuela
-Santa Barbara;Venezuela
 Tucupita;Venezuela
 Tumeremo;Venezuela
-Valencia;Venezuela
+Valencia (42);Venezuela
 Valera;Venezuela
 Valle De La Pascua;Venezuela
 Linden;Guyana
@@ -2741,17 +2632,17 @@ St. Thomas;Virgin Islands
 St. Croix Island;Virgin Islands
 Aguadilla;Puerto Rico
 Fajardo;Puerto Rico
-San Juan;Puerto Rico
+San Juan (43);Puerto Rico
 Mayaguez;Puerto Rico
 Ponce;Puerto Rico
-San Juan;Puerto Rico
+San Juan (44);Puerto Rico
 Basse Terre;Saint Kitts and Nevis
 Castries;Saint Lucia
 Hewandorra;Saint Lucia
 Oranjestad;Aruba
 Kralendijk;Netherlands Antilles
 Willemstad;Netherlands Antilles
-Oranjestad;Netherlands Antilles
+Oranjestad (45);Netherlands Antilles
 Philipsburg;Netherlands Antilles
 The Valley;Anguilla
 Scarborough;Trinidad and Tobago
@@ -2790,7 +2681,6 @@ Kiev;Ukraine
 Donetsk;Ukraine
 Dnepropetrovsk;Ukraine
 Simferopol;Ukraine
-Kiev;Ukraine
 Lvov;Ukraine
 Odessa;Ukraine
 St. Petersburg;Russia
@@ -2829,7 +2719,6 @@ Bryansk;Russia
 Moscow;Russia
 Tver;Russia
 Voronezh;Russia
-Moscow;Russia
 Syktyvkar;Russia
 Kazan;Russia
 Orenburg;Russia
@@ -2868,7 +2757,6 @@ Udaipur;India
 Colombo;Sri Lanka
 Anuradhapura;Sri Lanka
 Batticaloa;Sri Lanka
-Colombo;Sri Lanka
 Galoya;Sri Lanka
 Jaffna;Sri Lanka
 Trinciomalee;Sri Lanka
@@ -2913,7 +2801,6 @@ Rajshahi;Bangladesh
 Saidpur;Bangladesh
 Sylhet Osmani;Bangladesh
 Dhaka;Bangladesh
-Dhaka;Bangladesh
 Hong Kong;Hong Kong
 Sek Kong;Hong Kong
 Agra;India
@@ -2930,7 +2817,6 @@ Chandigarh;India
 Kanpur;India
 Delhi;India
 Dehra Dun;India
-Delhi;India
 Gwalior;India
 Hissar;India
 Jhansi;India
@@ -2938,7 +2824,6 @@ Jodhpur;India
 Jaipur;India
 Jaisalmer;India
 Jammu;India
-Kanpur;India
 Kota;India
 Ludhiaha;India
 Leh;India
@@ -2969,7 +2854,7 @@ Bellary;India
 Bidar;India
 Vijayawada;India
 Coimbatore;India
-Kochi;India
+Kochi (46);India
 Calicut;India
 Cuddapah;India
 Carnicobar;India
@@ -3000,7 +2885,6 @@ Phrae;Thailand
 Prachuap Khiri Khan;Thailand
 Nakhon Sawan;Thailand
 Phetchabun;Thailand
-Nakhon Sawan;Thailand
 Phitsanulok;Thailand
 Tak;Thailand
 Satun;Thailand
@@ -3023,7 +2907,6 @@ Roi Et;Thailand
 Danang;Vietnam
 Hanoi;Vietnam
 Kep;Vietnam
-Hanoi;Vietnam
 Nhatrang;Vietnam
 Hue;Vietnam
 Phuquoc;Vietnam
@@ -3123,11 +3006,9 @@ Sembawang;Singapore
 Paya Lebar;Singapore
 Tengah;Singapore
 Singapore;Singapore
-Singapore;Singapore
 Brisbane;Australia
 Amberley;Australia
 Alice Springs;Australia
-Brisbane;Australia
 Coolangatta;Australia
 Cairns;Australia
 Charlieville;Australia
@@ -3144,29 +3025,25 @@ Melbourne;Australia
 East Sale;Australia
 Hobart;Australia
 Launceston;Australia
-Melbourne;Australia
-Melbourne;Australia
 Point Cook;Australia
 Adelaide;Australia
-Edinburgh;Australia
+Edinburgh (47);Australia
 Perth;Australia
 Karratha;Australia
 Kalgoorlie;Australia
 Kununurra;Australia
 Learmonth;Australia
 Port Hedland;Australia
-Adelaide;Australia
-Perth;Australia
 Woomera;Australia
 Christmas Island;Christmas Island
-Sydney;Australia
+Sydney (48);Australia
 Canberra;Australia
 Coff's Harbour;Australia
 Camden;Australia
 Dubbo;Australia
 Norfolk Island;Norfolk Island
 Richmond;Australia
-Sydney;Australia
+Sydney (49);Australia
 Tamworth;Australia
 Wagga Wagga;Australia
 Beijing;China
@@ -3206,11 +3083,8 @@ Urumqi;China
 Harbin;China
 Mudanjiang;China
 Dalian;China
-Shanghai;China
 Tioman;Malaysia
-Kuala Lumpur;Malaysia
 Wajima;Japan
-Alexandria;Egypt
 Barter Island;United States
 Fort Wainwright;United States
 Cape Lisburne;United States
@@ -3237,7 +3111,7 @@ Fort Ord;United States
 Sacramento;United States
 Fort Irwin;United States
 Twenty Nine Palms;United States
-Fort Smith;United States
+Fort Smith (50);United States
 Anchorage;United States
 Grants;United States
 Ponca City;United States
@@ -3247,10 +3121,10 @@ Pine Bluff;United States
 Milton;United States
 Hana;United States
 Prescott;United States
-Trenton;United States
+Trenton (51);United States
 Boston;United States
 Fairfield;United States
-Rome;United States
+Rome (52);United States
 Wendover;United States
 Mobile;United States
 Oakland;United States
@@ -3266,7 +3140,7 @@ Phoenix;United States
 Bangor;United States
 Fort Lauderdale;United States
 Longview;United States
-Andersen;United States
+Andersen (53);United States
 Spokane;United States
 Hollywood;United States
 San Francisco;United States
@@ -3284,7 +3158,7 @@ Redstone;United States
 Fort Bragg;United States
 Dalhart;United States
 Del Rio;United States
-Los Angeles;United States
+Los Angeles (54);United States
 Anniston;United States
 Cleveland;United States
 Dover;United States
@@ -3306,7 +3180,6 @@ Dallas;United States
 Fort Carson;United States
 Helena;United States
 Miramar;United States
-Phoenix;United States
 Mary Esther;United States
 Hawthorne;United States
 Houlton;United States
@@ -3332,7 +3205,6 @@ Presque Isle;United States
 Fort Lewis;United States
 Kodiak;United States
 Opolu;United States
-Fort Lauderdale;United States
 Muskogee;United States
 International Falls;United States
 Salt Lake City;United States
@@ -3347,7 +3219,7 @@ Lansing;United States
 Kamuela;United States
 Massena;United States
 Hickory;United States
-St. Petersburg;United States
+St. Petersburg (55);United States
 Fort Myers;United States
 Houston;United States
 Millinocket;United States
@@ -3363,15 +3235,12 @@ Harlingen;United States
 Columbia;United States
 Tucson;United States
 Pensacola;United States
-Pensacola;United States
 Red River;United States
-Houston;United States
 Buckley;United States
 Northway;United States
 Palmer;United States
 Pittsburgh;United States
 Barrow;United States
-Houston;United States
 Whidbey Island;United States
 Alice;United States
 Valdosta;United States
@@ -3382,19 +3251,17 @@ Stratford;United States
 Jackson;United States
 Galveston;United States
 Long Beach;United States
-Dillingham;United States
 Williamsport;United States
 Indianapolis;United States
 Knobnoster;United States
 Akron;United States
-Greenwood;United States
+Greenwood (56);United States
 White Plains;United States
 West Hampton Beach;United States
 Jonesboro;United States
 Tonopah;United States
 West Palm Beach;United States
 San Diego;United States
-El Paso;United States
 Yuma;United States
 Carlsbad;United States
 Duluth;United States
@@ -3407,7 +3274,7 @@ Havre;United States
 Grant County Airport;United States
 Montpelier;United States
 San Nicolas Island;United States
-Richmond;United States
+Richmond (57);United States
 Shreveport;United States
 Cordova;United States
 Norfolk;United States
@@ -3415,12 +3282,12 @@ Beaumont;United States
 Savannah;United States
 Ogden;United States
 Nome;United States
-San Luis;United States
-St. Petersburg;United States
-Macon;United States
+San Luis (58);United States
+St. Petersburg (59);United States
+Macon (60);United States
 Conroe;United States
 Deadhorse;United States
-San Antonio;United States
+San Antonio (61);United States
 Rochester;United States
 Coco Beach;United States
 Teterboro;United States
@@ -3433,10 +3300,8 @@ Niagara Falls;United States
 Bryan;United States
 Wright;United States
 Newport News;United States
-Alexandria;United States
+Alexandria (62);United States
 Altus;United States
-Tucson;United States
-Minot;United States
 Marysville;United States
 Kankakee;United States
 Goldsboro;United States
@@ -3453,37 +3318,33 @@ Hibbing;United States
 Lufkin;United States
 Midland;United States
 Green Bay;United States
-Ardmore;United States
+Ardmore (63);United States
 Wrightstown;United States
 Cherry Point;United States
-Santa Barbara;United States
+Santa Barbara (64);United States
 Bush Field;United States
 Williston;United States
 Little Rock;United States
 Newburgh;United States
 Baudette;United States
-Sacramento;United States
 Homer;United States
 Fort Leonardwood;United States
 Marietta;United States
-Spokane;United States
 Houghton Lake;United States
-Panama City;United States
+Panama City (65);United States
 Dallas-Fort Worth;United States
-Melbourne;United States
+Melbourne (66);United States
 Tacoma;United States
 Austin;United States
 Columbus;United States
 Gwinn;United States
 Knoxville;United States
 Fort Hood;United States
-St. Louis;United States
+St. Louis (67);United States
 Millville;United States
 Wichita Falls;United States
-Cincinnati;United States
 Atlanta;United States
 Merced;United States
-Sacramento;United States
 Grand Rapids;United States
 Wink;United States
 Fresno;United States
@@ -3491,52 +3352,37 @@ Vero Beach;United States
 Imperial;United States
 Nashville;United States
 Laredo;United States
-Anchorage;United States
 Kotzebue;United States
 Altoona;United States
 Abilene;United States
-El Dorado;United States
+El Dorado (68);United States
 New York;United States
 Tallahassee;United States
 West Chicago;United States
-Waco;United States
 Augusta;United States
 Hillsboro;United States
-Jacksonville;United States
-Jackson;United States
 Molokai;United States
 Fort Knox;United States
-Jacksonville;United States
 San Angelo;United States
 Calexico;United States
 Chico;United States
 Burlington;United States
-Jacksonville;United States
-Durango;United States
-Washington;United States
+Durango (69);United States
 College Station;United States
-Spokane;United States
 Milwaukee;United States
-Abilene;United States
-Columbia;United States
 Portland;United States
-Miami;United States
-West Palm Beach;United States
 Fort Worth;United States
 Ogdensburg;United States
 Falmouth;United States
-Seattle;United States
-San Antonio;United States
+San Antonio (70);United States
 Honolulu;United States
 Des Moines;United States
 New Bern;United States
-San Diego;United States
 Monroe;United States
 Sumter;United States
 Ontario;United States
 Greenvile;United States
 Roswell;United States
-Detroit;United States
 Brownsville;United States
 Dothan;United States
 Wildwood;United States
@@ -3547,33 +3393,28 @@ Corpus Christi;United States
 Syracuse;United States
 Key West;United States
 Chicago;United States
-San Jose;United States
+San Jose (71);United States
 Hobbs;United States
 Philadelphia;United States
 Denver;United States
-Philadelphia;United States
 Sioux City;United States
-Macon;United States
+Macon (72);United States
 Truth Or Consequences;United States
 Palmdale;United States
-San Antonio;United States
+San Antonio (73);United States
 El Centro;United States
-Columbus;United States
 Fayetteville;United States
 Fort Sill;United States
-Princeton;United States
-Dayton;United States
+Princeton (74);United States
 Galena;United States
 Chandler;United States
 Mineral Wells;United States
-Wichita;United States
 New Orleans;United States
 Beaufort;United States
 Texarkana;United States
 Plattsburgh;United States
-Aberdeen;United States
+Aberdeen (75);United States
 Tucumcari;United States
-Anchorage;United States
 Killeen;United States
 Zuni Pueblo;United States
 Bellingham;United States
@@ -3581,22 +3422,16 @@ Millington;United States
 Elkins;United States
 Hartford;United States
 Smithfield;United States
-Mobile;United States
 Mountain View;United States
-Santa Fe;United States
+Santa Fe (76);United States
 Barking Sands;United States
 Deridder;United States
 Bradshaw Field;United States
-Nogales;United States
-Tampa;United States
+Nogales (77);United States
 Belleville;United States
-Miami;United States
-Del Rio;United States
-Fort Myers;United States
 King Salmon;United States
 Muir;United States
 Lahania-kapalua;United States
-New York;United States
 Homestead;United States
 Riverside;United States
 Fort Leavenworth;United States
@@ -3608,16 +3443,12 @@ Stockton;United States
 Charleston;United States
 Reno;United States
 Ketchikan;United States
-Detroit;United States
 Lompoc;United States
-Birmingham;United States
+Birmingham (78);United States
 Lakehurst;United States
 Shemya;United States
 Las Vegas;United States
-Riverside;United States
 Modesto;United States
-Sacramento;United States
-Chicago;United States
 Colorado Springs;United States
 Buffalo;United States
 Sandusky;United States
@@ -3626,22 +3457,17 @@ Mountain Home;United States
 Cedar City;United States
 Windsor Locks;United States
 Mcallen;United States
-Norfolk;United States
 Chicopee Falls;United States
 Lubbock;United States
-Chicago;United States
 Boca Raton;United States
-Fairbanks;United States
 Quantico;United States
 Clovis;United States
 Kaneohe Bay;United States
-Omaha;United States
 Gulkana;United States
 Watertown;United States
 Palm Springs;United States
 Amarillo;United States
 Fort Dodge;United States
-Shreveport;United States
 Topeka;United States
 Cotulla;United States
 Wilmington;United States
@@ -3649,24 +3475,20 @@ Baton Rouge;United States
 Meridian;United States
 Tyler;United States
 Baltimore;United States
-Hobart;United States
+Hobart (79);United States
 Lanai;United States
-Alexandria;United States
+Alexandria (80);United States
 White Sands;United States
 Cold Bay;United States
 Tulsa;United States
 Sitka;United States
 Islip;United States
 Minneapolis;United States
-Wilmington;United States
 Unalaska;United States
-New Orleans;United States
-Portland;United States
-Oklahoma City;United States
 Albany;United States
 Valdez;United States
 Hampton;United States
-Santa Ana;United States
+Santa Ana (81);United States
 Colombus;United States
 Kendall-tamiami;United States
 Oceana;United States
@@ -3674,21 +3496,16 @@ Peru;United States
 Casper;United States
 Valparaiso;United States
 Selma;United States
-Key West;United States
 Charlotte;United States
-Las Vegas;United States
-Orlando;United States
-Florence;United States
+Florence (82);United States
 Great Falls;United States
 Youngstown;United States
-Fort Wainwright;United States
 Mackminnville;United States
-Macon;United States
-Bangkok;Thailand
+Macon (83);United States
 Naha;Indonesia
 Masamba;Indonesia
 Soroako;Indonesia
-Makale;Indonesia
+Makale (84);Indonesia
 Kendari;Indonesia
 Sabang;Indonesia
 Tasikmalaya;Indonesia
@@ -3699,7 +3516,6 @@ Bandung;Indonesia
 Cirebon;Indonesia
 Yogyakarta;Indonesia
 Cilacap;Indonesia
-Jakarta;Indonesia
 Semarang;Indonesia
 Batam;Indonesia
 Tanjung Pandan;Indonesia
@@ -3724,11 +3540,8 @@ Bima;Indonesia
 Waingapu;Indonesia
 Surabaya;Indonesia
 Solo City;Indonesia
-Seoul;South Korea
 Chiang Mai;Thailand
 Chiang Rai;Thailand
-Nakhon Si Thammarat;Thailand
-Nakhon Ratchasima;Thailand
 Nakhon Phanom;Thailand
 Ubon Ratchathani;Thailand
 Khon Kaen;Thailand
@@ -3742,20 +3555,18 @@ Lewiston;United States
 Elmira;United States
 Ithaca;United States
 Monterey;United States
-Santa Barbara;United States
+Santa Barbara (85);United States
 Daytona Beach;United States
 Liepaja;Latvia
 Riga;Latvia
 Siauliai;Lithuania
 Barysiai;Lithuania
 Kaunas;Lithuania
-Kaunas;Lithuania
 Palanga;Lithuania
 Vilnius;Lithuania
 Panevezys;Lithuania
 Yerevan;Armenia
 Stepanavan;Armenia
-Yerevan;Armenia
 Gyumri;Armenia
 Assab;Eritrea
 Asmara;Eritrea
@@ -3776,12 +3587,9 @@ Socotra;Yemen
 Al Badie;Yemen
 Memmingen;Germany
 Nevsehir;Turkey
-Buenos Aires;Argentina
+Buenos Aires (86);Argentina
 Erbil;Iraq
 Emerald;Australia
-Athens;Greece
-Osaka;Japan
-New York;United States
 Tagbilaran;Philippines
 Ilulissat;Greenland
 Qasigiannguit;Greenland
@@ -3797,9 +3605,8 @@ Greensboro;United States
 Sioux Falls;United States
 Uluru;Australia
 Manchester NH;United States
-Naples;United States
+Naples (87);United States
 Redang;Malaysia
-Louisville;United States
 Charlottesville VA;United States
 Roanoke VA;United States
 Lexington KY;United States
@@ -3809,12 +3616,11 @@ Bozeman;United States
 Billings;United States
 Butte;United States
 Traverse City;United States
-Flores;Guatemala
+Flores (88);Guatemala
 Bar Harbor;United States
 Rockland;United States
 Jacksn Hole;United States
 Rockford;United States
-Moscow;Russia
 Sanya;China
 Milford Sound;New Zealand
 Lijiang;China
@@ -3830,7 +3636,6 @@ La Crosse;United States
 Wassau;United States
 Peoria;United States
 Appleton;United States
-Rochester;United States
 Champaign;United States
 Manhattan;United States
 Kingscote;Australia
@@ -3839,19 +3644,17 @@ Dali;China
 Mulu;Malaysia
 Sharm El Sheikh;Egypt
 Franklin;United States
-Nairobi;Kenya
 Seronera;Tanzania
 El Calafate;Argentina
 Armidale;Australia
 Grand Junction;United States
 Saint George;United States
-Houston;United States
 Port O\'Connor;United States
 Sarasota;United States
 Bermuda;Bermuda
 Van Nuys;United States
 Moline;United States
-Panama City;United States
+Panama City (89);United States
 Honiara;Solomon Islands
 Papeete;French Polynesia
 Nauru;Nauru
@@ -3863,8 +3666,6 @@ Bismarck;United States
 Telluride;United States
 Yinchuan;China
 Mae Hong Son;Thailand
-Rapid City;United States
-Carlsbad;United States
 Flint;United States
 Davao;Philippines
 Funchal;Portugal
@@ -3882,13 +3683,10 @@ Kaikoura;New Zealand
 Redmond-Bend;United States
 Picton;New Zealand
 Windhoek;Namibia
-Victoria;Canada
-Vancouver;Canada
 Jinan;China
 Changzhou;China
 Yibin;China
 Tyumen;Russia
-Akron;United States
 Huntsville;United States
 PARKERSBURG;United States
 MONTGOMERY;United States
@@ -3904,7 +3702,6 @@ Saginaw;United States
 Binghamton;United States
 Baghdad;Iraq
 Nan;Thailand
-Roi Et;Thailand
 Buri Ram;Thailand
 Trat;Thailand
 Blythe;United States
@@ -3931,7 +3728,6 @@ Chu Lai;Vietnam
 Tuy Hoa;Vietnam
 Pai;Thailand
 Brac;Croatia
-Yaounde;Cameroon
 Conakry;Guinea
 Aachen;Germany
 Karlsruhe/Baden-Baden;Germany
@@ -3983,11 +3779,7 @@ Bundaberg;Australia
 Grand Canyon;United States
 Sugar Land;United States
 Hayman Island;Australia
-Denver;United States
-Clovis;United States
 Fort Stockton;United States
-Las Vegas;United States
-Houston;United States
 La Junta;United States
 Las Cruces;United States
 Breckenridge;United States
@@ -4000,13 +3792,12 @@ Tulita;Canada
 Fort Good Hope;Canada
 Tanna;Vanuatu
 Paulatuk;Canada
-Santa Cruz;Bolivia
+Santa Cruz (90);Bolivia
 Saba;Netherlands Antilles
 Vail;United States
 Stokmarknes;Norway
 Richmond Heights;United States
 Mansfield;United States
-Columbus;United States
 Lawton;United States
 Fort Collins;United States
 Flagstaff;United States
@@ -4016,47 +3807,41 @@ Vineyard Haven MA;United States
 Concord NH;United States
 Groton CT;United States
 Saint Cloud;United States
-Bagan;Burma
 Columbus Mississippi;United States
 Nizhniy Novgorod;Russia
 Hoquiam;United States
 Erie;United States
 Barnstable;United States
-San Pedro;Belize
+San Pedro (91);Belize
 Sedona;United States
 Morgantown;United States
-Charleston;United States
 Scranton;United States
 Bemidji;United States
 Biloela;Australia
 Apia;Samoa
 Ballina Byron Bay;Australia
 Fargo;United States
-Kansas City;United States
 Ratanakiri;Cambodia
 Gillette;United States
 Tomsk;Russia
-Santa Ana;United States
-Phetchabun;Thailand
+Santa Ana (92);United States
 Chumphon;Thailand
 Jiuzhaigou;China
 Shantou;China
 Enghien-moisselles;France
-Georgetown;Guyana
+Georgetown (93);Guyana
 Ciudad del Este;Paraguay
-Georgetown;Guyana
+Georgetown (94);Guyana
 Kaieteur;Guyana
 Dunhuang;China
 Ancona;Italy
 Copiapo;Chile
 Taba;Egypt
 Little Cayman;Cayman Islands
-Bodrum;Turkey
 Tabarka;Tunisia
-Istanbul;Turkey
 State College Pennsylvania;United States
 Broome;Australia
-Newcastle;Australia
+Newcastle (95);Australia
 Bakki;Iceland
 Klagenfurt;Austria
 Hammerfest;Norway
@@ -4066,7 +3851,6 @@ Vadsø;Norway
 Tehran;Iran
 Mashhad;Iran
 Ust Ilimsk;Russia
-Meridian;United States
 Springfield;United States
 Cortez;United States
 Hayden;United States
@@ -4077,10 +3861,8 @@ Goodland;United States
 Cody;United States
 Orsta-Volda;Norway
 ST MARY\'S;United Kingdom
-Springfield;United States
 Narvik;Norway
 Berlevag;Norway
-Oslo;Norway
 Norilsk;Russia
 Anapa;Russia
 Joplin;United States
@@ -4089,7 +3871,6 @@ Bentonville;United States
 Atyrau;Kazakhstan
 Kzyl-Orda;Kazakhstan
 South Bend;United States
-Moscow;Russia
 Arkhangelsk;Russia
 Saratov;Russia
 Novy Urengoy;Russia
@@ -4103,7 +3884,6 @@ Pskov;Russia
 Kogalym;Russia
 Krasnoyarsk;Russia
 Karaganda;Kazakhstan
-Novosibirsk;Russia
 Uraj;Russia
 Ivanovo;Russia
 Changchun;China
@@ -4114,7 +3894,6 @@ Arcata CA;United States
 Jacksonville NC;United States
 Tuscaloosa AL;United States
 Dubuque IA;United States
-Hong Kong;Hong Kong
 Atoifi;Solomon Islands
 Auki;Solomon Islands
 Ballalae;Solomon Islands
@@ -4205,7 +3984,6 @@ Kuujjuarapik;Canada
 Gillam;Canada
 Grise Fiord;Canada
 Quaqtaq;Canada
-Vancouver;Canada
 Nemiscau;Canada
 Hopedale;Canada
 Chevery;Canada
@@ -4237,7 +4015,6 @@ Stony Rapids;Canada
 Sanikiluaq;Canada
 St. Theresa Point;Canada
 Big Trout Lake;Canada
-Deer Lake;Canada
 Webequie;Canada
 Whale Cove;Canada
 Salluit;Canada
@@ -4305,7 +4082,6 @@ Torsby;Sweden
 Mohed;Sweden
 Hemavan;Sweden
 Ventspils;Latvia
-Johannesburg;South Africa
 Mpumalanga;South Africa
 Malamala;South Africa
 Mafeking;South Africa
@@ -4316,7 +4092,6 @@ Tuli Lodge;Botswana
 Loubomo;Congo (Brazzaville)
 Chipata;Zambia
 Solwesi;Zambia
-Moroni;Comoros
 Antsalova;Madagascar
 Ankavandra;Madagascar
 Belo sur Tsiribihina;Madagascar
@@ -4346,7 +4121,6 @@ Luderitz;Namibia
 Ondangwa;Namibia
 Oranjemund;Namibia
 Swakopmund;Namibia
-Windhoek;Namibia
 Boma;Congo (Kinshasa)
 Matadi;Congo (Kinshasa)
 Inongo;Congo (Kinshasa)
@@ -4391,7 +4165,6 @@ Malindi;Kenya
 Nanyuki;Kenya
 Sirt;Libya
 Tobruk;Libya
-Tripoli;Libya
 Al Bayda';Libya
 Atbara;Sudan
 Nyala;Sudan
@@ -4405,32 +4178,26 @@ Tabora;Tanzania
 Arua;Uganda
 Gulu;Uganda
 Diu;India
-Aberdeen;United States
-Albany;United States
-Athens;United States
-Alamogordo;United States
-Waterloo;United States
+Aberdeen (96);United States
+Athens (97);United States
+Waterloo (98);United States
 Walla Walla;United States
 Alpena;United States
-Watertown;United States
 Bradford;United States
 Scottsbluff;United States
 Beckley;United States
 Brunswick;United States
-Burlington;United States
 Crescent City;United States
 Cape Girardeau;United States
 Sault Ste Marie;United States
 Clarksburg;United States
-Port Angeles;United States
 Hancock;United States
 Dodge City;United States
 Du Bois;United States
 Eau Claire;United States
 Elko;United States
 New Bedford;United States
-Fayetteville;United States
-Glasgow;United States
+Glasgow (99);United States
 Grand Island;United States
 Hot Springs;United States
 Huntington;United States
@@ -4466,8 +4233,7 @@ Salina;United States
 Santa Maria;United States
 Tupelo;United States
 Quincy;United States
-Victoria;United States
-Valdosta;United States
+Victoria (100);United States
 Worland;United States
 Yakima;United States
 Nicosia;Cyprus
@@ -4489,14 +4255,12 @@ Sanliurfa;Turkey
 Kahramanmaras;Turkey
 Agri;Turkey
 Adiyaman;Turkey
-Isparta;Turkey
 Balikesir Korfez;Turkey
 Samsun;Turkey
 Žilina;Slovakia
-Cockburn Town;Turks and Caicos Islands
+Cockburn Town (101);Turks and Caicos Islands
 Middle Caicos;Turks and Caicos Islands
 Salt Cay;Turks and Caicos Islands
-Samana;Dominican Republic
 La Isabela;Dominican Republic
 Puerto Barrios;Guatemala
 Quezaltenango;Guatemala
@@ -4517,17 +4281,16 @@ Pococi;Costa Rica
 Nicoya;Costa Rica
 Nandayure;Costa Rica
 Puerto Jimenez;Costa Rica
-San Jose;Costa Rica
+San Jose (102);Costa Rica
 Playa Samara;Costa Rica
 Jeremie;Haiti
 Port-de-Paix;Haiti
 Cayo Coco;Cuba
-Trinidad;Cuba
+Trinidad (103);Cuba
 Andros;Bahamas
 Arthur's Town;Bahamas
 Cat Island;Bahamas
 Colonel Hill;Bahamas
-Nassau;Bahamas
 Atiu Island;Cook Islands
 Mangaia Island;Cook Islands
 Manihiki Island;Cook Islands
@@ -4583,7 +4346,7 @@ Olpoi;Vanuatu
 Anelghowhat;Vanuatu
 Aniwa;Vanuatu
 Dillon's Bay;Vanuatu
-Futuna Island;Vanuatu
+Futuna Island (104);Vanuatu
 Ipota;Vanuatu
 Tiga;New Caledonia
 Waala;New Caledonia
@@ -4610,7 +4373,7 @@ Dalbandin;Pakistan
 Dera Ghazi Khan;Pakistan
 Dera Ismael Khan;Pakistan
 Jiwani;Pakistan
-Hyderabad;Pakistan
+Hyderabad (105);Pakistan
 Khuzdar;Pakistan
 Ormara Raik;Pakistan
 Parachinar;Pakistan
@@ -4633,15 +4396,11 @@ Chevak;United States
 Wrangell;United States
 Balimo;Papua New Guinea
 Baimuru;Papua New Guinea
-Molokai;United States
 Eniwetok Atoll;Marshall Islands
 Matsu Islands;Taiwan
 Hengchun;Taiwan
-Matsu Islands;Taiwan
 Kushiro;Japan
-Sapporo;Japan
 Saga;Japan
-Nagoya;Japan
 Iwami;Japan
 Fukushima;Japan
 Odate Noshiro;Japan
@@ -4663,7 +4422,7 @@ Sangley Point;Philippines
 Tandag;Philippines
 Naga;Philippines
 Basco;Philippines
-San Fernando;Philippines
+San Fernando (106);Philippines
 Tuguegarao;Philippines
 Virac;Philippines
 Calbayog City;Philippines
@@ -4673,7 +4432,6 @@ Roxas City;Philippines
 Tartagal;Argentina
 Las Heras;Argentina
 San Antonio Oeste;Argentina
-El Calafate;Argentina
 Gobernador Gregores;Argentina
 Santa Teresita;Argentina
 Necochea;Argentina
@@ -4682,8 +4440,8 @@ Lençóis;Brazil
 Macaé;Brazil
 Marília;Brazil
 Vitória Da Conquista;Brazil
-Santa Maria;Brazil
-Toledo;Brazil
+Santa Maria (107);Brazil
+Toledo (108);Brazil
 El Salvador;Chile
 Pucon;Chile
 Sorocaba;Brazil
@@ -4709,14 +4467,14 @@ Caballococha;Peru
 Cajamarca;Peru
 Huánuco;Peru
 Nazca;Peru
-Santa Rosa;Brazil
+Santa Rosa (109);Brazil
 Maldonado;Uruguay
 Maracay;Venezuela
 El Vigía;Venezuela
 Ji-Paraná;Brazil
 Codrington;Antigua and Barbuda
 Grande Anse;Guadeloupe
-Basse Terre;Guadeloupe
+Basse Terre (110);Guadeloupe
 St-François;Guadeloupe
 Grand Bourg;Guadeloupe
 Charlestown;Saint Kitts and Nevis
@@ -4766,7 +4524,6 @@ Beslan;Russia
 Elista;Russia
 Aleknagik;United States
 Bluefield;United States
-Greenville;United States
 Pasco;United States
 Akutan;United States
 Lopez;United States
@@ -4818,7 +4575,6 @@ Nepalgunj;Nepal
 Gan Island;Maldives
 Haa Dhaalu Atoll;Maldives
 Laamu Atoll;Maldives
-Tak;Thailand
 Buonmethuot;Vietnam
 Haiphong;Vietnam
 Nha Trang;Vietnam
@@ -4856,7 +4612,6 @@ Bario;Malaysia
 Tomanggong;Malaysia
 Kudat;Malaysia
 Bandar Lampung-Sumatra Island;Indonesia
-Jakarta;Indonesia
 Ranai-Natuna Besar Island;Indonesia
 Putussibau-Borneo Island;Indonesia
 Sintang-Borneo Island;Indonesia
@@ -4866,7 +4621,7 @@ Pangkor Island;Malaysia
 Long Bawan-Borneo Island;Indonesia
 Nunukan-Nunukan Island;Indonesia
 Long Apung-Borneo Island;Indonesia
-Albany;Australia
+Albany (111);Australia
 Argyle;Australia
 Aurukun;Australia
 Barcaldine;Australia
@@ -4880,7 +4635,7 @@ Burketown;Australia
 Boigu;Australia
 Oakey;Australia
 Boulia;Australia
-Bathurst;Australia
+Bathurst (112);Australia
 Blackwater;Australia
 Carnarvon;Australia
 Cobar;Australia
@@ -4899,7 +4654,7 @@ Devonport;Australia
 Elcho Island;Australia
 Esperance;Australia
 Flinders Island;Australia
-Geraldton;Australia
+Geraldton (113);Australia
 Gladstone;Australia
 Groote Eylandt;Australia
 Griffith;Australia
@@ -4943,7 +4698,6 @@ Narrabri;Australia
 Normanton;Australia
 Newman;Australia
 Olympic Dam;Australia
-Argyle;Australia
 Palm Island;Australia
 Paraburdoo;Australia
 Cocos Keeling Island;Cocos (Keeling) Islands
@@ -4952,7 +4706,7 @@ Parkes;Australia
 Port Lincoln;Australia
 Pormpuraaw;Australia
 Port Macquarie;Australia
-Portland;Australia
+Portland (114);Australia
 Quilpie;Australia
 Ramingining;Australia
 Roma;Australia
@@ -4972,7 +4726,6 @@ Winton;Australia
 Burnie;Australia
 Yorke Island;Australia
 Yam Island;Australia
-Beijing;China
 Chifeng;China
 Changzhi;China
 Datong;China
@@ -5053,12 +4806,10 @@ Inis Mor;Ireland
 Indreabhan;Ireland
 Ruegen;Germany
 Berezovo;Russia
-Szczecin;Poland
 Worcester;United States
 Anqing;China
 Qinhuangdao;China
 Yuncheng;China
-Lanzhou;China
 Jiayuguan;China
 Dandong;China
 Dongsheng;China
@@ -5086,7 +4837,6 @@ Navoi;Uzbekistan
 Andernos-Les-Bains;France
 Nauen;Germany
 Setif;Algeria
-La Rochelle;France
 Hailey;United States
 Yverdon-Les-Bains;Switzerland
 Bielsko-Biala;Poland
@@ -5116,7 +4866,6 @@ Tasiujaq;Canada
 Arctic Village;United States
 Imo;Nigeria
 La Fortuna/San Carlos;Costa Rica
-Nicoya;Costa Rica
 Cauayan;Philippines
 Apatity;Russia
 Governador Valadares;Brazil
@@ -5124,12 +4873,11 @@ Port Clarence;United States
 Pajala;Sweden
 Bella Coola;Canada
 Hagerstown;United States
-Araracuara;Colombia
+Araracuara (115);Colombia
 Gorakhpur;India
 Sand Point;United States
 Hami;China
 Wuzhou;China
-Romblon;Philippines
 Maragheh;Iran
 Gorgan;Iran
 Ilam;Iran
@@ -5139,7 +4887,7 @@ Tacheng;China
 Mardin;Turkey
 Zarafshan;Uzbekistan
 Deering;United States
-Leon;Spain
+Leon (116);Spain
 Burgos;Spain
 Sege;Solomon Islands
 Shahre Kord;Iran
@@ -5175,7 +4923,7 @@ St-Augustin;Canada
 Hamadan;Iran
 Gasan;Philippines
 Grafton;Australia
-Orange;Australia
+Orange (117);Australia
 Taree;Australia
 Choibalsan;Mongolia
 Hohenems;Austria
@@ -5190,7 +4938,6 @@ Mudgee;Australia
 Maitland;Australia
 Culebra Island;Puerto Rico
 Raron;Switzerland
-Minsk;Belarus
 Amlikon;Switzerland
 Lommis;Switzerland
 Marion;United States
@@ -5198,7 +4945,6 @@ Bamburi;Kenya
 Fraser Island;Australia
 Finsterwalde;Germany
 Kirkuk;Iraq
-Doha;Qatar
 Claris;New Zealand
 Iron Mountain;United States
 Marquette;United States
@@ -5219,9 +4965,7 @@ Myvatn;Iceland
 Sabadell;Spain
 Airlie Beach;Australia
 Muncie;United States
-Lafayette;United States
-Georgetown;United States
-Las Vegas;United States
+Georgetown (118);United States
 Kenosha;United States
 Montrose CO;United States
 Riverton WY;United States
@@ -5229,18 +4973,15 @@ Pendleton;United States
 Lympne;United Kingdom
 Porto Heli;Greece
 Zell am See;Austria
-Amberley;Australia
 Katherine;Australia
-Laverton;Australia
 Nowra;Australia
 Lutsk;Ukraine
 Chernigov;Ukraine
 Ternopol;Ukraine
-Brest;Belarus
+Brest (119);Belarus
 Oshkosh;United States
 Harlesiel;Germany
 Wangerooge;Germany
-Perth;Australia
 Bendigo;Australia
 Wenatchee;United States
 Arecibo;Puerto Rico
@@ -5256,9 +4997,6 @@ Neuchatel;Switzerland
 Taganrog;Russia
 Gelendzhik;Russia
 Ramenskoe;Russia
-Irkutsk;Russia
-Khabarovsk;Russia
-Komsomolsk-on-Amur;Russia
 Sredniiy;Russia
 Yaroslavl;Russia
 Mohe County;China
@@ -5266,7 +5004,6 @@ Jining;China
 Puntarenas;Costa Rica
 Altay;China
 Null;Bosnia and Herzegovina
-Dallas;United States
 Naypyidaw;Burma
 Kyauktu;Burma
 Jan Mayen;Norway
@@ -5276,7 +5013,6 @@ Wuhai;China
 Gary;United States
 Brainerd;United States
 Lewisburg;United States
-Greenville;United States
 Chefornak;United States
 Oxnard;United States
 Branson;United States
@@ -5295,24 +5031,23 @@ Cherkassy;Ukraine
 St. Augustine Airport;United States
 Nikolayev;Ukraine
 Ramechhap;Nepal
-Santa Rosa;United States
+Santa Rosa (120);United States
 Kissimmee;United States
 Lake City;United States
 DeLand;United States
 Green Cove Springs;United States
-Santa Lucia;Peru
+Santa Lucia (121);Peru
 Logan;United States
 Brigham City;United States
 Malad City;United States
 Aspen;United States
-Ulyanovsk;Russia
 Kerrville;United States
 Birrfeld;Switzerland
-Georgetown;United States
+Georgetown (122);United States
 Prince Rupert;Canada
 Great Bend;United States
 Hays;United States
-Null;United States
+Null (123);United States
 Ely;United States
 Grand Rapids MN;United States
 Thief River Falls;United States
@@ -5320,14 +5055,12 @@ Eagle River;United States
 Minocqua - Woodruff;United States
 Ankeny;United States
 Berens River;Canada
-Corpus Christi;United States
 Catalina Island;United States
 Mojave;United States
 Interlaken;Switzerland
 Inisheer;Ireland
 Strezhevoy;Russia
 Hutchinson;United States
-Kabul;Afghanistan
 Al Kharj;Saudi Arabia
 Rosecrans;United States
 Papa;Hungary
@@ -5339,7 +5072,6 @@ Torrance;United States
 Manistee;United States
 Punta Gorda;United States
 Frenchville;United States
-Jamestown;United States
 Mont-Tremblant;Canada
 Somerset;United States
 Weyers Cave;United States
@@ -5355,7 +5087,6 @@ Wolf Point;United States
 West Yellowstone;United States
 Alamosa;United States
 Moab;United States
-Ely;United States
 Vernal;United States
 Ruidoso;United States
 Show Low;United States
@@ -5391,9 +5122,7 @@ Central;United States
 Shungnak;United States
 Inyokern;United States
 Visalia;United States
-Merced;United States
 Colonia;Uruguay
-Campinas;Brazil
 Goodyear;United States
 Toowoomba;Australia
 Ballera;Australia
@@ -5437,7 +5166,6 @@ Alakanuk;United States
 Kipnuk;United States
 False Pass;United States
 Nelson Lagoon;United States
-Cold Bay;United States
 Klawock;United States
 Quinhagak;United States
 Kotlik;United States
@@ -5458,7 +5186,6 @@ Tok;United States
 Circle;United States
 Sleetmute;United States
 Healy;United States
-Klawock;United States
 Lake Minchumina;United States
 Manley Hot Springs;United States
 Natuashish;Canada
@@ -5476,7 +5203,6 @@ Cross Lake;Canada
 Red Sucker Lake;Canada
 Rainbow Lake;Canada
 Bonnyville;Canada
-Nanaimo;Canada
 Ganges;Canada
 Fort St. James;Canada
 Boundary Bay;Canada
@@ -5490,7 +5216,7 @@ Bonanza;Nicaragua
 Rosita;Nicaragua
 Siuna;Nicaragua
 Waspam;Nicaragua
-San Carlos;Nicaragua
+San Carlos (124);Nicaragua
 Carrillo;Costa Rica
 Constanza;Dominican Republic
 Negril;Jamaica
@@ -5518,7 +5244,6 @@ Sipaliwini;Suriname
 Stoelmans Eiland;Suriname
 Totness;Suriname
 Wageningen;Suriname
-Guapiles;Costa Rica
 Orinduik;Guyana
 Annai;Guyana
 Apoteri;Guyana
@@ -5536,7 +5261,7 @@ Caucasia;Colombia
 Condoto;Colombia
 Tolu;Colombia
 Cabo Frio;Brazil
-Sinop;Brazil
+Sinop (125);Brazil
 Gurupi;Brazil
 Santana do Araguaia;Brazil
 Breves;Brazil
@@ -5581,7 +5306,7 @@ Masai Mara;Kenya
 Meru National Park;Kenya
 Rumbek;Sudan
 Yei;Sudan
-Greenville;Liberia
+Greenville (126);Liberia
 Ecuvillens;Switzerland
 Inhaca;Mozambique
 Matam;Senegal
@@ -5613,11 +5338,9 @@ Vologda;Russia
 Evensk;Russia
 Olenyok;Russia
 Saskylakh;Russia
-Arkhangelsk;Russia
 Nizhneangarsk;Russia
 Vanavara;Russia
 Aykhal;Russia
-Yekaterinburg;Russia
 Baykit;Russia
 Biysk;Russia
 Huesca;Spain
@@ -5625,9 +5348,6 @@ Ciudad Real;Spain
 Najaf;Iraq
 Colonsay;United Kingdom
 Rock Hill;United States
-Pittsburgh;United States
-Jacksonville;United States
-Atlanta;United States
 Tresco;United Kingdom
 Tarin Kowt;Afghanistan
 Zaranj;Afghanistan
@@ -5638,7 +5358,6 @@ Baoshan;China
 Xingyi;China
 Liping;China
 Stepanakert;Azerbaijan
-Columbus;United States
 Addison;United States
 Destin;United States
 Kherson;Ukraine
@@ -5671,13 +5390,13 @@ Lubang;Philippines
 Kulyab;Tajikistan
 Cimei;Taiwan
 Dasoguz;Turkmenistan
-Barrow Island;Australia
+Barrow Island (127);Australia
 Derby;Australia
 Walgett;Australia
 Bathurst Island;Australia
 Dunk Island;Australia
 Lizard Island;Australia
-Hamilton;Australia
+Hamilton (128);Australia
 Halls Creek;Australia
 Fitzroy Crossing;Australia
 Ravensthorpe;Australia
@@ -5690,7 +5409,6 @@ Price;United States
 Los Alamos;United States
 Lake Havasu City;United States
 Winslow;United States
-Douglas;United States
 Marakei;Kiribati
 Abemama;Kiribati
 Buariki;Kiribati
@@ -5709,41 +5427,35 @@ Takaka;New Zealand
 Afutara;Solomon Islands
 Ulawa;Solomon Islands
 Choiseul Bay;Solomon Islands
-Santa Ana;Solomon Islands
+Santa Ana (129);Solomon Islands
 Yandina;Solomon Islands
 Batuna;Solomon Islands
 Bartow;United States
-Kostroma;Russia
 Fiti\'uta;American Samoa
 Livermore;United States
 Mariposa;United States
 Grootfontein;Namibia
 Rundu;Namibia
 Angmagssalik;Greenland
-Palm Springs;United States
 Santa Monica;United States
-Palm Springs;United States
 Scottsdale;United States
 Olympia;United States
 Davis-Woodland-Winters;United States
 Rifle;United States
 SARATOGA;United States
-Atlanta;United States
-Bloomington;United States
 Stuart;United States
 Morristown;United States
 Napa;United States
-San Diego;United States
 Wangen-Lachen;Switzerland
-Venice;United States
+Venice (130);United States
 Pahokee;United States
-Panama City;United States
+Panama City (131);United States
 San Bernardino;United States
 Valenca;Brazil
 Caruaru;Brazil
 Wake island;Wake Island
 Nova Iguacu;Brazil
-San Carlos;United States
+San Carlos (132);United States
 Courtelary ;Switzerland
 Koszalin;Poland
 Okavango Delta;Botswana
@@ -5758,41 +5470,32 @@ Truckee;United States
 Frejus;France
 Geelong;Australia
 Mezen;Russia
-Arkhangelsk;Russia
-Atlanta;United States
 Tulln;Austria
 Dell;United States
 Livingston-Montana;United States
 Big Timber;United States
 Holland;United States
-London;United Kingdom
-Venice;Italy
+London (133);United Kingdom
 Tallinn;Estonia
-Helsinki;Finland
 Linkenheim;Germany
 Monument Valley;United States
 Hilversum;Netherlands
-New York;United States
 Texel;Netherlands
 Das i Fontanals de Cerdanya;Spain
 Lakeland;United States
 Stary Oskol;Russia
 Syangboche;Nepal
-New York;United States
-Krasnoyarsk;Russia
 Murrieta-Temecula;United States
 Oristano;Italy
 Maidenhead;United Kingdom
 Mysore;India
 Port Clinton;United States
-Dayton;United States
-Richmond;United States
+Richmond (134);United States
 Findley;United States
-Burlington;Canada
+Burlington (135);Canada
 Penneshaw;Australia
 Ebenhofen;Germany
 Kempten;Germany
-Essen;Germany
 Wycombe;United Kingdom
 Bembridge;United Kingdom
 Waterville;Canada
@@ -5803,35 +5506,31 @@ Gdynia;Poland
 Malbork;Poland
 Lask;Poland
 Miroslawiec;Poland
-Poznan;Poland
 Olive Branch;United States
 Vina del Mar;Chile
 Brampton;Canada
 Zonguldak;Turkey
 Broomfield-CO;United States
-Salem;United States
+Salem (136);United States
 Tunica;United States
 Batken;Kyrgyzstan
 Kasaba Bay;Zambia
 Lindau;Germany
 Hoogeveen;Netherlands
 Deventer;Netherlands
-Middelburg;Netherlands
+Middelburg (137);Netherlands
 Ameland;Netherlands
 Saint-Cyr;France
-Milwaukee;United States
 Janesville;United States
 Mantsonyane;Lesotho
 Arlington;United States
 Lawrenceville;United States
 Bowling Green;United States
-Tulsa;United States
 Minhad AB;United Arab Emirates
 Kirovograd;Ukraine
 Roitzschjora;Germany
 Dabaa City;Egypt
 Bryce Canyon;United States
-Burlington;United States
 Shchyolkovo;Russia
 Tengchong;China
 Sevastopol;Ukraine
@@ -5846,7 +5545,6 @@ Phillip Island;Australia
 Duncan;United States
 Uvalde;United States
 Lockport;United States
-Concord;United States
 Ocean Reef Club Airport;United States
 Strasbourg Neudorf;France
 Nannhausen;Germany
@@ -5857,18 +5555,12 @@ Recklinghausen;Germany
 Farila;Sweden
 Lahr;Germany
 Monywa;Burma
-Athens;United States
-Springfield;United States
+Athens (138);United States
 South Aari Atoll;Maldives
-Fes;Morocco
-Santo Domingo;Dominican Republic
 Cooinda;Australia
 Jabiru;Australia
 Regensburg;Germany
-Freetown;Sierra Leone
-Topeka;United States
-Uvalde;United States
-Null;United States
+Null (139);United States
 Smyrna;United States
 Sewanee;United States
 Shiquanhe;China
@@ -5884,13 +5576,10 @@ Keekorok;Kenya
 Puerto Obaldia;Panama
 Kerch;Ukraine
 Ukunda;Kenya
-Wilmington;United States
-Tucson;United States
 Casa Grande;United States
-Mobile;United States
 Buckeye;United States
 Gila Bend;United States
-Athens;United States
+Athens (140);United States
 Sterling;United States
 Rawlins;United States
 Mackenzie British Columbia;Canada
@@ -5898,13 +5587,11 @@ Caldwell;United States
 Kaiser Lake Ozark;United States
 Thomasville;United States
 Henderson;United States
-Kiev;Ukraine
 Tifton;United States
 Landshut;Germany
 Itzehoe;Germany
 RADOM;Poland
 Phoenix ;United States
-Calgary;Canada
 Golden;Canada
 Revelstoke;Canada
 Farmingdale;United States
@@ -5914,20 +5601,15 @@ Peine;Germany
 Hondo;United States
 Zhongwei;China
 McKinley Park;United States
-Anchorage;United States
 Prospect Creek;United States
 Khwai River;Botswana
 Welzow;Germany
-Taichung;Taiwan
 Wheeling;United States
 Fitzgerald;United States
 Ye;Burma
 Isla San Felix;Chile
 Shaybah;Saudi Arabia
-Dubai;United Arab Emirates
 Rockport;United States
-Verdun;France
-Ajaccio;France
 Baise;China
 Okaukuejo;Namibia
 Mokuti Lodge;Namibia
@@ -5944,14 +5626,12 @@ Obermehler;Germany
 Hodenhagen;Germany
 Grube;Germany
 Toender;Denmark
-Celle;Germany
 Uelzen;Germany
 Hamm;Germany
 Luesse;Germany
 Bad Oeynhausen;Germany
 Brilon;Germany
 Bad Pyrmont;Germany
-Cuxhaven;Germany
 Koethen;Germany
 Sankt Michaelisdonn;Germany
 Salzgitter;Germany
@@ -5968,12 +5648,9 @@ Ormond Beach;United States
 Bad Neuenahr;Germany
 Bad Duerkheim;Germany
 Troutdale;United States
-Hillsboro;United States
-New York;United States
 Leverkusen;Germany
 Wershofen;Germany
 Khost;Afghanistan
-Naypyidaw;Burma
 Bend;United States
 Christmas Valley;United States
 Burns;United States
@@ -5982,7 +5659,6 @@ Red Bluff;United States
 Novato;United States
 Lakeview;United States
 Tillamook;United States
-Ontario;United States
 The Dalles;United States
 Gaithersburg;United States
 Sharona;Afghanistan
@@ -6000,7 +5676,6 @@ Juiz de Fora;Brazil
 Brasov;Romania
 Flagler;United States
 Morrisville;United States
-Dallas;United States
 Como;Italy
 Baikonur;Kazakhstan
 Washington County;United States
@@ -6014,7 +5689,7 @@ La Romaine;Canada
 Kegaska;Canada
 Black Tickle;Canada
 Silver Springs;United States
-Los Angeles;United States
+Los Angeles (141);United States
 Madera;United States
 Trail;Canada
 Patricia Bay;Canada
@@ -6028,7 +5703,6 @@ Capurgana;Colombia
 Sohag;Egypt
 Rivera;Uruguay
 Patos de Minas;Brazil
-Bauru;Brazil
 Ourilandia do Norte;Brazil
 Redencao;Brazil
 Sao Felix do Xingu;Brazil
@@ -6038,7 +5712,7 @@ Cacador;Brazil
 Carauari;Brazil
 Porto Urucu;Brazil
 Eirunepe;Brazil
-Concordia;Brazil
+Concordia (142);Brazil
 Francisco Beltrao;Brazil
 Confresa;Brazil
 Apalachicola;United States
@@ -6048,33 +5722,28 @@ Fonte Boa;Brazil
 Sao Paulo de Olivenca;Brazil
 Humaita;Brazil
 Santa Isabel do Rio Negro;Brazil
-Oriximina;Brazil
 Una;Brazil
 Telfer;Australia
 Alanya;Turkey
 Shank;Afghanistan
-Douglas;United States
 Fort Pierce;United States
 Taunton;United States
-Plymouth;United States
+Plymouth (143);United States
 North Kingstown;United States
 Norwood;United States
 Westfield;United States
 Willimantic;United States
-Montgomery;United States
-Harrisburg;United States
 Marshfield;United States
 Danbury;United States
 Nashua;United States
 Lawrence;United States
-Oxford;United States
+Oxford (144);United States
 Fitchburg;United States
 Villa Rica;United States
 Cartersville;United States
 Centre;United States
-Rome;United States
+Rome (145);United States
 Gadsden;United States
-Knoxville;United States
 Winder;United States
 Sylvania;United States
 Dalton;United States
@@ -6082,12 +5751,9 @@ Carrollton;United States
 LaGrange;United States
 Milledgeville;United States
 Pine Mountain;United States
-Atlanta;United States
-Gainesville;United States
 New Philadelpha;United States
 Darlington;United States
 Hilton Head Island;United States
-Augusta;United States
 Morganton;United States
 Pikeville;United States
 Locust Grove;United States
@@ -6103,10 +5769,8 @@ Yengema;Sierra Leone
 Gbangbatok;Sierra Leone
 Turukhansk;Russia
 Bor;Russia
-Fort Worth;United States
 East Troy;United States
 Kolpashevo;Russia
-Kuwait;Kuwait
 Renmark;Australia
 Leigh Creek;Australia
 Warburton Community;Australia
@@ -6115,7 +5779,7 @@ Rottnest Island;Australia
 Forrest;Australia
 Ballarat;Australia
 Keewaywin;Canada
-Marathon;Canada
+Marathon (146);Canada
 Hearst;Canada
 Hornepayne;Canada
 Kirkland Lake;Canada
@@ -6125,8 +5789,7 @@ Manitowaning;Canada
 Slate Falls;Canada
 Collingwood;Canada
 Brantford;Canada
-Lawrence;United States
-Wellington;United States
+Wellington (147);United States
 Pompano Beach;United States
 Mallacoota;Australia
 Al-Ula;Saudi Arabia
@@ -6136,13 +5799,10 @@ Carefree;United States
 Praya;Indonesia
 One Hundred Mile House;Canada
 108 Mile Ranch;Canada
-Glasgow;United Kingdom
 Yarram;Australia
 Handan;China
-Indianapolis;United States
-London;United States
+London (148);United States
 Fredericksburg;United States
-Warsaw;Poland
 Jixi;China
 Seogwipo;South Korea
 Gimli;Canada
@@ -6156,34 +5816,25 @@ Saint-Petersburg;Russia
 Arnhem;Netherlands
 Shigatse;China
 Redlands;United States
-Riverside;United States
-Tacoma;United States
 TELGTE;Germany
 Gulf Shores;United States
 Isabela;Ecuador
 Balzers;Switzerland
 Punitz-Guessing;Austria
 Khmeinitskiy;Ukraine
-Hiroshima;Japan
 Yalata;Australia
 Hazleton;United States
 Cumberland;United States
-Key West;United States
 Wyndham;Australia
 Bob Quinn Lake;Canada
 Msembe;Tanzania
 Kaluga;Russia
 Lone Rock;United States
 Phillips;United States
-Monroe;United States
 Joliet;United States
-Peru;United States
-Jackson;United States
 Furstenwalde;Germany
 Eberswalde;Germany
 Connellsville;United States
-Bedford;United States
-Philadelphia;United States
 Okeechobee;United States
 Sebring;United States
 Avon Park;United States
@@ -6191,36 +5842,30 @@ Winter Haven;United States
 Zephyrhills;United States
 Ocala;United States
 Jesup;United States
-Madison;United States
 Newnan;United States
 Thomson;United States
 Aiken;United States
-Camden;United States
+Camden (149);United States
 Lumberton;United States
 Pinehurst-Southern Pines;United States
 Rockingham;United States
 Baraboo;United States
 Statesville;United States
-Burlington;United States
 Lock Haven;United States
 Zelienople;United States
 Lorain-Elyria;United States
-Cleveland;United States
 Dunkirk;United States
 Mount Holly;United States
-Linden;United States
+Linden (150);United States
 Angola;United States
-Warsaw;United States
+Warsaw (151);United States
 Van Wert;United States
-Marshall;United States
 Batavia;United States
 Clearwater;United States
 Forties Alpha;United Kingdom
-Chicago;United States
 Jasper;United States
 Saarmund;Germany
 North Myrtle Beach;United States
-Lansing;United States
 Ramona;United States
 Pont Sur Yonne;France
 St Florentin Cheu;France
@@ -6241,10 +5886,8 @@ Coldwater;United States
 Wilkes-Barre;United States
 Willoughby;United States
 Taoyuan;Taiwan
-Uummannaq;Greenland
 Bayannur;China
 Frankfort;United States
-Lewiston;United States
 Inowroclaw;Poland
 Pruszcz Gdansk;Poland
 Tomah;United States
@@ -6252,23 +5895,21 @@ Marco Island Airport;United States
 Drummond Island;United States
 Gladwin;United States
 South Haven;United States
-Marshfield;United States
 Wisconsin Rapids;United States
 Clinton;United States
 Beverly;United States
 Nagaur;India
-Moscow;Russia
 Trois Rivieres;Canada
 Poplar Bluff;United States
 Somerville;United States
 Eastport;United States
 Keokuk;United States
-Perth;United Kingdom
+Perth (152);United Kingdom
 Caernarfon;United Kingdom
 Grefrath;Germany
 St. Paul;United States
 Soderhamn;Sweden
-Newcastle;Ireland
+Newcastle (153);Ireland
 Saravane;Laos
 Segeletz;Germany
 Segovia;Spain
@@ -6283,7 +5924,7 @@ Aliwal North;South Africa
 Alkantpan;South Africa
 Alldays;South Africa
 Barberton;South Africa
-Hamilton;United States
+Hamilton (154);United States
 Bungoma;Kenya
 Bura;Kenya
 Busia;Kenya
@@ -6312,7 +5953,6 @@ Galion;United States
 Tiputini;Ecuador
 Pastaza;Ecuador
 Clarksville;United States
-Lompoc;United States
 Coatesville;United States
 Lashkar Gah;Afghanistan
 Lankaran;Azerbaijan
@@ -6320,27 +5960,21 @@ Qabala;Azerbaijan
 Zaqatala;Azerbaijan
 Lake Placid;United States
 Khandyga;Russia
-Yakutsk;Russia
 Qianjiang;China
 Yuzhno-Kurilsk;Russia
-Lima;United States
+Lima (155);United States
 Hamhung;North Korea
-Brunswick;United States
 Beaver Falls;United States
-Georgetown;United States
-Cleveland;United States
+Georgetown (156);United States
 Renton;United States
 La Verne;United States
 Cross City;United States
 Clemson;United States
-Wichita;United States
-Padang;Indonesia
 Calhoun;United States
 Cornelia;United States
-Georgetown;United States
+Georgetown (157);United States
 Rhinebeck;United States
 Duxford;United Kingdom
-Sidney;United States
 Bengassi;Mali
 Great Keppel Island;Australia
 Roper Bar;Australia
@@ -6353,7 +5987,6 @@ Chongjin;North Korea
 Moomba;Australia
 Lublin;Poland
 East Tawas;United States
-Huntsville;United States
 Leesburg;United States
 Anoka;United States
 San Juan Bautista;Chile
@@ -6374,12 +6007,10 @@ Palo Alto;United States
 Ust-Nera;Russia
 Vysoke Myto;Czech Republic
 Spa;Belgium
-Mesa;United States
 Cooldige;United States
 Cottonwood;United States
 Namur;Belgium
 Hasselt;Belgium
-Phoenix;United States
 Wickenburg;United States
 Yangzhou;China
 Pontiac;United States
@@ -6388,8 +6019,8 @@ Keene;United States
 Tianshui;China
 Kawama;Cuba
 Kooddoo;Maldives
-Glasgow;United States
-Rochester;United Kingdom
+Glasgow (158);United States
+Rochester (159);United Kingdom
 Rio Hondo;Argentina
 Keetmanshoop;Namibia
 Kangding;China
@@ -6398,7 +6029,6 @@ Iowa City;United States
 Turpan;China
 Morro de Sao Paulo;Brazil
 Windom;United States
-Longview;United States
 Rothera Research Station;United Kingdom
 Sortavala;Russia
 Annapolis;United States
@@ -6444,14 +6074,9 @@ Bijie;China
 Lensk;Russia
 Kavalerovo;Russia
 Igdir;Turkey
-Sanliurfa;Turkey
-Kutahya;Turkey
 Velikiye Luki;Russia
-Bangalore;India
-Novosibirsk;Russia
 Kodinsk;Russia
 Lake Macquarie;Australia
-Hampton;United States
 Brampton Island;Australia
 Alameda;United States
 Endelage;Denmark
@@ -6461,7 +6086,6 @@ Cochrane;Canada
 Braganca Paulista;Brazil
 Brusselton;Australia
 Srednekolymsk;Russia
-Salt Lake City;United States
 Inverell;Australia
 Glen Innes;Australia
 Ansbach;Germany
@@ -6469,7 +6093,6 @@ Immokalee ;United States
 Sulawesi Tenggara;Indonesia
 Cambria;United States
 Yichun;China
-Petersburg;United States
 Kasongo;Congo (Kinshasa)
 McMurdo Station;Antarctica
 Klatovy;Czech Republic
@@ -6496,14 +6119,10 @@ Tetiaroa;French Polynesia
 Queensbury;United States
 Ballston Spa;United States
 Crystal River;United States
-Baltimore;United States
-Lincoln;United States
 Fostoria;United States
 Fryeburg;United States
 Placida;United States
-New Orleans;United States
 Coeur d'Alene;United States
-Beaumont;United States
 Danville;United States
 Coonabarabran;Australia
 Titusville;United States
@@ -6511,15 +6130,12 @@ Bumi Hills;Zimbabwe
 Warnervale Airport;Australia
 Bouarfa;Morocco
 NYERI;Kenya
-Houston;United States
 Eden Prairie;United States
 Likoma Island;Malawi
-Olathe;United States
 Sigiriya;Sri Lanka
 Neumuenster;Germany
-Tak;Thailand
 Barrie-Orillia;Canada
-Midland;Canada
+Midland (160);Canada
 Markham;Canada
 Haliburton;Canada
 Lindsay;Canada
@@ -6564,19 +6180,17 @@ Tadjoura;Djibouti
 Santa Cruz des Quiche;Guatemala
 Nordfjordur;Iceland
 Bursa;Turkey
-Rochester;United States
 Waris-Papua Island;Indonesia
 Newton;United States
 La Ferte Alais;France
 Bairnsdale;Australia
-Columbus;United States
 Fort Bridger;United States
 Prosser;United States
 Chehalis;United States
 Mattawa;United States
 Evanston;United States
 Sabetha;United States
-Mount Pleasant;United States
+Mount Pleasant (161);United States
 Americus;United States
 Eufala;United States
 Saluda;United States
@@ -6587,28 +6201,21 @@ Bessemer;United States
 Ellicott;United States
 Crystal;United States
 Quitman;United States
-Dublin;United States
+Dublin (162);United States
 Pukarua;French Polynesia
 Kabale;Uganda
 Marigot;France
-Sevilla;Spain
 Corvallis;United States
 Tuzla;Romania
-Scranton;United States
-Morristown;United States
 Saint Denis;Reunion
-Sihanoukville;Cambodia
 Prominent Hill;Australia
 Chatsworth;Australia
 Coral Bay;Australia
-Ogden;United States
-Clarksville;United Arab Emirates
+Clarksville (163);United Arab Emirates
 Poteau;United States
-Akron;United States
 Shelton;United States
 Napakiak;United States
 Napaskiak;United States
-Tok;United States
 Bedwell Harbour;Canada
 Washabo;Suriname
 Popham;United Kingdom
@@ -6622,32 +6229,25 @@ Tingo Maria;Peru
 Tres Lagoas;Brazil
 Zhangye;China
 Cacoal;Brazil
-Washington;United States
 Engelhard;United States
 Castro;Chile
 Stillwater;United States
 Okmulgee;United States
 Cushing;United States
-Clinton;United States
 Winfield;United States
-Oklahoma City;United States
-Shreveport;United States
-Stephenville;United States
+Stephenville (164);United States
 Perry;United States
-Hamilton;United States
+Hamilton (165);United States
 Ada;United States
 Misquite;United States
 Denton;United States
-Austin;United States
 Lago Vista;United States
 Brenham;United States
 Lakeway;United States
 Iraan;United States
-San Antonio;United States
+San Antonio (166);United States
 ELLIOT LAKE;Canada
 North Wilkesboro;United States
-Charleston;United States
-Danville;United States
 Brookneal;United States
 Yerbogachen;Russia
 Cheraw;United States
@@ -6672,14 +6272,11 @@ Conway;United States
 Yinchun;China
 Anshun;China
 Sikasso;Mali
-Toowoomba;Australia
 Tonghua;China
 Suzhou;China
-Manchester;United Kingdom
 Shrewsbury;United Kingdom
 Burton-on-Trent;United Kingdom
 York;United Kingdom
-Leeds;United Kingdom
 Muara Teweh;Indonesia
 Mulia;Indonesia
 Bintuni;Indonesia
@@ -6698,10 +6295,6 @@ Oksibil;Indonesia
 Kokonau;Indonesia
 Clermont;Australia
 Warrnambool;Australia
-Richmond;Australia
-Derby;Australia
-Medan;Indonesia
-Kamloops;Canada
 Asheboro;United States
 Seosan;South Korea
 Wallace;United States
@@ -6716,7 +6309,6 @@ Marcq En Baroeul;France
 Kamsar;Guinea
 Stinson;United States
 Sallisaw;United States
-Jasper;United States
 El dorado springs;United States
 Marfa;United States
 Alpine;United States
@@ -6727,22 +6319,18 @@ Upland;United States
 Mount Sterling;United States
 Elkhart;United States
 Nappanee ;United States
-Columbia;United States
 Grove;United States
 Mc Pherson;United States
-Greenville;United States
-Perry;United States
 Hartsville;United States
 Chapel Hill;United States
 San Cristobal de las Casas;Mexico
 Dunnville;Canada
 Oak Island;United States
-Richmond;United States
+Richmond (167);United States
 Atherton;Australia
 Bagdarin;Russia
 Rio Hato;Panama
-Oxford;United States
-Leesburg;United States
+Oxford (168);United States
 Vladimir;Russia
 Dedeben;South Africa
 Mana Pools;Zimbabwe
@@ -6756,21 +6344,18 @@ Shobdon;United Kingdom
 Chino;United States
 Shin-kamigoto;Japan
 Odika;Japan
-Tokyo;Japan
 Taketomi;Japan
-London;United States
+London (169);United States
 Cayo Santa Maria;Cuba
 Tremblay-en-France;France
 Thun;Switzerland
 Lavrentiya;Russia
 Paso Robles;United States
 Ulleung;South Korea
-Beijing;China
 Kotka;Finland
 Half Moon Bay;United States
 Hechi;China
 Kadina;Australia
-Lancaster;United States
 Coondewanna;Australia
 Guarapari;Brazil
 Ubatuba;Brazil
@@ -6783,12 +6368,10 @@ Headcorn;United Kingdom
 Panshanger;United Kingdom
 Thurrock;United Kingdom
 Stapleford;United Kingdom
-Bangalore;India
 Goodwood;United Kingdom
 Omarama;New Zealand
 Haast;New Zealand
 Meschede;Germany
-Tena;Ecuador
 Rio de Janeiro;Brazil
 Fuyuan;China
 Skuvoy;Faroe Islands
@@ -6807,13 +6390,11 @@ Wonsan;North Korea
 Mestia;Georgia
 Magas;Russia
 Talladega;United States
-Greenville;United States
 Mankato;United States
 Anegada;British Virgin Islands
 Troy;United States
 Sylacauga;United States
 Enterprise;United States
-Tucson;United States
 Efogi;Papua New Guinea
 Kagi;Papua New Guinea
 Nadunumu;Papua New Guinea
@@ -6826,7 +6407,6 @@ Meriden;United States
 Elliston;Australia
 Lucerne;Switzerland
 La Grand'Combe;France
-Doha;Qatar
 Wood Buffalo;Canada
 Canmore;Canada
 Krasnokamensk;Russia
@@ -6835,7 +6415,6 @@ New Castle;United States
 Scott City;United States
 Holdredge;United States
 Pratt;United States
-Baikonur;Kazakhstan
 Wahoo;United States
 Lexington;United States
 Sublette;United States
@@ -6843,24 +6422,19 @@ Council Bluffs;United States
 Kokomo;United States
 Neodesha;United States
 Sutton;United States
-Elkhart;United States
-Denver;United States
 Galesburg;United States
 Guymon;United States
 Meade;United States
 Shell Knob;United States
 Ulysses;United States
-Flagler;United States
 Independence;United States
-Augusta;United States
 Larned;United States
 Lampasas;United States
 Bay City;United States
-Paris;United States
+Paris (170);United States
 Coffeyville;United States
 Summit;United States
 Greeley;United States
-Memphis;United States
 Oakley;United States
 Fremont;United States
 La Grande;United States
@@ -6871,17 +6445,14 @@ Banff;Canada
 Nordborg;Denmark
 Banning;United States
 Giessen;Germany
-Budapest;Hungary
 Norfolk  Nebraska;United States
 Kotido;Uganda
 Kampala;Uganda
-Arlington;United States
 Paracatu;Brazil
 Conselheiro Lafaiete;Brazil
 Janauba;Brazil
 Teofilo Otoni;Brazil
 Muriae;Brazil
-Tampa;United States
 Malbouhans;France
 Paraty;Brazil
 Buzios;Brazil
@@ -6926,10 +6497,9 @@ Karimunjawa;Indonesia
 Kongolo;Congo (Kinshasa)
 Attopeu;Laos
 Kahemba;Congo (Kinshasa)
-Caracas;Venezuela
 Sao Miguel do Oeste;Brazil
 Ludington;United States
-San Jose;United States
+San Jose (171);United States
 Sohar;Oman
 Kadanwari;Pakistan
 Sindh;Pakistan
@@ -6944,7 +6514,7 @@ Jakar;Bhutan
 Toli-Toli;Indonesia
 Vuktyl;Russia
 Berezniki;Russia
-San Sebastian;Chile
+San Sebastian (172);Chile
 Tolhuin;Argentina
 Tarko-Sale;Russia
 Camarillo - CA;United States
@@ -6962,8 +6532,6 @@ Hollister;United States
 Williamsburg;United States
 Dulkaninna;Australia
 William Creek;Australia
-Kenora;Canada
-Riga;Latvia
 Siquijor;Philippines
 Musselwhite Mine;Canada
 Rizhao;China
@@ -6979,10 +6547,9 @@ Schoenstadt;Germany
 Lauenbrueck;Germany
 Huettenbusch;Germany
 Vsar;Croatia
-Marysville;United States
 La Grande-4;Canada
 Alert Bay;Canada
-Liverpool;Canada
+Liverpool (173);Canada
 Nipawin;Canada
 Centralia;Canada
 Blue River;Canada
@@ -7003,8 +6570,6 @@ Nejanilini Lake;Canada
 Owen Sound;Canada
 Port Hawkesbury;Canada
 St Thomas;Canada
-Ottawa;Canada
-Ottawa;Canada
 Smiths Falls;Canada
 St Leonard;Canada
 Virden;Canada
@@ -7013,7 +6578,7 @@ Beaver Creek;Canada
 Salmon Arm;Canada
 Kelsey;Canada
 Pukatawagan;Canada
-Grand Forks;Canada
+Grand Forks (174);Canada
 Jenpeg;Canada
 Thicket Portage;Canada
 Pikwitonei;Canada
@@ -7039,38 +6604,31 @@ Tukums;Latvia
 Kėdainiai;Lithuania
 Lime Acres;South Africa
 Sowa;Botswana
-Lusaka;Zambia
 Sumbe;Angola
 Mangochi;Malawi
 Arandis;Namibia
 Mariental;Namibia
-Cairo;Egypt
 Beni Suef;Egypt
 Jiyanklis;Egypt
 Merowe;Sudan
 Alton/St Louis;United States
-Alexandria;United States
-Columbus;United States
+Alexandria (175);United States
 Brady;United States
 Bishop;United States
 Baker City;United States
 Big Piney;United States
-Mountain Home;United States
 Battle Creek;United States
 Burley;United States
 Charles City;United States
 Chanute;United States
-Jacksonville;United States
 Crossville;United States
 Fort Belvoir;United States
 Daggett;United States
 Deming;United States
 Mercury;United States
 Needles;United States
-Crestview;United States
-Eureka;United States
+Eureka (176);United States
 San Marcos;United States
-Hayward;United States
 Junction;United States
 Monticello;United States
 Lovelock;United States
@@ -7078,10 +6636,8 @@ Mobridge;United States
 Mc Comb;United States
 Carbondale/Murphysboro;United States
 Eastover;United States
-Brunswick;United States
 Mayport;United States
 Orangeburg;United States
-Columbus;United States
 Ottumwa;United States
 Fort Rucker/Ozark;United States
 Pinedale;United States
@@ -7089,14 +6645,12 @@ Poughkeepsie;United States
 New Richmond;United States
 Russell;United States
 Redwood Falls;United States
-Salinas;United States
+Salinas (177);United States
 Sonora;United States
 Benton;United States
-Tonopah;United States
 Aurora;United States
 Ukiah;United States
-Oxford;United States
-Huntsville;United States
+Oxford (178);United States
 Valentine;United States
 Winnemucca;United States
 Woodward;United States
@@ -7112,7 +6666,6 @@ Gabrovnitsa;Bulgaria
 Graf Ignatievo;Bulgaria
 Dolna Mitropoliya;Bulgaria
 Balchik;Bulgaria
-Madrid;Spain
 Castellón de la Plana;Spain
 Teruel;Spain
 Blois/Le Breuil;France
@@ -7134,16 +6687,13 @@ Comayagua;Honduras
 Upala;Costa Rica
 San Nicolás;Cuba
 Pinar Del Rio;Cuba
-Riyadh;Saudi Arabia
 Kangan;Iran
-Hamadan;Iran
 Karaj;Iran
 Ahmed Al Jaber AB;Kuwait
 Rayak;Lebanon
 Mirpur Khas;Pakistan
 Kamra;Pakistan
 Shorkot;Pakistan
-Karachi;Pakistan
 Sargodha;Pakistan
 Qayyarah;Iraq
 Tikrit;Iraq
@@ -7160,10 +6710,10 @@ Villa Maria;Argentina
 Barretos;Brazil
 Taubaté;Brazil
 Tocopilla;Chile
-Cochrane;Chile
+Cochrane (179);Chile
 Chañaral;Chile
 Talca;Chile
-Victoria;Chile
+Victoria (180);Chile
 Taltal;Chile
 Apiay;Colombia
 Coveñas;Colombia
@@ -7182,51 +6732,37 @@ Kyzyl-Syr;Russia
 Vilyuisk;Russia
 Dzhermuk;Armenia
 Sovetskaya Gavan;Russia
-Sovetskaya Gavan;Russia
 Omsukchan;Russia
 Chaybukha;Russia
 Keperveem;Russia
-Magadan;Russia
 Nikolayevsk-na-Amure Airport;Russia
 Palana;Russia
 Zheleznogorsk-Ilimsky;Russia
 Sarabuz;Ukraine
 Saki;Ukraine
 Dzhankoy;Ukraine
-Zhytomyr;Ukraine
 Severomorsk;Russia
-St. Petersburg;Russia
 Siversky;Russia
 Staraya Russa;Russia
-Petrozavodsk;Russia
 Baranavichi;Belarus
 Babruisk;Belarus
 Severo-Eniseysk;Russia
 Sharypovo;Russia
-Omsk;Russia
-Murmansk;Russia
 Svetlogorsk;Russia
 Valek;Russia
 Maykop;Russia
 Dudinka;Russia
-Tashkent;Uzbekistan
-Moscow;Russia
 Lukhovitsy;Russia
 Balabanovo;Russia
 Inta;Russia
 Izhma;Russia
-Kazan;Russia
 Zhigansk;Russia
-Ufa;Russia
 Buguruslan;Russia
-Samara;Russia
 Polonnaruwa Town;Sri Lanka
 Durgapur;India
 Puttaparthi;India
 Meiktila;Burma
-Singapore;Singapore
 Soltsy;Russia
-Severomorsk;Russia
 Kipelovo;Russia
 Kamyshin;Russia
 Smolensk;Russia
@@ -7246,19 +6782,15 @@ Rugao;China
 Wuhu;China
 Shanshan;China
 Yingkou;China
-Shenyang;China
 Bogorodskoe;Russia
 Itapiranga;Brazil
 Aguas Calientes;Peru
-Hyderabad;India
-Vancouver;Canada
 Bressaucourt-Porrentruy;Switzerland
 Parakou;Benin
 Kandi;Benin
 Sokode;Togo
 Mango;Togo
 Arnbruck;Germany
-Rio de Janeiro;Brazil
 Aguachica;Colombia
 Hermannsburg;Australia
 Pipalyatjara;Australia
@@ -7276,16 +6808,13 @@ Elliott;Australia
 Papunya;Australia
 Fregon;Australia
 Mt Liebig;Australia
-Columbus;United States
 Baltrum;Germany
 Skagit;United States
 Goondiwindi;Australia
 Odesa;Ukraine
 Lognes;France
-Jasper;United States
 Evergreen;United States
-Decatur;United States
-Glasgow;United States
+Glasgow (181);United States
 Danielson;United States
 Docker River;Australia
 Clearfield;United States
@@ -7315,8 +6844,6 @@ New Smyrna Beach;United States
 Las vegas;United States
 Delta Camp;Botswana
 Hwange;Zimbabwe
-Vancouver;Canada
-Victoria;Canada
 Shushenskoye;Russia
 Stockerau;Austria
 Klaipeda;Lithuania
@@ -7328,24 +6855,20 @@ Novi Sad;Serbia
 Grundarfjordur;Iceland
 Prairie du Chien;United States
 Kobok;Indonesia
-Orlando;United States
 Torshavn;Faroe Islands
 Otjiwarongo;Namibia
 Mona;United Kingdom
 Rerik;Germany
 Cruz;Brazil
 Albemarle;United States
-Lexington;United States
 Davis;United States
 Mocksville;United States
-Albuquerque;United States
 Socorro;United States
-Bentonville;United States
 Martinsville;United States
 Mount Airy;United States
 Taos;United States
 Raton;United States
-Ladysmith;United States
+Ladysmith (182);United States
 Pampa;United States
 Sand Springs;United States
 Flippin;United States
@@ -7372,15 +6895,12 @@ Spartangurg;United States
 Bajawa;Indonesia
 Gransee;Germany
 San Antonio de Pale;Equatorial Guinea
-Huangshan;China
 Oyo;Congo (Brazzaville)
-Port Hardy;Canada
 Parsons;United States
 Phongsaly;Laos
 Waycross;United States
 Diass;Senegal
-Philipsburg;United States
-Portsmouth;United States
+Philipsburg (183);United States
 Coonawarra;Australia
 Naracoorte;Australia
 Camilla;United States
@@ -7390,7 +6910,6 @@ Palenque;Mexico
 Caloundra;Australia
 Clarks Point;United States
 Williston Lake;Canada
-Charlottetown;Canada
 Doris Lake;Canada
 Tola;Nicaragua
 Montecristi;Dominican Republic
@@ -7412,8 +6931,6 @@ Kullorsuaq;Greenland
 Nuussuaq;Greenland
 Tasiusaq;Greenland
 Upernavik Kujalleq;Greenland
-Aappilattoq;Greenland
-Tasiusaq;Greenland
 Narsaq Kujalleq;Greenland
 Ikamiut;Greenland
 Ammassivik;Greenland
@@ -7443,7 +6960,6 @@ Saint Pierre d'Oleron;France
 Semur en Auxois;France
 Urzhar;Kazakhstan
 Pyramiden;Norway
-Minsk;Belarus
 Zermatt;Switzerland
 Nikolskoye;Russia
 Tilichiki;Russia
@@ -7451,14 +6967,11 @@ Nyurba;Russia
 Batagay-Alyta;Russia
 Ust-Kuyga;Russia
 Verkhnevilyuysk;Russia
-Yuzhno-Kurilsk;Russia
 Yamburg;Russia
 Shakhtyorsk;Russia
 Talakan;Russia
 Mama;Russia
-Aarhus;Denmark
-Troy;United States
-Stratford;Canada
+Stratford (184);Canada
 Edmundston;Canada
 Red Dog;United States
 Impfondo;Congo (Brazzaville)
@@ -7472,9 +6985,7 @@ Gombe;Nigeria
 Dutse;Nigeria
 Jalingo;Nigeria
 Kolda;Senegal
-Manzini;Swaziland
 Kilwa Masoko;Tanzania
-Kilimanjaro;Tanzania
 Moshi;Tanzania
 Mansa;Zambia
 Ghazni;Afghanistan
@@ -7483,7 +6994,6 @@ Longnan;China
 Shangrao;China
 Songyuan;China
 Jiansanjiang;China
-Zunyi;China
 Libo;China
 Chengde;China
 Wudalianchi;China
@@ -7524,7 +7034,6 @@ Bunyu;Indonesia
 Buol;Indonesia
 Raha;Indonesia
 Jask;Iran
-Frankfort;United States
 Cheboygan;United States
 Kozushima;Japan
 Kazarman;Kyrgyzstan
@@ -7548,7 +7057,6 @@ Barimunya;Australia
 Laucala;Fiji
 Yasawa Island;Fiji
 North Shore;New Zealand
-Nashville;United States
 Okiwi;New Zealand
 Waiheke Island;New Zealand
 Karamea;New Zealand
@@ -7564,10 +7072,8 @@ Kauehi;French Polynesia
 Tatakoto;French Polynesia
 Sasereme;Papua New Guinea
 Boven Digoel;Indonesia
-McKinley Park;United States
 Jundiai;Brazil
 Berkeley Springs;United States
-Foz Do Iguacu;Brazil
 Brits;South Africa
 West Melton;New Zealand
 Rangiora;New Zealand
@@ -7581,58 +7087,45 @@ Kisoro;Uganda
 Kasese;Uganda
 Bay St. Louis;United States
 Sunchales;Argentina
-Istanbul;Turkey
 Seldovia;United States
-Lutselk'e;Canada
 Engeløy;Norway
 Dwangwa;Malawi
 Higleig;South Sudan
-Jackson;United States
-Beaufort;United States
 Oceanside;United States
 Castelo Branco;Portugal
 Ponte de Sôr;Portugal
 Maia;Portugal
 Kenebetsu;Japan
-Natal;Brazil
 Ajmer;India
 Kannur;India
-Beijing;China
 MANAUS;Brazil
 Umuwa;Australia
-Temuco;Chile
 Arathusa;South Africa
 Vidalia;United States
 Granbury;United States
 Fulton;United States
-Islamabad;Pakistan
 Vumburu;Botswana
 Hardap;Namibia
 AZRAQ;Jordan
 Kirkjubaejarklaustur ;Iceland
 COMODORO;Brazil
-Whitehorse;Canada
 Pertominsk;Russia
-Laverton;Australia
 Kidston;Australia
 Klaksvik;Faroe Islands
 Mitchell;United States
 Tubu Tree Camp;Botswana
 Geita;Tanzania
 Gitega;Burundi
-Murcia;Spain
 Alta Floresta D'Oeste;Brazil
 Pelee;Canada
 COSTA MARQUES;Brazil
-Mangalore;Australia
+Mangalore (185);Australia
 San Isidro;Costa Rica
-Baku;Azerbaijan
 Yambol;Bulgaria
 Byaroza;Belarus
 Yuanmou;China
 Changsha;China
 Geçitkale;Cyprus
-Mbeya;Tanzania
 Kalocsa/Foktő;Hungary
 Sugapa-Papua Island;Indonesia
 Bengaluru;India
@@ -7641,10 +7134,8 @@ Eilat;Israel
 Al Masna'ah;Oman
 Cagayan de Oro City;Philippines
 Kostomuksha;Russia
-Astrakhan;Russia
 Kubinka;Russia
 Belaya;Russia
 Ulan Ude;Russia
 Novgorod;Russia
-Copiapo;Chile
 Melitopol;Ukraine

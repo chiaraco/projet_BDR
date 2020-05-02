@@ -86,18 +86,71 @@ aeroport=pd.read_csv("https://raw.githubusercontent.com/jpatokal/openflights/mas
 
 
 ## VILLE
+
+motif_ville = re.compile(r"^[a-zA-Z]+")
+
+## Problème des villes ayant le même nom
+# attention 2 cas : soit même ville soit même nom de ville seulement
+# on traite aussi le problème des villes vides
+
+ville_deja_la=[]
+pays_associe=[]
+nom_ville_avec_num=[]
+
+compt=1
+index_a_supprimer=[]
+
+for i in range(len(aeroport)):
+    if not pd.isnull(aeroport.iloc[i,1]) :
+        # on cherche le nom de la ville sans le nombre entre parenthèse (s'il y en a un)
+        found_ville=motif_ville.search(aeroport.iloc[i,1])
+        if found_ville :
+            if found_ville.group() in ville_deja_la :
+                index = list(i for i,v in enumerate(ville_deja_la) if v==found_ville.group())
+                for j in index:
+                    trouve=False
+                    if aeroport.iloc[i,2]==pays_associe[j]:
+                        aeroport.iloc[i,1]=nom_ville_avec_num[j]
+                        # si ville et pays associé déjà là -> ligne à supprimer dans Ville
+                        index_a_supprimer.append(i)
+                        trouve=True
+                if not trouve:
+                    # nom de ville déjà là mais pas du même pays 
+                    # -> on ajoute dans liste
+                    # -> on ajoute un nb entre parenthèse                
+                    aeroport.iloc[i,1] = found_ville.group() + " (" + str(compt) + ")"
+                    ville_deja_la.append(found_ville.group())
+                    pays_associe.append(aeroport.iloc[i,2])
+                    nom_ville_avec_num.append(aeroport.iloc[i,1])
+                    compt += 1
+            else :
+                # si nom de ville pas déjà là -> on ajoute ville et pays associé dans liste
+                ville_deja_la.append(found_ville.group())
+                pays_associe.append(aeroport.iloc[i,2])
+                nom_ville_avec_num.append(aeroport.iloc[i,1])
+    else :
+        # pas de nom de ville -> ligne à supprimer
+        index_a_supprimer.append(i) 
+
+# on supprime les lignes à supprimer car ville vide ou répétée
 ville=aeroport.loc[:,["Ville","Pays"]]
-supp=[]
-for i in range(len(ville)):
-    if not isinstance(ville.iloc[i][0], str) : supp.append(i)
-ville.drop(supp, inplace=True)
+ville.drop(index_a_supprimer, inplace=True)
 ville.reset_index(inplace=True,drop=True)
 
 #print(ville)
-ville.to_csv(r'C:\Users\cordi\Documents\projet_BDR\projet_BDR\villeV1.csv',sep=';',index=False)
+ville.to_csv(r'C:\Users\cordi\Documents\villeVerif.csv',sep=';',index=False)
 
 
 ## AEROPORT
+
+## Problème des aéroports ayant le même nom
+li_ae=list(aeroport["Nom"])
+compt=1
+for i in range(len(aeroport)):
+    if (not pd.isnull(aeroport.iloc[i,0])) and (li_ae.count(aeroport.iloc[i,0]) >= 2) :
+        aeroport.iloc[i,0] = str(aeroport.iloc[i,0]) + " (" + str(compt) + ")"
+        compt += 1
+
 del(aeroport["Pays"])
 
 for j in range(1,7):
@@ -168,7 +221,7 @@ for j in range(1,5):
         
 print(max_alias) #30
 #print(compagnie)
-compagnie.to_csv(r'C:\Users\cordi\Documents\projet_BDR\projet_BDR\compagnie.csv',sep=';',index=False)
+compagnie.to_csv(r'C:\Users\cordi\Documents\projet_BDR\projet_BDR\compagnieV1.csv',sep=';',index=False)
 
 
     
