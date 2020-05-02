@@ -41,7 +41,7 @@ for i in range(len(pays)):
         pays.iloc[i][1]=""
 
 #print(pays)
-pays.to_csv(r'C:\Users\cordi\Documents\projet_BDR\projet_BDR\pays.csv',sep=';',index=False)
+pays.to_csv(r'C:\Users\cordi\Documents\Aide Projet BDR\mes_donnees\pays.csv',sep=';',index=False)
 
 
 
@@ -75,7 +75,7 @@ for j in range(1,3):
             else : avion.iloc[i][j]=""
             
 #print(avion)
-avion.to_csv(r'C:\Users\cordi\Documents\projet_BDR\projet_BDR\avion.csv',sep=';',index=False)
+avion.to_csv(r'C:\Users\cordi\Documents\Aide Projet BDR\mes_donnees\avion.csv',sep=';',index=False)
 
 
 
@@ -87,7 +87,7 @@ aeroport=pd.read_csv("https://raw.githubusercontent.com/jpatokal/openflights/mas
 
 ## VILLE
 
-motif_ville = re.compile(r"^[a-zA-Z]+")
+motif_ville = re.compile(r"[a-zA-Z0-9\.\-]+(\s*[a-zA-Z\.\-]+)*")
 
 ## Problème des villes ayant le même nom
 # attention 2 cas : soit même ville soit même nom de ville seulement
@@ -138,7 +138,7 @@ ville.drop(index_a_supprimer, inplace=True)
 ville.reset_index(inplace=True,drop=True)
 
 #print(ville)
-ville.to_csv(r'C:\Users\cordi\Documents\villeVerif.csv',sep=';',index=False)
+ville.to_csv(r'C:\Users\cordi\Documents\Aide Projet BDR\mes_donnees\villeV1.csv',sep=';',index=False)
 
 
 ## AEROPORT
@@ -177,7 +177,7 @@ for j in range(1,7):
             else : aeroport.iloc[i,j]=""
 
 #print(aeroport)
-aeroport.to_csv(r'C:\Users\cordi\Documents\projet_BDR\projet_BDR\aeroport.csv',sep=';',index=False)
+aeroport.to_csv(r'C:\Users\cordi\Documents\Aide Projet BDR\mes_donnees\aeroport.csv',sep=';',index=False)
 
 
 
@@ -221,7 +221,7 @@ for j in range(1,5):
         
 print(max_alias) #30
 #print(compagnie)
-compagnie.to_csv(r'C:\Users\cordi\Documents\projet_BDR\projet_BDR\compagnieV1.csv',sep=';',index=False)
+compagnie.to_csv(r'C:\Users\cordi\Documents\Aide Projet BDR\mes_donnees\compagnieV1.csv',sep=';',index=False)
 
 
     
