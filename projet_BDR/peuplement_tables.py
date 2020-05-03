@@ -14,7 +14,7 @@ avion=pd.read_csv('avion.csv',sep=';')
 aeroport=pd.read_csv('aeroport.csv',sep=';')
 compagnie=pd.read_csv('compagnie.csv',sep=';')
 ville=pd.read_csv('ville.csv',sep=';')
-accident=pd.read_csv('Donnees_accidents8.csv',sep=';')
+accident=pd.read_csv('Donnees_accidents.csv',sep=';')
 
 pa = Pays(NomPays='Unknown', ISO='')
 pa.save()
@@ -67,7 +67,7 @@ index_compagnie=[]
 index_pays=[]
 index_depart=[]
 index_arrivee=[]
-compt_date=0
+index_pas_de_date=[]
 for n in range(len(accident)):
 	try:
 		modele_avion=Avion.objects.get(Modele=accident.iloc[n][8])#elle existe, on ne fait rien de plus
@@ -141,7 +141,7 @@ for n in range(len(accident)):
 				if pd.isnull(accident.iloc[n][21]):#mois
 					if pd.isnull(accident.iloc[n][22]):#annee
 						print("pas de date")
-						compt_date+=1
+						index_pas_de_date.append(n)
 						
 					else:
 						T=datetime.datetime(year=int(accident.iloc[n][22]),month=1,day=1)
@@ -165,6 +165,28 @@ print("index_avion",index_avion)
 print("index_compagnie",index_compagnie)
 print("index_depart",index_depart)
 print("index_arrivee",index_arrivee)
-print("pas de date :",compt_date)
 print("index_pays",index_pays)
+print("index_pas_de_date",index_pas_de_date)
 print("index_avion:",len(index_avion),"index_compagnie:",len(index_compagnie),"index_pays",len(index_pays),"index_depart",len(index_depart),"index_arrivee",len(index_arrivee))
+
+import csv
+
+with open('index_avion.csv', 'w',encoding='utf-8',newline='') as csvfile:#newline evite d'avoir un saut de ligne entre chaque ligne
+	spamwriter = csv.writer(csvfile, delimiter=';')
+	for i in range(len(index_avion)):
+		spamwriter.writerow(index_avion[i])
+
+with open('index_compagnie.csv', 'w',encoding='utf-8',newline='') as csvfile:
+	spamwriter = csv.writer(csvfile, delimiter=';')
+	for i in range(len(index_compagnie)):
+		spamwriter.writerow(index_compagnie[i])
+
+with open('index_depart.csv', 'w',encoding='utf-8',newline='') as csvfile:
+	spamwriter = csv.writer(csvfile, delimiter=';')
+	for i in range(len(index_depart)):
+		spamwriter.writerow(index_depart[i])
+
+with open('index_arrivee.csv', 'w',encoding='utf-8',newline='') as csvfile:
+	spamwriter = csv.writer(csvfile, delimiter=';')
+	for i in range(len(index_arrivee)):
+		spamwriter.writerow(index_arrivee[i])
