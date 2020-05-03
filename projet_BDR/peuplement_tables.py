@@ -14,7 +14,7 @@ avion=pd.read_csv('avion.csv',sep=';')
 aeroport=pd.read_csv('aeroport.csv',sep=';')
 compagnie=pd.read_csv('compagnie.csv',sep=';')
 ville=pd.read_csv('ville.csv',sep=';')
-accident=pd.read_csv('Donnees_accidents.csv',sep=';')
+accident=pd.read_csv('Donnees_accidents8.csv',sep=';')
 
 pa = Pays(NomPays='Unknown', ISO='')
 pa.save()
@@ -68,12 +68,12 @@ index_pays=[]
 index_depart=[]
 index_arrivee=[]
 compt_date=0
-for n in range(12000,15000):
+for n in range(len(accident)):
 	try:
 		modele_avion=Avion.objects.get(Modele=accident.iloc[n][8])#elle existe, on ne fait rien de plus
 	except ObjectDoesNotExist:
 		modele_avion=Avion.objects.get(Modele='Unknown')
-		if not pd.isnull(accident.iloc[n][8]):
+		if not pd.isnull(accident.iloc[n][8]) and accident.iloc[n][8] not in index_avion:
 			#print('modele_avion',n,accident.iloc[n][8])
 			index_avion.append(accident.iloc[n][8])	
 	
@@ -81,7 +81,7 @@ for n in range(12000,15000):
 		compagnie=Compagnie.objects.get(NomCompagnie=accident.iloc[n][7])
 	except ObjectDoesNotExist:
 		compagnie=Compagnie.objects.get(NomCompagnie='Unknown')
-		if not pd.isnull(accident.iloc[n][7]):
+		if not pd.isnull(accident.iloc[n][7]) and accident.iloc[n][7] not in index_compagnie:
 			index_compagnie.append(accident.iloc[n][7])
 			#print('compagnie_accident',n,accident.iloc[n][7])
 		
@@ -90,7 +90,7 @@ for n in range(12000,15000):
 		pays=Pays.objects.get(NomPays=accident.iloc[n][12])
 	except ObjectDoesNotExist :
 		pays=Pays.objects.get(NomPays='Unknown')
-		if not pd.isnull(accident.iloc[n][12]):
+		if not pd.isnull(accident.iloc[n][12]) and accident.iloc[n][12] not in index_pays:
 			index_pays.append(accident.iloc[n][12])
 			#print('pays_accident',n,accident.iloc[n][12])
 		
@@ -104,7 +104,7 @@ for n in range(12000,15000):
 			try:depart=Aeroport.objects.get(NomAeroport=accident.iloc[n][4])
 			except (ObjectDoesNotExist,MultipleObjectsReturned):
 				depart=Aeroport.objects.get(NomAeroport='Unknown')
-				if not pd.isnull(accident.iloc[n][4]):
+				if not pd.isnull(accident.iloc[n][4]) and accident.iloc[n][4] not in index_depart:
 					index_depart.append(accident.iloc[n][4])
 					#print('aerodep_accident',n,accident.iloc[n][4])
 								
@@ -119,7 +119,7 @@ for n in range(12000,15000):
 			try:arrivee=Aeroport.objects.get(NomAeroport=accident.iloc[n][5])
 			except (ObjectDoesNotExist,MultipleObjectsReturned):
 				arrivee=Aeroport.objects.get(NomAeroport='Unknown')
-				if not pd.isnull(accident.iloc[n][5]):
+				if not pd.isnull(accident.iloc[n][5]) and accident.iloc[n][5] not in index_arrivee:
 					index_arrivee.append(accident.iloc[n][5])
 					#print('aeroarr_accident',n,accident.iloc[n][5])
 
@@ -163,9 +163,8 @@ for n in range(12000,15000):
 	ac.save()
 print("index_avion",index_avion)
 print("index_compagnie",index_compagnie)
-print("index_pays",index_pays)
 print("index_depart",index_depart)
 print("index_arrivee",index_arrivee)
 print("pas de date :",compt_date)
-
+print("index_pays",index_pays)
 print("index_avion:",len(index_avion),"index_compagnie:",len(index_compagnie),"index_pays",len(index_pays),"index_depart",len(index_depart),"index_arrivee",len(index_arrivee))
