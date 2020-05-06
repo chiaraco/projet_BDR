@@ -19,8 +19,8 @@ accident=pd.read_csv('Donnees_accidents.csv',sep=';')
 pa = Pays(NomPays='Unknown', ISO='')
 pa.save()
 for i in range(len(pays)) : 
-    pa = Pays(NomPays=pays.iloc[i][0], ISO=pays.iloc[i][1])
-    pa.save()
+	pa = Pays(NomPays=pays.iloc[i][0], ISO=pays.iloc[i][1])
+	pa.save()
 
 vi = Ville(NomVille='Unknown', NomPays=Pays.objects.get(NomPays='Unknown'))
 vi.save()
@@ -38,7 +38,7 @@ for k in range(len(avion)) :
     av = Avion(Modele=avion.iloc[k][0], IATA=avion.iloc[k][1], OACI=avion.iloc[k][2])
     av.save()
     
-ae = Aeroport(NomAeroport='Unknown', IATA='', OACI='', Latitude=0, Longitude=0, Altitude=0, Ville=Ville.objects.get(NomVille='Unknown'))
+ae = Aeroport(NomAeroport='Unknown', IATA='', OACI='',  Ville=Ville.objects.get(NomVille='Unknown'))#Latitude=None, Longitude=None, Altitude=None,
 ae.save()  
 for l in range(len(aeroport)) : 
 	try :
@@ -68,11 +68,16 @@ index_pays=[]
 index_depart=[]
 index_arrivee=[]
 index_pas_de_date=[]
-for n in range(len(accident)):
+for n in range(1200,1500):
 	try:
 		modele_avion=Avion.objects.get(Modele=accident.iloc[n][8])#elle existe, on ne fait rien de plus
 	except ObjectDoesNotExist:
-		modele_avion=Avion.objects.get(Modele='Unknown')
+		if not pd.isnull(accident.iloc[n][8]):
+			av = Avion(Modele=accident.iloc[n][8], IATA='', OACI='')
+			av.save()
+			modele_avion=av
+		else:
+			modele_avion=Avion.objects.get(Modele='Unknown')
 		if not pd.isnull(accident.iloc[n][8]) and accident.iloc[n][8] not in index_avion:
 			#print('modele_avion',n,accident.iloc[n][8])
 			index_avion.append(accident.iloc[n][8])	
@@ -80,7 +85,12 @@ for n in range(len(accident)):
 	try:
 		compagnie=Compagnie.objects.get(NomCompagnie=accident.iloc[n][7])
 	except ObjectDoesNotExist:
-		compagnie=Compagnie.objects.get(NomCompagnie='Unknown')
+		if not pd.isnull(accident.iloc[n][7]):
+			co = Compagnie(NomCompagnie=accident.iloc[n][7], Alias='', IATA='', OACI='', NomPays=Pays.objects.get(NomPays='Unknown'))
+			co.save()
+			compagnie=co
+		else:
+			compagnie=Compagnie.objects.get(NomCompagnie='Unknown')
 		if not pd.isnull(accident.iloc[n][7]) and accident.iloc[n][7] not in index_compagnie:
 			index_compagnie.append(accident.iloc[n][7])
 			#print('compagnie_accident',n,accident.iloc[n][7])
@@ -89,7 +99,12 @@ for n in range(len(accident)):
 	try:
 		pays=Pays.objects.get(NomPays=accident.iloc[n][12])
 	except ObjectDoesNotExist :
-		pays=Pays.objects.get(NomPays='Unknown')
+		if not pd.isnull(accident.iloc[n][12]):
+			pa = Pays(NomPays=accident.iloc[n][12], ISO='')
+			pa.save()
+			pays=pa
+		else:
+			pays=Pays.objects.get(NomPays='Unknown')
 		if not pd.isnull(accident.iloc[n][12]) and accident.iloc[n][12] not in index_pays:
 			index_pays.append(accident.iloc[n][12])
 			#print('pays_accident',n,accident.iloc[n][12])
@@ -103,7 +118,12 @@ for n in range(len(accident)):
 
 			try:depart=Aeroport.objects.get(NomAeroport=accident.iloc[n][4])
 			except (ObjectDoesNotExist,MultipleObjectsReturned):
-				depart=Aeroport.objects.get(NomAeroport='Unknown')
+				if not pd.isnull(accident.iloc[n][4]):
+					ae = Aeroport(NomAeroport=accident.iloc[n][4], IATA='', OACI='', Ville=Ville.objects.get(NomVille='Unknown'))# Latitude=0, Longitude=0, Altitude=0,
+					ae.save()
+					depart=ae
+				else:
+					depart=Aeroport.objects.get(NomAeroport='Unknown')
 				if not pd.isnull(accident.iloc[n][4]) and accident.iloc[n][4] not in index_depart:
 					index_depart.append(accident.iloc[n][4])
 					#print('aerodep_accident',n,accident.iloc[n][4])
@@ -118,16 +138,21 @@ for n in range(len(accident)):
 
 			try:arrivee=Aeroport.objects.get(NomAeroport=accident.iloc[n][5])
 			except (ObjectDoesNotExist,MultipleObjectsReturned):
-				arrivee=Aeroport.objects.get(NomAeroport='Unknown')
+				if not pd.isnull(accident.iloc[n][5]):
+					ae = Aeroport(NomAeroport=accident.iloc[n][5], IATA='', OACI='',  Ville=Ville.objects.get(NomVille='Unknown'))#Latitude=0, Longitude=0, Altitude=0,
+					ae.save()
+					arrivee=ae
+				else:
+					arrivee=Aeroport.objects.get(NomAeroport='Unknown')
 				if not pd.isnull(accident.iloc[n][5]) and accident.iloc[n][5] not in index_arrivee:
 					index_arrivee.append(accident.iloc[n][5])
 					#print('aeroarr_accident',n,accident.iloc[n][5])
 
 	Degats=accident.iloc[n][9]
-	if pd.isnull(accident.iloc[n][11]):Nb_occupants=-1
-	else:Nb_occupants=int(accident.iloc[n][11])
-	if pd.isnull(accident.iloc[n][10]):Nb_deces=-1
-	else:Nb_deces=int(accident.iloc[n][10])
+	if pd.isnull(accident.iloc[n][11]):Nb_occupants=None
+	else:Nb_occupants=accident.iloc[n][11]
+	if pd.isnull(accident.iloc[n][10]):Nb_deces=None
+	else:Nb_deces=accident.iloc[n][10]
 	Emplacement=accident.iloc[n][0]
 	Phase_de_vol=accident.iloc[n][2]
 	Nature=accident.iloc[n][3]
@@ -159,7 +184,7 @@ for n in range(len(accident)):
 
 #	T=datetime(year=int(accident.iloc[n][22]),month=int(accident.iloc[n][21]),day=int(accident.iloc[n][20]),hour=int(accident.iloc[n][1]),minute=int(accident.iloc[n][19]))
 	
-	ac=Accident(Time=T,IdAvion=modele_avion,NomCompagnie=compagnie,NomPays=pays,IdAeroport_depart=depart,IdAeroport_arrivee=arrivee,Nb_occupants=Nb_occupants,Nb_deces=Nb_deces,Emplacement=Emplacement,Phase_de_vol=Phase_de_vol,Nature=Nature,Statut=Statut,Degats=Degats)
+	ac=Accident(Time=T,IdAvion=modele_avion,NomCompagnie=compagnie,NomPays=pays,IdAeroport_depart=depart,IdAeroport_arrivee=arrivee,Nb_occupants=Nb_occupants,nb_deces=Nb_deces,Emplacement=Emplacement,Phase_de_vol=Phase_de_vol,Nature=Nature,Statut=Statut,Degats=Degats)
 	ac.save()
 print("index_avion",index_avion)
 print("index_compagnie",index_compagnie)
@@ -173,20 +198,20 @@ import csv
 
 with open('index_avion.csv', 'w',encoding='utf-8',newline='') as csvfile:#newline evite d'avoir un saut de ligne entre chaque ligne
 	spamwriter = csv.writer(csvfile, delimiter=';')
-	for i in range(len(index_avion)):
-		spamwriter.writerow(index_avion[i])
+	for i in index_avion:
+		spamwriter.writerow(i)
 
 with open('index_compagnie.csv', 'w',encoding='utf-8',newline='') as csvfile:
 	spamwriter = csv.writer(csvfile, delimiter=';')
-	for i in range(len(index_compagnie)):
-		spamwriter.writerow(index_compagnie[i])
+	for i in index_compagnie:
+		spamwriter.writerow(i)
 
 with open('index_depart.csv', 'w',encoding='utf-8',newline='') as csvfile:
 	spamwriter = csv.writer(csvfile, delimiter=';')
-	for i in range(len(index_depart)):
-		spamwriter.writerow(index_depart[i])
+	for i in index_depart:
+		spamwriter.writerow(i)
 
 with open('index_arrivee.csv', 'w',encoding='utf-8',newline='') as csvfile:
 	spamwriter = csv.writer(csvfile, delimiter=';')
-	for i in range(len(index_arrivee)):
-		spamwriter.writerow(index_arrivee[i])
+	for i in index_arrivee:
+		spamwriter.writerow(i)
