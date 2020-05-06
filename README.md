@@ -20,6 +20,7 @@ Chiara CORDIER et Nolwenn DAVID
  - ville.csv et compagnie.csv : amélioration de villeV1.csv et de compagnieV1.csv
  - peuplement_tables.py : pour peupler la base
  - Donnees_accidents.csv : données récupérées et nettoyées du site http://aviation-safety.net/
+ - Recup_accidents.py : pour récupérées et nettoyées les données du site http://aviation-safety.net/
  
 ## Etat de la récupération des données, du nettoyage et de la mise en forme
  - [x] récupération faite
