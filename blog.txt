@@ -52,3 +52,6 @@
 04/05/2020 Erreur suite aux migrations
 
 06/05/2020 Résolution de l'erreur en supprimant les migrations précédentes
+
+07/05/2020 Modification de models.py
+07/05/2020 Début du framework web

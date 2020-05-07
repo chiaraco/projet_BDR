@@ -1,51 +1,334 @@
-A;v;r;o; ;6;8;5; ;Y;o;r;k; ;C;.;1
-L;o;c;k;h;e;e;d; ;L;-;0;4;9; ;C;o;n;s;t;e;l;l;a;t;i;o;n
-A;v;r;o; ;6;9;1; ;L;a;n;c;a;s;t;r;i;a;n; ;B;.;3
-A;m;i;o;t; ;A;A;C;.;1; ;(;J;u;n;k;e;r;s; ;J;u;-;5;2;)
-D;o;u;g;l;a;s; ;D;C;-;4;-;1;0;0;9
+C;a;p;r;o;n;i; ;C;a;.;4;8
+F;e;l;i;x;s;t;o;w;e; ;F;u;r;y
+H;a;n;d;l;e;y; ;P;a;g;e; ;O;/;4;0;0
+H;a;n;d;l;e;y; ;P;a;g;e; ;O;/;7
+A;e;r;o;m;a;r;i;n;e; ;7;5
+H;a;n;d;l;e;y; ;P;a;g;e; ;O;/;1;0
+F;a;r;m;a;n; ;F;.;6;0; ;G;o;l;i;a;t;h
+C;a;p;r;o;n;i; ;C;a;.;6;0; ;N;o;v;i;p;l;a;n;o
+H;a;n;d;l;e;y; ;P;a;g;e; ;W;.;8
+F;a;r;m;a;n; ;F;.;6;1; ;G;o;l;i;a;t;h
+B;l;é;r;i;o;t; ;1;5;5
+J;u;n;k;e;r;s; ;G;.;2;4
+H;a;n;d;l;e;y; ;P;a;g;e; ;W;.;1;0
+F;o;k;k;e;r; ;F;.;V;I;I;I
+J;u;n;k;e;r;s; ;G;.;3;1;d;e
+F;o;r;d; ;4;-;A;T;-;B; ;T;r;i;-;M;o;t;o;r
+F;o;r;d; ;4;-;A;T;-;C; ;T;r;i;-;M;o;t;o;r
+F;o;r;d; ;4;-;A;T;-;A; ;T;r;i;-;M;o;t;o;r
+J;u;n;k;e;r;s; ;G;.;3;1;f;i
+F;a;r;m;a;n; ;F;.;6;3;b;i;s; ;G;o;l;i;a;t;h
+H;a;n;d;l;e;y; ;P;a;g;e; ;W;.;8;b
+J;u;n;k;e;r;s; ;G;.;3;1;c;e
+F;o;k;k;e;r; ;F;.;1;0;A
+S;a;b;c;a; ;(;H;a;n;d;l;e;y; ;P;a;g;e;); ;W;.;8;B
+F;o;r;d; ;5;-;A;T;-;B; ;T;r;i;-;M;o;t;o;r
+R;o;h;r;b;a;c;h; ;R;o; ;X; ;R;o;m;a;r; ;I
+J;u;n;k;e;r;s; ;G;.;2;4;l;i
+D;o;r;n;i;e;r; ;D;o; ;R;4; ;S;u;p;e;r;w;a;l
+F;a;r;m;a;n; ;F;.;1;8;0;T
+F;o;k;k;e;r; ;F;.;3;2
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;.;6;6; ;H;e;r;c;u;l;e;s
+J;u;n;k;e;r;s; ;G;.;2;4;b;i
+V;i;c;k;e;r;s; ;1;7;0; ;V;a;n;g;u;a;r;d
+F;o;k;k;e;r; ;F;.;1;0
+F;o;r;d; ;5;-;A;T;-;A; ;T;r;i;-;M;o;t;o;r
+S;h;o;r;t; ;S;.;8;/;1; ;C;a;l;c;u;t;t;a
+C;u;r;t;i;s;s; ;B;-;2; ;C;o;n;d;o;r; ;(;C;o;n;d;o;r; ;1;8;)
+C;u;r;t;i;s;s; ;C;o;n;d;o;r; ;1;8
+F;o;r;d; ;J;R;-;3; ;(;5;-;A;T;-;C;); ;T;r;i;-;M;o;t;o;r
+F;o;r;d; ;5;-;A;T;-;C; ;T;r;i;-;M;o;t;o;r
+J;u;n;k;e;r;s; ;J;u;G;-;1;W; ;(;G;.;2;4;)
+F;o;r;d; ;4;-;A;T;-;E; ;T;r;i;-;M;o;t;o;r
+H;a;n;d;l;e;y; ;P;a;g;e; ;W;.;9;a; ;H;a;m;p;s;t;e;a;d
+J;u;n;k;e;r;s; ;R;-;4;2; ;(;G;.;2;4;)
+H;a;n;d;l;e;y; ;P;a;g;e; ;W;.;8;g
+J;u;n;k;e;r;s; ;F;.;2;4;k;o; ;(;G;.;2;4;)
+F;o;r;d; ;T;r;i;-;M;o;t;o;r
+F;o;r;d; ;X;B;-;9;0;6; ;(;T;r;i;-;M;o;t;o;r;)
+F;o;k;k;e;r; ;F;.;I;X
+A;r;m;s;t;r;o;n;g; ;W;h;i;t;w;o;r;t;h; ;A;r;g;o;s;y; ;I;I
+A;r;m;s;t;r;o;n;g; ;W;h;i;t;w;o;r;t;h; ;A;r;g;o;s;y; ;I;A
+L;i;o;r;é; ;e;t; ;O;l;i;v;i;e;r; ;2;1;2
+B;o;e;i;n;g; ;8;0;A
+F;o;r;d; ;5;-;A;T;-;D; ;T;r;i;-;M;o;t;o;r
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;c;e
+J;u;n;k;e;r;s; ;P;S;-;5; ;(;G;.;2;4;)
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;1;m;c;a;i
+C;u;r;t;i;s;s; ;T;-;3;2; ;C;o;n;d;o;r; ;I;I
+K;a;l;i;n;i;n; ;K;-;7
+L;i;o;r;é; ;e;t; ;O;l;i;v;i;e;r; ;2;1;3
+D;e;w;o;i;t;i;n;e; ;D;.;3;3;2
 J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;g;e
-A;v;r;o; ;6;8;9; ;T;u;d;o;r; ;2
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;.;8;6; ;E;x;p;r;e;s;s
+C;u;r;t;i;s;s; ;T;-;3;2;C; ;C;o;n;d;o;r; ;I;I
+C;u;r;t;i;s;s; ;A;T;-;3;2;B; ;C;o;n;d;o;r; ;I;I
+F;o;r;d; ;4;-;A;T;-;.; ; ;T;r;i;-;M;o;t;o;r
+F;o;r;d; ;4;-;A;T;-;D; ;T;r;i;-;M;o;t;o;r
+C;u;r;t;i;s;s; ;A;T;-;3;2;C; ;C;o;n;d;o;r; ;I;I
+F;o;r;d; ;C;-;4;A; ;(;5;-;A;T;-;D;); ;T;r;i;-;M;o;t;o;r
+D;o;u;g;l;a;s; ;D;C;-;2;-;1;1;5;A
+J;u;n;k;e;r;s; ;F;.;2;4;k;2;a;y; ;(;G;.;2;4;)
+P;o;t;e;z; ;6;2
+T;u;p;o;l;e;v; ;A;N;T;-;2;0; ;M;a;x;i;m; ;G;o;r;k;y
+F;o;k;k;e;r; ;F;.;X;X;I;I
+D;o;u;g;l;a;s; ;D;C;-;2;-;1;1;5;E
+F;o;k;k;e;r; ;F;.;X;I;I
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m
+J;u;n;k;e;r;s; ;G;.;2;4;h;e
+C;o;n;s;o;l;i;d;a;t;e;d; ;1;6; ;C;o;m;m;o;d;o;r;e
+S;a;v;o;i;a;-;M;a;r;c;h;e;t;t;i; ;S;-;6;6
+S;a;v;o;i;a;-;M;a;r;c;h;e;t;t;i; ;S;.;7;3;P
+S;a;v;o;i;a;-;M;a;r;c;h;e;t;t;i; ;S;.;7;3
+S;h;o;r;t; ;S;.;8; ;C;a;l;c;u;t;t;a
+F;o;r;d; ;5;-;A;T;-;.; ; ;T;r;i;-;M;o;t;o;r
+D;o;u;g;l;a;s; ;D;C;-;2;A;-;1;2;7
+S;h;o;r;t; ;S;.;1;7; ;K;e;n;t
+B;o;u;l;t;o;n; ;P;a;u;l; ;P;.;7;1;A
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;h;o
+D;o;u;g;l;a;s; ;D;C;-;2;-;1;1;2
+J;u;n;k;e;r;s; ;G;.;3;1;f;o
+D;o;u;g;l;a;s; ;D;C;-;2;-;1;1;5;K
+D;o;u;g;l;a;s; ;D;C;-;2
+D;o;u;g;l;a;s; ;D;C;-;2;-;1;1;8;B
+J;u;n;k;e;r;s; ;G;.;3;8;d;i
+C;u;r;t;i;s;s; ;A;T;-;3;2;A; ;C;o;n;d;o;r; ;I;I
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;f;e
+D;o;u;g;l;a;s; ;D;C;-;2;-;1;2;0
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;.;8;6;A; ;E;x;p;r;e;s;s
+S;i;k;o;r;s;k;y; ;S;-;4;2
+D;o;u;g;l;a;s; ;D;C;-;2;-;1;1;8;A
+D;o;u;g;l;a;s; ;D;C;-;2;-;1;7;2
+D;o;u;g;l;a;s; ;D;C;-;2;-;1;1;5;B
+L;i;o;r;é;-;e;t;-;O;l;i;v;i;e;r; ;H;.;2;4;2;/;1
+V;i;c;k;e;r;s; ;V;a;l;e;n;t;i;a
+A;r;m;s;t;r;o;n;g; ;W;h;i;t;w;o;r;t;h; ;A;W;.;1;5; ;A;t;a;l;a;n;t;a
+C;A;N;T; ;Z;.;5;0;6
+S;i;k;o;r;s;k;y; ;S;-;4;3
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;1;9;7
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;s;a;i
+D;o;u;g;l;a;s; ;D;C;-;2;-;1;1;5;D
+D;e;w;o;i;t;i;n;e; ;D;.;3;3;3
+D;o;u;g;l;a;s; ;D;C;-;3;-;1;9;4;B
+C;u;r;t;i;s;s; ;A;T;-;3;2;D; ;C;o;n;d;o;r; ;I;I
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;P;.;4;2;E
+D;o;u;g;l;a;s; ;D;C;-;2;-;1;1;5;L
+S;a;b;c;a; ;S;a;v;o;i;a;-;M;a;r;c;h;e;t;t;i; ;S;.;7;3;P
+S;i;k;o;r;s;k;y; ;S;-;4;3;B
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;g;3;e
+S;i;k;o;r;s;k;y; ;S;-;4;3;W
+S;h;o;r;t; ;S;.;2;3; ;E;m;p;i;r;e; ;F;l;y;i;n;g; ;B;o;a;t; ;M;k; ;I
+P;o;t;e;z; ;6;2;1
+D;o;u;g;l;a;s; ;D;C;-;2;-;1;1;5;M
+D;o;u;g;l;a;s; ;D;C;-;2;-;1;5;2
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;t;e
+C;A;N;T; ;Z;.;5;0;6;C
+S;a;v;o;i;a;-;M;a;r;c;h;e;t;t;i; ;S;M;-;7;5;C
+L;o;c;k;h;e;e;d; ;1;4;-;H; ;S;u;p;e;r; ;E;l;e;c;t;r;a
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;2;8
+M;a;c;c;h;i; ;M;.;C;.;9;4;-;I;I
+J;u;n;k;e;r;s; ;J;u;-;9;0;V;2
+J;u;n;k;e;r;s; ;J;u;-;9;0;V;1
+C;o;n;s;o;l;i;d;a;t;e;d; ;P;B;Y;-;2; ;C;a;t;a;l;i;n;a
+N;a;k;a;j;i;m;a;/;D;o;u;g;l;a;s; ;D;C;-;2
+L;o;c;k;h;e;e;d; ;1;4;-;W;F;6;2; ;S;u;p;e;r; ;E;l;e;c;t;r;a
+F;o;r;d; ;5;-;A;T;-;D;S; ;T;r;i;-;M;o;t;o;r
+D;e;w;o;i;t;i;n;e; ;D;.;3;3;8
+F;o;c;k;e;-;W;u;l;f; ;F;w; ;2;0;0
+D;o;u;g;l;a;s; ;D;C;-;2;-;2;1;0
+S;h;o;r;t; ;S;u;n;d;e;r;l;a;n;d; ;I
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;1;9;1
+L;o;c;k;h;e;e;d; ;1;4;-;H;2; ;S;u;p;e;r; ;E;l;e;c;t;r;a
+W;M; ;F;o;k;k;e;r; ;F;.;V;I;I;I;b
+L;o;c;k;h;e;e;d; ;1;4;-;W;G;3;B; ;S;u;p;e;r; ;E;l;e;c;t;r;a
+C;u;r;t;i;s;s; ;Y;C;-;3;0; ;C;o;n;d;o;r; ;I;I
+D;o;u;g;l;a;s; ;D;C;-;3;-;1;9;4;D
+D;o;u;g;l;a;s; ;D;C;-;2;-;2;2;1
+S;i;k;o;r;s;k;y; ;S;-;4;2;B
+T;u;p;o;l;e;v; ;G;-;2
+M;a;r;t;i;n; ;M;-;1;3;0
+F;o;k;k;e;r; ;F;.;X;X
+S;a;v;o;i;a;-;M;a;r;c;h;e;t;t;i; ;S;M;-;7;5
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;g;4;c
+S;h;o;r;t; ;S;.;2;3; ;E;m;p;i;r;e; ;F;l;y;i;n;g; ;B;o;a;t; ;M;k; ;I;I
+F;o;k;k;e;r; ;F;.;X;V;I;I;I
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;P;.;4;2;W
+B;o;e;i;n;g; ;S;.;3;0;7; ;S;t;r;a;t;o;l;i;n;e;r
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;l;u
+C;o;n;s;o;l;i;d;a;t;e;d; ;P;B;Y;-;4; ;C;a;t;a;l;i;n;a
+S;i;k;o;r;s;k;y; ;S;-;4;2;A
+D;o;u;g;l;a;s; ;D;C;-;2;-;1;9;2
+J;u;n;k;e;r;s; ;F;.;2;4;k;a;y; ;(;G;.;2;4;)
+S;h;o;r;t; ;S;.;3;0; ;E;m;p;i;r;e; ;F;l;y;i;n;g; ;B;o;a;t
+F;o;r;d; ;6;-;A;T;-;A;S; ;T;r;i;-;M;o;t;o;r
+C;a;p;r;o;n;i; ;C;a;.;1;3;3
+C;o;n;s;o;l;i;d;a;t;e;d; ;P;B;Y;-;5; ;C;a;t;a;l;i;n;a
+L;i;s;u;n;o;v; ;P;S;-;8;4
+J;u;n;k;e;r;s; ;J;u;-;5;2; ;S;e;e
+M;a;c;c;h;i; ;C;.;1;0;0
+J;u;n;k;e;r;s; ;G;.;3;8;g;i;/;f;i
+C;o;n;s;o;l;i;d;a;t;e;d; ;C;a;t;a;l;i;n;a; ;I; ;(;P;B;Y;-;5;)
+L;o;c;k;h;e;e;d; ;1;8;-;0;8;-;0;1; ;L;o;d;e;s;t;a;r
+D;o;u;g;l;a;s; ;D;C;-;2;-;1;1;5;F
+S;h;o;r;t; ;S;u;n;d;e;r;l;a;n;d
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;g;6;e
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;2;6;9
+S;h;o;r;t; ;S;u;n;d;e;r;l;a;n;d; ;I;I;I
+L;o;c;k;h;e;e;d; ;1;8;-;1;0; ;L;o;d;e;s;t;a;r
+D;o;u;g;l;a;s; ;D;C;-;2;-;1;1;5;G
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;7;7;C
+C;o;n;s;o;l;i;d;a;t;e;d; ;C;a;t;a;l;i;n;a; ;I
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;7;7;B
+S;i;k;o;r;s;k;y; ;Y;1;O;A;-;8; ;(;S;-;4;3;)
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;g;5;e
+B;l;o;c;h; ;2;2;0
+L;o;c;k;h;e;e;d; ;1;8;-;0;8; ;L;o;d;e;s;t;a;r
+D;o;u;g;l;a;s; ;D;C;-;3;-;1;9;6;A
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;0;1;B
+L;o;c;k;h;e;e;d; ;1;8;-;4;0; ;L;o;d;e;s;t;a;r
+C;o;n;s;o;l;i;d;a;t;e;d; ;C;a;t;a;l;i;n;a
+D;o;u;g;l;a;s; ;D;C;-;3;B;-;2;0;2
+L;o;c;k;h;e;e;d; ;1;4;-;N;3; ;S;u;p;e;r; ;E;l;e;c;t;r;a
+C;o;n;s;o;l;i;d;a;t;e;d; ;C;-;1;2; ;C;o;m;m;o;d;o;r;e; ;(;1;6;-;2;)
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;.;8;6;B; ;E;x;p;r;e;s;s
+S;h;o;r;t; ;S;u;n;d;e;r;l;a;n;d; ;I;I
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;2;7
+D;o;u;g;l;a;s; ;C;-;5;0;B; ;(;D;C;-;3;-;3;9;7;)
+L;o;c;k;h;e;e;d; ;1;8;-;4;0;-;1;1; ;L;o;d;e;s;t;a;r
+C;o;n;s;o;l;i;d;a;t;e;d; ;P;B;Y;-;5;A; ;C;a;t;a;l;i;n;a
+L;o;c;k;h;e;e;d; ;C;-;5;7; ;L;o;d;e;s;t;a;r
+V;o;u;g;h;t;-;S;i;k;o;r;s;k;y; ;V;S;-;4;4
+D;o;u;g;l;a;s; ;D;C;-;3;-;3;8;2
+L;i;s;u;n;o;v; ;L;i;-;2
+J;u;n;k;e;r;s; ;G;.;3;1;g;o
+T;u;p;o;l;e;v; ;A;N;T;-;2;0;b;i;s
+C;u;r;t;i;s;s; ;B;T;-;3;2; ;C;o;n;d;o;r; ;I;I
+C;o;n;s;o;l;i;d;a;t;e;d; ;2;8;-;5;M;N;E; ;C;a;t;a;l;i;n;a
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;2;2;8
+C;o;n;s;o;l;i;d;a;t;e;d; ;2;8;-;2; ;C;a;t;a;l;i;n;a
+J;u;n;k;e;r;s; ;J;u; ;5;2;/;3;m
+D;o;u;g;l;a;s; ;D;C;-;5
+D;o;u;g;l;a;s; ;C;-;5;0;C
+L;o;c;k;h;e;e;d; ;1;8;-;1;0; ;L;o;d;e;s;t;a;r; ;I
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;4;1;4
+C;o;n;s;o;l;i;d;a;t;e;d; ;C;a;t;a;l;i;n;a; ;I;B; ;(;P;B;Y;-;5;B;)
+L;o;c;k;h;e;e;d; ;1;8;-;0;7;-;0;1; ;L;o;d;e;s;t;a;r
+D;o;u;g;l;a;s; ;C;-;5;1; ;(;D;C;-;3;-;2;7;0;C;)
+D;o;u;g;l;a;s; ;D;C;-;3;-;3;1;3
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;g;4;e
+D;o;u;g;l;a;s; ;C;-;5;3
+L;o;c;k;h;e;e;d; ;1;8; ;L;o;d;e;s;t;a;r; ;I
+S;h;o;r;t; ;S;.;2;5; ;S;u;n;d;e;r;l;a;n;d
+D;o;u;g;l;a;s; ;C;-;4;7;-;D;L
+L;o;c;k;h;e;e;d; ;L;o;d;e;s;t;a;r; ;I;I
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;7;0
+D;o;u;g;l;a;s; ;C;-;4;9;E; ;(;D;C;-;3;-;D;S;T;)
+D;o;u;g;l;a;s; ;D;C;-;2;-;1;7;1
+D;o;u;g;l;a;s; ;C;-;5;0;A; ;(;D;C;-;3;-;4;0;1;)
+L;o;c;k;h;e;e;d; ;B;-;3;4; ;L;e;x;i;n;g;t;o;n
+D;o;u;g;l;a;s; ;D;C;-;3; ;(;N;a;k;a;j;i;m;a; ;L;2;D;)
+D;o;u;g;l;a;s; ;D;C;-;5;-;5;1;1
+C;o;n;s;o;l;i;d;a;t;e;d; ;P;B;Y;-;3; ;C;a;t;a;l;i;n;a
+S;a;v;o;i;a;-;M;a;r;c;h;e;t;t;i; ;S;M;-;7;5;R;T
+C;o;n;s;o;l;i;d;a;t;e;d; ;C;-;8;7; ;L;i;b;e;r;a;t;o;r; ;E;x;p;r;e;s;s
+D;o;u;g;l;a;s; ;C;-;4;9;H; ;(;D;C;-;3;-;2;2;8;)
+A;v;r;o; ;6;4;2; ;E;i;g;h;t;e;e;n
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;.;9;5; ;F;l;a;m;i;n;g;o
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;0;9;A
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;.;9;1; ;A;l;b;a;t;r;o;s;s
+C;o;n;s;o;l;i;d;a;t;e;d; ;O;A;-;1;0; ;C;a;t;a;l;i;n;a; ;(;P;B;Y;-;5;)
+C;o;n;s;o;l;i;d;a;t;e;d; ;C;a;t;a;l;i;n;a; ;I;I;I;A; ;(;P;B;Y;-;5;A;)
+D;o;u;g;l;a;s; ;D;C;-;3;-;3;9;1
+L;o;c;k;h;e;e;d; ;C;-;6;0;B; ;L;o;d;e;s;t;a;r
+J;u;n;k;e;r;s; ;G;.;3;1;b;a
+L;o;c;k;h;e;e;d; ;C;-;1;1;1; ;S;u;p;e;r; ;E;l;e;c;t;r;a
+F;i;a;t; ;G;.;1;2;L;G;A
+D;o;u;g;l;a;s; ;D;C;-;3;-;1;7;8
+F;i;a;t; ;G;.;1;8
+D;o;u;g;l;a;s; ;D;C;-;3;-;1;9;4;C
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;2;6;9;C
+L;i;o;r;é;-;e;t;-;O;l;i;v;i;e;r; ;H;.;2;4;6;.;1
+D;e;w;o;i;t;i;n;e; ;D;.;3;4;2
+C;o;n;s;o;l;i;d;a;t;e;d; ;C;a;t;a;l;i;n;a; ;I;I;I
+J;u;n;k;e;r;s; ;J;u; ;5;2;/;3;m;g;4;e
+L;o;c;k;h;e;e;d; ;4;1;4; ;H;u;d;s;o;n; ;I;I;I
+D;o;u;g;l;a;s; ;C;-;3;2;A; ;(;D;C;-;2;-;1;2;0;)
+D;o;u;g;l;a;s; ;C;-;5;2;C; ;(;D;C;-;3;-;4;0;2;)
+D;o;u;g;l;a;s; ;D;C;-;3;-;1;9;4;F
+C;u;r;t;i;s;s; ;C;-;4;6;D;-;1;5;-;C;U; ;C;o;m;m;a;n;d;o
+A;m;i;o;t; ;A;A;C;.;1; ;(;J;u;n;k;e;r;s; ;J;u;-;5;2;)
+C;a;n;a;d;i;a;n; ;V;i;c;k;e;r;s; ;O;A;-;1;0;A; ;C;a;n;s;o; ;A; ;(;P;B;Y;-;5;A;)
+S;h;o;r;t; ;S;.;2;5; ;S;u;n;d;e;r;l;a;n;d; ;3
+L;o;c;k;h;e;e;d; ;C;-;6;0;A;-;5;-;L;O; ;L;o;d;e;s;t;a;r
+B;o;e;i;n;g; ;X;C;-;9;7
+A;v;r;o; ;6;8;5; ;Y;o;r;k; ;C;.;1
+M;a;r;t;i;n; ;P;B;M;-;5;G; ;M;a;r;i;n;e;r
+V;i;c;k;e;r;s; ;6;2;8; ;V;i;k;i;n;g; ;1;B
+V;i;c;k;e;r;s; ;V;i;k;i;n;g; ;C;.;2
+S;h;o;r;t; ;S;u;n;d;e;r;l;a;n;d; ;G;R;.;5
+B;r;i;s;t;o;l; ;1;7;0; ;F;r;e;i;g;h;t;e;r; ;I;A
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;1;9;7;E
 D;o;u;g;l;a;s; ;D;C;-;4
-J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;g;8;e
+L;i;s;u;n;o;v; ;L;i;-;2;P
+B;o;e;i;n;g; ;3;1;4;A
+F;i;a;t; ;G;.;1;2;C;A
+A;v;r;o; ;6;9;1; ;L;a;n;c;a;s;t;r;i;a;n; ;C;.;3
+L;o;c;k;h;e;e;d; ;P;2;V;-;2; ;N;e;p;t;u;n;e
 A;v;r;o; ;6;8;5; ;Y;o;r;k; ;I
+A;v;r;o; ;6;9;1; ;L;a;n;c;a;s;t;r;i;a;n; ;C;.;4
+u;n;k;n;o;w;n
+L;o;c;k;h;e;e;d; ;1;8;-;5;0;-;0;1; ;L;o;d;e;s;t;a;r
+S;h;o;r;t; ;S;.;2;5; ;S;a;n;d;r;i;n;g;h;a;m; ;5
+L;o;c;k;h;e;e;d; ;L;-;0;4;9; ;C;o;n;s;t;e;l;l;a;t;i;o;n
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;0;8;A
+F;a;i;r;c;h;i;l;d; ;C;-;8;2;A;-;2;0;-;F;A; ;P;a;c;k;e;t
+C;o;n;s;o;l;i;d;a;t;e;d; ;C;-;1;0; ;C;a;t;a;l;i;n;a; ;(;P;B;Y;-;5;)
+S;N;C;A;S;E; ;S;E;.;1;6;1; ;L;a;n;g;u;e;d;o;c
+B;o;e;i;n;g;-;C;a;n;a;d;a; ;C;a;t;a;l;i;n;a; ;I;V;B; ;(;P;B;Y;-;5;A;)
+L;o;c;k;h;e;e;d; ;1;8;-;5;6;-;2;3; ;L;o;d;e;s;t;a;r
+I;l;y;u;s;h;i;n; ;I;L;1;2
+C;u;r;t;i;s;s; ;C;-;4;6;E;-;1;-;C;S; ;C;o;m;m;a;n;d;o
+L;o;c;k;h;e;e;d; ;1;8;-;0;8;A; ;L;o;d;e;s;t;a;r
+F;a;i;r;c;h;i;l;d; ;C;-;8;2;A;-;2;5;-;F;A; ;P;a;c;k;e;t
+A;v;r;o; ;6;9;1; ;L;a;n;c;a;s;t;r;i;a;n; ;C;.;1
 D;o;u;g;l;a;s; ;C;-;4;7;D
+L;o;c;k;h;e;e;d; ;4;1;4;-;0;8; ;H;u;d;s;o;n; ;I;V;A
+L;o;c;k;h;e;e;d; ;C;-;6;0;A; ;L;o;d;e;s;t;a;r
+D;o;u;g;l;a;s; ;C;-;5;4;G;-;1;-;D;O; ;S;k;y;m;a;s;t;e;r
+S;a;v;o;i;a;-;M;a;r;c;h;e;t;t;i; ;S;M;-;9;5
+V;i;c;k;e;r;s; ;6;1;5; ;V;i;k;i;n;g; ;1;B
+B;r;i;s;t;o;l; ;1;7;0; ;F;r;e;i;g;h;t;e;r; ;I
+F;o;c;k;e;-;W;u;l;f; ;F;w; ;2;0;0;A;-;0
+B;r;i;s;t;o;l; ;1;7;0; ;F;r;e;i;g;h;t;e;r; ;X;I
+S;h;o;r;t; ;S;.;2;5; ;S;a;n;d;r;i;n;g;h;a;m; ;6
+C;a;n;a;d;i;a;n; ;V;i;c;k;e;r;s; ;P;B;V;-;1;A; ;C;a;n;s;o; ;A; ;(;P;B;Y;-;5;A;)
 C;u;r;t;i;s;s; ;C;-;4;6
+F;a;i;r;c;h;i;l;d; ;C;-;8;2;A;-;1;0;-;F;A; ;P;a;c;k;e;t
+A;v;r;o; ;6;9;1; ;L;a;n;c;a;s;t;r;i;a;n; ;B;.;3
+D;o;u;g;l;a;s; ;D;C;-;4;-;1;0;0;9
+A;v;r;o; ;6;8;9; ;T;u;d;o;r; ;2
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;g;8;e
 L;o;c;k;h;e;e;d; ;L;-;0;4;9;-;4;6;-;2;6; ;C;o;n;s;t;e;l;l;a;t;i;o;n
 D;o;u;g;l;a;s; ;C;-;4;7;A;-;9;0;-;D;L; ;S;k;y;t;r;a;i;n
-I;l;y;u;s;h;i;n; ;I;L;1;2
 S;h;o;r;t; ;S;u;n;d;e;r;l;a;n;d; ;G;R;.;3
-C;o;n;s;o;l;i;d;a;t;e;d; ;P;B;Y;-;5; ;C;a;t;a;l;i;n;a
 F;a;i;r;c;h;i;l;d; ;C;-;8;2;A;-;1;-;F;A; ;P;a;c;k;e;t
 B;o;e;i;n;g;-;C;a;n;a;d;a; ;P;B;2;B;-;1; ;C;a;t;a;l;i;n;a
-S;h;o;r;t; ;S;.;2;5; ;S;a;n;d;r;i;n;g;h;a;m; ;5
 C;a;n;a;d;i;a;n; ;V;i;c;k;e;r;s; ;P;B;V;-;1;A; ;C;a;n;s;o; ;(;P;B;Y;-;5;A;)
 C;u;r;t;i;s;s; ;C;-;4;6; ;C;o;m;m;a;n;d;o
-C;u;r;t;i;s;s; ;C;-;4;6;E;-;1;-;C;S; ;C;o;m;m;a;n;d;o
-C;o;n;s;o;l;i;d;a;t;e;d; ;P;B;Y;-;5;A; ;C;a;t;a;l;i;n;a
-L;o;c;k;h;e;e;d; ;C;-;6;0;A;-;5;-;L;O; ;L;o;d;e;s;t;a;r
-L;i;s;u;n;o;v; ;L;i;-;2
 C;u;r;t;i;s;s; ;C;-;4;6;A;-;4;0;-;C;U; ;C;o;m;m;a;n;d;o
-L;o;c;k;h;e;e;d; ;1;8;-;0;8; ;L;o;d;e;s;t;a;r
-L;o;c;k;h;e;e;d; ;1;8;-;0;8;-;0;1; ;L;o;d;e;s;t;a;r
 B;r;i;s;t;o;l; ;1;7;0; ;F;r;e;i;g;h;t;e;r; ;2;1;E
 D;o;u;g;l;a;s; ;C;-;4;7; ;(;V;C;-;1;1;7;B;); ;(;D;C;-;3;)
 D;o;u;g;l;a;s; ;D;C;-;3;A;-;4;4;7
 V;i;c;k;e;r;s; ;6;1;0; ;V;i;k;i;n;g; ;1;B
 S;N;C;A;C; ;N;C;.;2;1;1; ;C;o;r;m;o;r;a;n
 L;o;c;k;h;e;e;d; ;L;-;6;4;9; ;C;o;n;s;t;e;l;l;a;t;i;o;n
-u;n;k;n;o;w;n
 C;a;n;a;d;a;i;r; ;D;C;-;4;M;1; ;N;o;r;t;h; ;S;t;a;r
 L;i;s;u;n;o;v; ;L;i;-;2;T
-V;i;c;k;e;r;s; ;6;1;5; ;V;i;k;i;n;g; ;1;B
 L;o;c;k;h;e;e;d; ;R;5;O;-;4; ;L;o;d;e;s;t;a;r
-F;a;i;r;c;h;i;l;d; ;C;-;8;2;A;-;2;5;-;F;A; ;P;a;c;k;e;t
 J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;g;7;e
-M;a;c;c;h;i; ;M;.;C;.;9;4;-;I;I
 S;h;o;r;t; ;S;u;n;d;e;r;l;a;n;d; ;V
 F;a;i;r;c;h;i;l;d; ;C;-;8;2;A; ;P;a;c;k;e;t
 D;o;u;g;l;a;s; ;D;C;-;3;A;-;2;2;8;F
-S;h;o;r;t; ;S;u;n;d;e;r;l;a;n;d; ;G;R;.;5
-L;o;c;k;h;e;e;d; ;P;2;V;-;2; ;N;e;p;t;u;n;e
 C;o;n;v;a;i;r; ;C;V;-;2;4;0;-;2
 D;o;u;g;l;a;s; ;C;-;4;7;B;-;1;0;-;D;K; ;D;a;k;o;t;a; ;I;V
 D;o;u;g;l;a;s; ;C;-;4;7;A;-;3;0;-;D;K; ;D;a;k;o;t;a; ;I;I;I
@@ -55,30 +338,2146 @@ C;u;r;t;i;s;s; ;R;5;C;-;1; ;C;o;m;m;a;n;d;o; ;(;C;-;4;6;A;)
 A;v;r;o; ;6;9;1; ;L;a;n;c;a;s;t;r;i;a;n; ;X;P;P
 F;i;a;t; ;G;.;2;1;2;P;W
 L;o;c;k;h;e;e;d; ;1;8; ;L;o;d;e;s;t;a;r
-A;v;r;o; ;6;9;1; ;L;a;n;c;a;s;t;r;i;a;n; ;C;.;1
 D;o;u;g;l;a;s; ;D;C;-;3;-;2;3;2
 F;o;r;d; ;4;-;A;T;-;F; ;T;r;i;-;M;o;t;o;r
 D;o;u;g;l;a;s; ;R;5;D;-;3; ;(;C;-;5;4;D;)
 F;o;r;d; ;4;-;A;T; ;T;r;i;-;M;o;t;o;r
 C;u;r;t;i;s;s; ;R;5;C;-;1; ;C;o;m;m;a;n;d;o; ;(;C;-;4;6;)
-C;o;n;s;o;l;i;d;a;t;e;d; ;1;6; ;C;o;m;m;o;d;o;r;e
 M;i;l;e;s; ;M;.;6;0; ;M;a;r;a;t;h;o;n; ;I
 L;a;t;é;c;o;è;r;e; ;6;3;1
-D;o;u;g;l;a;s; ;D;C;-;5;-;5;1;1
 D;o;u;g;l;a;s; ;C;-;4;7; ;P;e;';r;e; ;(;D;C;-;3;)
-D;o;u;g;l;a;s; ;D;C;-;2;-;1;1;2
 C;o;n;s;o;l;i;d;a;t;e;d; ;P;B;Y;-;6;A; ;C;a;t;a;l;i;n;a
-A;v;r;o; ;6;9;1; ;L;a;n;c;a;s;t;r;i;a;n; ;C;.;3
 M;a;r;t;i;n; ;2;-;0;-;2
 C;u;r;t;i;s;s; ;C;-;4;6;F;-;1;-;C;U; ;C;o;m;m;a;n;d;o
-D;o;u;g;l;a;s; ;D;C;-;3;-;1;7;8
 S;h;o;r;t; ;S;.;2;5; ;S;a;n;d;r;i;n;g;h;a;m; ;2
-C;u;r;t;i;s;s; ;C;-;4;6;D;-;1;5;-;C;U; ;C;o;m;m;a;n;d;o
-C;a;n;a;d;i;a;n; ;V;i;c;k;e;r;s; ;P;B;V;-;1;A; ;C;a;n;s;o; ;A; ;(;P;B;Y;-;5;A;)
 N;a;v;a;l; ;A;i;r;c;r;a;f;t; ;F;a;c;t;o;r;y; ;P;B;N;-;1; ;N;o;m;a;d
 V;i;c;k;e;r;s; ;6;0;4; ;V;i;k;i;n;g; ;1;B
 A;v;r;o; ;6;8;8; ;T;u;d;o;r; ;1
 D;o;u;g;l;a;s; ;C;-;4;7;A;-;1;-;D;K; ;D;a;k;o;t;a; ;C;.;3
 C;o;n;s;o;l;i;d;a;t;e;d; ;3;2;-;2; ;L;i;b;e;r;a;t;o;r; ;I;I
 B;o;e;i;n;g;-;C;a;n;a;d;a; ;P;B;2;B;-;1; ;C;a;n;s;o; ;A; ;(;P;B;Y;-;5;A;)
-S;h;o;r;t; ;S;.;2;5; ;S;u;n;d;e;r;l;a;n;d; ;3
+B;o;e;i;n;g;-;C;a;n;a;d;a; ;P;B;2;B;-;1; ;C;a;t;a;l;i;n;a; ;I;V;B
+B;o;e;i;n;g;-;C;a;n;a;d;a; ;P;B;2;B;-;2; ;C;a;t;a;l;i;n;a
+S;N;C;A;S;E; ;S;E;.;1;6;1;/;1; ;L;a;n;g;u;e;d;o;c
+L;o;c;k;h;e;e;d; ;L;-;0;4;9;-;4;6;-;2;5; ;C;o;n;s;t;e;l;l;a;t;i;o;n
+L;o;c;k;h;e;e;d; ;L;-;0;4;9;-;5;1;-;2;6; ;C;o;n;s;t;e;l;l;a;t;i;o;n
+V;i;c;k;e;r;s; ;6;3;2; ;V;i;k;i;n;g; ;1;B
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;0;1;F
+C;u;r;t;i;s;s; ;C;-;4;6;D;-;2;0;-;C;U; ;C;o;m;m;a;n;d;o
+C;o;n;s;o;l;i;d;a;t;e;d; ;C;a;t;a;l;i;n;a; ;I;I;A; ;(;P;B;Y;-;5;A;)
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;a;s;t;i;n;g;s; ;C;.;1
+L;o;c;k;h;e;e;d; ;1;4;-;0;8; ;S;u;p;e;r; ;E;l;e;c;t;r;a
+D;o;u;g;l;a;s; ;C;-;4;7;A;-;5;0;-;D;L; ;P;e;';r;e; ;(;D;C;-;3;)
+L;o;c;k;h;e;e;d; ;4;1;4;-;5;6; ;H;u;d;s;o;n; ;I;I;I;A
+D;o;u;g;l;a;s; ;C;-;4;7;A;-;2;5;-;D;K; ;D;a;k;o;t;a; ;C;.;3
+L;o;c;k;h;e;e;d; ;L;-;7;4;9;-;7;9;-;3;3; ;C;o;n;s;t;e;l;l;a;t;i;o;n
+C;u;r;t;i;s;s; ;C;-;4;6;A;-;5;0;-;C;U; ;C;o;m;m;a;n;d;o
+V;i;c;k;e;r;s; ;V;a;l;e;t;t;a; ;C;.;1
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;0;1;D
+D;o;u;g;l;a;s; ;D;C;-;2;-;2;4;3
+L;o;c;k;h;e;e;d; ;R;5;O;-;3; ;(;L;o;d;e;s;t;a;r;)
+L;o;c;k;h;e;e;d; ;L;-;0;4;9;-;4;6; ;C;o;n;s;t;e;l;l;a;t;i;o;n
+L;o;c;k;h;e;e;d; ;L;-;7;4;9;-;7;9;-;4;6; ;C;o;n;s;t;e;l;l;a;t;i;o;n
+C;u;r;t;i;s;s; ;C;-;4;6;A;-;4;5;-;C;U; ;C;o;m;m;a;n;d;o
+D;o;u;g;l;a;s; ;D;C;-;3;-;3;1;3;A
+C;u;r;t;i;s;s; ;C;-;4;6;A;-;6;0;-;C;K; ;C;o;m;m;a;n;d;o
+C;o;n;v;a;i;r; ;C;V;-;2;4;0;-;0
+C;o;n;v;a;i;r; ;C;V;-;2;4;0;-;1;3
+B;r;i;s;t;o;l; ;1;7;0; ;F;r;e;i;g;h;t;e;r; ;3;1
+C;u;r;t;i;s;s; ;C;-;4;6;A;-;5;-;C;K; ;C;o;m;m;a;n;d;o
+C;u;r;t;i;s;s; ;C;-;4;6;A; ;C;o;m;m;a;n;d;o
+A;v;r;o; ;C;a;n;a;d;a; ;C;1;0;2; ;J;e;t;l;i;n;e;r
+A;v;r;o; ;6;8;8; ;T;u;d;o;r; ;4;B
+L;o;c;k;h;e;e;d; ;L;-;7;4;9; ;C;o;n;s;t;e;l;l;a;t;i;o;n
+G;r;u;m;m;a;n; ;G;-;7;3; ;M;a;l;l;a;r;d
+C;u;r;t;i;s;s; ;C;-;4;6;D;-;1;0;-;C;U; ;C;o;m;m;a;n;d;o
+F;i;a;t; ;G;.;2;1;2;C;P
+B;o;e;i;n;g;-;C;a;n;a;d;a; ;P;B;2;B;-;1; ;C;a;n;s;o; ;B
+A;v;r;o; ;6;9;1; ;L;a;n;c;a;s;t;r;i;a;n; ;C;.;2
+S;a;v;o;i;a;-;M;a;r;c;h;e;t;t;i; ;S;M;-;9;5;C
+C;u;r;t;i;s;s; ;C;-;4;6;F; ;C;o;m;m;a;n;d;o
+B;r;i;s;t;o;l; ;1;7;0; ;F;r;e;i;g;h;t;e;r; ;2;1
+D;o;u;g;l;a;s; ;R;5;D;-;2; ;(;C;-;5;4;B;)
+D;o;u;g;l;a;s; ;R;5;D;-;4; ;(;C;-;5;4;E;)
+B;r;e;g;u;e;t; ;7;3;0
+F;a;i;r;c;h;i;l;d; ;E;C;-;8;2;A; ;P;a;c;k;e;t
+C;u;r;t;i;s;s; ;C;-;4;6;A;-;5;5;-;C;K; ;C;o;m;m;a;n;d;o
+L;o;c;k;h;e;e;d; ;1;8;-;1;0;-;0;1; ;L;o;d;e;s;t;a;r
+C;u;r;t;i;s;s; ;C;-;4;6;D;-;5;-;C;U; ;C;o;m;m;a;n;d;o
+L;o;c;k;h;e;e;d; ;1;8;-;5;6; ;L;o;d;e;s;t;a;r
+S;N;C;A;S;E; ;S;E;.;2;0;0
+F;a;i;r;c;h;i;l;d; ;C;-;8;2;A;-;1;5;-;F;A; ;P;a;c;k;e;t
+B;o;e;i;n;g; ;B;-;1;7;G
+B;e;e;c;h;c;r;a;f;t; ;3;4; ;T;w;i;n; ;Q;u;a;d
+S;h;o;r;t; ;L;.;1;7; ;S;c;y;l;l;a
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;b;e
+S;N;C;A;C; ;(;F;a;r;m;a;n;); ;N;C;.;2;2;3;.;4
+A;r;m;s;t;r;o;n;g; ;W;h;i;t;w;o;r;t;h; ;A;W;.;2;7; ;E;n;s;i;g;n; ;I
+D;o;u;g;l;a;s; ;D;C;-;1;-;1;0;9
+L;o;c;k;h;e;e;d; ;1;4;-;N;2; ;S;u;p;e;r; ;E;l;e;c;t;r;a
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;b;a
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;2;0
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;2;7;B
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;1;9;7;C
+D;o;u;g;l;a;s; ;D;C;-;3;-;1;9;7
+J;u;n;k;e;r;s; ;J;u;-;9;0;A
+B;o;e;i;n;g; ;S;.;3;0;7;B; ;S;t;r;a;t;o;l;i;n;e;r
+F;o;k;k;e;r; ;F;.;X;X;X;V;I
+F;o;k;k;e;r; ;F;.;V;I;I;I;a
+L;o;c;k;h;e;e;d; ;R;5;O;-;5; ;(;L;o;d;e;s;t;a;r;)
+D;o;u;g;l;a;s; ;C;-;4;7;-;D;L; ;S;k;y;t;r;a;i;n
+C;u;r;t;i;s;s; ;C;-;4;6;A;-;5;-;C;U; ;C;o;m;m;a;n;d;o
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;9;4;A
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;g;1;0;e
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;3;9;9
+L;o;c;k;h;e;e;d; ;C;-;6;0;A;-;1;-;L;O; ;L;o;d;e;s;t;a;r
+J;u;n;k;e;r;s; ;J;u; ;5;2;/;3;m;g;5;e
+C;o;n;s;o;l;i;d;a;t;e;d; ;C;a;t;a;l;i;n;a; ;I;B
+C;u;r;t;i;s;s; ;C;-;4;6;A;-;C;U; ;C;o;m;m;a;n;d;o
+C;u;r;t;i;s;s; ;C;-;4;6;A;-;1;5;-;C;U; ;C;o;m;m;a;n;d;o
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;g;.;e
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;7;7;D
+C;u;r;t;i;s;s; ;C;-;4;6;A;-;2;0;-;C;U; ;C;o;m;m;a;n;d;o
+L;o;c;k;h;e;e;d; ;4;1;4; ;H;u;d;s;o;n; ;V;I
+C;o;n;s;o;l;i;d;a;t;e;d; ;2;8;-;5;M;C; ;C;a;n;s;o; ;(;P;B;Y;-;5;)
+D;o;u;g;l;a;s; ;C;-;4;9;J
+S;a;v;o;i;a;-;M;a;r;c;h;e;t;t;i; ;S;M;-;7;5; ;b;i;s
+D;o;u;g;l;a;s; ;D;C;-;3;-;1;9;6
+C;u;r;t;i;s;s; ;C;-;4;6;A;-;2;5;-;C;U; ;C;o;m;m;a;n;d;o
+D;o;u;g;l;a;s; ;C;-;4;7;A;-;D;L
+C;u;r;t;i;s;s; ;C;-;4;6;A;-;1;0;-;C;U; ;C;o;m;m;a;n;d;o
+L;o;c;k;h;e;e;d; ;C;-;6;0;A;-;L;O; ;L;o;d;e;s;t;a;r
+C;u;r;t;i;s;s; ;C;-;4;6;A;-;1;-;C;U; ;C;o;m;m;a;n;d;o
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;2;0;A
+L;o;c;k;h;e;e;d; ;R;5;O;-;6; ;L;o;d;e;s;t;a;r
+L;o;c;k;h;e;e;d; ;C;-;6;0;-;L;O; ;L;o;d;e;s;t;a;r
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;6;8
+D;o;u;g;l;a;s; ;C;-;4;9;K; ;(;D;C;-;3;-;4;5;5;)
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;0;1;E
+C;u;r;t;i;s;s; ;C;-;4;6;A;-;3;0;-;C;U; ;C;o;m;m;a;n;d;o
+D;o;u;g;l;a;s; ;D;C;-;3;-;1;9;4
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;3;2;A
+S;h;o;r;t; ;S;u;n;d;e;r;l;a;n;d; ;M;k; ;I;I;I
+S;h;o;r;t;s; ;S;.;2;6; ;G; ;C;l;a;s;s
+S;h;o;r;t; ;S;u;n;d;e;r;l;a;n;d; ;M;k; ;I;I
+L;o;c;k;h;e;e;d; ;1;8;-;4;0; ;L;o;d;e;s;t;a;r; ;(;C;-;5;6;B;-;L;O;)
+D;o;u;g;l;a;s; ;C;-;4;9;G;-;D;O
+D;o;u;g;l;a;s; ;C;-;4;9;F;-;D;O
+C;o;n;s;o;l;i;d;a;t;e;d; ;O;A;-;1;0; ;C;a;t;a;l;i;n;a
+J;u;n;k;e;r;s; ;J;u; ;5;2;/;3;m;g;1;0;e
+L;o;c;k;h;e;e;d; ;C;-;5;6;B;-;L;O; ;L;o;d;e;s;t;a;r
+F;i;a;t; ;G;.;1;8;V
+S;h;o;r;t; ;S;.;2;5; ;S;u;n;d;e;r;l;a;n;d; ;I;I;I
+L;i;o;r;é;-;e;t;-;O;l;i;v;i;e;r; ;H;.;2;4;6
+J;u;n;k;e;r;s; ;J;u;-;9;0;V;3
+C;u;r;t;i;s;s; ;C;-;4;6;A;-;3;5;-;C;U; ;C;o;m;m;a;n;d;o
+D;o;u;g;l;a;s; ;C;-;5;4;A;-;1;-;D;O; ;S;k;y;m;a;s;t;e;r
+D;o;u;g;l;a;s; ;C;-;4;7;A;-;6;5;-;D;L; ;S;k;y;t;r;a;i;n
+D;o;u;g;l;a;s; ;C;-;4;7;A;-;2;5;-;D;K; ;S;k;y;t;r;a;i;n
+D;o;u;g;l;a;s; ;C;-;4;7;A;-;1;0;-;D;K; ;S;k;y;t;r;a;i;n
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;0;9
+D;o;u;g;l;a;s; ;C;-;4;7;A;-;1;5;-;D;K; ;S;k;y;t;r;a;i;n
+C;o;n;s;o;l;i;d;a;t;e;d; ;C;a;t;a;l;i;n;a; ;I;V;A
+D;o;u;g;l;a;s; ;C;-;4;7;A;-;7;5;-;D;L; ;S;k;y;t;r;a;i;n
+D;o;u;g;l;a;s; ;D;C;-;3;-;4;5;4
+C;u;r;t;i;s;s; ;C;-;4;6;A;-;4;1;-;C;U; ;C;o;m;m;a;n;d;o
+C;o;n;s;o;l;i;d;a;t;e;d; ;C;-;1;0;9; ;L;i;b;e;r;a;t;o;r; ;E;x;p;r;e;s;s
+D;o;u;g;l;a;s; ;J;C;-;4;7;A
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;2;2;8;C
+B;u;d;d; ;R;B;-;1; ;C;o;n;e;s;t;o;g;a
+D;o;u;g;l;a;s; ;C;-;4;7;A;-;2;0;-;D;K; ;S;k;y;t;r;a;i;n
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m; ;g;e
+D;o;u;g;l;a;s; ;D;C;-;2;-;1;1;5;J
+S;h;o;r;t;s; ;S;u;n;d;e;r;l;a;n;d; ;I;I;I;a
+C;o;n;s;o;l;i;d;a;t;e;d; ;C;a;t;a;l;i;n;a; ;G;R;.;I;I;A
+F;o;r;d; ;5;-;A;T; ;T;r;i;-;M;o;t;o;r
+J;u;n;k;e;r;s; ;J;u;-;3;5;2; ;H;e;r;k;u;l;e;s
+L;o;c;k;h;e;e;d; ;L;o;d;e;s;t;a;r; ;I;I; ;(;C;-;6;0;)
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;2;0;B
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;g;1;4;e
+P;o;t;e;z;-;C;A;M;S; ;1;6;1
+L;o;c;k;h;e;e;d; ;C;-;5;7;B;-;L;O; ;L;o;d;e;s;t;a;r
+L;o;c;k;h;e;e;d; ;L;o;d;e;s;t;a;r; ;I;A
+D;o;u;g;l;a;s; ;D;C;-;2;-;2;1;1
+D;o;u;g;l;a;s; ;D;C;-;3; ;(;S;h;o;w;a; ;L;2;D;)
+D;o;u;g;l;a;s; ;C;-;4;7;A;-;D;K; ;S;k;y;t;r;a;i;n
+D;o;u;g;l;a;s; ;C;-;4;7;B;-;1;-;D;K; ;S;k;y;t;r;a;i;n
+J;u;n;k;e;r;s; ;J;u; ;5;2;/;3;m; ;g;4;e; ;(;M;S;)
+C;o;n;s;o;l;i;d;a;t;e;d; ;C;a;t;a;l;i;n;a; ;I;V;B
+S;h;o;r;t; ;S;.;3;3; ;E;m;p;i;r;e; ;F;l;y;i;n;g; ;B;o;a;t
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;g;1;1
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;7;7;A
+D;o;u;g;l;a;s; ;C;-;4;7;A;-;7;0;-;D;L; ;S;k;y;t;r;a;i;n
+D;o;u;g;l;a;s; ;C;-;4;9;H
+F;o;c;k;e;-;W;u;l;f; ;F;w; ;2;0;0;D;-;2
+D;o;u;g;l;a;s; ;D;C;-;3;-;1;9;4;H
+D;o;u;g;l;a;s; ;C;-;4;7;B;-;1;-;D;K; ;D;a;k;o;t;a; ;I;V
+S;N;C;A;S;O; ;S;.;O;.;9;3; ;C;o;r;s;e
+D;o;u;g;l;a;s; ;D;C;-;2;-;1;9;9
+K;a;w;a;s;a;k;i; ;K;i;-;5;6
+M;a;r;t;i;n; ;P;B;M;-;5; ;M;a;r;i;n;e;r
+F;o;c;k;e;-;W;u;l;f; ;F;w; ;2;0;0;C
+V;i;c;k;e;r;s; ;6;2;0; ;V;i;k;i;n;g; ;1
+D;o;u;g;l;a;s; ;C;-;4;9;J;-;D;O; ;(;D;C;-;3;-;4;5;4;)
+L;o;c;k;h;e;e;d; ;L;-;0;4;9;-;4;6;-;2;8; ;C;o;n;s;t;e;l;l;a;t;i;o;n
+C;u;r;t;i;s;s; ;C;-;4;6;E; ;C;o;m;m;a;n;d;o
+L;o;c;k;h;e;e;d; ;B;1;4;-;S; ;S;u;p;e;r; ;E;l;e;c;t;r;a
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;2;2;8;D
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;3;6;7
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;6;8;B
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;4;1;4;A
+V;i;c;k;e;r;s; ;4;9;1; ;V;i;k;i;n;g; ;1;A
+F;o;c;k;e;-;W;u;l;f; ;F;w; ;2;0;0;A;-;0;5
+L;o;c;k;h;e;e;d; ;C;-;6;9; ;C;o;n;s;t;e;l;l;a;t;i;o;n
+D;o;u;g;l;a;s; ;D;C;-;3;-;3;9;2
+D;o;u;g;l;a;s; ;C;-;7;4; ;G;l;o;b;e;m;a;s;t;e;r; ;I
+B;r;i;s;t;o;l; ;1;7;0; ;W;a;y;f;a;r;e;r; ;I;I;A
+L;o;c;k;h;e;e;d; ;1;8;-;1;4; ;L;o;d;e;s;t;a;r
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;0;1
+D;o;u;g;l;a;s; ;C;-;4;7;C
+J;u;n;k;e;r;s; ;J;u;-;2;5;2;A;1
+C;o;n;s;o;l;i;d;a;t;e;d; ;2;8;-;5;M;E; ;C;a;t;a;l;i;n;a
+C;u;r;t;i;s;s; ;C;-;4;6;D;-;1;0;-;C;U; ;C;o;m;m;a;d;o
+D;o;u;g;l;a;s; ;C;-;4;7;B; ;D;a;k;o;t;a; ;C;.;4
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;0;1;C
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;7;7
+D;o;u;g;l;a;s; ;D;a;k;o;t;a; ;C;.;3; ;(;D;C;-;3;)
+C;o;n;s;o;l;i;d;a;t;e;d; ;L;i;b;e;r;a;t;o;r; ;C;.;V;I;I; ;(;C;-;8;7;)
+M;a;r;t;i;n; ;P;B;M;-;3;S; ;M;a;r;i;n;e;r
+D;o;u;g;l;a;s; ;C;-;5;4;E;-;1;-;D;O; ;S;k;y;m;a;s;t;e;r
+C;u;r;t;i;s;s; ;C;-;4;6;D;-;1;-;C;U; ;C;o;m;m;a;n;d;o
+F;o;c;k;e;-;W;u;l;f; ;F;w; ;2;0;0;K;B;-;1
+M;a;r;t;i;n; ;J;R;M;-;1; ;M;a;r;s
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;P;.;6;8; ;H;e;r;m;e;s; ;1
+L;o;c;k;h;e;e;d; ;1;8;-;5;0;-;2;6; ;L;o;d;e;s;t;a;r
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;2;8;F
+B;o;e;i;n;g; ;3;1;4
+L;o;c;k;h;e;e;d; ;C;-;6;0;A;-;5;-;L;O; ;L;o;d;e;s;t;a;r; ;(;1;8;-;5;6;)
+L;o;c;k;h;e;e;d; ;1;8;-;5;0; ;L;o;d;e;s;t;a;r
+C;o;n;s;o;l;i;d;a;t;e;d; ;C;-;8;7;A; ;L;i;b;e;r;a;t;o;r; ;E;x;p;r;e;s;s
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;0;1;G
+D;o;u;g;l;a;s; ;C;-;4;7;A;-;5;0;-;D;L; ;D;a;k;o;t;a; ;C;.;3
+D;o;u;g;l;a;s; ;C;-;4;9;J; ;(;D;C;-;3;-;4;5;4;)
+D;o;u;g;l;a;s; ;C;-;4;9;H; ;(;D;C;-;3;-;1;9;4;B;)
+L;o;c;k;h;e;e;d; ;1;8;-;0;1;-;0;1; ;L;o;d;e;s;t;a;r
+D;o;u;g;l;a;s; ;C;-;4;7;B;-;1;0;-;D;K; ;D;a;k;o;t;a; ;4
+C;o;n;s;o;l;i;d;a;t;e;d; ;K;M;-;2; ;(;P;B;N;-;1; ;N;o;m;a;d;)
+L;o;c;k;h;e;e;d; ;P;2;V;-;3;W; ;N;e;p;t;u;n;e
+S;N;C;A;S;E; ;S;E;.;2;0;1;0; ;A;r;m;a;g;n;a;c
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;2;9
+F;a;i;r;c;h;i;l;d; ;C;-;1;1;9;C; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+F;a;i;r;c;h;i;l;d; ;C;-;1;1;9;B; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+M;a;r;t;i;n; ;J;R;M;-;3; ;M;a;r;s
+C;A;S;A; ;3;5;2; ;(;J;u;n;k;e;r;s; ;J;u;-;5;2;)
+S;h;o;r;t;s; ;S;.;4;5; ;S;o;l;e;n;t; ;3
+L;o;c;k;h;e;e;d; ;P;2;V; ;N;e;p;t;u;n;e
+F;a;i;r;c;h;i;l;d; ;C;-;8;2;A;-;5;-;F;A; ;P;a;c;k;e;t
+F;o;c;k;e;-;W;u;l;f; ;F;w; ;2;0;0;C;-;4
+L;o;c;k;h;e;e;d; ;X;P;2;V;-;1; ;N;e;p;t;u;n;e
+L;o;c;k;h;e;e;d; ;P;2;V;-;3; ;N;e;p;t;u;n;e
+C;o;n;s;o;l;i;d;a;t;e;d; ;C;-;1;0;A; ;C;a;t;a;l;i;n;a; ;(;P;B;Y;-;5;A;)
+D;o;u;g;l;a;s; ;D;C;-;3; ;(;R;4;D;-;1;)
+S;h;o;r;t; ;S;.;2;5; ;S;u;n;d;e;r;l;a;n;d; ;G;R;.;5
+C;a;n;a;d;a;i;r; ;C;-;4;-;1; ;N;o;r;t;h; ;S;t;a;r
+A;v;r;o; ;6;8;9; ;T;u;d;o;r; ;5
+D;o;u;g;l;a;s; ;S;C;-;4;7;D
+L;o;c;k;h;e;e;d; ;L;-;7;4;9;A; ;C;o;n;s;t;e;l;l;a;t;i;o;n
+F;a;i;r;c;h;i;l;d; ;C;-;1;1;9;B;-;1;0;-;F;A; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+V;i;c;k;e;r;s; ;6;3;9; ;V;i;k;i;n;g; ;1
+A;v;r;o; ;S;h;a;c;k;l;e;t;o;n; ;M;R;.;1
+S;a;v;o;i;a;-;M;a;r;c;h;e;t;t;i; ;S;M;-;9;5;B
+B;o;e;i;n;g; ;3;7;7; ;S;t;r;a;t;o;c;r;u;i;s;e;r; ;1;0;-;3;4
+A;n;t;o;n;o;v; ;A;n;-;2
+C;u;r;t;i;s;s; ;C;-;4;6;A;-;6;0;-;C;S; ;C;o;m;m;a;n;d;o
+F;i;a;t; ;G;.;2;1;2
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;1;9;7;D
+D;o;u;g;l;a;s; ;C;-;1;2;4;A; ;G;l;o;b;e;m;a;s;t;e;r; ;I;I
+L;o;c;k;h;e;e;d; ;P;2;V;-;4; ;N;e;p;t;u;n;e
+F;a;i;r;c;h;i;l;d; ;C;-;1;1;9;C;-;1;5;-;F;A; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+C;A;N;T; ;Z;.;5;0;6;S
+G;r;u;m;m;a;n; ;S;A;-;1;6;A; ;A;l;b;a;t;r;o;s;s
+S;h;o;r;t; ;S;.;2;5; ;S;a;n;d;r;i;n;g;h;a;m; ;4
+D;o;u;g;l;a;s; ;D;C;-;3;-;4;5;5
+C;o;n;s;o;l;i;d;a;t;e;d; ;C;a;n;s;o; ;A
+B;o;e;i;n;g; ;C;-;9;7;A; ;S;t;r;a;t;o;f;r;e;i;g;h;t;e;r
+F;a;i;r;c;h;i;l;d; ;C;-;8;2;A;-;F;A; ;P;a;c;k;e;t
+D;o;u;g;l;a;s; ;D;C;-;2;-;2;0;0
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;P;.;8;2; ;H;e;r;m;e;s; ;V
+F;a;i;r;c;h;i;l;d; ;C;-;1;1;9;C;-;1;2;-;F;A; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+L;o;c;k;h;e;e;d; ;C;-;6;0; ;L;o;d;e;s;t;a;r
+C;a;n;a;d;a;i;r; ;C;-;5;4;G;M; ;N;o;r;t;h; ;S;t;a;r
+S;N;C;A;S;O; ;S;O;.;3;0;P; ;B;r;e;t;a;g;n;e
+L;o;c;k;h;e;e;d; ;P;2;V;-;5; ;N;e;p;t;u;n;e
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;a;s;t;i;n;g;s; ;C;.;2
+F;a;i;r;c;h;i;l;d; ;R;4;Q;-;1; ;F;l;y;i;n;g; ;B;o;x;c;a;r; ;(;C;-;1;1;9;C;)
+D;o;u;g;l;a;s; ;C;-;4;7;A;-;7;5;-;D;L; ;D;a;k;o;t;a; ;3
+F;a;i;r;c;h;i;l;d; ;C;-;1;1;9;C;-;1;7;-;F;A; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;P;.;8;1; ;H;e;r;m;e;s; ;I;V;A
+F;a;i;r;c;h;i;l;d; ;C;-;1;1;9;C;-;2;5;-;F;A; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+V;i;c;k;e;r;s; ;4;9;8; ;V;i;k;i;n;g; ;1;A
+V;i;c;k;e;r;s; ;V;a;r;s;i;t;y; ;T;.;1
+B;o;e;i;n;g; ;3;7;7; ;S;t;r;a;t;o;c;r;u;i;s;e;r; ;1;0;-;2;6
+L;o;c;k;h;e;e;d; ;L;-;7;4;9;A;-;7;9;-;3;3; ;C;o;n;s;t;e;l;l;a;t;i;o;n
+D;o;u;g;l;a;s; ;C;-;1;2;4;A;-;D;L; ;G;l;o;b;e;m;a;s;t;e;r; ;I;I
+C;o;n;s;o;l;i;d;a;t;e;d; ;P;B;Y; ;C;a;t;a;l;i;n;a
+B;r;i;s;t;o;l; ;1;7;0; ;F;r;e;i;g;h;t;e;r; ;2;1;P
+V;i;c;k;e;r;s; ;6;3;0; ;V;i;s;c;o;u;n;t
+C;u;r;t;i;s;s; ;R;-;5;C; ;(;C;-;4;6;)
+D;o;u;g;l;a;s; ;T;p; ;7;9; ;(;C;-;4;7;-;D;L;)
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;0;6; ;C;o;m;e;t; ;1;A
+D;o;u;g;l;a;s; ;C;-;4;7;B;-;3;5;-;D;K; ;D;a;k;o;t;a; ;3
+S;h;o;r;t; ;S;u;n;d;e;r;l;a;n;d; ;M;R;.;5
+C;o;n;v;a;i;r; ;C;V;-;2;4;0;-;2;3
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;P;.;8;1; ;H;e;r;m;e;s; ;I;V
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;3;9;3
+F;a;i;r;c;h;i;l;d; ;C;-;1;1;9;C;-;2;2;-;F;A; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+N;o;r;d; ;2;5;0;1; ;N;o;r;a;t;l;a;s
+F;a;i;r;c;h;i;l;d; ;C;-;1;1;9;C;-;1;6;-;F;A; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+D;o;u;g;l;a;s; ;S;C;-;4;7;A
+C;o;n;s;o;l;i;d;a;t;e;d; ;L;B;.;3;0; ;L;i;b;e;r;a;t;o;r; ;I;I
+C;o;n;s;o;l;i;d;a;t;e;d; ;T;p; ;4;7; ;C;a;n;s;o; ;(;P;B;Y;-;5;A;)
+V;i;c;k;e;r;s; ;6;1;4; ;V;i;k;i;n;g; ;1
+F;a;i;r;c;h;i;l;d; ;C;-;1;1;9;C;-;2;3;-;F;A; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+C;o;n;v;a;i;r; ;C;V;-;2;4;0;-;4
+G;r;u;m;m;a;n; ;S;A;-;1;6;B; ;A;l;b;a;t;r;o;s;s
+F;a;i;r;c;h;i;l;d; ;C;-;1;1;9;G; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+D;o;u;g;l;a;s; ;D;C;-;3;-;3;1;4
+F;a;i;r;c;h;i;l;d; ;R;4;Q;-;2; ;F;l;y;i;n;g; ;B;o;x;c;a;r; ;(;C;-;1;1;9;F;)
+B;o;e;i;n;g; ;C;-;9;7;G; ;S;t;r;a;t;o;f;r;e;i;g;h;t;e;r
+F;a;i;r;c;h;i;l;d; ;C;-;1;1;9;C;-;1;8;-;F;A; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+C;o;n;v;a;i;r; ;C;V;-;3;4;0;-;3;1
+C;o;n;v;a;i;r; ;C;V;-;2;4;0;-;1;2
+V;i;c;k;e;r;s; ;V;a;r;i;s;t;y; ;T;.;1
+C;u;r;t;i;s;s; ;C;-;4;6;D;-;1;0;-;C;U
+B;r;i;s;t;o;l; ;1;7;0; ;F;r;e;i;g;h;t;e;r; ;3;1;M
+D;o;u;g;l;a;s; ;R;4;D;-;8; ;(;S;u;p;e;r; ;D;C;-;3;)
+L;o;c;k;h;e;e;d; ;V;e;n;t;u;r;a
+A;v;r;o; ;S;h;a;c;k;l;e;t;o;n; ;M;R;.;2
+V;i;c;k;e;r;s; ;V;a;l;e;t;t;a; ;T;.;3
+C;o;n;v;a;i;r; ;C;V;-;2;4;0;-;7
+C;u;r;t;i;s;s; ;C;-;4;6;D; ;C;o;m;m;a;n;d;o
+M;a;r;t;i;n; ;P;5;M;-;1; ;M;a;r;l;i;n
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;0;6; ;C;o;m;e;t; ;1
+V;i;c;k;e;r;s; ;6;3;4; ;V;i;k;i;n;g; ;1;B
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;P;R;.;1; ;M;a;r;a;t;h;o;n; ;1;A
+C;o;n;s;o;l;i;d;a;t;e;d; ;P;A;-;1;0; ;C;a;t;a;l;i;n;a; ;(;P;B;Y;-;5;)
+V;i;c;k;e;r;s; ;6;1;6; ;V;i;k;i;n;g; ;1;B
+K;a;i;s;e;r;-;F;r;a;z;e;r; ;C;-;1;1;9;F; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+V;i;c;k;e;r;s; ;V;a;l;e;t;t;a; ;C;.;2
+C;u;r;t;i;s;s; ;C;-;4;6;A;-;4;5;-;C;U
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;1;4; ;H;e;r;o;n; ;1;B
+F;a;i;r;c;h;i;l;d; ;C;-;1;1;9;C;-;2;6;-;F;A; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+K;a;i;s;e;r;-;F;r;a;z;i;e;r; ;C;-;1;1;9;F; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+D;o;u;g;l;a;s; ;D;C;-;3;-;3;2;2
+H;a;n;d;l;e;y; ;P;a;g;e; ;M;a;r;a;t;h;o;n; ;T;.;2
+I;l;y;u;s;h;i;n; ;I;L;1;4
+D;o;u;g;l;a;s; ;C;-;1;2;4;C; ;G;l;o;b;e;m;a;s;t;e;r; ;I;I
+C;o;n;v;a;i;r; ;C;V;-;2;4;0;-;6
+L;o;c;k;h;e;e;d; ;Y;P;2;V;-;7; ;N;e;p;t;u;n;e
+K;a;i;s;e;r;-;F;r;a;s;e;r; ;C;-;1;1;9;G; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+J;u;n;k;e;r;s; ;J;u;-;5;2;/;3;m;r;e;o
+L;o;c;k;h;e;e;d; ;L;-;7;4;9;A;-;7;9; ;C;o;n;s;t;e;l;l;a;t;i;o;n
+B;r;i;s;t;o;l; ;1;7;5; ;B;r;i;t;a;n;n;i;a; ;1;0;1
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;3; ;O;t;t;e;r
+F;a;i;r;c;h;i;l;d; ;C;-;1;1;9;F; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+G;r;u;m;m;a;n; ;S;A;-;1;6; ;A;l;b;a;t;r;o;s;s
+C;o;n;v;a;i;r; ;C;V;-;2;4;0;-;1
+B;o;e;i;n;g; ;K;C;-;9;7;G;-;2;5;-;B;O; ;S;t;r;a;t;o;f;r;e;i;g;h;t;e;r
+L;o;c;k;h;e;e;d; ;1;8;-;5;6;-;2;4; ;L;o;d;e;s;t;a;r
+S;h;o;r;t; ;S;.;2;5; ;S;u;n;d;e;r;l;a;n;d; ;5
+B;o;e;i;n;g; ;3;7;7; ;S;t;r;a;t;o;c;r;u;i;s;e;r; ;1;0;-;2;8
+F;a;i;r;c;h;i;l;d; ;C;-;1;1;9;C;-;1;4;-;F;A; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+V;i;c;k;e;r;s; ;7;2;0; ;V;i;s;c;o;u;n;t
+B;r;e;d;a;-;Z;a;p;p;a;t;a; ;B;Z;.;3;0;8
+C;o;n;v;a;i;r; ;C;V;-;3;4;0;-;3;5
+L;o;c;k;h;e;e;d; ;N;e;p;t;u;n;e; ;M;R;.;1
+F;a;i;r;c;h;i;l;d; ;C;-;1;1;9;C;-;2;1;-;F;A; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+F;a;i;r;c;h;i;l;d; ;C;-;1;1;9; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+L;o;c;k;h;e;e;d; ;P;2;V;-;6; ;N;e;p;t;u;n;e
+F;a;i;r;c;h;i;l;d; ;C;-;1;1;9;F;-;F;A; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+G;r;u;m;m;a;n; ;U;F;-;1;G; ;A;l;b;a;t;r;o;s;s
+V;i;c;k;e;r;s; ;6;2;7; ;V;i;k;i;n;g; ;1;B
+V;i;c;k;e;r;s; ;6;4;4; ;V;i;k;i;n;g; ;1;B
+L;o;c;k;h;e;e;d; ;L;-;1;4;9; ;C;o;n;s;t;e;l;l;a;t;i;o;n
+C;o;n;v;a;i;r; ;C;V;-;3;4;0;-;5;8
+D;o;u;g;l;a;s; ;D;C;-;3;-;1;9;1;A
+C;a;n;a;d;a;i;r; ;C;-;4; ;A;r;g;o;n;a;u;t
+M;a;r;t;i;n; ;4;-;0;-;4
+M;a;r;t;i;n; ;2;-;0;-;2;A
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;a;s;t;i;n;g;s
+C;o;n;v;a;i;r; ;C;V;-;3;4;0;-;3;2
+B;o;e;i;n;g; ;B;-;1;7;F
+A;i;r;s;p;e;e;d; ;A;S;.;5;7; ;A;m;b;a;s;s;a;d;o;r; ;2
+V;i;c;k;e;r;s; ;7;0;1; ;V;i;s;c;o;u;n;t
+C;o;n;s;o;l;i;d;a;t;e;d; ;L;i;b;e;r;a;t;o;r; ;C; ;M;k; ;V;I
+C;o;n;v;a;i;r; ;C;V;-;3;4;0;-;1;3
+K;a;i;s;e;r;-;F;r;a;z;e;r; ;C;-;1;1;9;J; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;U;C;-;1; ;O;t;t;e;r; ;(;D;H;C;-;3;)
+B;o;e;i;n;g; ;3;7;7; ;S;t;r;a;t;o;c;r;u;i;s;e;r; ;1;0;-;3;0
+B;o;e;i;n;g; ;K;C;-;9;7;F; ;S;t;r;a;t;o;f;r;e;i;g;h;t;e;r
+B;o;e;i;n;g; ;K;C;-;9;7;G; ;S;t;r;a;t;o;f;r;e;i;g;h;t;e;r
+S;h;o;r;t; ;S;.;2;5; ;S;a;n;d;r;i;n;g;h;a;m; ;7
+V;i;c;k;e;r;s; ;7;2;4; ;V;i;s;c;o;u;n;t
+C;o;n;v;a;i;r; ;C;V;-;4;4;0;-;1;1
+B;o;e;i;n;g; ;3;7;7; ;S;t;r;a;t;o;c;r;u;i;s;e;r; ;1;0;-;2;9
+B;o;e;i;n;g; ;K;C;-;9;7;E;-;4;5;-;B;O; ;S;t;r;a;t;o;f;r;e;i;g;h;t;e;r
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;1;4; ;H;e;r;o;n; ;2;B
+V;i;c;k;e;r;s; ;7;4;4; ;V;i;s;c;o;u;n;t
+L;o;c;k;h;e;e;d; ;P;2;V;-;2;N; ;N;e;p;t;u;n;e
+H;o;w;a;r;d; ;S;u;p;e;r; ;V;e;n;t;u;r;a
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;U;-;1;B; ;O;t;t;e;r; ;(;D;H;C;-;3;)
+C;o;n;v;a;i;r; ;C;V;-;2;4;0;-;5
+D;o;u;g;l;a;s; ;D;C;-;7
+V;i;c;k;e;r;s; ;7;3;9; ;V;i;s;c;o;u;n;t
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;U;-;1;A; ;O;t;t;e;r; ;(;D;H;C;-;3;)
+L;o;c;k;h;e;e;d; ;L;-;7;4;9;-;7;9; ;C;o;n;s;t;e;l;l;a;t;i;o;n
+C;o;n;v;a;i;r; ;C;V;-;3;4;0;-;6;8;B
+C;o;n;s;o;l;i;d;a;t;e;d; ;2;8;-;5;M;C; ;C;a;n;s;o; ;A
+S;p;a;r;t;a;n; ;V;e;n;t;u;r;a
+A;v;r;o; ;S;h;a;c;k;l;e;t;o;n; ;M;R;.;3
+B;o;e;i;n;g; ;K;C;-;9;7;G;-;2;6;-;B;O; ;S;t;r;a;t;o;t;a;n;k;e;r
+H;u;r;e;l;-;D;u;b;o;i;s; ;H;D;.;3;2;1
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;4;5;3
+B;r;i;s;t;o;l; ;1;7;0; ;F;r;e;i;g;h;t;e;r; ;3;1;E
+V;i;c;k;e;r;s; ;7;0;8; ;V;i;s;c;o;u;n;t
+F;a;i;r;c;h;i;l;d; ;C;C;-;1;1;9; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+C;a;n;a;d;a;i;r; ;D;C;-;4;M;2; ;N;o;r;t;h; ;S;t;a;r
+S;h;o;r;t; ;S;.;2;5; ;S;a;n;d;r;i;n;g;h;a;m; ;3
+B;r;i;s;t;o;l; ;1;7;5; ;B;r;i;t;a;n;n;i;a; ;3;0;1
+S;c;o;t;t;i;s;h; ;A;v;i;a;t;i;o;n; ;T;w;i;n; ;P;i;o;n;e;e;r; ;1
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;1;4; ;H;e;r;o;n; ;2;D
+M;a;r;t;i;n; ;P;B;M;-;5;A; ;M;a;r;i;n;e;r
+L;o;c;k;h;e;e;d; ;L;-;7;4;9; ;C;o;n;s;t;e;l;l;a;t;i;o;n; ;(;C;-;1;2;1;A;)
+A;v;r;o; ;S;h;a;c;k;l;e;t;o;n; ;M;R;.;1;A
+B;o;e;i;n;g; ;K;C;-;9;7;F;-;5;5;-;B;O; ;S;t;r;a;t;o;f;r;e;i;g;h;t;e;r
+L;o;c;k;h;e;e;d; ;P;2;V;-;7; ;N;e;p;t;u;n;e
+C;o;n;v;a;i;r; ;C;V;-;4;4;0;-;6;2
+G;r;u;m;m;a;n; ;H;U;-;1;6;E; ;A;l;b;a;t;r;o;s;s
+G;r;u;m;m;a;n; ;U;F;-;1; ;A;l;b;a;t;r;o;s;s
+B;o;e;i;n;g; ;C;-;9;7; ;S;t;r;a;t;o;f;r;e;i;g;h;t;e;r
+K;a;i;s;e;r;-;F;r;a;z;e;r; ;C;-;1;1;9;G; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+L;a;s;c;u;r;a;i;n; ;N;o;.;4; ;A;u;r;a
+B;l;a;c;k;b;u;r;n; ;B;e;v;e;r;l;e;y; ;C;.;1
+B;o;e;i;n;g; ;K;C;-;9;7;G;-;2;8;-;B;O; ;S;t;r;a;t;o;f;r;e;i;g;h;t;e;r
+B;o;e;i;n;g; ;C;-;9;7;C;-;3;5;-;B;O; ;S;t;r;a;t;o;f;r;e;i;g;h;t;e;r
+L;o;c;k;h;e;e;d; ;4;1;4;-;5;6;-;1;1; ;H;u;d;s;o;n
+D;o;u;g;l;a;s; ;C;-;4;7
+B;o;e;i;n;g; ;K;C;-;9;7;G;-;2;7;-;B;O; ;S;t;r;a;t;o;f;r;e;i;g;h;t;e;r
+V;i;c;k;e;r;s; ;8;0;6; ;V;i;s;c;o;u;n;t
+V;i;c;k;e;r;s; ;8;0;2; ;V;i;s;c;o;u;n;t
+L;o;c;k;h;e;e;d; ;1;8; ;L;e;a;r;s;t;a;r; ;I
+B;o;e;i;n;g; ;K;C;-;9;7;F;-;5;0;-;B;O; ;S;t;r;a;t;o;f;r;e;i;g;h;t;e;r
+L;o;c;k;h;e;e;d; ;P;2;V;-;7;L;P; ;N;e;p;t;u;n;e
+L;i;s;u;n;o;v; ;L;i;-;2;V
+A;n;t;o;n;o;v; ;A;n;-;1;2
+L;o;c;k;h;e;e;d; ;P;2;V;-;5;F; ;N;e;p;t;u;n;e
+V;i;c;k;e;r;s; ;7;4;8;D; ;V;i;s;c;o;u;n;t
+C;o;n;v;a;i;r; ;C;V;-;4;4;0;-;5;9
+V;i;c;k;e;r;s; ;6;6;3; ;V;i;s;c;o;u;n;t
+T;u;p;o;l;e;v; ;T;u;-;1;0;4
+N;o;r;d; ;2;5;0;1;D; ;N;o;r;a;t;l;a;s
+V;i;c;k;e;r;s; ;7;0;1;C; ;V;i;s;c;o;u;n;t
+V;i;c;k;e;r;s; ;7;4;5;D; ;V;i;s;c;o;u;n;t
+V;i;c;k;e;r;s; ;V;i;s;c;o;u;n;t
+D;o;u;g;l;a;s; ;S;C;-;4;7
+M;o;r;a;n;e; ;S;a;u;l;n;i;e;r; ;M;S;.;7;6;0; ;P;a;r;i;s; ;I
+L;o;c;k;h;e;e;d; ;P;V;-;2;T; ;H;a;r;p;o;o;n
+B;o;e;i;n;g; ;K;C;-;1;3;5;A; ;S;t;r;a;t;o;t;a;n;k;e;r
+F;a;i;r;c;h;i;l;d; ;F;-;2;7
+V;i;c;k;e;r;s; ;7;3;2; ;V;i;s;c;o;u;n;t
+V;i;c;k;e;r;s; ;V;a;l;e;t;t;a; ;T;.;4
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;P;R;-;7; ;H;e;r;a;l;d; ;1;0;0
+V;i;c;k;e;r;s; ;6;2;1; ;V;i;k;i;n;g; ;1
+D;o;u;g;l;a;s; ;C;-;4;7;A;-;2;5;-;D;L; ;D;a;k;o;t;a; ;C;.;3
+D;o;u;g;l;a;s; ;C;-;1;3;3;A; ;C;a;r;g;o;m;a;s;t;e;r
+A;n;t;o;n;o;v; ;A;n;-;1;0
+V;i;c;k;e;r;s; ;7;5;5;D; ;V;i;s;c;o;u;n;t
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;C;S;R;-;1;2;3; ;O;t;t;e;r; ;(;D;H;C;-;3;)
+V;i;c;k;e;r;s; ;6;5;7; ;V;i;k;i;n;g; ;1
+S;A;A;B; ;S;c;a;n;d;i;a; ;9;0;A;-;2
+B;r;i;s;t;o;l; ;1;7;5; ;B;r;i;t;a;n;n;i;a; ;3;1;2
+A;v;r;o; ;S;h;a;c;k;l;e;t;o;n; ;T;.;4
+L;o;c;k;h;e;e;d; ;R;C;-;1;2;1;D; ;C;o;n;s;t;e;l;l;a;t;i;o;n
+L;o;c;k;h;e;e;d; ;L;e;a;r;s;t;a;r; ;1
+F;a;i;r;c;h;i;l;d; ;C;-;1;2;3;B;-;1;2;-;F;A; ;P;r;o;v;i;d;e;r
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;0;6; ;C;o;m;e;t; ;4
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;1;9;7;B
+V;i;c;k;e;r;s; ;8;2;7; ;V;i;s;c;o;u;n;t
+C;o;n;s;o;l;i;d;a;t;e;d; ;P;4;Y;-;2; ;P;r;i;v;a;t;e;e;r
+A;v;r;o; ;6;8;8; ;S;u;p;e;r; ;T;r;a;d;e;r
+B;o;e;i;n;g; ;7;0;7;-;1;0;0
+S;A;A;B; ;S;c;a;n;d;i;a; ;9;0;A;-;1
+D;o;u;g;l;a;s; ;C;-;4;7;A;-;4;0;-;D;L; ;S;k;y;t;r;a;i;n
+d;e; ;H;a;v;i;l;l;a;n;d; ; ;D;H;-;1;0;6; ;C;o;m;e;t; ;4
+A;n;t;o;n;o;v; ;A;n;-;8
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;Y;A;C;-;1; ;C;a;r;i;b;o;u
+L;o;c;k;h;e;e;d; ;P;-;1;5; ;N;e;p;t;u;n;e; ;(;P;2;V;-;5;)
+V;i;c;k;e;r;s; ;7;9;4;D; ;V;i;s;c;o;u;n;t
+V;i;c;k;e;r;s; ;7;6;3;D; ;V;i;s;c;o;u;n;t
+G;r;u;m;m;a;n; ;A;-;1;6; ;A;l;b;a;t;r;o;s;s; ;(;H;U;-;1;6;)
+B;a;a;d;e; ;1;5;2
+S;c;o;t;t;i;s;h; ;A;v;i;a;t;i;o;n; ;T;w;i;n; ;P;i;o;n;e;e;r; ;3
+V;i;c;k;e;r;s; ;7;5;7; ;V;i;s;c;o;u;n;t
+M;a;r;t;i;n; ;P;5;M;-;2; ;M;a;r;l;i;n
+V;i;c;k;e;r;s; ;7;8;5;D; ;V;i;s;c;o;u;n;t
+S;c;o;t;t;i;s;h; ;A;v;i;a;t;i;o;n; ;T;w;i;n; ;P;i;o;n;e;e;r; ;C;C;.;1
+G;r;u;m;m;a;n; ;S;A;-;1;6;B; ;A;l;b;a;t;r;o;s;s; ;(;H;U;-;1;6;)
+V;i;c;k;e;r;s; ;8;1;5; ;V;i;s;c;o;u;n;t
+V;i;c;k;e;r;s; ;6;3;5; ;V;i;k;i;n;g; ;1;B
+F;a;i;r;c;h;i;l;d; ;R;4;Q; ;F;l;y;i;n;g; ;B;o;x;c;a;r; ;(;C;-;1;1;9;)
+C;u;r;t;i;s;s; ;C;-;4;6; ;S;u;p;e;r; ;C
+L;o;c;k;h;e;e;d; ;L;-;0;4;9;E;-;4;6; ;C;o;n;s;t;e;l;l;a;t;i;o;n
+B;o;e;i;n;g; ;7;0;7;-;2;0;0
+L;o;c;k;h;e;e;d; ;L;-;1;6;4;9;A; ;S;t;a;r;l;i;n;e;r
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;0;6; ;C;o;m;e;t; ;2;R
+D;o;u;g;l;a;s; ;D;C;-;6;A;/;B
+D;o;u;g;l;a;s; ;C;-;4;7;B;-;3;0;-;D;K; ;D;a;k;o;t;a; ;6
+F;a;i;r;c;h;i;l;d; ;C;-;8;2; ;P;a;c;k;e;t
+B;o;e;i;n;g; ;K;C;-;9;7;G;-;2;3;-;B;O; ;S;t;r;a;t;o;f;r;e;i;g;h;t;e;r
+B;r;i;s;t;o;l; ;1;7;5; ;B;r;i;t;a;n;n;i;a; ;1;0;2
+L;o;c;k;h;e;e;d; ;1;8;-;5;6;A; ;L;o;d;e;s;t;a;r
+S;c;o;t;t;i;s;h; ;A;v;i;a;t;i;o;n; ;T;w;i;n; ;P;i;o;n;e;e;r; ;2
+S;u;d; ;A;v;i;a;t;i;o;n; ;S;E;-;2;1;0; ;C;a;r;a;v;e;l;l;e; ;I;A
+F;a;i;r;c;h;i;l;d; ;C;-;1;2;3;B;-;1;3;-;F;A; ;P;r;o;v;i;d;e;r
+C;o;n;v;a;i;r; ;C;V;-;3;4;0;-;6;2
+L;o;c;k;h;e;e;d; ;1;8; ;L;e;a;r;s;t;a;r
+D;o;u;g;l;a;s; ;D;C;-;8;-;1;1
+C;o;n;v;a;i;r; ;C;V;-;8;8;0;-;2;2;-;1
+S;u;d; ;A;v;i;a;t;i;o;n; ;S;E;-;2;1;0; ;C;a;r;a;v;e;l;l;e; ;I
+V;i;c;k;e;r;s; ;8;0;4; ;V;i;s;c;o;u;n;t
+B;r;i;s;t;o;l; ;1;7;0; ;W;a;y;f;a;r;e;r; ;I;I
+V;i;c;k;e;r;s; ;8;3;7; ;V;i;s;c;o;u;n;t
+V;E;B; ;1;4;P
+C;o;n;v;a;i;r; ;C;-;1;3;1;D; ;(;C;V;-;3;4;0;)
+L;o;c;k;h;e;e;d; ;L;o;d;e;s;t;a;r
+B;o;e;i;n;g; ;7;0;7;-;3;0;0
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;1;4; ;H;e;r;o;n; ;2
+V;i;c;k;e;r;s; ;7;0;2; ;V;i;s;c;o;u;n;t
+L;o;c;k;h;e;e;d; ;R;B;-;6;9;A; ;N;e;p;t;u;n;e
+B;o;e;i;n;g; ;K;C;-;9;7;G;-;2;8;-;B;O; ;S;t;r;a;t;o;t;a;n;k;e;r
+A;v;i;a; ;1;4;T
+L;o;c;k;h;e;e;d; ;P;V;-;1; ;V;e;n;t;u;r;a
+B;o;e;i;n;g; ;7;0;7;-;4;0;0
+V;i;c;k;e;r;s; ;7;3;9;B; ;V;i;s;c;o;u;n;t
+F;a;i;r;c;h;i;l;d; ;F;-;2;7;A
+B;r;i;s;t;o;l; ;1;7;5; ;B;r;i;t;a;n;n;i;a; ;3;1;8
+A;v;i;a; ;1;4;-;3;2;A
+D;o;u;g;l;a;s; ;D;C;-;8;-;2;1
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;1;4
+D;o;u;g;l;a;s; ;A;C;-;4;7;A
+V;i;c;k;e;r;s; ;7;6;8;D; ;V;i;s;c;o;u;n;t
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;0;6; ;C;o;m;e;t; ;4;B
+D;o;u;g;l;a;s; ;C;-;1;3;3;A;-;3;5;-;D;L; ;C;a;r;g;o;m;a;s;t;e;r
+C;o;n;v;a;i;r; ;C;V;-;4;4;0
+B;o;e;i;n;g; ;7;2;0;-;0;0;0
+B;r;e;g;u;e;t; ;7;6;1;S
+D;o;u;g;l;a;s; ;R;4;D;-;8;L; ;(;S;u;p;e;r; ;D;C;-;3;)
+S;h;i;j;i;a;z;h;u;a;n;g; ;Y;-;5
+D;o;u;g;l;a;s; ;D;C;-;8;-;5;3
+L;o;c;k;h;e;e;d; ;P;2;V;-;7;S; ;N;e;p;t;u;n;e
+D;o;u;g;l;a;s; ;D;C;-;8;-;1;2
+S;u;d; ;A;v;i;a;t;i;o;n; ;S;E;-;2;1;0; ;C;a;r;a;v;e;l;l;e; ;I;I;I
+F;a;i;r;c;h;i;l;d; ;C;-;1;2;3;B;-;9;-;F;A; ;P;r;o;v;i;d;e;r
+L;o;c;k;h;e;e;d; ;P;V;-;2;D; ;H;a;r;p;o;o;n
+V;i;c;k;e;r;s; ;7;9;8;D; ;V;i;s;c;o;u;n;t
+V;i;c;k;e;r;s; ;6;1;0; ;V;i;k;i;n;g; ;3;B
+C;o;n;v;a;i;r; ;R;4;Y;-;1;Z; ;(;C;V;-;3;4;0;)
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;8
+D;o;u;g;l;a;s; ;D;C;-;8;-;3;2
+L;o;c;k;h;e;e;d; ;L;-;0;4;9;E; ;C;o;n;s;t;e;l;l;a;t;i;o;n
+D;o;u;g;l;a;s; ;C;-;4;7;B;-;3;0;-;D;K; ;D;a;k;o;t;a; ;4
+B;r;i;s;t;o;l; ;1;7;0; ;S;u;p;e;r;f;r;e;i;g;h;t;e;r; ;3;2
+M;o;r;a;n;e; ;S;a;u;l;n;i;e;r; ;M;S;.;7;6;0;A; ;P;a;r;i;s; ;I;A
+B;o;e;i;n;g; ;K;C;-;9;7; ;S;t;r;a;t;o;t;a;n;k;e;r
+V;i;c;k;e;r;s; ;7;3;6; ;V;i;s;c;o;u;n;t
+L;o;c;k;h;e;e;d; ;C;-;1;4;0;A;-;L;M; ;J;e;t;S;t;a;r
+C;u;r;t;i;s;s; ;C;W;-;2;0; ;(;C;-;4;6;)
+C;o;n;v;a;i;r; ;T;-;2;9;C; ;(;C;V;-;2;4;0;)
+M;a;r;t;i;n; ;J;R;M;-;2; ;M;a;r;s
+C;u;r;t;i;s;s; ;C;-;4;6;F
+L;o;c;k;h;e;e;d; ;V;C;-;6;0;A; ;L;o;d;e;s;t;a;r
+B;r;i;s;t;o;l; ;1;7;5; ;B;r;i;t;a;n;n;i;a; ;3;1;4
+B;o;e;i;n;g; ;S;.;3;0;7;B;-;1; ;S;t;r;a;t;o;l;i;n;e;r
+F;a;i;r;c;h;i;l;d; ;C;-;1;2;3;B;-;1;7;-;F;A; ;P;r;o;v;i;d;e;r
+D;o;u;g;l;a;s; ;L;C;-;4;7;H
+V;i;c;k;e;r;s; ;8;2;8; ;V;i;s;c;o;u;n;t
+M;o;r;a;n;e; ;S;a;u;l;n;i;e;r; ;(;F;M;A;); ;M;S;.;7;6;0; ;P;a;r;i;s; ;I
+L;o;c;k;h;e;e;d; ;P;-;2;H; ;N;e;p;t;u;n;e
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;0;6; ;C;o;m;e;t; ;4;C
+A;v;i;a;t;i;o;n; ;T;r;a;d;e;r;s; ;A;T;L;-;9;8; ;C;a;r;v;a;i;r
+D;o;u;g;l;a;s; ;C;-;4;7;A;-;1;5;-;D;L; ;S;k;y;t;r;a;i;n
+B;o;e;i;n;g; ;K;C;-;9;7;G;-;2;6;-;B;O; ;S;t;r;a;t;o;f;r;e;i;g;h;t;e;r
+S;N;C;A;S;O; ;S;.;O;.;9;5;M; ;C;o;r;s;e; ;I;I;I
+A;n;t;o;n;o;v; ;A;n;-;2;4
+L;o;c;k;h;e;e;d; ;S;P;-;2;H; ;N;e;p;t;u;n;e
+M;o;r;a;n;e; ;S;a;u;l;n;i;e;r; ;C;-;4;1; ;(;M;S;.;7;6;0; ;P;a;r;i;s;)
+V;i;c;k;e;r;s; ;8;1;2; ;V;i;s;c;o;u;n;t
+M;o;r;a;n;e; ;S;a;u;l;n;i;e;r; ;M;S;.;7;6;0;B; ;P;a;r;i;s; ;I;I
+C;o;n;v;a;i;r; ;C;V;-;3;4;0;-;5;4
+C;o;n;v;a;i;r; ;T;-;2;9;A; ;(;C;V;-;2;4;0;)
+N;o;r;t;h; ;A;m;e;r;i;c;a;n; ;T;-;3;9;A;-;1;-;N;A; ;S;a;b;r;e;l;i;n;e;r
+A;v;r;o; ;7;4;8;-;1;0;5; ;S;r;s;.; ;1
+D;o;u;g;l;a;s; ;D;C;-;8;-;3;3
+L;o;c;k;h;e;e;d; ;S;P;-;2; ;N;e;p;t;u;n;e
+T;u;p;o;l;e;v; ;T;u;-;1;1;4
+F;a;i;r;c;h;i;l;d; ;C;-;1;2;3;B;-;1;6;-;F;A; ;P;r;o;v;i;d;e;r
+M;a;r;t;i;n; ;P;5;B; ;M;a;r;l;i;n
+F;a;i;r;c;h;i;l;d; ;C;-;1;2;3;B;-;1;8;-;F;A; ;P;r;o;v;i;d;e;r
+C;o;n;v;a;i;r; ;C;-;1;3;1;E; ;(;C;V;-;4;4;0;)
+D;o;u;g;l;a;s; ;D;C;-;8;-;4;3
+M;a;r;t;i;n; ;P;5;A; ;M;a;r;l;i;n
+B;o;e;i;n;g; ;C;-;1;3;5;B; ;S;t;r;a;t;o;l;i;f;t;e;r
+B;r;e;g;u;e;t; ;1;1;5;0; ;A;t;l;a;n;t;i;c
+A;n;t;o;n;o;v; ;A;n;-;6
+S;c;o;t;t;i;s;h; ;A;v;i;a;t;i;o;n; ;T;w;i;n; ;P;i;o;n;e;e;r; ;C;C;.;2
+C;o;n;s;o;l;i;d;a;t;e;d; ;V;u;l;t;e;e; ;P;B;Y;-;6;A; ;C;a;t;a;l;i;n;a
+D;o;u;g;l;a;s; ;C;-;4;9;E; ;(;D;C;-;3;D;S;T;-;1;4;4;)
+V;i;c;k;e;r;s; ;6;5;1; ;V;a;l;e;t;t;a; ;C;.;1
+V;i;c;k;e;r;s; ;7;5;9;D; ;V;i;s;c;o;u;n;t
+D;o;u;g;l;a;s; ;D;C;-;8;-;5;4;F
+C;o;n;v;a;i;r; ;C;V;-;3;4;0; ;o;r; ;C;V;-;4;4;0
+C;o;n;v;a;i;r; ;C;V;-;3;4;0;-;5;9
+A;v;i;a; ;1;4
+D;o;u;g;l;a;s; ;C;-;1;3;3;B;-;D;L; ;C;a;r;g;o;m;a;s;t;e;r
+S;u;d; ;A;v;i;a;t;i;o;n; ;S;E;-;2;1;0; ;C;a;r;a;v;e;l;l;e; ;V;I;-;R
+V;i;c;k;e;r;s; ;6;6;8; ;V;a;r;s;i;t;y; ;T;.;1
+V;i;c;k;e;r;s; ;9;5;3; ;V;a;n;g;u;a;r;d
+F;a;i;r;c;h;i;l;d; ;C;-;1;2;3;B;-;1;9;-;F;A; ;P;r;o;v;i;d;e;r
+D;o;u;g;l;a;s; ;D;C;-;3; ;H;i;p;e;r
+S;u;d; ;A;v;i;a;t;i;o;n; ;S;E;-;2;1;0; ;C;a;r;a;v;e;l;l;e; ;V;I;-;N
+C;o;n;v;a;i;r; ;C;V;-;9;9;0;-;3;0;A;-;5; ;C;o;r;o;n;a;d;o
+D;o;u;g;l;a;s; ;V;C;-;1;1;7;A
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;2;0;0;A;B
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;C;V;-;2;A; ;C;a;r;i;b;o;u; ;(;D;H;C;-;4;)
+P;Z;L; ;M;D;-;1;2
+T;u;p;o;l;e;v; ;T;u;-;1;2;4
+F;a;i;r;c;h;i;l;d; ;C;-;1;2;3;B; ;P;r;o;v;i;d;e;r
+L;o;c;k;h;e;e;d; ;P;-;3;A; ;O;r;i;o;n
+V;i;c;k;e;r;s; ;7;5;4;D; ;V;i;s;c;o;u;n;t
+D;o;u;g;l;a;s; ;D;C;-;3; ;(;R;4;D;-;4;)
+C;o;n;v;a;i;r; ;C;V;-;5;8;0
+F;a;i;r;c;h;i;l;d; ;C;-;1;2;3; ;P;r;o;v;i;d;e;r
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;C;V;-;2;B; ;C;a;r;i;b;o;u; ;(;D;H;C;-;4;)
+B;o;e;i;n;g; ;K;C;-;9;7;G;-;2;9;-;B;O; ;S;t;r;a;t;o;f;r;e;i;g;h;t;e;r
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;4;A; ;C;a;r;i;b;o;u
+L;e;a;r;j;e;t; ;2;3
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;2;6;9;B
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;2;0;1;A;C
+N;o;r;t;h; ;A;m;e;r;i;c;a;n; ;C;T;-;3;9;A; ;S;a;b;r;e;l;i;n;e;r
+S;t;e;w;a;r;d;-;D;a;v;i;s; ;S;u;p;e;r; ;C;a;t;a;l;i;n;a; ;(;P;B;Y;-;5;A;)
+D;o;u;g;l;a;s; ;C;-;4;7;H
+L;o;c;k;h;e;e;d; ;P;2;V;-;6;M; ;N;e;p;t;u;n;e
+B;o;e;i;n;g; ;K;C;-;9;7; ;S;t;r;a;t;o;f;r;e;i;g;h;t;e;r
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;2;5;-;1
+F;a;i;r;c;h;i;l;d; ;C;-;1;2;3;B;-;1;4;-;F;A; ;P;r;o;v;i;d;e;r
+L;o;c;k;h;e;e;d; ;S;P;-;2;E; ;N;e;p;t;u;n;e
+C;u;r;t;i;s;s; ;C;-;4;6;R; ;C;o;m;m;a;n;d;o
+D;o;u;g;l;a;s; ;H;C;-;4;7;A
+L;o;c;k;h;e;e;d; ;P;-;2;E; ;N;e;p;t;u;n;e
+V;i;c;k;e;r;s; ;6;2;6; ;V;i;k;i;n;g; ;C; ;M;k;.; ;2
+D;o;u;g;l;a;s; ;C;-;1;3;3;A;-;3;0;-;D;L; ;C;a;r;g;o;m;a;s;t;e;r
+V;i;c;k;e;r;s; ;9;5;1; ;V;a;n;g;u;a;r;d
+N;o;r;t;h; ;A;m;e;r;i;c;a;n; ;T;-;3;9;A; ;S;a;b;r;e;l;i;n;e;r
+C;a;n;a;d;a;i;r; ;C;P;-;1;0;7; ;A;r;g;u;s; ;M;k;.;2
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;1;4; ;S;r;s;.; ;2
+V;i;c;k;e;r;s; ;8;0;2; ;V;i;s;o;o;u;n;t
+V;i;c;k;e;r;s; ;V;C;-;1;0;-;1;1;0;1
+A;v;r;o; ;7;4;8;-;1;0;1; ;S;r;s;.; ;1
+D;o;u;g;l;a;s; ;L;C;-;4;7;J
+F;a;i;r;c;h;i;l;d; ;F;-;2;7;F
+L;o;c;k;h;e;e;d; ;P;V;-;2; ;H;a;r;p;o;o;n
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;P;R;-;7; ;H;e;r;a;l;d; ;2;0;2
+G;r;u;m;m;a;n; ;H;U;-;1;6;B; ;A;l;b;a;t;r;o;s;s
+D;o;u;g;l;a;s; ;A;C;-;4;7;D; ;S;p;o;o;k;y
+B;o;e;i;n;g; ;C;-;1;3;5;A; ;S;t;r;a;t;o;l;i;f;t;e;r
+V;i;c;k;e;r;s; ;7;7;3; ;V;i;s;c;o;u;n;t
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;P;R;-;7; ;H;e;r;a;l;d; ;2;0;7
+D;o;u;g;l;a;s; ;C;-;1;3;3;A;-;5;-;D;L; ;C;a;r;g;o;m;a;s;t;e;r
+A;r;m;s;t;r;o;n;g; ;W;h;i;t;w;o;r;t;h; ;A;W;-;6;5;0; ;A;r;g;o;s;y; ;2;2;2
+G;r;u;m;m;a;n; ;C;-;2;A; ;G;r;e;y;h;o;u;n;d
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;a;s;t;i;n;g;s; ;C;.;1;A
+A;r;m;s;t;r;o;n;g; ;W;h;i;t;w;o;r;t;h; ;A;W;-;6;5;0; ;A;r;g;o;s;y; ;1;0;1
+M;B;B; ;H;F;B;-;3;2;0; ;H;a;n;s;a; ;J;e;t
+F;a;i;r;c;h;i;l;d; ;C;-;1;2;3;K; ;P;r;o;v;i;d;e;r
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;1;0;8; ;S;r;s;.; ;1
+V;i;c;k;e;r;s; ;7;8;2;D; ;V;i;s;c;o;u;n;t
+F;a;i;r;c;h;i;l;d; ;C;-;1;2;3;J; ;P;r;o;v;i;d;e;r
+B;o;e;i;n;g; ;E;C;-;9;7;G; ;S;t;r;a;t;o;f;r;e;i;g;h;t;e;r
+F;a;i;r;c;h;i;l;d; ;C;-;1;2;3;B;-;2;2;-;F;A; ;P;r;o;v;i;d;e;r
+B;r;i;s;t;o;l; ;1;7;5; ;B;r;i;t;a;n;n;i;a; ;3;0;2
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;C;C;-;1;0;8; ;C;a;r;i;b;o;u; ;(;D;H;C;-;4;)
+C;o;n;v;a;i;r; ;C;V;-;8;8;0;-;2;2;M;-;2;2
+G;r;u;m;m;a;n; ;C;S;R;-;1;1;0; ;A;l;b;a;t;r;o;s;s; ;(;H;U;-;1;6;B;)
+D;o;u;g;l;a;s; ;D;C;-;9;-;1;4
+C;a;n;a;d;a;i;r; ;C;L;-;4;4;D;4;-;1
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;0;8
+L;o;c;k;h;e;e;d; ;C;-;1;4;1;A;-;L;M; ;S;t;a;r;l;i;f;t;e;r
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;1;2;1; ;T;r;i;d;e;n;t; ;1;E
+F;a;i;r;c;h;i;l;d; ;U;C;-;1;2;3;B; ;P;r;o;v;i;d;e;r
+D;o;u;g;l;a;s; ;D;C;-;3;-;3;6;2
+R;o;c;k;w;e;l;l; ;1;1;2;1; ;J;e;t; ;C;o;m;m;a;n;d;e;r
+V;i;c;k;e;r;s; ;7;7;9;D; ;V;i;s;c;o;u;n;t
+V;i;c;k;e;r;s; ;8;3;2; ;V;i;s;c;o;u;n;t
+D;o;u;g;l;a;s; ;D;C;-;8;-;5;2
+D;o;u;g;l;a;s; ;C;-;1;1;7;D; ;S;u;p;e;r; ;D;C;-;3
+F;a;i;r;c;h;i;l;d; ;C;-;1;1;9;C;F;-;F;A; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+C;o;n;v;a;i;r; ;C;V;-;4;4;0;-;0
+G;r;u;m;m;a;n; ;H;U;-;1;6;A; ;A;l;b;a;t;r;o;s;s
+N;A;M;C; ;Y;S;-;1;1;-;1;1;1
+D;o;u;g;l;a;s; ;R;C;-;4;7;D
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A; ;I;s;l;a;n;d;e;r
+D;o;u;g;l;a;s; ;D;C;-;8;-;5;1
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;D;H;-;1;2;5;-;1;A
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;2;0;3;A;E
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;C;-;7;A; ;C;a;r;i;b;o;u; ;(;D;H;C;-;4;)
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;1;2;1; ;T;r;i;d;e;n;t; ;1;C
+F;a;i;r;c;h;i;l;d; ;C;-;1;2;3;B;-;7;-;F;A; ;P;r;o;v;i;d;e;r
+C;a;n;a;d;a;i;r; ;C;L;-;4;4;D;4;-;2
+D;o;u;g;l;a;s; ;D;a;k;o;t;a; ;I;I;I;S;&;R; ;(;D;C;-;3;)
+C;o;n;v;a;i;r; ;C;V;-;8;8;0;-;2;2;M;-;3
+B;o;e;i;n;g; ;7;2;7;-;8;0;0
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;2;5;-;1;A;/;5;2;2
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8; ;A;n;d;o;v;e;r; ;C;.;1
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;C;-;7;B; ;C;a;r;i;b;o;u; ;(;D;H;C;-;4;)
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;P;R;-;7; ;H;e;r;a;l;d; ;2;1;4
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;1;4; ;H;e;r;o;n; ;2;C
+B;o;e;i;n;g; ;K;C;-;1;3;5;R; ;S;t;r;a;t;o;t;a;n;k;e;r
+D;o;u;g;l;a;s; ;R;C;-;4;7;P
+F;a;i;r;c;h;i;l;d; ;H;C;-;1;2;3;B
+S;u;d; ;A;v;i;a;t;i;o;n; ;S;E;-;2;1;0; ;C;a;r;a;v;e;l;l;e; ;1;0;R
+V;i;c;k;e;r;s; ;8;1;8; ;V;i;s;c;o;u;n;t
+V;i;c;k;e;r;s; ;8;2;3; ;V;i;s;c;o;u;n;t
+S;h;o;r;t;s; ;S;C;.;7; ;S;k;y;v;a;n; ;2;-;1;0;2
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;2;2; ;S;r;s;.; ;2
+D;a;s;s;a;u;l;t; ;F;a;l;c;o;n; ;2;0;C
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;7;0;B
+V;i;c;k;e;r;s; ;7;6;0;D; ;V;i;s;c;o;u;n;t
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;2;0;4;A;F
+C;a;n;a;d;a;i;r; ;C;C;-;1;0;9; ;C;o;s;m;o;p;o;l;i;t;a;n
+D;o;u;g;l;a;s; ;D;C;-;9;-;1;5
+D;o;r;n;i;e;r; ;D;o; ;2;8;D; ;S;k;y;s;e;r;v;a;n;t
+B;r;i;s;t;o;l; ;1;7;5; ;B;r;i;t;a;n;n;i;a; ;C;.;1
+C;o;n;v;a;i;r; ;C;V;-;6;4;0
+G;r;u;m;m;a;n; ;G;-;1;5;9; ;G;u;l;f;s;t;r;e;a;m; ;I
+V;i;c;k;e;r;s; ;8;0;8; ;V;i;s;c;o;u;n;t
+C;u;r;t;i;s;s; ;C;-;4;6;T
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;6; ;T;w;i;n; ;O;t;t;e;r; ;1;0;0
+N;o;r;t;h; ;A;m;e;r;i;c;a;n; ;S;a;b;r;e;l;i;n;e;r; ;4;0
+C;h;a;s;e; ;Y;C;-;1;2;2;C; ;A;v;i;t;r;u;c
+D;o;u;g;l;a;s; ;A;C;-;4;7
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;1;2;5;-;3;B
+V;i;c;k;e;r;s; ;8;0;3; ;V;i;s;c;o;u;n;t
+B;r;i;s;t;o;l; ;1;7;5; ;B;r;i;t;a;n;n;i;a; ;3;1;3
+O;a;k;l;a;n;d; ;C;e;n;t;a;u;r;u;s
+F;a;i;r;c;h;i;l;d; ;U;C;-;1;2;3;B;-;6;-;F;A; ;P;r;o;v;i;d;e;r
+V;i;c;k;e;r;s; ;C;-;9;0; ;V;i;s;c;o;u;n;t; ;(;7;4;2;D;)
+N;o;r;d; ;2;5;0;2;B; ;N;o;r;a;t;l;a;s
+D;o;u;g;l;a;s; ;C;-;4;7;A;-;3;0;-;D;K
+B;r;i;s;t;o;l; ;1;7;5; ;B;r;i;t;a;n;n;i;a; ;3;0;8;F
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;F;o;k;k;e;r; ;F;2;7; ;F;r;i;e;n;d;s;h;i;p
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;A;n;t;o;n;o;v; ;A;n;-;2
+L;o;c;k;h;e;e;d; ;H;C;-;1;3;0;P; ;C;o;m;b;a;t; ;K;i;n;g
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;9
+C;o;n;v;a;i;r; ;C;V;-;3;4;0;-;6;8
+L;o;c;k;h;e;e;d; ;O;P;-;2;E; ;N;e;p;t;u;n;e
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2; ;I;s;l;a;n;d;e;r
+D;o;u;g;l;a;s; ;L;C;-;1;1;7;D
+D;o;r;n;i;e;r; ;D;o; ;2;8;D;-;1; ;S;k;y;s;e;r;v;a;n;t
+A;r;m;s;t;r;o;n;g; ;W;h;i;t;w;o;r;t;h; ;A;W;-;6;6;0; ;A;r;g;o;s;y; ;C;.;1
+C;o;n;v;a;i;r; ;C;V;-;3;4;0;-;3;8
+F;a;i;r;c;h;i;l;d; ;F;H;-;2;2;7;C
+L;o;c;k;h;e;e;d; ;L;-;1;3;2;9; ;J;e;t;S;t;a;r; ;I
+D;o;u;g;l;a;s; ;D;C;-;8;-;3;1
+C;o;n;s;o;l;i;d;a;t;e;d; ;P;4;Y;-;2;G; ;P;r;i;v;a;t;e;e;r
+V;i;c;k;e;r;s; ;7;3;9;A; ;V;i;s;c;o;u;n;t
+F;a;i;r;c;h;i;l;d; ;C;-;1;2;3;B;-;8;-;F;A; ;P;r;o;v;i;d;e;r
+B;o;e;i;n;g; ;7;2;7;-;9;0;0
+F;a;i;r;c;h;i;l;d; ;U;C;-;1;2;3;K; ;P;r;o;v;i;d;e;r
+V;i;c;k;e;r;s; ;7;2;0;C; ;V;i;s;c;o;u;n;t
+B;o;e;i;n;g; ;7;2;0
+L;o;c;k;h;e;e;d; ;P;-;3;B; ;O;r;i;o;n
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;1;5; ;S;r;s;.; ;2
+B;o;e;i;n;g; ;7;2;7;-;0;0;0
+D;o;u;g;l;a;s; ;E;C;-;4;7;P
+V;i;c;k;e;r;s; ;V;C;1;0;-;1;1;0;2
+D;o;u;g;l;a;s; ;E;C;-;4;7;Q
+C;o;n;v;a;i;r; ;C;V;-;8;8;0
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;3;0; ;S;r;s;.; ;2
+N;o;r;t;h; ;A;m;e;r;i;c;a;n; ;C;T;-;3;9;A;-;1;-;N;O; ;S;a;b;r;e;l;i;n;e;r
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;6; ;T;w;i;n; ;O;t;t;e;r; ;2;0;0
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;L;o;c;k;h;e;e;d; ;L;-;1;8;2; ;/; ;2;8;2; ;/; ;3;8;2; ;(;L;-;1;0;0;); ;H;e;r;c;u;l;e;s
+F;a;i;r;c;h;i;l;d; ;F;-;2;7;J
+C;o;n;v;a;i;r; ;C;V;-;6;0;0
+P;i;a;g;g;i;o; ;P;D;.;8;0;8
+F;a;i;r;c;h;i;l;d; ;F;H;-;2;2;7;B
+F;a;i;r;c;h;i;l;d; ;C;-;1;2;3;B;-;1;1;-;F;A; ;P;r;o;v;i;d;e;r
+C;u;r;t;i;s;s; ;T;C;-;4;6;A
+B;o;e;i;n;g; ;7;2;7;-;5;0;0
+F;a;i;r;c;h;i;l;d; ;F;-;2;7;B
+B;e;e;c;h;c;r;a;f;t; ;9;9; ;A;i;r;l;i;n;e;r
+L;o;c;k;h;e;e;d; ;1;8; ;L;e;a;r;s;t;a;r; ;I;I
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;A;n;t;o;n;o;v; ;A;n;-;2
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;L;o;c;k;h;e;e;d; ;L;-;1;0;4;9; ;S;u;p;e;r; ;C;o;n;s;t;e;l;l;a;t;i;o;n
+R;o;c;k;w;e;l;l; ;1;1;2;1;B; ;J;e;t; ;C;o;m;m;a;n;d;e;r
+C;o;n;v;a;i;r; ;C;V;-;4;4;0;-;7;5
+B;o;e;i;n;g; ;K;C;-;9;7;L; ;S;t;r;a;t;o;t;a;n;k;e;r
+L;o;c;k;h;e;e;d; ;A;C;-;1;3;0;A; ;S;p;e;c;t;r;e
+N;A;M;C; ;Y;S;-;1;1;A;-;2;0;2
+H;o;w;a;r;d; ;5;0;0
+L;o;c;k;h;e;e;d; ;H;e;r;c;u;l;e;s; ;C;.;1; ;(;C;-;1;3;0;K;)
+L;e;a;r;j;e;t; ;2;5
+B;o;e;i;n;g; ;7;2;7;-;6;0;0
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;P;R;-;7; ;H;e;r;a;l;d; ;2;0;1
+F;M;A; ;I;A; ;5;0; ;G;u;a;r;a;n;í; ;I;I
+B;o;e;i;n;g; ;R;C;-;1;3;5;S; ;R;i;v;e;t; ;B;a;l;l
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;4;2;0;E;L
+V;i;c;k;e;r;s; ;V;C;1;0;-;1;1;0;1
+T;r;a;n;s;a;l;l; ;C;-;1;6;0;F
+C;o;n;v;a;i;r; ;C;V;-;9;9;0; ;C;o;r;o;n;a;d;o
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;4;5; ;S;r;s;.; ;2;A
+B;o;e;i;n;g; ;7;3;7;-;1;0;0
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;3;5; ;S;r;s;.; ;2;A
+N;A;M;C; ;Y;S;-;1;1;-;1;2;5
+N;o;r;t;h; ;A;m;e;r;i;c;a;n; ;T;-;3;9;A;-;1;-;N;O; ;S;a;b;r;e;l;i;n;e;r
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;3;1; ;S;r;s;.; ;2
+B;r;e;g;u;e;t; ;7;6;3
+B;A;C; ;O;n;e;-;E;l;e;v;e;n
+D;o;u;g;l;a;s; ;D;C;-;6;A;/;C
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;2;5;-;4;0;0;A
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;1;6
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;4;0;2;A;P
+B;e;e;c;h;c;r;a;f;t; ;6;5;-;B;8;0; ;Q;u;e;e;n; ;A;i;r
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;A;n;t;o;n;o;v; ;A;n;-;2;4
+B;o;e;i;n;g; ;R;C;-;1;3;5;E; ;R;i;v;e;t; ;A;m;b;e;r
+F;a;i;r;c;h;i;l;d; ;A;C;-;1;1;9;G; ;S;h;a;d;o;w
+D;o;u;g;l;a;s; ;D;C;-;3;B;-;2;0;2;A
+C;u;r;t;i;s;s; ;C;-;4;6;A;-;1;-;C;K; ;C;o;m;m;a;n;d;o
+N;A;M;C; ;Y;S;-;1;1;A;-;2;1;3
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;0;9; ;S;r;s;.; ;2
+S;u;d;-;A;v;i;a;t;i;o;n; ;S;E;-;2;1;0; ;C;a;r;a;v;e;l;l;e; ;V;I;R
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;P;-;1;3;7; ;J;e;t;s;t;r;e;a;m; ;1
+V;i;c;k;e;r;s; ;8;3;3; ;V;i;s;c;o;u;n;t
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;1;4; ;H;e;r;o;n
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;4;2;4;E;U
+C;o;n;v;a;i;r; ;C;V;-;9;9;0;-;3;0;A;-;8; ;C;o;r;o;n;a;d;o
+S;h;o;r;t;s; ;S;C;.;7; ;S;k;y;v;a;n; ;3;-;2;0;0
+C;o;n;v;a;i;r; ;T;-;2;9;D; ;(;C;V;-;2;4;0;)
+C;a;n;a;d;a;i;r; ;C;L;-;4;4;J
+C;o;n;v;a;i;r; ;C;V;-;9;9;0;-;3;0;A;-;6; ;C;o;r;o;n;a;d;o
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;T;u;p;o;l;e;v; ;T;u;-;1;2;4
+I;A;I; ;A;r;a;v;a; ;1;0;1
+B;o;e;i;n;g; ;B;-;1;7;T; ;T;u;r;b;o; ;F;o;r;t;r;e;s;s
+V;i;c;k;e;r;s; ;S;u;p;e;r; ;V;C;1;0;-;1;1;5;1
+L;o;c;k;h;e;e;d; ;C;-;5;A; ;G;a;l;a;x;y
+I;A;I; ;1;1;2;3; ;W;e;s;t;w;i;n;d
+N;A;M;C; ;Y;S;-;1;1;A;-;2;1;9
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;P;R;-;7; ;H;e;r;a;l;d; ;2;0;3
+V;i;c;k;e;r;s; ;8;1;4; ;V;i;s;c;o;u;n;t
+A;e;r;o; ;S;p;a;c;e;l;i;n;e;s; ;3;7;7;M;G;T; ;M;i;n;i; ;G;u;p;p;y; ;T;u;r;b;i;n;e
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;P;R;-;7; ;H;e;r;a;l;d; ;2;0;4
+F;a;i;r;c;h;i;l;d; ;A;C;-;1;1;9;K; ;S;t;i;n;g;e;r
+K;a;i;s;e;r;-;F;r;a;z;e;r; ;A;C;-;1;1;9;G; ;S;h;a;d;o;w
+I;R;M;A;/;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A; ;I;s;l;a;n;d;e;r
+A;n;t;o;n;o;v; ;A;n;-;2;2
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;A;n;t;o;n;o;v; ;A;n;-;2;2
+B;r;i;s;t;o;l; ;1;7;5; ;B;r;i;t;a;n;n;i;a; ;3;1;2;F
+S;u;d;-;A;v;i;a;t;i;o;n; ;S;E;-;2;1;0; ;C;a;r;a;v;e;l;l;e
+D;o;u;g;l;a;s; ;C;-;4;7;A;-;3;0;-;D;K; ;D;a;k;o;t;a; ;I;I;I;R
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;A;n;t;o;n;o;v; ;A;n;-;1;2
+C;a;n;a;d;a;i;r; ;C;L;-;2;1;5;-;1;A;1;0
+D;o;u;g;l;a;s; ;C;-;4;7;-;D;L; ;(;H;i;p;e;r; ;D;C;-;3;)
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;U;C;-;1;A; ;O;t;t;e;r; ;(;D;H;C;-;3;)
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;I;l;y;u;s;h;i;n; ;I;L;1;8
+N;o;r;d; ;2;6;2;A;-;4;4
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;4;1;4;E;G
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;2;5;-;1;A
+N;o;r;d; ;2;6;2;E
+H;o;w;a;r;d; ;3;5;0
+D;o;u;g;l;a;s; ;E;C;-;4;7;N
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;5;1;5;F;B
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;7; ;I;s;l;a;n;d;e;r
+V;i;c;k;e;r;s; ;7;4;9; ;V;i;s;c;o;u;n;t
+V;o;l;p;a;r; ;T;u;r;b;o;l;i;n;e;r
+C;o;n;v;a;i;r; ;C;V;-;2;4;0;-;1;4
+H;o;w;a;r;d; ;E;l;d;o;r;a;d;o; ;7;0;0
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;9;4
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;3;7;5
+B;e;e;c;h;c;r;a;f;t; ;9;9;A; ;A;i;r;l;i;n;e;r
+N;A;M;C; ;Y;S;-;1;1;A;-;2;1;7
+B;o;e;i;n;g; ;7;2;7;-;7;0;0
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;6; ;T;w;i;n; ;O;t;t;e;r; ;3;0;0
+B;e;r;i;e;v; ;B;e;-;3;0
+C;a;r;s;t;e;d;t; ;J;e;t; ;L;i;n;e;r; ;6;0;0;A
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;1;2;5;-;4;0;0;B
+H;i;n;d;u;s;t;a;n; ;A;e;r;o;n;a;u;t;i;c;s; ;L;t;d;.; ;H;A;L;-;7;4;8;-;2;2;4; ;S;r;s;.; ;2
+N;A;M;C; ;Y;S;-;1;1;-;1;0;2
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;A;n;t;o;n;o;v; ;A;n;-;2
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;0;6; ;C;o;m;e;t; ;3;B
+F;a;i;r;c;h;i;l;d; ;F;-;2;7;M
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;4;1;2;E;B
+N;o;r;d; ;2;6;2;A;-;3;4
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;6; ;I;s;l;a;n;d;e;r
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;1;2;1; ;T;r;i;d;e;n;t; ;3;B
+G;r;u;m;m;a;n; ;S;A;-;1;6;A; ;A;l;b;a;t;r;o;s;s; ;(;H;U;-;1;6;)
+A;T;E;C;O; ;W;e;s;t;w;i;n;d; ;I;I
+S;h;o;r;t;s; ;S;C;.;7; ;S;k;y;v;a;n; ;3;M;-;4;0;0
+N;A;M;C; ;Y;S;-;1;1;A;-;2;1;2
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;5;4; ;S;r;s;.; ;2;A
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;C;-;9;A; ;N;i;g;h;t;i;n;g;a;l;e; ;(;D;C;-;9;-;3;0;)
+L;e;a;r;j;e;t; ;2;4;D
+A;é;r;o;s;p;a;t;i;a;l;e; ;S;N;.;6;0;0; ;C;o;r;v;e;t;t;e
+B;o;e;i;n;g; ;K;C;-;1;3;5;Q; ;S;t;r;a;t;o;t;a;n;k;e;r
+N;o;r;d; ;2;6;2;A;-;2;5
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;1;4; ;R;i;l;e;y; ;H;e;r;o;n; ;2;D
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;3;0; ;S;r;s;.; ;2;A
+D;a;s;s;a;u;l;t; ;F;a;l;c;o;n; ;1;0
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;L;o;c;k;h;e;e;d; ;L;-;1;8;8; ;E;l;e;c;t;r;a
+C;o;n;s;o;l;i;d;a;t;e;d; ;2;8;-;5;A;C; ;C;a;t;a;l;i;n;a
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;5;0;1;E;X
+F;a;i;r;c;h;i;l;d; ;F;H;-;2;2;7;D
+V;i;c;k;e;r;s; ;S;u;p;e;r; ;V;C;1;0;-;1;1;5;4
+N;A;M;C; ;Y;S;-;1;1;A;-;2;1;1
+L;o;c;k;h;e;e;d; ;A;C;-;1;3;0;E; ;S;p;e;c;t;r;e
+S;u;d; ;A;v;i;a;t;i;o;n; ;S;E;-;2;1;0; ;C;a;r;a;v;e;l;l;e; ;1;0;B;3
+C;o;n;v;a;i;r; ;C;V;-;8;8;0;-;2;2;-;2
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;5;2;1;F;H
+S;h;o;r;t;s; ;S;C;.;7; ;S;k;y;v;a;n; ;3;-;3;0;0
+B;o;e;i;n;g; ;C;-;1;3;5;F; ;S;t;r;a;t;o;t;a;n;k;e;r
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;P;R;-;7; ;H;e;r;a;l;d; ;1;0;1
+C;u;r;t;i;s;s; ;C;-;4;6;A;-;5;0;-;C;U
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;2;5;-;3;A
+V;F;W;/;F;o;k;k;e;r; ;V;F;W;.;6;1;4
+N;A;M;C; ;Y;S;-;1;1;A;-;5;0;0
+A;v;i;a; ;1;4;-;4;0
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;3;2; ;S;r;s;.; ;2
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;1;4; ;S;e;a; ;H;e;r;o;n; ;C;.;1
+D;o;u;g;l;a;s; ;C;-;4;7;B;-;2;0;-;D;K; ;D;a;k;o;t;a; ;4;M;F;P
+I;R;M;A;/;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;3; ;I;s;l;a;n;d;e;r
+V;i;c;k;e;r;s; ;V;C;1;0;-;1;1;0;0
+C;a;n;a;d;a;i;r; ;C;C;-;1;0;6; ;Y;u;k;o;n; ;(;C;L;-;4;4;)
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;A;n;t;o;n;o;v; ;A;n;-;1;2
+C;o;n;v;a;i;r; ;C;V;-;8;8;0;-;2;2;M;-;2;1
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;1;4; ;P;r;i;n;a;i;r; ;H;e;r;o;n; ;2;B
+L;e;t; ;L;-;4;1;0;A
+D;a;s;s;a;u;l;t; ;F;a;l;c;o;n; ;2;0;F
+L;e;a;r;j;e;t; ;2;5;B
+V;i;c;k;e;r;s; ;7;6;1;D; ;V;i;s;c;o;u;n;t
+B;o;e;i;n;g; ;7;2;7;-;4;0;0
+I;R;M;A;/;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;9; ;I;s;l;a;n;d;e;r
+V;o;l;p;a;r; ;T;u;r;b;o;l;i;n;e;r; ;I;I
+B;o;e;i;n;g; ;7;2;7;-;3;0;0
+D;a;s;s;a;u;l;t; ;F;a;l;c;o;n; ;2;0;D
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;F;o;k;k;e;r; ;F;2;8; ;F;e;l;l;o;w;s;h;i;p
+F;a;i;r;c;h;i;l;d; ;A;C;-;1;1;9;G; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;5;9; ;S;r;s;.; ;2;A
+B;r;e;g;u;e;t; ;S;P;-;1;3;A; ;A;t;l;a;n;t;i;c
+L;o;c;k;h;e;e;d; ;4;1;4;-;0;8;-;1;0; ;H;u;d;s;o;n; ;I;V
+N;o;r;d; ;2;6;2;A;-;2;4
+L;e;a;r;j;e;t; ;2;4
+N;o;r;d; ;2;5;0;2;F; ;N;o;r;a;t;l;a;s
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;T;u;p;o;l;e;v; ;T;u;-;1;5;4
+L;o;c;k;h;e;e;d; ;P;-;3;C; ;O;r;i;o;n
+H;o;w;a;r;d; ;2;5;0
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;5;D; ;B;u;f;f;a;l;o
+V;i;c;k;e;r;s; ;9;5;2; ;V;a;n;g;u;a;r;d
+C;u;r;t;i;s;s; ;C;-;4;6;R;-;1; ;C;o;m;m;a;n;d;o
+N;o;r;t;h; ;A;m;e;r;i;c;a;n; ;R;o;c;k;w;e;l;l; ;S;a;b;r;e;l;i;n;e;r; ;6;0
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;T;u;p;o;l;e;v; ;T;u;-;1;0;4
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;6; ;T;w;i;n; ;O;t;t;e;r
+H;i;g;g;i;n;s; ;B;o;a;t; ;C;o;.; ;C;-;4;6;A;-;1;-;H;I; ;C;o;m;m;a;n;d;o
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;C;-;7; ;C;a;r;i;b;o;u; ;(;D;H;C;-;4;)
+N;o;r;d; ;2;6;2;B;-;1;1
+L;o;c;k;h;e;e;d; ;C;-;1;4;1;A;-;1;0;-;L;M; ;S;t;a;r;l;i;f;t;e;r
+L;e;a;r;j;e;t; ;2;4;B
+L;o;c;k;h;e;e;d; ;1;8;-;5;6; ;L;e;a;r;s;t;a;r; ;1
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;A;n;t;o;n;o;v; ;A;n;-;2
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;C;-;1;1;5; ;B;u;f;f;a;l;o; ;(;D;H;C;-;5;)
+V;i;c;k;e;r;s; ;7;3;5; ;V;i;s;c;o;u;n;t
+C;o;n;v;a;i;r
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;T;u;p;o;l;e;v; ;T;u;-;1;4;4
+B;o;e;i;n;g; ;N;K;C;-;1;3;5;A
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;5;2;0;F;N
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;6;0; ;S;r;s;.; ;2;A
+R;o;c;k;w;e;l;l; ;S;a;b;r;e;l;i;n;e;r; ;6;0
+N;A;M;C; ;Y;S;-;1;1;A;-;3;2;0
+C;o;n;s;o;l;i;d;a;t;e;d; ;P;4;Y;-;2;B; ;P;r;i;v;a;t;e;e;r
+B;o;e;i;n;g; ;K;C;-;1;3;5; ;S;t;r;a;t;o;t;a;n;k;e;r
+C;o;n;v;a;i;r; ;C;V;-;4;4;0;-;3;8
+N;o;r;t;h;-;A;m;e;r;i;c;a;n;-;R;o;c;k;w;e;l;l; ;S;a;b;r;e;l;i;n;e;r; ;4;0;A
+D;o;u;g;l;a;s; ;C;-;4;7;-;D;L; ;(;H;y;p;e;r;)
+H;a;n;d;l;e;y; ;P;a;g;e; ;J;e;t;s;t;r;e;a;m; ;T;.;1
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;5;1;8;F;G
+B;e;e;c;h;c;r;a;f;t; ;1;0;0; ;K;i;n;g; ;A;i;r
+G;r;u;m;m;a;n; ;A;m;e;r;i;c;a;n; ;G;-;1;1;5;9; ;G;u;l;f;s;t;r;e;a;m; ;I;I
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;3; ;I;s;l;a;n;d;e;r
+D;o;u;g;l;a;s; ;D;C;-;8;-;5;5;F
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;C;C;-;1;1;5; ;B;u;f;f;a;l;o
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;1;2;1; ;T;r;i;d;e;n;t; ;2;E
+G;r;u;m;m;a;n; ;G;-;1;1;5;9; ;G;u;l;f;s;t;r;e;a;m; ;I;I
+F;a;i;r;c;h;i;l;d; ;C;-;1;2;3;K
+D;a;s;s;a;u;l;t; ;F;a;l;c;o;n; ;2;0;E
+C;o;n;v;a;i;r; ;C;V;-;3;4;0;-;4;9
+D;o;u;g;l;a;s; ;C;-;4;9;J;-;D;O
+C;o;n;v;a;i;r; ;C;-;1;3;1;F; ;(;C;V;-;3;4;0;)
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;0; ;I;s;l;a;n;d;e;r
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;3;4;3;B
+E;m;b;r;a;e;r; ;E;M;B;-;1;1;0;C; ;B;a;n;d;e;i;r;a;n;t;e
+B;o;e;i;n;g; ;7;4;7;-;1;2;3;F; ;(;S;C;D;)
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;1; ;I;s;l;a;n;d;e;r
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;6; ;I;s;l;a;n;d;e;r
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;5;2;4;F;F
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;4;0;1;A;K
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;1;4; ;P;r;i;n;a;i;r; ;H;e;r;o;n; ;2
+D;o;u;g;l;a;s; ;C;-;4;8;A; ;(;D;C;-;3;C; ;)
+G;r;u;m;m;a;n; ;T;C;-;4;C; ;(;G;-;1;5;9; ;G;u;l;f;s;t;r;e;a;m; ;I;)
+S;h;o;r;t;s; ;S;C;.;7; ;S;k;y;v;a;n
+C;o;n;v;a;i;r; ;C;V;-;4;4;0;-;1;2
+V;i;c;k;e;r;s; ;7;6;9;D; ;V;i;s;c;o;u;n;t
+S;w;e;a;r;i;n;g;e;n; ;S;A;2;2;6;-;A;T; ;M;e;r;l;i;n; ;I;V
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;1;4; ;R;i;l;e;y; ;H;e;r;o;n; ;2;E;/;A;1
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;1;2;5;-;6;0;0;B
+C;o;n;v;a;i;r; ;C;V;-;4;4;0;-;8;6
+D;o;u;g;l;a;s; ;C;-;4;7;A;-;1;0;-;D;K; ;D;a;k;o;t;a; ;3
+H;i;n;d;u;s;t;a;n; ;A;e;r;o;n;a;u;t;i;c;s; ;L;t;d;.; ;H;A;L;-;7;4;8;-;2;4;7; ;S;r;s;.; ;2
+C;a;r;s;t;e;d;t; ;J;e;t; ;L;i;n;e;r; ;6;0;0;F
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;I;l;y;u;s;h;i;n; ;I;L;6;2
+Y;a;k;o;v;l;e;v; ;Y;a;k;-;4;0;F;G
+B;e;e;c;h;c;r;a;f;t; ;A;1;0;0; ;K;i;n;g; ;A;i;r
+B;o;e;i;n;g; ;7;4;7;S;R;-;4;6
+N;o;r;t;h; ;A;m;e;r;i;c;a;n; ;C;T;-;3;9;E; ;S;a;b;r;e;l;i;n;e;r
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;8; ;I;s;l;a;n;d;e;r
+L;o;c;k;h;e;e;d; ;C;-;1;4;1;A;-;2;0;-;L;M; ;S;t;a;r;l;i;f;t;e;r
+I;R;M;A;/;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;7; ;I;s;l;a;n;d;e;r
+C;o;n;s;o;l;i;d;a;t;e;d; ;P;B;4;Y;-;2; ;P;r;i;v;a;t;e;e;r
+G;A;F; ;N;o;m;a;d; ;N;.;2;2
+T;r;a;n;s;a;l;l; ;C;-;1;6;0;D
+R;o;c;k;w;e;l;l; ;S;a;b;r;e;l;i;n;e;r; ;7;5;A
+N;o;r;d; ;2;6;2;A;-;3;2
+D;o;u;g;l;a;s; ;E;C;-;4;7;A
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;2;6; ;S;r;s;.; ;2
+C;A;S;A; ;C;-;2;1;2; ;A;v;i;o;c;a;r; ;1;0;0
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;P;R;-;7; ;H;e;r;a;l;d; ;4;0;1
+G;A;F; ;N;o;m;a;d; ;N;.;2;2;B
+L;e;a;r;j;e;t; ;2;4;A
+C;o;n;v;a;i;r; ;C;V;-;4;4;0;-;8;8
+N;o;r;t;h; ;A;m;e;r;i;c;a;n;-;R;o;c;k;w;e;l;l; ;S;a;b;r;e;l;i;n;e;r; ;4;0
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;5;2;7;F;K
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;I;l;y;u;s;h;i;n; ;I;L;1;8
+Y;a;k;o;v;l;e;v; ;Y;a;k;-;4;0;S;2
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2; ;D;e;f;e;n;d;e;r
+I;A;I; ;A;r;a;v;a; ;2;0;1
+M;B;B; ;H;F;B;-;3;2;0;E;C;M; ;H;a;n;s;a; ;J;e;t
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;4; ;C;a;r;i;b;o;u
+S;a;u;n;d;e;r;s; ;S;T;-;2;7
+L;e;a;r;j;e;t; ;2;5;C
+C;A;S;A; ;C;-;2;1;2;-;A;2; ;A;v;i;o;c;a;r; ;1;0;0
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;4;6; ;S;r;s;.; ;2;A
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;1;6; ;S;r;s;.; ;2;A
+G;A;F; ;N;o;m;a;d; ;N;.;2;4
+S;h;i;n; ;M;e;i;w;a; ;P;S;-;1
+A;i;r;b;u;s; ;A;3;0;0;B;4;-;2;0;3
+G;r;u;m;m;a;n; ;M;-;1;6; ;A;l;b;a;t;r;o;s;s; ;(;H;U;-;1;6;)
+N;o;r;d; ;2;6;2;A;-;2;7
+G;r;u;m;m;a;n; ;H;U;-;1;6; ;A;l;b;a;t;r;o;s;s
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;9; ;I;s;l;a;n;d;e;r
+L;e;t; ;L;-;4;1;0;A;F
+D;o;u;g;l;a;s; ;D;C;-;8;-;3;3;F
+I;R;M;A;/;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;1; ;I;s;l;a;n;d;e;r
+B;e;e;c;h;c;r;a;f;t; ;2;0;0; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r
+L;o;c;k;h;e;e;d; ;L;-;7;4;9;A;-;7;9;-;5;2; ;C;o;n;s;t;e;l;l;a;t;i;o;n
+C;o;n;v;a;i;r; ;V;C;-;1;3;1;H; ;(;C;V;-;5;8;0;)
+B;o;e;i;n;g; ;7;2;7;-;2;2;4; ;A;d;v;.
+D;o;r;n;i;e;r; ;D;o; ;2;8;D;-;2; ;S;k;y;s;e;r;v;a;n;t
+A;n;t;o;n;o;v; ;A;n;-;2;6
+V;i;c;k;e;r;s; ;7;6;4;D; ;V;i;s;c;o;u;n;t
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;0;1;A
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;1; ;D;e;f;e;n;d;e;r
+E;m;b;r;a;e;r; ;C;-;9;5; ;B;a;n;d;e;i;r;a;n;t;e; ;(;E;M;B;-;1;1;0;)
+B;r;i;s;t;o;l; ;1;7;5; ;B;r;i;t;a;n;n;i;a; ;2;5;3
+N;A;M;C; ;Y;S;-;1;1;A;-;3;0;1
+G;r;u;m;m;a;n; ;S;H;U;-;1;6;B; ;A;l;b;a;t;r;o;s;s
+C;A;S;A; ;C;-;2;0;7;C; ;(;T;.;7;); ;A;z;o;r
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;A;n;t;o;n;o;v; ;A;n;-;2;4
+L;e;a;r;j;e;t; ;3;6;A
+Y;a;k;o;v;l;e;v; ;Y;a;k;-;4;0;E;C
+I;R;M;A;/;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;1; ;D;e;f;e;n;d;e;r
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A; ;T;r;i;s;l;a;n;d;e;r; ;M;k;.;I;I;I;-;2
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;4;3;8
+N;o;r;t;h; ;A;m;e;r;i;c;a;n; ;T;-;3;9;D; ;S;a;b;r;e;l;i;n;e;r
+L;e;t; ;L;-;4;1;0;U;V;P
+D;o;u;g;l;a;s; ;C;-;4;7;A;-;8;0;-;D;L; ;S;k;y;t;r;a;i;n
+V;i;c;k;e;r;s; ;8;3;8; ;V;i;s;c;o;u;n;t
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;4;0;8
+C;o;n;v;a;i;r; ;C;V;-;3;0;0
+I;R;M;A;/;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;7; ;I;s;l;a;n;d;e;r
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;1;2;5;-;6;0;0;A
+B;o;e;i;n;g; ;E;C;-;1;3;5;K
+D;o;u;g;l;a;s; ;D;C;-;3;-;2;1;7;B
+R;a;u;s;c;h; ;S;u;p;e;r; ;1;8; ;H;u;d;s;t;a;r
+D;o;r;n;i;e;r; ;D;o; ;2;8;D;-;1;S; ;S;k;y;s;e;r;v;a;n;t
+I;R;M;A;/;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;6; ;I;s;l;a;n;d;e;r
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;1;4; ;R;i;l;e;y; ;H;e;r;o;n; ;2
+C;o;n;v;a;i;r; ;V;T;-;2;9;C; ;(;C;V;-;2;4;0;)
+P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;1; ;I;s;l;a;n;d;e;r
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;I;l;y;u;s;h;i;n; ;I;L;1;4
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;1;2; ;S;r;s;.; ;2
+C;o;n;v;a;i;r; ;C;V;-;2;4;0;-;8
+M;a;r;t;i;n; ;V;C;-;3;A; ;(;4;-;0;-;4;)
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A; ;T;r;i;s;l;a;n;d;e;r; ;M;k;.;I;I;I;-;1
+C;o;n;v;a;i;r; ;V;T;-;2;9;A; ;(;C;V;-;2;4;0;)
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;6;3; ;S;r;s;.; ;2;A
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;7;R; ;I;s;l;a;n;d;e;r
+L;e;a;r;j;e;t; ;3;5;A
+E;m;b;r;a;e;r; ;E;M;B;-;1;1;0;P; ;B;a;n;d;e;i;r;a;n;t;e
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;T;u;p;o;l;e;v; ;T;u;-;1;3;4
+S;w;e;a;r;i;n;g;e;n; ;S;A;2;2;6;-;T;C; ;M;e;t;r;o; ;I;I
+F;a;i;r;c;h;i;l;d; ;F;H;-;2;2;7
+C;a;n;a;d;a;i;r; ;C;L;-;4;4;D;4;-;6
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;8;3; ;S;r;s;.; ;2;A
+S;w;e;a;r;i;n;g;e;n; ;S;A;2;2;6;-;A;T; ;M;e;r;l;i;n; ;I;V;A
+R;o;c;k;w;e;l;l; ;1;1;2;1;A; ;J;e;t; ;C;o;m;m;a;n;d;e;r
+D;o;u;g;l;a;s; ;C;-;4;7;B;-;3;5;-;D;K; ;D;a;k;o;t;a; ;I;V;M
+F;a;i;r;c;h;i;l;d; ;C;-;1;1;9;L; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;I;l;y;u;s;h;i;n; ;I;L;7;6
+N;o;r;d; ;2;6;2;A;-;3;3
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;V;C;-;9;3; ;(;H;S;-;1;2;5;-;3;B;/;R;C;)
+A;i;r;b;u;s; ;A;3;0;0;B;2;-;1;0;1
+A;é;r;o;s;p;a;t;i;a;l;e; ;S;N;.;6;0;1; ;C;o;r;v;e;t;t;e
+L;o;c;k;h;e;e;d; ;C;-;1;4;1;B; ;S;t;a;r;l;i;f;t;e;r
+Y;a;k;o;v;l;e;v; ;Y;a;k;-;4;0;K
+A;n;t;o;n;o;v; ;A;n;-;3;0
+L;e;t; ;L;-;4;1;0;M
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;L;o;c;k;h;e;e;d; ;L;-;1;0;1;1; ;T;r;i;s;t;a;r
+P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;9; ;I;s;l;a;n;d;e;r
+B;o;e;i;n;g; ;7;4;7;-;2;4;6;F; ;(;S;C;D;)
+L;e;a;r;j;e;t; ;2;5;D
+B;e;e;c;h;c;r;a;f;t; ;C;-;1;2;A; ;H;u;r;o;n; ;(;A;2;0;0; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r;)
+B;o;e;i;n;g; ;7;4;7;S;P;-;2;1
+L;o;c;k;h;e;e;d; ;L;-;7;4;9; ;C;o;n;s;t;e;l;l;a;t;i;o;n; ;(;V;C;-;1;2;1;B;)
+I;R;M;A;/;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;8; ;I;s;l;a;n;d;e;r
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;1;2;5;-;1;A;-;5;2;2
+H;i;n;d;u;s;t;a;n; ;A;e;r;o;n;a;u;t;i;c;s; ;L;t;d;.; ;H;A;L;-;7;4;8;-;L;F;D; ;S;r;s;.; ;2;M
+N;o;r;d; ;2;6;2;A;-;2;9
+M;o;h;a;w;k; ;2;9;8; ;(;N;o;r;d; ;2;6;2;)
+I;A;I; ;A;r;a;v;a; ;1;0;2
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;9;-;8;1; ;(;M;D;-;8;1;)
+B;o;e;i;n;g; ;E;C;-;1;3;5;P
+C;A;S;A;/;N;u;r;t;a;n;i;o; ;N;C;-;2;1;2; ;A;v;i;o;c;a;r; ;1;0;0
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;1;0
+D;o;u;g;l;a;s; ;D;C;-;8;-;4;3;F
+D;o;u;g;l;a;s; ;C;-;4;7;B;-;1;0;-;D;K; ;P;e;';r;e; ;(;D;C;-;3;)
+S;w;e;a;r;i;n;g;e;n; ;S;A;2;2;6;-;A;T; ;M;e;t;r;o; ;I;I;I
+C;o;n;s;o;l;i;d;a;t;e;d; ;P;4;Y;-;2;G; ;S;u;p;e;r; ;P;r;i;v;a;t;e;e;r
+G;r;u;m;m;a;n; ;A;m;e;r;i;c;a;n; ;G;-;1;1;5;9; ;G;u;l;f;s;t;r;e;a;m; ;I;I; ;T;T
+D;a;s;s;a;u;l;t; ;F;a;l;c;o;n; ;1;0;M;E;R
+E;m;b;r;a;e;r; ;E;M;B;-;1;1;0;P;1; ;B;a;n;d;e;i;r;a;n;t;e
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;7; ;I;s;l;a;n;d;e;r
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;0;7; ;S;r;s;.; ;2
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;T;u;p;o;l;e;v; ;T;u;-;1;5;4
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;C;C;-;1;2;3; ;O;t;t;e;r; ;(;D;H;C;-;3;)
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;N;i;m;r;o;d; ;M;R;.;2
+C;a;n;a;d;a;i;r; ;C;L;-;6;0;0;-;1;A;1;1; ;C;h;a;l;l;e;n;g;e;r; ;6;0;0
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;4;3; ;S;r;s;.; ;2
+L;e;a;r;j;e;t; ;3;6
+B;e;e;c;h;c;r;a;f;t; ;H;a;w;k;e;r; ;B;H;-;1;2;5;-;4;0;0;A
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;6; ;I;s;l;a;n;d;e;r
+S;h;o;r;t;s; ;3;3;0;-;1;0;0
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A; ;T;r;i;s;l;a;n;d;e;r; ;M;k;.;I;I;I
+M;o;r;a;n;e; ;S;a;u;l;n;i;e;r; ;(;F;M;A;); ;M;S;.;7;6;0;A; ;P;a;r;i;s; ;I;A
+B;o;e;i;n;g; ;E;C;-;1;3;5;N
+B;o;e;i;n;g; ;R;C;-;1;3;5;S; ;C;o;b;r;a; ;B;a;l;l; ;I;I
+L;o;c;k;h;e;e;d; ;M;C;-;1;3;0;E; ;C;o;m;b;a;t; ;T;a;l;o;n; ;I
+K;a;i;s;e;r;-;F;r;a;z;e;r; ;C;-;1;1;9;L; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+L;o;c;k;h;e;e;d; ;L;-;7;4;9;A; ;C;o;n;s;t;e;l;l;a;t;i;o;n; ;(;V;C;-;1;2;1;B;)
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;P;-;1;3;7; ;J;e;t;s;t;r;e;a;m; ;I;I;I
+M;c;D;o;n;n;e;l;l;-;D;o;u;g;l;a;s; ;D;C;-;1;0;-;3;0;C;F
+P;o;t;e;z; ;8;4;0
+L;e;a;r;j;e;t; ;5;5
+C;A;S;A; ;C;-;2;1;2; ;A;v;i;o;c;a;r; ;2;0;0
+L;o;c;k;h;e;e;d; ;L;-;1;3;2;9; ;J;e;t;S;t;a;r; ;7;3;1
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;1;2;5;-;7;0;0;A
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;1;0;8; ;S;r;s;.; ;2;A
+S;h;o;r;t;s; ;S;C;.;7; ;S;k;y;v;a;n; ;3;-;1;0;0
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;3;9; ;S;r;s;.; ;2;A
+C;o;n;s;o;l;i;d;a;t;e;d; ;P;B;Y;-;6;A; ;S;u;p;e;r; ;C;a;t;a;l;i;n;a
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;1;2;5;-;1;A
+I;R;M;A;/;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;0; ;I;s;l;a;n;d;e;r
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;5;2;9;F;R
+E;m;b;r;a;e;r; ;E;M;B;-;1;1;0;P;2; ;B;a;n;d;e;i;r;a;n;t;e
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;6; ;T;w;i;n; ;O;t;t;e;r; ;3;1;0
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;7;-;1;0;2
+F;a;i;r;c;h;i;l;d; ;F;H;-;2;2;7;E
+S;w;e;a;r;i;n;g;e;n; ;S;A;2;2;7;-;A;C; ;M;e;t;r;o; ;I;I;I
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;7;-;1;0;3
+D;o;r;n;i;e;r; ;D;o; ;1;2;8;-;6; ;T;u;r;b;o; ;S;k;y;s;e;r;v;a;n;t
+C;o;n;v;a;i;r; ;H;C;-;1;3;1;A; ;(;C;V;-;2;4;0;)
+A;r;m;s;t;r;o;n;g; ;W;h;i;t;w;o;r;t;h; ;A;W;-;6;5;0; ;A;r;g;o;s;y; ;1;0;2
+G;u;l;f;s;t;r;e;a;m; ;A;m;e;r;i;c;a;n; ;G;-;1;1;5;9; ;G;u;l;f;s;t;r;e;a;m; ;I;I
+B;e;e;c;h;c;r;a;f;t; ;U;C;-;1;2;B; ;H;u;r;o;n; ;(;A;2;0;0;C; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r;)
+D;o;r;n;i;e;r; ;2;2;8;-;1;0;0
+B;e;e;c;h;c;r;a;f;t; ;B;2;0;0;C; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;A;n;t;o;n;o;v; ;A;n;-;2;6
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;A;n;t;o;n;o;v; ;A;n;-;2;6
+A;l;e;n;i;a; ;G;-;2;2;2;T;C;M
+L;e;a;r;j;e;t; ;2;5;X;R
+N;A;M;C; ;Y;S;-;1;1;A;-;6;2;1
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;F;A;A; ;S;r;s;.; ;2;A
+N;o;r;t;h; ;A;m;e;r;i;c;a;n; ;R;o;c;k;w;e;l;l; ;C;T;-;3;9;E; ;S;a;b;r;e;l;i;n;e;r
+K;a;w;a;s;a;k;i; ;C;-;1
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;3;2;9; ;S;r;s;.; ;2;A; ;L;F;D
+D;o;r;n;i;e;r; ;D;o; ;1;2;8;-;6;M;P;A; ;T;u;r;b;o; ;S;k;y;s;e;r;v;a;n;t
+V;i;c;k;e;r;s; ;6;6;8; ;V;a;r;s;i;t;y
+P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;8; ;I;s;l;a;n;d;e;r
+B;o;e;i;n;g; ;7;2;7;-;2;7;6; ;A;d;v;.
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;9;R; ;I;s;l;a;n;d;e;r
+C;o;n;v;a;i;r; ;C;V;-;5;8;0;-;1;1;-;A
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;C;e;s;s;n;a; ;C;i;t;a;t;i;o;n; ;I;I
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;C;e;s;s;n;a; ;C;i;t;a;t;i;o;n; ;I;I
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;C;e;s;s;n;a; ;C;i;t;a;t;i;o;n; ;I;I
+R;o;c;k;w;e;l;l; ;S;a;b;r;e;l;i;n;e;r; ;6;5
+S;h;o;r;t;s; ;3;3;0;-;2;0;0
+I;R;M;A;/;P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;6; ;I;s;l;a;n;d;e;r
+N;A;M;C; ;Y;S;-;1;1;A;-;2;0;8
+B;e;e;c;h;c;r;a;f;t; ;B;1;0;0; ;K;i;n;g; ;A;i;r
+D;o;u;g;l;a;s; ;C;-;4;7;E
+L;o;c;k;h;e;e;d; ;L;-;1;3;2;9;-;2;5; ;J;e;t;S;t;a;r; ;I;I
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;L;o;c;k;h;e;e;d; ;L;-;1;0;1;1; ;T;r;i;s;t;a;r
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;L;o;c;k;h;e;e;d; ;L;-;1;0;1;1; ;T;r;i;s;t;a;r
+A;i;r;b;u;s; ;A;3;0;0;B;4;-;1;2;0
+A;i;r;b;u;s; ;A;3;0;0;B;4
+I;R;M;A;/;P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;B;-;2;7; ;I;s;l;a;n;d;e;r
+I;R;M;A;/;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;6; ;I;s;l;a;n;d;e;r
+B;e;e;c;h;c;r;a;f;t; ;2;0;0;C; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r
+C;o;n;v;a;i;r; ;V;T;-;2;9;B; ;(;C;V;-;2;4;0;)
+B;e;e;c;h;c;r;a;f;t; ;1;9;0;0;C
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;F;o;k;k;e;r; ;F;2;7; ;F;r;i;e;n;d;s;h;i;p
+C;A;S;A;/;N;u;r;t;a;n;i;o; ;N;C;-;2;1;2;-;A;B;4; ;A;v;i;o;c;a;r; ;2;0;0
+T;r;a;n;s;a;l;l; ;C;-;1;6;0;N;G
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;3;T; ;C;o;x; ;T;u;r;b;i;n;e; ;O;t;t;e;r
+V;i;c;k;e;r;s; ;7;5;6;D; ;V;i;s;c;o;u;n;t
+E;m;b;r;a;e;r; ;E;M;B;-;1;1;0;E;J; ;B;a;n;d;e;i;r;a;n;t;e
+I;R;M;A;/;P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;T; ;I;s;l;a;n;d;e;r
+L;e;a;r;j;e;t; ;2;4;F
+A;i;r;b;u;s; ;A;3;0;0;B;2;-;2;0;3
+A;i;r;b;u;s; ;A;3;0;0;B;2;-;2;0;2
+E;m;b;r;a;e;r; ;P;-;9;5; ;B;a;n;d;e;i;r;u;l;h;a; ;(;E;M;B;-;1;1;1;A;)
+D;o;r;n;i;e;r; ;D;o; ;1;2;8;-;2; ;S;k;y;s;e;r;v;a;n;t
+L;e;t; ;L;-;4;1;0;M;A
+B;o;e;i;n;g; ;7;3;7;-;2;A;8; ;A;d;v;a;n;c;e;d
+B;e;e;c;h;c;r;a;f;t; ;C;9;9; ;C;o;m;m;u;t;e;r
+A;i;r;b;u;s; ;A;3;0;0;C;4;-;6;2;0
+B;o;e;i;n;g; ;7;2;7;-;2;J;0; ;A;d;v;.
+C;A;S;A; ;C;-;2;1;2;-;A;3; ;A;v;i;o;c;a;r; ;1;0;0
+B;o;e;i;n;g; ;7;4;7;S;P;-;0;9
+S;h;o;r;t;s; ;3;6;0;-;1;0;0
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;1;2;5;-;7;0;0;B
+B;o;e;i;n;g; ;7;3;7;-;2;6;8; ;A;d;v;.
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;1;2;5;-;F;4;0;0;A
+D;o;u;g;l;a;s; ;D;C;-;3;-;3;1;3;D
+L;e;a;r;j;e;t; ;2;4;X;R
+E;m;b;r;a;e;r; ;C;-;9;5;B; ;B;a;n;d;e;i;r;a;n;t;e; ;(;E;M;B;-;1;1;0;)
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;3;1;4; ;S;r;s;.; ;2;A; ;L;F;D
+C;e;s;s;n;a; ;2;0;8; ;C;a;r;a;v;a;n; ;I
+C;a;n;a;d;a;i;r; ;C;L;-;6;0;0;-;2;A;1;2; ;C;h;a;l;l;e;n;g;e;r; ;6;0;1
+P;A;D;C;/;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;1; ;I;s;l;a;n;d;e;r
+u;n;k;n;o;w;n; ;j;e;t;l;i;n;e;r
+V;i;c;k;e;r;s; ;8;3;5; ;V;i;s;c;o;u;n;t
+B;e;e;c;h;c;r;a;f;t; ;B;9;9; ;A;i;r;l;i;n;e;r
+P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A; ;I;s;l;a;n;d;e;r
+L;o;c;k;h;e;e;d; ;P;-;3;F; ;O;r;i;o;n
+A;l;e;n;i;a; ;G;-;2;2;2;S;A;A
+N;o;r;t;h; ;A;m;e;r;i;c;a;n; ;R;o;c;k;w;e;l;l; ;T;-;3;9;N; ;S;a;b;r;e;l;i;n;e;r
+B;o;e;i;n;g; ;R;C;-;1;3;5;T; ;R;i;v;e;t; ;D;a;n;d;y
+B;o;e;i;n;g; ;7;2;7;-;2;D;3; ;A;d;v;.
+I;A;I; ;1;1;2;4; ;W;e;s;t;w;i;n;d; ;I
+L;o;c;k;h;e;e;d; ;H;e;r;c;u;l;e;s; ;?;?;?
+I;R;M;A;/;P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;9; ;I;s;l;a;n;d;e;r
+C;o;n;v;a;i;r; ;C;V;-;4;4;0;-;3;5
+I;R;M;A;/;P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2; ;I;s;l;a;n;d;e;r
+S;w;e;a;r;i;n;g;e;n; ;S;A;2;2;7;-;A;T; ;E;x;p;e;d;i;t;e;r
+I;A;I; ;1;1;2;4; ;W;e;s;t;w;i;n;d
+I;R;M;A;/;P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;1; ;I;s;l;a;n;d;e;r
+G;r;u;m;m;a;n; ;G;-;1;1;1; ;A;l;b;a;t;r;o;s;s
+D;o;r;n;i;e;r; ;C;D;-;0;1;A; ;S;e;a;s;t;a;r
+C;o;n;v;a;i;r; ;V;C;-;1;3;1;H; ;S;a;m;a;r;i;t;a;n; ;(;C;V;-;5;8;0;)
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;1;7;8
+A;n;t;o;n;o;v; ;A;n;-;3;2
+C;A;S;A; ;C;-;2;1;2;-;M; ;A;v;i;o;c;a;r; ;1;0;0
+A;i;r;b;u;s; ;A;3;0;0;B;4;-;6;0;1
+S;u;d; ;A;v;i;a;t;i;o;n; ;S;E;-;2;1;0; ;C;a;r;a;v;e;l;l;e; ;1;1;R
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;1;1;0
+B;e;e;c;h;c;r;a;f;t; ;B;2;0;0; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r
+A;i;r;b;u;s; ;A;3;0;0;B;2;-;1;C
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;6; ;V;i;s;t;a; ;L;i;n;e;r; ;3;0;0
+I;A;I; ;1;1;2;4;A; ;W;e;s;t;w;i;n;d; ;I;I
+d;e; ;H;a;v;i;l;l;a;n;d; ;D;H;-;1;1;4; ;R;i;l;e;y; ;H;e;r;o;n; ;2;B
+S;h;o;r;t;s; ;S;C;.;7; ;S;k;y;v;a;n; ;3;M;-;1;0;0
+M;i;t;u;s;b;i;s;h;i; ;M;u;-;3;0;0; ;D;i;a;m;o;n;d; ;I;A
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;1;2;5;-;6;0;0;B
+P;A;D;C;/;P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;6; ;I;s;l;a;n;d;e;r
+B;o;e;i;n;g; ;7;2;7;-;2;5;6; ;(;A;d;v;)
+E;m;b;r;a;e;r; ;E;M;B;-;1;2;0;R;T; ;B;r;a;s;i;l;i;a
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;1;0;1
+L;e;a;r;j;e;t; ;C;-;2;1;A; ;(;L;e;a;r;j;e;t; ;3;5;A;)
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;V;U;-;9;3; ;(;H;S;-;1;2;5;-;4;0;3;B;)
+S;h;o;r;t;s; ;3;6;0;-;3;0;0
+A;n;t;o;n;o;v; ;A;n;-;2;8
+C;o;n;v;a;i;r; ;C;V;-;2;4;0;-;2;4
+B;o;e;i;n;g; ;B;-;1;7;G; ;F;l;y;i;n;g; ;F;o;r;t;r;e;s;s
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;8;5; ;S;r;s;.; ;2;A; ;L;F;D
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2; ;I;s;l;a;n;d;e;r
+C;e;s;s;n;a; ;2;0;8;A; ;C;a;r;g;o;m;a;s;t;e;r
+H;o;w;a;r;d; ;2;5;0; ;T;r;i;-;G;e;a;r
+A;T;R; ;4;2;-;3;1;2
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;9;-;8;2; ;(;M;D;-;8;2;)
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;1;4;6;-;2;0;0;A
+S;u;d; ;A;v;i;a;t;i;o;n; ;S;E;-;2;1;0; ;C;a;r;a;v;e;l;l;e; ;1;0;B;1;R
+A;i;r;b;u;s; ;A;3;1;0;-;2;2;2
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;4;3; ;S;r;s;.; ;2;A
+C;e;s;s;n;a; ;U;-;2;7;A; ;C;a;r;a;v;a;n; ;I
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;A;n;t;o;n;o;v; ;A;n;-;3;2
+I;R;M;A;/;P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;B;-;2;6; ;I;s;l;a;n;d;e;r
+G;r;u;m;m;a;n; ;G;-;7;3;T; ;T;u;r;b;o; ;M;a;l;l;a;r;d
+C;A;S;A; ;C;-;2;1;2;-;M;R; ;A;v;i;o;c;a;r; ;2;0;0
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;1;2;5;-;4;0;0;A
+D;o;u;g;l;a;s; ;D;C;-;3;-;3;1;4;B
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;K;C;-;1;0;A; ;E;x;t;e;n;d;e;r
+G;A;F; ;N;o;m;a;d; ;N;.;2;2;S;L
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;1;4;6;-;2;0;0
+B;e;e;c;h;c;r;a;f;t; ;2;0;0;T; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r
+D;a;s;s;a;u;l;t; ;F;a;l;c;o;n; ;2;0;D;C
+D;o;u;g;l;a;s; ;C;-;4;7; ;D;a;k;o;t;a; ;I;V
+G;A;F; ;N;o;m;a;d; ;N;.;2;4;A
+L;e;t; ;L;-;4;1;0;M;U
+B;e;e;c;h;c;r;a;f;t; ;3;0;0; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r
+V;i;c;k;e;r;s; ;9;5;3;C; ;V;a;n;g;u;a;r;d
+D;o;r;n;i;e;r; ;2;2;8;-;2;0;1
+B;o;e;i;n;g; ;7;4;7;-;2;2;8;B; ;(;S;C;D;)
+L;e;a;r;j;e;t; ;3;1
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;1;0;2
+N;A;M;C; ;Y;S;-;1;1;-;1;0;9
+N;o;r;t;h;r;o;p; ;Y;C;-;1;2;5;A; ;R;a;i;d;e;r
+H;A;L;/;D;o;r;n;i;e;r; ;2;2;8;-;2;0;1
+E;m;b;r;a;e;r; ;V;C;-;9;7; ;B;r;a;s;i;l;i;a; ;(;E;M;B;-;1;2;0;R;T;)
+P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;6; ;I;s;l;a;n;d;e;r
+B;o;e;i;n;g; ;7;3;7;-;2;3;0; ;A;d;v;.
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;1;2;5;-;8;0;0;A
+A;T;R; ;4;2;-;2;0;0
+V;i;c;k;e;r;s; ;8;0;7; ;V;i;s;c;o;u;n;t
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;3;4; ;S;r;s;.; ;2;A
+D;o;u;g;l;a;s; ;D;C;-;4; ;S;w;i;n;g;t;a;i;l
+V;i;c;k;e;r;s; ;8;4;3; ;V;i;s;c;o;u;n;t
+B;e;e;c;h;c;r;a;f;t; ;B;9;9;A
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;F;A;A; ;S;r;s;.; ;2;B
+A;i;r;b;u;s; ;A;3;2;0;-;1;1;1
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;C;e;s;s;n;a; ;C;i;t;a;t;i;o;n; ;I
+C;o;n;v;a;i;r; ;T;-;2;9;B; ;(;C;V;-;2;4;0;)
+B;o;e;i;n;g; ;K;C;-;1;3;5;E; ;S;t;r;a;t;o;t;a;n;k;e;r
+B;o;e;i;n;g; ;E;-;6;A; ;H;e;r;m;e;s
+N;A;M;C; ;Y;S;-;1;1;A;-;3;0;0;F
+D;o;u;g;l;a;s; ;C;-;5;4;A;-;1;0;-;D;C; ;S;k;y;m;a;s;t;e;r
+A;n;t;o;n;o;v
+C;A;S;A; ;C;-;2;1;2;-;M; ;A;v;i;o;c;a;r; ;3;0;0
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;3;2;0;A;Z
+A;i;r;b;u;s; ;A;3;2;0;-;2;1;1
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;T; ;T;u;r;b;i;n;e; ;I;s;l;a;n;d;e;r
+H;a;n;d;l;e;y; ;P;a;g;e; ;H;P;-;1;3;7; ;J;e;t;s;t;r;e;a;m; ;T;.;2
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;5;1;6;F;P
+C;e;s;s;n;a; ;2;0;8;B; ;S;u;p;e;r; ;C;a;r;g;o;m;a;s;t;e;r
+V;i;c;k;e;r;s; ;9;5;2;F; ;V;a;n;g;u;a;r;d
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;1;2;5;-;3;A
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;4;3;5; ;S;r;s;.; ;2;B
+X;i;a;n; ;Y;u;n;s;h;u;j;i; ;Y;-;7
+A;T;R; ;4;2;-;3;0;0
+B;o;e;i;n;g; ;C;-;9;7;L; ;S;t;r;a;t;o;f;r;e;i;g;h;t;e;r
+I;R;M;A;/;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;B;-;2;6; ;I;s;l;a;n;d;e;r
+I;A;I; ;A;r;a;v;a; ;1;0;1;B
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;1;5; ;S;r;s;.; ;2;A
+I;l;y;u;s;h;i;n; ;I;L;2;0
+S;a;a;b; ;3;4;0;A
+N;o;r;d; ;2;6;2;C;-;6;6
+N;o;r;d; ;2;6;2;C;-;6;2
+A;i;r;b;u;s; ;A;3;2;0;-;2;3;1
+B;e;e;c;h;c;r;a;f;t; ;T;p; ;1;0;1; ;(;2;0;0; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r;)
+I;R;M;A;/;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;B;-;2;1; ;I;s;l;a;n;d;e;r
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;5;2;8;F;L
+B;e;e;c;h;c;r;a;f;t; ;1;9;0;0;C;-;1
+A;v;r;o; ;S;h;a;c;k;l;e;t;o;n; ;A;E;W;.;2
+E;m;b;r;a;e;r; ;E;M;B;-;1;1;0;P;1;K; ;B;a;n;d;e;i;r;a;n;t;e
+H;o;w;a;r;d; ;C;a;r;g;o; ;H;a;r;p;o;o;n
+P;i;l;a;t;u;s; ;B;r;i;t;t;e;n; ;N;o;r;m;a;n; ;B;N;2;A;-;2;6; ;I;s;l;a;n;d;e;r
+C;A;S;A;/;N;u;r;t;a;n;i;o; ;N;C;-;2;1;2; ;A;v;i;o;c;a;r; ;2;0;0
+C;e;s;s;n;a; ;2;0;8;B; ;G;r;a;n;d; ;C;a;r;a;v;a;n
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;1;0;3
+E;m;b;r;a;e;r; ;E;M;B;-;1;1;0; ;B;a;n;d;e;i;r;a;n;t;e
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;3;2; ;S;r;s;.; ;2;A
+E;m;b;r;a;e;r; ;C;-;9;5;C; ;B;a;n;d;e;i;r;a;n;t;e; ;(;E;M;B;-;1;1;0;P;2;)
+A;n;t;o;n;o;v; ;A;n;-;7;4
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;B;H;-;1;2;5;-;4;0;0;A
+B;e;e;c;h;c;r;a;f;t; ;B;e;e;c;h;j;e;t; ;4;0;0;A
+G;A;F; ;N;o;m;a;d; ;N;.;2;2;B;F;P
+I;A;I; ;A;r;a;v;a; ;2;0;2
+B;o;e;i;n;g; ;7;3;7;-;2;6;0; ;A;d;v;.
+H;A;L;/;D;o;r;n;i;e;r; ;2;2;8;-;1;0;1
+C;o;n;v;a;i;r; ;C;V;-;2;4;0;D; ;(;T;-;2;9;)
+D;a;s;s;a;u;l;t; ;F;a;l;c;o;n; ;2;0
+L;o;c;k;h;e;e;d; ;A;C;-;1;3;0;H; ;S;p;e;c;t;r;e
+G;u;l;f;s;t;r;e;a;m; ;A;e;r;o;s;p;a;c;e; ;G;-;1;1;5;9; ;G;u;l;f;s;t;r;e;a;m; ;I;I;I
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;3;1;4; ;S;r;s;.; ;2;A
+B;o;e;i;n;g; ;7;3;7;-;2;H;4; ;A;d;v;.
+R;o;c;k;w;e;l;l; ;C;T;-;3;9;G; ;S;a;b;r;e;l;i;n;e;r
+C;A;S;A;/;I;P;T;N; ;N;C;-;2;1;2; ;A;v;i;o;c;a;r; ;2;0;0
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;8;-;6;2;H;-;A;F
+L;e;a;r;j;e;t; ;5;5;C
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;7;2; ;S;r;s;.; ;2;A
+D;o;r;n;i;e;r; ;2;2;8;-;2;1;2
+L;e;a;r;j;e;t; ;U;-;3;6;A
+A;i;r;b;u;s; ;A;3;1;0;-;3;0;4
+Y;a;k;o;v;l;e;v; ;Y;a;k;-;4;2;D
+C;A;S;A; ;C;N;-;2;3;5;M;-;1;0;0
+A;e;r;o; ;M;o;d;i;f;i;c;a;t;i;o;n;s; ;A;M;I; ;D;C;-;3;-;6;5;T;P
+S;h;o;r;t;s; ;J;C;-;2;3;A; ;S;h;e;r;p;a; ;(;3;3;0;)
+C;A;S;A; ;C;-;2;1;2;-;M; ;A;v;i;o;c;a;r; ;2;0;0
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;A;n;t;o;n;o;v; ;A;n;-;3;0
+S;h;a;a;n;x;i; ;Y;u;n;s;h;u;j;i; ;Y;-;8;D
+I;R;M;A;/;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;B;-;2;7; ;I;s;l;a;n;d;e;r
+C;A;S;A;/;N;u;r;t;a;n;i;o; ;N;C;-;2;1;2;-;A;4; ;A;v;i;o;c;a;r; ;1;0;0
+B;e;e;c;h;c;r;a;f;t; ;C;-;1;2;F; ;H;u;r;o;n; ;(;A;2;0;0;C;T; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r;)
+N;A;M;C; ;Y;S;-;1;1;A;-;2;0;5
+D;o;u;g;l;a;s; ;D;C;-;8;-;5;5
+E;m;b;r;a;e;r; ;R;-;9;5; ;B;a;n;d;e;i;r;a;n;t;e; ;(;E;M;B;-;1;1;0;B;)
+D;o;u;g;l;a;s; ;D;C;-;8;-;5;2;F
+K;a;w;a;s;a;k;i; ;P;-;3;C;-;I;I;.;5; ;O;r;i;o;n
+I;P;T;N;/;C;A;S;A; ;C;N;-;2;3;5;-;1;0
+A;i;r;b;u;s; ;A;3;1;0;-;3;0;0
+D;o;u;g;l;a;s; ;D;C;-;8;-;3;3;A;F
+H;a;r;b;i;n; ;Y;u;n;s;h;u;j;i; ;Y;-;1;2; ;I;I
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;3;T; ;V;a;z;a;r; ;T;u;r;b;i;n;e; ;O;t;t;e;r
+C;o;n;v;a;i;r; ;C;V;-;4;4;0;-;8;0
+L;e;t; ;L;-;4;1;0;U;V;P;-;E
+C;u;r;t;i;s;s; ;C;-;4;6;T; ;C;o;m;m;a;n;d;o
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;2;0;8;A;L
+B;o;e;i;n;g; ;7;3;7;-;2;0;4; ;A;d;v;.
+V;i;c;k;e;r;s; ;8;1;6; ;V;i;s;c;o;u;n;t
+C;e;s;s;n;a; ;C;i;t;a;t;i;o;n; ;I;I;I
+A;n;t;o;n;o;v; ;A;n;-;1;2;4
+D;o;r;n;i;e;r; ;3;2;8;-;1;1;0
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;4;T; ;C;a;r;i;b;o;u
+A;é;r;o;s;p;a;t;i;a;l;e; ;/; ;B;A;C; ;C;o;n;c;o;r;d;e; ;1;0;2
+B;o;e;i;n;g; ;E;C;-;1;3;5;J
+N;A;M;C; ;Y;S;-;1;1;-;1;1;7
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;1;4;6;-;1;0;0
+C;a;n;a;d;a;i;r; ;C;L;-;6;0;0;-;2;B;1;9; ;R;e;g;i;o;n;a;l; ;J;e;t; ;C;R;J;-;1;0;0
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;3;4; ;S;r;s;.; ;2
+C;A;S;A; ;C;-;2;1;2;-;A;6;2; ;A;v;i;o;c;a;r; ;2;0;0
+B;o;e;i;n;g
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;1;2;5;-;8;0;0;B
+A;T;R; ;4;2;-;3;2;0
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;M;D;-;1;1;C
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;4;4; ;S;r;s;.; ;2;A
+C;e;s;s;n;a; ;2;0;8;A; ;C;a;r;a;v;a;n; ;I
+S;h;o;r;t;s; ;3;3;0;-;3;0;0;U;T;T
+P;i;a;g;g;i;o; ;P;D;.;8;0;8;T;P
+P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;T; ;T;u;r;b;i;n;e; ;I;s;l;a;n;d;e;r
+B;e;e;c;h;c;r;a;f;t; ;3;0;0;/;F; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r
+S;h;o;r;t;s; ;S;C;.;7; ;S;k;y;v;a;n; ;3
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;3;0;1
+B;o;e;i;n;g; ;7;4;7;-;2;3;0;B;(;M;)
+A;T;R; ;7;2;-;2;0;2
+M;i;t;u;s;b;i;s;h;i; ;M;u;-;3;0;0; ;D;i;a;m;o;n;d; ;I
+L;o;c;k;h;e;e;d; ;H;e;r;c;u;l;e;s; ;C;.;3;P; ;(;C;-;1;3;0;K;)
+P;A;D;C;/;P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;T; ;I;s;l;a;n;d;e;r
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;3;1;1
+S;a;a;b; ;3;4;0;B
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;9;-;8;3; ;(;M;D;-;8;3;)
+D;o;r;n;i;e;r; ;2;2;8;-;1;0;1
+C;o;n;v;a;i;r; ;C;V;-;2;4;0
+R;e;i;m;s; ;C;e;s;s;n;a; ;F;4;0;6; ;C;a;r;a;v;a;n; ;I;I
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;9;-;8;7; ;(;M;D;-;8;7;)
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;1;4;6;-;3;0;0
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;9;-;8;0; ;(;M;D;-;8;0;)
+I;R;M;A;/;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;8; ;I;s;l;a;n;d;e;r
+I;R;M;A;/;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;0; ;I;s;l;a;n;d;e;r
+I;R;M;A;/;P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;B;-;2;6; ;I;s;l;a;n;d;e;r
+A;i;r;b;u;s; ;A;3;0;0;B;4;-;6;2;2;R
+B;e;e;c;h;c;r;a;f;t; ;3;0;0;L;W; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;3;0;0
+A;T;R; ;7;2;-;2;1;2
+A;i;r;b;u;s; ;A;3;0;0;B;4;-;1;0;3
+I;R;M;A;/;P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;B;-;2;7; ;I;s;l;a;n;d;e;r
+B;a;s;l;e;r; ;B;T;-;6;7; ;T;u;r;b;o; ;6;7; ;(;D;C;-;3;T;)
+A;i;r;b;u;s; ;A;3;4;0;-;2;1;1
+D;o;u;g;l;a;s; ;C;-;4;7;B
+D;a;s;s;a;u;l;t; ;F;a;l;c;o;n; ;2;0;0
+V;i;c;k;e;r;s; ;8;1;3; ;V;i;s;c;o;u;n;t
+I;R;M;A;/;P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;B;-;2;0; ;I;s;l;a;n;d;e;r
+A;i;r;b;u;s; ;A;3;0;0;B;4;-;6;0;5;R; ;?
+C;a;n;a;d;a;i;r; ;C;L;-;6;0;0;-;2;B;1;6; ;C;h;a;l;l;e;n;g;e;r; ;6;0;1;-;3;A
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;M;D;-;1;1;F
+C;a;n;a;d;a;i;r; ;C;L;-;6;0;0;-;2;B;1;9; ;R;e;g;i;o;n;a;l; ;J;e;t; ;C;R;J;-;1;0;0;L;R
+A;i;r;b;u;s; ;A;3;2;0; ;?
+A;n;t;o;n;o;v; ;A;n;-;7;2
+B;e;e;c;h;c;r;a;f;t; ;1;9;0;0;D
+A;i;r;b;u;s; ;A;3;3;0;-;3;2;1
+Y;a;k;o;v;l;e;v; ;Y;a;k;-;4;0;D
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;N;i;m;r;o;d; ;R;.;1;P
+S;h;i;n; ;M;e;i;w;a; ;U;S;-;1;A
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;N;i;m;r;o;d; ;M;R;.;2;P
+C;e;s;s;n;a; ;5;5;0; ;C;i;t;a;t;i;o;n; ;I;I
+C;a;n;a;d;a;i;r; ;C;C;-;1;4;4;A; ;C;h;a;l;l;e;n;g;e;r; ;6;0;1
+A;i;r;b;u;s; ;A;3;4;0;-;3;1;2
+D;o;u;g;l;a;s; ;C;-;5;4;G
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;5;2;5;F;T
+B;o;e;i;n;g; ;7;4;7;S;R;-;8;1
+I;A;I; ;1;1;2;4; ;W;e;s;t;w;i;n;d
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;6; ;T;w;i;n; ;O;t;t;e;r; ;3;2;0
+I;l;y;u;s;h;i;n; ;I;L;2;2
+A;n;t;o;n;o;v; ;A;n;-;7;0
+P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;B;-;2;7; ;I;s;l;a;n;d;e;r
+C;A;S;A; ;C;N;-;2;3;5;-;1;0;0
+D;o;r;n;i;e;r; ;2;2;8;-;2;1;2;K
+B;o;e;i;n;g; ;E;-;3;A; ;S;e;n;t;r;y; ;(;7;0;7;-;3;0;0;B;)
+S;h;o;r;t;s; ;3;6;0;-;2;0;0
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;3;5;7; ;S;r;s;.; ;2;B; ;S;C;D
+A;i;r;b;u;s; ;A;3;1;0;-;3;2;4
+F;o;k;k;e;r; ;5;0;?
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;1;2;5;-;4;0;0
+C;o;n;v;a;i;r; ;C;V;-;4;4;0;-;9;8;F
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;7; ;I;s;l;a;n;d;e;r
+G;u;l;f;s;t;r;e;a;m; ;G;-;I;V
+E;m;b;r;a;e;r; ;E;M;B;-;1;2;0;E;R; ;B;r;a;s;i;l;i;a
+C;e;s;s;n;a; ;5;2;5; ;C;i;t;a;t;i;o;n;J;e;t
+A;e;r;o; ;M;o;d;i;f;i;c;a;t;i;o;n;s; ;A;M;I; ;C;-;4;7;T;P; ;(;D;C;-;3;T;)
+A;i;r;b;u;s; ;A;3;0;0;B;4;-;6;0;5;R
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;A;n;t;o;n;o;v; ;A;n;-;7;4
+A;i;r;b;u;s; ;A;3;0;0;B;4;-;6;2;0; ;?
+C;e;s;s;n;a; ;5;6;0; ;C;i;t;a;t;i;o;n; ;V
+B;o;e;i;n;g; ;7;4;7;-;1;2;1; ;(;S;C;D;)
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;3;3;4; ;S;r;s;.; ;2;A
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;0; ;I;s;l;a;n;d;e;r
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;1; ;I;s;l;a;n;d;e;r
+H;a;r;b;i;n; ;Y;u;n;s;h;u;j;i; ;Y;-;1;2
+C;o;n;v;a;i;r; ;C;V;-;5;8;0;F; ;S;C;D
+l;y;u;s;h;i;n; ;I;l;-;7;6;T;D
+S;w;e;a;r;i;n;g;e;n; ;S;A;2;2;7;-;C;C; ;M;e;t;r;o; ;2;3
+I;R;M;A;/;P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;1; ;I;s;l;a;n;d;e;r
+S;w;e;a;r;i;n;g;e;n; ;S;A;2;2;7;-;D;C; ;M;e;t;r;o; ;2;3
+C;e;s;s;n;a; ;5;6;0; ;C;i;t;a;t;i;o;n; ;U;l;t;r;a
+X;i;a;n; ;Y;u;n;s;h;u;j;i; ;Y;-;7;H
+D;o;u;g;l;a;s; ;D;C;-;3;A;-;S;1;C;3;G
+B;o;e;i;n;g; ;T;-;4;3;A; ;(;7;3;7;-;2;0;0;)
+F;a;i;r;c;h;i;l;d; ;R;C;-;1;1;9;L; ;F;l;y;i;n;g; ;B;o;x;c;a;r
+T;r;a;n;s;a;l;l; ;C;-;1;6;0;R
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;4;0;2; ;L;F;D; ;S;r;s;.; ;2;B
+P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;1; ;I;s;l;a;n;d;e;r
+L;e;t; ;L;-;4;1;0;U;V;P;-;E;9;D
+E;m;b;r;a;e;r; ;C;-;9;5;A; ;B;a;n;d;e;i;r;a;n;t;e; ;(;E;M;B;-;1;1;0;K;1;)
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;4;0;2; ;S;r;s;.; ;2;B
+V;i;c;k;e;r;s; ;8;0;8;C; ;V;i;s;c;o;u;n;t
+H;i;n;d;u;s;t;a;n; ;A;e;r;o;n;a;u;t;i;c;s; ;L;t;d;.; ;H;A;L;-;7;4;8;-;2;1;9; ;S;r;s;.; ;2
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;3;5;2; ;S;r;s;.; ;2;B; ;S;C;D
+S;w;e;a;r;i;n;g;e;n; ;S;A;-;2;2;6;T;C; ;M;e;t;r;o; ;I;I
+E;m;b;r;a;e;r; ;X;C;-;9;5;B; ;B;a;n;d;e;i;r;a;n;t;e; ;(;E;M;B;-;1;1;0;)
+A;i;r;b;u;s; ;A;3;2;1;-;1;3;1
+C;o;n;v;a;i;r; ;C;V;-;4;4;0;F; ;S;C;D
+P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;B;-;2;0; ;I;s;l;a;n;d;e;r
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;8; ;I;s;l;a;n;d;e;r
+E;m;b;r;a;e;r; ;1;2;0;R;T; ;B;r;a;s;i;l;i;a
+S;h;o;r;t;s; ;S;C;.;7; ;S;k;y;v;a;n; ;3;-;4;0;0
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;A;n;t;o;n;o;v; ;A;n;-;7;2
+E;m;b;r;a;e;r; ;P;-;9;5;B; ;B;a;n;d;e;i;r;u;l;h;a; ;(;E;M;B;-;1;1;1;)
+D;o;u;g;l;a;s; ;D;C;-;4; ;(;C;-;5;4;A;-;1;5;-;D;C;)
+C;A;S;A;/;N;u;r;t;a;n;i;o; ;N;C;-;2;1;2;-;C;C;4; ;A;v;i;o;c;a;r; ;2;0;0
+C;o;n;v;a;i;r; ;C;V;-;2;4;0;-;5;3
+R;o;c;k;w;e;l;l; ;S;a;b;r;e;l;i;n;e;r; ;4;0
+C;a;n;a;d;a;i;r; ;C;L;-;6;0;0;-;2;B;1;9; ;R;e;g;i;o;n;a;l; ;J;e;t; ;C;R;J;-;1;0;0;E;R
+B;o;e;i;n;g; ;E;C;-;1;3;5;C
+C;a;n;a;d;a;i;r; ;C;L;-;2;1;5;-;6;B;1;1; ;(;C;L;-;4;1;5;)
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;3;5;3; ;S;r;s;.; ;2;A
+L;o;c;k;h;e;e;d; ;E;P;-;3;E; ;O;r;i;o;n
+B;e;e;c;h;c;r;a;f;t; ;R;C;-;1;2;N; ;H;u;r;o;n; ;(;A;2;0;0;C;T; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r;)
+A;T;R; ;4;2;-;5;1;2
+A;i;r;b;u;s; ;A;3;4;0;-;3;1;1
+A;v;r;o; ;7;4;8;-;1;0;6; ;S;r;s;.; ;1;A
+I;R;M;A;/;P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;6; ;I;s;l;a;n;d;e;r
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;4;0;1; ;L;F;D; ;S;r;s;.; ;2;B
+E;m;b;r;a;e;r; ;E;M;B;-;1;1;0;P;1;A; ;B;a;n;d;e;i;r;a;n;t;e
+V;i;c;k;e;r;s; ;7;8;1;D; ;V;i;s;c;o;u;n;t
+C;o;n;v;a;i;r; ;C;V;-;2;4;0;-;2;7
+A;i;r;b;u;s; ;A;3;0;0;?
+C;o;n;v;a;i;r; ;C;V;-;2;4;0;-;5;3; ;(;H;C;-;1;3;1;A;)
+V;i;c;k;e;r;s; ;V;C;1;0; ;C;.;1;K
+B;o;e;i;n;g; ;7;4;7; ;o;r; ;7;7;7
+A;i;r;b;u;s; ;A;3;0;0;B;4;-;2;2;0
+M;i;t;u;s;b;i;s;h;i; ;M;u;-;3;0;0;-;1;0; ;D;i;a;m;o;n;d; ;I;I
+A;i;r;b;u;s; ;A;3;2;0;-;2;1;2
+A;i;r;b;u;s; ;A;3;1;0;-;2;0;4
+L;e;t; ;L;-;4;1;0
+C;A;S;A; ;C;-;2;1;2;-;S;1; ;A;v;i;o;c;a;r; ;1;0;0
+G;A;F; ;N;o;m;a;d; ;N;.;2;2;S; ;S;e;a;r;c;h;m;a;s;t;e;r; ;L
+R;o;c;k;w;e;l;l; ;S;a;b;r;e;l;i;n;e;r; ;7;5
+B;e;e;c;h;c;r;a;f;t; ;3;0;0; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r; ;3;5;0
+I;R;M;A;/;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;B;-;2;0; ;s;l;a;n;d;e;r
+I;l;y;u;s;h;i;n; ;I;L;7;8
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;I;l;y;u;s;h;i;n; ;I;L;7;8
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;3;1;0; ;S;r;s;.; ;2;A; ;L;F;D
+C;e;s;s;n;a; ;5;2;5; ;C;i;t;a;t;i;o;n;J;e;t
+G;r;u;m;m;a;n; ;H;U;-;1;6;C; ;A;l;b;a;t;r;o;s;s
+B;o;e;i;n;g; ;7;4;7;S;P;-;4;4
+L;e;a;r;j;e;t; ;4;5
+E;m;b;r;a;e;r; ;E;M;B;-;1;4;5;E;R; ;(;E;R;J;-;1;4;5;E;R;)
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;C;-;9;1; ;(;H;S;-;7;4;8;-;2;8;1; ;S;r;s;.; ;2;A; ;L;F;D;)
+B;o;e;i;n;g; ;7;3;7;-;2;8;2; ;A;d;v;.
+A;i;r;b;u;s; ;A;3;2;0;-;2;1;4
+A;i;r;b;u;s; ;A;3;4;0;-;3;1;3
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;3;7;8; ;S;r;s;.; ;2;B
+L;o;c;k;h;e;e;d; ;E;P;-;3;J; ;O;r;i;o;n
+C;o;n;v;a;i;r; ;C;V;-;2;4;0;-;5;3; ;(;C;-;1;3;1;A;)
+P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;B;-;2;1; ;I;s;l;a;n;d;e;r
+B;e;e;c;h;c;r;a;f;t; ;R;C;-;1;2;K; ;H;u;r;o;n; ;(;A;2;0;0;C;T; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r;)
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;3;3;5; ;S;r;s;.; ;2;A; ;S;C;D
+A;i;r;b;u;s; ;A;3;1;0;-;2;0;3
+C;o;n;v;a;i;r; ;C;V;-;2;4;0;-;1;7
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;3;4;4; ;S;r;s;.; ;2;A
+C;o;n;s;o;l;i;d;a;t;e;d; ;P;B;Y;-;5;A; ;C;a;t;a;l;i;n;a
+C;A;S;A; ;C;-;2;1;2;-;A;1; ;A;v;i;o;c;a;r; ;2;0;0
+B;e;e;c;h;c;r;a;f;t; ;B;2;0;0; ;K;i;n;g; ;A;i;r
+L;e;t; ;L;-;4;1;0;U;V;P;-;E;3
+X;i;a;n; ;Y;u;n;s;h;u;j;i; ;Y;-;7;H;-;5;0;0
+P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;6; ;I;s;l;a;n;d;e;r
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;3;1;5; ;D;a;s;h; ;8
+C;e;s;s;n;a; ;C;-;9;8; ;C;a;r;a;v;a;n; ;I; ;(;2;0;8;A;)
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;5;0;1; ;S;r;s;.; ;2;B
+C;e;s;s;n;a; ;2;0;8;A; ;C;a;r;a;v;a;n; ;6;7;5
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;7;-;1;0;2; ;(;O;-;5;A;)
+B;e;e;c;h;c;r;a;f;t; ;H;a;w;k;e;r; ;B;H;-;1;2;5;-;6;0;0;A
+B;o;e;i;n;g; ;7;4;7;-;2;B;3;F; ;(;S;C;D;)
+B;o;e;i;n;g; ;7;4;7;-;2;B;5;F; ;(;S;C;D;)
+P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;T; ;I;s;l;a;n;d;e;r; ;A;L;.;1
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;M;D;-;9;0;-;3;0
+H;a;r;b;i;n; ;Y;u;n;s;h;u;j;i; ;Y;-;1;1
+A;T;R; ;4;2;-;3;1;0
+S;w;e;a;r;i;n;g;e;n; ;S;A;2;2;6;-;A;T; ;M;e;r;l;i;n; ;I;V;C
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;0;6; ;A;n;d;o;v;e;r; ;C;C;2
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;3;1;1;Q; ;D;a;s;h; ;8
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A; ;I;s;l;a;n;d;e;r
+M;i;t;u;s;b;i;s;h;i; ;M;u;-;3;0;0; ;D;i;a;m;o;n;d
+A;i;r;b;u;s; ;A;3;1;0;-;3;0;8
+L;e;t; ;L;-;4;1;0;U;V;P;-;E;9
+G;r;u;m;m;a;n; ;G;-;1;1;5;9; ;G;u;l;f;s;t;r;e;a;m; ;I;I; ;S;P
+L;o;c;k;h;e;e;d; ;P;-;3;C;-;I;I;.;7;5; ;O;r;i;o;n
+D;a;s;s;a;u;l;t; ;F;a;l;c;o;n; ;9;0;0;B
+N;o;r;d; ;2;6;2;D;-;5;1; ;F;r;é;g;a;t;e
+D;o;u;g;l;a;s; ;D;C;-;9;-;1;5;F
+A;i;r;b;u;s; ;A;3;2;1;-;2;3;1
+D;o;u;g;l;a;s; ;A;C;-;4;7;/;B;a;s;l;e;r; ;6;7
+K;a;w;a;s;a;k;i; ;C;-;1;A
+A;i;r;b;u;s
+A;i;r;b;u;s; ;A;3;3;0;-;2;2;3
+A;i;r;b;u;s; ;A;3;3;0;-;3;0;1
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;1;4;6
+C;A;S;A; ;C;-;2;1;2;-;A;B;1;0; ;A;v;i;o;c;a;r; ;3;0;0
+C;A;S;A; ;C;-;2;1;2; ;A;v;i;o;c;a;r; ;3;0;0
+G;A;F; ;N;o;m;a;d; ;N;.;2;2;C
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;A;n;t;o;n;o;v; ;A;n;-;2;6
+X;i;a;n; ;Y;u;n;s;h;u;j;i; ;Y;-;7;-;1;0;0;C
+C;A;S;A; ;C;-;2;1;2;-;D;E; ;A;v;i;o;c;a;r; ;2;0;0
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;A;n;t;o;n;o;v; ;A;n;-;2;6
+A;i;r;b;u;s; ;A;3;1;9;-;1;1;4
+A;é;r;o;s;p;a;t;i;a;l;e; ;/; ;B;A;C; ;C;o;n;c;o;r;d;e; ;1;0;1
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;8;5; ;S;r;s;.; ;2;A
+A;i;r;b;u;s; ;A;3;3;0;-;2;0;2
+I;A;I; ;1;1;2;5; ;A;s;t;r;a; ;S;P;X
+B;o;e;i;n;g; ;7;4;7;-;2;H;7;B; ;(;S;C;D;)
+A;i;r;b;u;s; ;A;3;2;0;-;2;3;2
+P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;B; ;I;s;l;a;n;d;e;r
+A;i;r;b;u;s; ;A;3;3;0;-;3;2;2
+C;a;n;a;d;a;i;r; ;C;L;-;6;0;0;-;2;B;1;6; ;C;h;a;l;l;e;n;g;e;r; ;6;0;4
+D;o;r;n;i;e;r; ;3;2;8;-;1;2;0
+L;o;c;k;h;e;e;d; ;C;-;1;4;1;C; ;S;t;a;r;l;i;f;t;e;r
+P;Z;L;-;M;i;e;l;e;c; ;M;2;8; ;S;k;y;t;r;u;c;k
+S;w;e;a;r;i;n;g;e;n; ;S;A;2;2;7;-;A;T; ;M;e;r;l;i;n; ;I;V;C
+N;A;M;C; ;Y;S;-;1;1;A;-;2;1;4
+B;o;e;i;n;g; ;7;4;7;-;1;2;8; ;(;S;F;)
+P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;B;-;2;6; ;I;s;l;a;n;d;e;r
+D;a;s;s;a;u;l;t; ;F;a;l;c;o;n; ;1;0;0
+E;m;b;r;a;e;r; ;E;M;B;-;1;3;5;L;R; ;(;E;R;J;-;1;3;5;L;R;)
+A;i;r;b;u;s; ;A;3;3;0;-;2;4;3
+A;l;e;n;i;a; ;G;-;2;2;2;R;M
+C;A;S;A; ;C;N;-;2;3;5;-;2;0;0
+I;P;T;N;/;C;A;S;A; ;C;N;-;2;3;5;M;P;-;1;0;0;M
+B;e;e;c;h;c;r;a;f;t; ;B;3;0;0;C; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r; ;3;5;0
+B;o;e;i;n;g; ;7;1;7;-;2;0;0
+S;h;o;r;t;s; ;C;-;2;3;B;+; ;S;h;e;r;p;a; ;(;3;3;0;)
+C;A;S;A;/;N;u;r;t;a;n;i;o; ;N;C;-;2;1;2;-;M;P; ;A;v;i;o;c;a;r; ;2;0;0
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;4;4; ;S;r;s;.; ;2
+C;e;s;s;n;a; ;5;2;5;A; ;C;i;t;a;t;i;o;n;J;e;t; ;C;J;2
+S;h;a;a;n;x;i; ;Y;u;n;s;h;u;j;i; ;Y;-;8
+I;P;T;N;/;C;A;S;A; ;C;N;-;2;3;5;M;-;1;0;0
+E;m;b;r;a;e;r; ;E;M;B;-;1;4;5;L;R; ;(;E;R;J;-;1;4;5;L;R;)
+L;e;t; ;L;-;4;1;0;U;V;P;-;E;2;0
+A;i;r;b;u;s; ;A;3;0;0;F;4;-;6;0;5;R
+C;o;n;s;o;l;i;d;a;t;e;d; ;P;B;4;Y;-;2; ;S;u;p;e;r; ;P;r;i;v;a;t;e;e;r
+L;o;c;k;h;e;e;d; ;M;C;-;1;3;0;H; ;C;o;m;b;a;t; ;T;a;l;o;n; ;I;I
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;4;0;0; ;S;r;s;.; ;2;B
+B;e;e;c;h;c;r;a;f;t; ;B;e;e;c;h;j;e;t; ;4;0;0
+D;o;r;n;i;e;r; ;2;2;8;-;2;0;0
+C;a;n;a;d;a;i;r; ;C;L;-;6;0;0;-;2;B;1;9; ;R;e;g;i;o;n;a;l; ;J;e;t; ;C;R;J;-;2;0;0;E;R
+I;l;y;u;s;h;i;n; ;I;L;3;8
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;2;5; ;S;r;s;.; ;2;A
+B;A;C; ;O;n;e;-;E;l;e;v;e;n; ;5;2;3;F;J
+B;o;e;i;n;g; ;7;3;7; ;o;r; ;7;5;7
+N;o;r;t;h; ;A;m;e;r;i;c;a;n; ;T;-;3;9;N; ;S;a;b;r;e;l;i;n;e;r
+C;a;n;a;d;a;i;r; ;C;L;-;4;4;D;4
+G;u;l;f;s;t;r;e;a;m; ;G;-;V
+S;h;a;a;n;x;i; ;Y;u;n;s;h;u;j;i; ;Y;-;8;B
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;4;0;2; ;Q;4;0;0
+A;n;t;o;n;o;v; ;A;n;-;1;4;0
+A;i;r;b;u;s; ;A;3;0;0;B;4;-;6;2;0
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;1;2;5;-;1;A;-;7;3;1
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;3;7;2; ;S;r;s;.; ;2;B
+L;o;c;k;h;e;e;d; ;M;C;-;1;3;0;P; ;C;o;m;b;a;t; ;S;h;a;d;o;w
+N;o;r;t;h;-;A;m;e;r;i;c;a;n; ;R;o;c;k;w;e;l;l; ;T;-;3;9;N; ;S;a;b;r;e;l;i;n;e;r
+A;i;r;b;u;s; ;A;3;0;0;B;4;-;2;0;3;F
+V;i;c;k;e;r;s; ;8;3;6; ;V;i;s;c;o;u;n;t
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;1;2;5;-;4;0;3;B
+R;o;c;k;w;e;l;l; ;T;-;3;9;D; ;S;a;b;r;e;l;i;n;e;r
+B;o;e;i;n;g; ;7;4;7;-;2;8;1;F; ;(;S;C;D;)
+B;o;e;i;n;g; ;7;4;7;-;2;7;1;C; ;(;S;C;D;)
+A;n;t;o;n;o;v; ;A;n;-;3
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;8;0; ;A;n;d;o;v;e;r; ;C;.;1
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;4;0;1; ;Q;4;0;0
+C;a;n;a;d;a;i;r; ;C;L;-;2;1;5;-;6;B;1;1; ;(;C;L;-;2;1;5;T;)
+B;o;e;i;n;g; ;7;3;7;-;2;1;7; ;A;d;v
+S;i;n;o; ;S;w;e;a;r;i;n;g;e;n; ;S;J;3;0;-;2
+C;o;n;v;a;i;r; ;C;V;-;5;8;0;F
+N;o;r;t;h; ;A;m;e;r;i;c;a;n; ;R;o;c;k;w;e;l;l; ;S;a;b;r;e;l;i;n;e;r; ;4;0;A
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;3;T;/;M;6;0;1; ;T;u;r;b;i;n;e; ;O;t;t;e;r
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;C;-;1;7;A; ;G;l;o;b;e;m;a;s;t;e;r; ;I;I;I
+B;e;e;c;h;c;r;a;f;t; ;C;-;1;2;F; ;H;u;r;o;n; ; ;(;A;2;0;0;C;F; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r;)
+C;A;S;A; ;C;N;-;2;3;5;M;-;2;0;0
+D;o;r;n;i;e;r; ;2;2;8;-;2;0;2
+B;e;e;c;h;c;r;a;f;t; ;T;-;1;A; ;J;a;y;h;a;w;k
+R;a;y;t;h;e;o;n; ;B;e;e;c;h;j;e;t; ;4;0;0;A
+C;e;s;s;n;a; ;5;6;0; ;C;i;t;a;t;i;o;n; ;E;n;c;o;r;e;+
+R;a;y;t;h;e;o;n; ;3;9;0; ;P;r;e;m;i;e;r; ;I
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;M;D;-;1;0;F
+G;u;l;f;s;t;r;e;a;m; ;A;e;r;o;s;p;a;c;e; ;G;-;1;1;5;9;A; ;G;u;l;f;s;t;r;e;a;m; ;I;I;I
+C;o;n;v;a;i;r; ;C;V;-;3;4;0;-;7;0
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;0;8; ;S;r;s;.; ;2;A
+C;e;s;s;n;a; ;U;C;-;3;5;D; ;C;i;t;a;t;i;o;n; ;E;n;c;o;r;e
+C;e;s;s;n;a; ;5;2;5; ;C;i;t;a;t;i;o;n;J;e;t; ;C;J;1
+B;o;e;i;n;g; ;7;4;7;-;2;3;0;F; ;(;S;C;D;)
+L;o;c;k;h;e;e;d; ;C;-;5;B; ;G;a;l;a;x;y
+A;i;r;b;u;s; ;A;3;2;1;-;2;1;1
+B;o;e;i;n;g; ;7;4;7;S;P;-;8;6
+I;R;M;A;/;P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;7; ;I;s;l;a;n;d;e;r
+B;u;s;h;m;a;s;t;e;r; ;2;0;0;0
+C;a;n;a;d;a;i;r; ;C;L;-;6;0;0;-;2;B;1;9; ;R;e;g;i;o;n;a;l; ;J;e;t; ;C;R;J;-;2;0;0;L;R
+B;e;e;c;h;c;r;a;f;t; ;B;3;0;0; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r; ;3;5;0
+C;A;S;A; ;C;-;2;1;2;A;-;2;7; ;A;v;i;o;c;a;r; ;2;0;0
+S;w;e;a;r;i;n;g;e;n; ;S;A;-;2;2;7;A;C; ;M;e;t;r;o; ;I;I;I
+B;o;e;i;n;g; ;7;3;7;-;2;0;5; ;A;d;v;a;n;c;e;d
+B;o;e;i;n;g; ;7;3;7;-;2;4;2; ;A;d;v;.
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;3;1;5; ;Q;3;0;0
+P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;B;-;2;0; ;I;s;l;a;n;d;e;r
+N;A;M;C; ;Y;S;-;1;1;-;5;0;0;R
+D;o;r;n;i;e;r; ;3;2;8;J;E;T;-;3;1;0
+H;E;S;A; ;I;r;A;n;-;1;4;0
+B;e;e;c;h;c;r;a;f;t; ;B;2;0;0; ;C;a;t;p;a;s;s; ;2;5;0
+C;a;n;a;d;a;i;r; ;C;L;-;6;0;0;-;2;B;1;9; ;R;e;g;i;o;n;a;l; ;J;e;t; ;C;R;J;-;4;4;0;L;R
+L;e;t; ;L;-;4;1;0;U;V;P;-;E;4
+L;e;t; ;L;-;4;1;0;U;V;P;-;E;1;9;A
+G;r;u;m;m;a;n; ;A;m;e;r;i;c;a;n; ;G;-;1;1;5;9; ;G;u;l;f;s;t;r;e;a;m; ;I;I; ;S;P
+A;i;r;b;u;s; ;A;3;4;0;-;3;1;3;X
+B;o;e;i;n;g; ;E;-;8;C; ;(;7;0;7;)
+A;i;r;b;u;s; ;A;3;1;0;-;3;0;4;E;T
+I;P;T;N;/;C;A;S;A; ;C;N;-;2;3;5;M;-;1;0
+B;e;e;c;h;c;r;a;f;t; ;C;9;9
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;8;0; ;A;n;d;o;v;e;r; ;C;C;.;2
+P;Z;L;-;M;i;e;l;e;c; ;M;2;8;-;0;5; ;S;k;y;t;r;u;c;k
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;2;0;2;Q
+R;o;c;k;w;e;l;l; ;S;a;b;r;e;l;i;n;e;r; ;8;0
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A; ;T;r;i;s;l;a;n;d;e;r; ;M;k;.;I;I;I;-;3
+B;e;e;c;h;c;r;a;f;t; ;9;9;A
+B;o;e;i;n;g; ;7;3;7;-;7;H;4; ;(;W;L;)
+E;x;c;e;l;-;J;e;t; ;S;p;o;r;t;-;J;e;t
+A;T;R; ;7;2;-;2;0;1
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;8;6; ;S;r;s;.; ;2;A; ;L;F;D
+E;m;b;r;a;e;r; ;E;M;B;-;1;3;5;E;R; ;(;E;R;J;-;1;3;5;E;R;)
+N;o;r;d; ;2;6;2;A;-;4;2
+C;A;S;A; ;C;-;2;1;2; ;A;v;i;o;c;a;r; ;4;0;0
+P;Z;L; ;A;n;-;2;8
+B;e;r;i;e;v; ;B;e;-;2;0;0;C;h;S
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;5; ;B;u;f;f;a;l;o
+C;e;s;s;n;a; ;5;6;0; ;C;i;t;a;t;i;o;n; ;E;n;c;o;r;e
+L;o;c;k;h;e;e;d; ;H;e;r;c;u;l;e;s; ;C;.;1;P; ;(;C;-;1;3;0;K;)
+A;i;r;b;u;s; ;A;3;1;9;-;1;1;2
+D;a;s;s;a;u;l;t; ;F;a;l;c;o;n; ;2;0;C;-;5
+L;o;c;k;h;e;e;d; ;L;-;1;3;2;9;-;2;3;E; ;J;e;t;S;t;a;r; ;8
+B;o;e;i;n;g; ;7;4;7;S;P;-;9;4
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;M;D;-;1;0;-;1;0;F
+R;a;y;t;h;e;o;n; ;H;a;w;k;e;r; ;8;0;0;X;P
+S;p;e;c;t;r;u;m; ;A;e;r;o;n;a;u;t;i;c;a;l; ;S;p;e;c;t;r;u;m; ;3;3
+A;T;R; ;7;2;-;2;1;2;A; ;(;A;T;R;-;7;2;-;5;0;0;)
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;D;H;-;1;2;5;-;3;A
+N;o;r;t;h; ;A;m;e;r;i;c;a;n; ;C;T;-;3;9;A;-;1;-;N;A; ;S;a;b;r;e;l;i;n;e;r
+G;r;o;b; ;G;.;1;8;0;A; ;S;P;n
+Y;a;k;o;v;l;e;v; ;Y;a;k;-;4;0;A
+N;A;M;C; ;Y;S;-;1;1;A;-;6;0;0
+E;m;b;r;a;e;r; ;E;R;J; ;1;7;0;-;1;0;0; ;S;E; ;(;E;R;J;-;1;7;0;S;E;)
+E;m;b;r;a;e;r; ;E;M;B;-;1;3;5;B;J; ;L;e;g;a;c;y; ;6;0;0
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;3;T; ;T;e;x;a;s; ;T;u;r;b;i;n;e; ;O;t;t;e;r
+S;w;e;a;r;i;n;g;e;n; ;S;A;2;2;7;-;B;C; ;M;e;t;r;o; ;I;I;I
+D;o;r;n;i;e;r; ;3;2;8;J;E;T;-;3;0;0
+S;h;a;a;n;x;i; ;K;J;-;2;0;0; ;(;Y;-;8;)
+B;o;e;i;n;g; ;7;3;7;-;8;A;S; ;(;W;L;)
+E;m;b;r;a;e;r; ;E;R;J; ;1;9;0;-;1;0;0; ;I;G;W; ;(;E;R;J;-;1;9;0;A;R;)
+D;a;s;s;a;u;l;t; ;F;a;l;c;o;n; ;9;0;0;C
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;A;T;P;-;F
+A;i;r;b;u;s; ;A;3;4;0;-;6;4;2
+B;o;m;b;a;r;d;i;e;r; ;B;D;-;7;0;0;-;1;A;1;1; ;G;l;o;b;a;l; ;5;0;0;0
+S;h;o;r;t;s; ;3;3;0;U;T;T
+G;r;u;m;m;a;n; ;A;m;e;r;i;c;a;n; ;G;-;1;1;5;9; ;G;u;l;f;s;t;r;e;a;m; ;I;I; ;B
+L;o;c;k;h;e;e;d; ;H;e;r;c;u;l;e;s; ;C;.;4; ;(;C;-;1;3;0;J;-;3;0;)
+B;e;e;c;h;c;r;a;f;t; ;B;9;9
+H;a;w;k;e;r; ;8;0;0;X;P
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;4;0;2;Q; ;D;a;s;h; ;8
+A;i;r;b;u;s; ;A;3;4;0;-;6;4;2;X
+A;T;R; ;4;2;-;5;0;0; ;?
+C;a;n;a;d;a;i;r; ;C;L;-;6;0;0;-;2;B;1;9; ;R;e;g;i;o;n;a;l; ;J;e;t; ;C;R;J;-;1;0;0;S;E
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;B;-;2;6; ;I;s;l;a;n;d;e;r
+C;e;s;s;n;a; ;5;2;5;B; ;C;i;t;a;t;i;o;n;J;e;t; ;C;J;3
+A;i;r;b;u;s; ;A;3;1;0;-;3;2;5
+C;e;s;s;n;a; ;5;1;0; ;C;i;t;a;t;i;o;n; ;M;u;s;t;a;n;g
+L;e;t; ;L;-;4;1;0;U;V;P;-;E;1;0;A
+A;i;r;b;u;s; ;A;3;2;0;-;2;3;3
+N;o;r;t;h; ;A;m;e;r;i;c;a;n; ;R;o;c;k;w;e;l;l; ;S;a;b;r;e;l;i;n;e;r; ;7;0
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C; ;1;0;-;1;0
+C;A;S;A;/;N;u;r;t;a;n;i;o; ;N;C;-;2;1;2;-;M; ;A;v;i;o;c;a;r; ;2;0;0
+A;i;r;b;u;s; ;A;3;1;9;-;1;1;1
+E;c;l;i;p;s;e; ;5;0;0
+C;A;S;A; ;C;-;2;9;5;M
+B;e;e;c;h;c;r;a;f;t; ;A;2;0;0; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r
+E;m;b;r;a;e;r; ;E;R;J; ;1;7;0;-;1;0;0; ;S;U; ;(;E;R;J;-;1;7;0;S;U;)
+D;o;r;n;i;e;r; ;3;2;8;-;1;0;0
+A;i;r;b;u;s; ;A;3;3;0;-;3;0;3
+D;a;s;s;a;u;l;t; ;F;a;l;c;o;n; ;9;0;0;E;X
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;2;0;2
+C;e;s;s;n;a; ;7;5;0; ;C;i;t;a;t;i;o;n; ;X
+X;i;a;n; ;M;A;6;0
+D;o;r;n;i;e;r; ;2;2;8;-;2;0;2;K
+B;o;e;i;n;g; ;7;4;7;-;2;2;8;F; ;(;S;C;D;)
+R;o;c;k;w;e;l;l; ;S;a;b;r;e;l;i;n;e;r; ;4;0;A
+B;o;m;b;a;r;d;i;e;r; ;C;L;-;6;0;0;-;2;C;1;0; ;R;e;g;i;o;n;a;l; ;J;e;t; ;C;R;J;-;7;0;1;E;R
+M;c;D;o;n;n;e;l;l; ;D;o;u;g;l;a;s; ;D;C;-;C;e;s;s;n;a; ;C;i;t;a;t;i;o;n; ;I;I;I
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;6;R; ;I;s;l;a;n;d;e;r
+B;o;m;b;a;r;d;i;e;r; ;D;H;C;-;8;-;4;0;2;Q; ;D;a;s;h; ;8
+I;A;I; ;1;1;2;6; ;G;a;l;a;x;y
+B;e;e;c;h;c;r;a;f;t; ;C;-;1;2;C; ;H;u;r;o;n; ;(;A;2;0;0; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r;)
+N;a;t;i;o;n;a;l; ;A;e;r;o;s;p;a;c;e; ;L;a;b;o;r;a;t;o;r;i;e;s; ;(;N;A;L;); ;S;a;r;a;s
+E;m;b;r;a;e;r; ;E;M;B;-;5;0;0; ;P;h;e;n;o;m; ;1;0;0
+B;o;e;i;n;g; ;7;3;7;-;8;8;1; ;(;W;L;)
+I;l;y;u;h;s;i;n; ;I;l;-;7;6;T;D
+H;E;S;A; ;I;r;A;n;-;1;4;0;-;1;0;0
+L;e;a;r;j;e;t; ;4;0
+C;A;S;A; ;C;-;2;1;2;-;C;B; ;A;v;i;o;c;a;r; ;1;0;0
+P;Z;L;-;M;i;e;l;e;c; ;M;2;8;T;D; ;B;r;y;z;a; ;2;R;F
+B;o;e;i;n;g; ;E;-;3;C; ;S;e;n;t;r;y; ;(;7;0;7;-;3;0;0;)
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;3;9;8; ;S;r;s;.; ;2;B
+B;o;m;b;a;r;d;i;e;r; ;B;D;-;7;0;0;-;1;A;1;0; ;G;l;o;b;a;l; ;E;x;p;r;e;s;s
+A;v;c;e;n; ;J;e;t;p;o;d
+A;i;r;b;u;s; ;A;3;3;0;-;2;0;3
+B;o;e;i;n;g; ;7;3;7;-;8;2;3; ;(;W;L;)
+L;e;a;r;j;e;t; ;4;5;X;R
+N;A;M;C; ;Y;S;-;1;1;M;-;A;-;6;2;4
+A;i;r;b;u;s; ;A;3;4;0;-;5;4;1
+C;e;s;s;n;a; ;C;-;9;8;A; ;G;r;a;n;d; ;C;a;r;a;v;a;n; ;(;2;0;8;B;)
+P;Z;L;-;M;i;e;l;e;c; ;M;2;8;-;0;5;P;I; ;S;k;y;t;r;u;c;k
+A;i;r;b;u;s; ;A;3;3;0;-;3;2;3;X
+C;e;s;s;n;a; ;U;C;-;3;5;A; ;(;C;e;s;s;n;a; ;5;6;0; ;C;i;t;a;t;i;o;n; ;V; ;U;l;t;r;a;)
+A;T;R; ;4;2;-;5;0;0
+E;m;b;r;a;e;r; ;E;M;B;-;1;4;5;L;U; ;(;E;R;J;-;1;4;5;L;U;)
+B;o;e;i;n;g; ;7;3;7;-;8;H;G; ;(;W;L;)
+B;o;e;i;n;g; ;7;6;7;-;3;2;4;E;R; ;(;W;L;)
+L;e;t; ;L;-;4;1;0;U;V;P;-;E;2;0;C
+E;m;b;r;a;e;r; ;E;R;J; ;1;9;0;-;1;0;0; ;L;R; ; ;(;E;R;J;-;1;9;0;L;R;)
+A;i;r;b;u;s; ;A;3;3;0;-;3;4;2
+R;a;y;t;h;e;o;n; ;3;9;0; ;P;r;e;m;i;e;r; ;I;A
+B;o;e;i;n;g; ;7;3;7;-;8;B;K; ;(;W;L;)
+B;o;e;i;n;g; ;7;3;7;-;8;3;2; ;(;W;L;)
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;1;0;3;B
+A;i;r;b;u;s; ;A;3;1;9;-;1;3;2
+B;o;m;b;a;r;d;i;e;r; ;B;D;-;7;0;0;-;1;A;1;0; ;G;l;o;b;a;l; ;E;x;p;r;e;s;s; ;X;R;S
+B;o;e;i;n;g; ;7;3;7;-;7;3;V; ;(;W;L;)
+A;l;e;n;i;a; ;G;-;2;2;2
+C;e;s;s;n;a; ;5;5;0;B; ;C;i;t;a;t;i;o;n; ;B;r;a;v;o
+C;o;n;v;a;i;r; ;C;V;-;5;8;0; ;A;i;r;t;a;n;k;e;r
+A;i;r;b;u;s; ;A;3;8;0;-;8;4;2
+B;o;e;i;n;g; ;7;2;7;-;2;3;1;F; ;S;u;p;e;r; ;2;7
+B;o;e;i;n;g; ;7;3;7;-;7;L;9; ;(;W;L;)
+D;a;s;s;a;u;l;t; ;F;a;l;c;o;n; ;2;0;0;0;E;X
+B;o;e;i;n;g; ;7;4;7;-;4;4;A;F; ;(;S;C;D;)
+A;i;r;b;u;s; ;A;3;1;0;-;3;0;4;F
+H;a;w;k;e;r; ;B;e;e;c;h;c;r;a;f;t; ;3;9;0; ;P;r;e;m;i;e;r; ;I;A
+A;i;r;b;u;s; ;A;3;1;9;-;1;3;1
+L;o;c;k;h;e;e;d; ;H;e;r;c;u;l;e;s; ;C;.;3;A; ;(;C;-;1;3;0;K;)
+B;o;e;i;n;g; ;7;5;7;-;3;5;1; ;(;W;L;)
+B;o;e;i;n;g; ;7;3;7;-;8;F;2; ;(;W;L;)
+B;o;e;i;n;g; ;7;3;7;-;3;H;4; ;(;W;L;)
+E;m;b;r;a;e;r; ;E;M;B;-;1;4;5;E;P; ;(;E;R;J;-;1;4;5;E;P;)
+C;a;n;a;d;a;i;r; ;C;L;-;6;0;0;-;2;D;2;4; ;R;e;g;i;o;n;a;l; ;J;e;t; ;C;R;J;-;9;0;0;E;R
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;1;0;6
+C;o;n;v;a;i;r; ;C;V;-;3;4;0;-;7;1
+C;e;s;s;n;a; ;5;2;5; ;C;i;t;a;t;i;o;n;J;e;t; ;C;J;1;+
+B;o;e;i;n;g; ;7;3;7;-;7;3;2; ;(;W;L;)
+Y;a;k;o;v;l;e;v; ;Y;a;k;-;4;0;K;D
+B;o;e;i;n;g; ;7;7;7;-;F;6;N
+C;e;s;s;n;a; ;5;6;0;X;L; ;C;i;t;a;t;i;o;n; ;X;L;S
+A;i;r;b;u;s; ;A;3;2;0;-;2;1;6
+B;o;m;b;a;r;d;i;e;r; ;B;D;-;1;0;0;-;1;A;1;0; ;C;h;a;l;l;e;n;g;e;r; ;3;0;0
+A;i;r;b;u;s; ;A;3;0;0;F;4;-;6;2;2;R
+G;u;l;f;s;t;r;e;a;m; ;G;1;5;0
+P;Z;L;-;M;i;e;l;e;c; ;C;-;1;4;5;A; ;(;M;2;8;-;0;5;); ;S;k;y;t;r;u;c;k
+C;A;S;A; ;C;-;2;1;2;-;C;C;4;0; ;A;v;i;o;c;a;r; ;2;0;0
+B;o;e;i;n;g; ;7;2;7;-;2;2; ;(;W;L;)
+B;o;e;i;n;g; ;7;6;7;-;3;3;2;E;R; ;(;W;L;)
+C;A;S;A; ;C;-;2;1;2; ;A;v;i;o;c;a;r; ;3;0;0;D;F
+G;u;l;f;s;t;r;e;a;m; ;G;V;-;S;P; ;(;G;5;5;0;)
+R;a;y;t;h;e;o;n; ;H;a;w;k;e;r; ;8;5;0;X;P
+E;m;b;r;a;e;r; ;E;M;B;-;1;4;0; ;(;E;R;J;-;1;3;5;K;L;)
+S;u;k;h;o;i; ;S;u;p;e;r;j;e;t; ;1;0;0;-;9;5;B
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;8;7; ;S;r;s;.; ;2;B
+L;o;c;k;h;e;e;d; ;C;C;-;1;3;0;H;(;T;); ;H;e;r;c;u;l;e;s
+S;a;a;b; ;2;0;0;0; ;A;E;W;&;C
+B;o;e;i;n;g; ;7;3;7;-;3;3;A; ;(;Q;C;)
+B;o;e;i;n;g; ;7;3;7;-;8;K;N; ;(;W;L;)
+C;a;n;a;d;a;i;r; ;C;C;-;1;4;4;A; ;C;h;a;l;l;e;n;g;e;r; ;6;0;0
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;3;1;5;Q; ;D;a;s;h; ;8
+L;o;c;k;h;e;e;d; ;C;-;1;3;0;J;-;3;0; ;S;u;p;e;r; ;H;e;r;c;u;l;e;s
+A;i;r;b;u;s; ;A;3;3;0;-;3;4;3;X
+E;m;b;r;a;e;r; ;E;M;B;-;5;0;5; ;P;h;e;n;o;m; ;3;0;0
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;3;1;1;Q
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;3;1;5;Q; ;M;P;A
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;6;4; ;S;r;s;.;2;A
+B;o;e;i;n;g; ;7;3;7;-;5;0;0; ;?
+S;h;i;j;i;a;z;h;u;a;n;g; ;Y;-;5;B
+C;e;s;s;n;a; ;5;2;5;A; ;C;i;t;a;t;i;o;n;J;e;t; ;C;J;2;+
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;1;0;2; ;D;a;s;h; ;8
+B;e;e;c;h;c;r;a;f;t; ;M;C;-;1;2;W; ;L;i;b;e;r;t;y; ;(;K;i;n;g; ;A;i;r; ;3;5;0;)
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;D;H;-;1;2;5;-;4;0;0;A
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;1;4;6;-;2;0;0;Q;T
+G;u;l;f;s;t;r;e;a;m; ;G;5;5;0
+A;i;r;b;u;s; ;A;3;2;1;-;1;1;1
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;7;4;8;-;2;0;9; ;S;r;s;.;2;A
+B;e;e;c;h;c;r;a;f;t; ;B;2;0;0;G;T; ;K;i;n;g; ;A;i;r
+B;o;e;i;n;g; ;7;3;7;-;8;K;2; ;(;W;L;)
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;1;2;5; ;C;C;3; ;(;H;S;-;1;2;5;-;7;0;0;)
+B;o;e;i;n;g; ;K;C;-;1;3;7;E; ;(;7;0;7;-;3;2;4;C;)
+A;T;R; ;4;2;-;3;2;0;F
+B;o;e;i;n;g; ;7;5;7;-;2;B;7; ;(;W;L;)
+B;o;e;i;n;g; ;7;3;7;-;8;G;P; ;(;W;L;)
+A;T;R; ;7;2;-;2;1;2;A; ;(;A;T;R;-;7;2;-;6;0;0;)
+B;o;e;i;n;g; ;7;3;7;-;8;G;K; ;(;W;L;)
+E;m;b;r;a;e;r; ;E;M;B;-;1;4;5;L;I; ;(;E;R;J;-;1;4;5;L;I;)
+B;o;e;i;n;g; ;7;3;7;-;7;Q;8; ;(;W;L;)
+B;o;e;i;n;g; ;7;8;7;-;8; ;D;r;e;a;m;l;i;n;e;r
+B;o;e;i;n;g; ;7;3;7;-;8;F;E; ;(;W;L;)
+I;P;T;N;/;C;A;S;A; ;C;N;-;2;3;5;-;2;2;0
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;B;-;2;7; ;I;s;l;a;n;d;e;r
+B;o;e;i;n;g; ;7;3;7;-;8;6;J; ;(;W;L;)
+B;o;e;i;n;g; ;7;3;7;-;7;6;N; ;(;W;L;)
+B;o;e;i;n;g; ;7;3;7;-;8;H;4; ;(;W;L;)
+B;e;e;c;h;c;r;a;f;t; ;3;0;0; ;K;i;n;g; ;A;i;r; ;(;M;A;R;S;S;)
+E;m;b;r;a;e;r; ;E;R;J;-;1;4;0; ;(;E;R;J;-;1;3;5;K;L;)
+L;o;c;k;h;e;e;d; ;P;-;3;C; ;A;I;P; ;O;r;i;o;n
+L;o;c;k;h;e;e;d; ;O;P;-;3;C; ;O;r;i;o;n
+B;o;e;i;n;g; ;7;5;7;-;2;3;2; ;(;W;L;)
+G;u;l;f;s;t;r;e;a;m; ;G;2;0;0
+A;T;R; ;7;2;-;2;1;2;A; ;(;A;T;R; ;7;2;-;6;0;0;)
+A;i;r;b;u;s; ;A;3;4;0;-;2;1;2
+E;m;b;r;a;e;r; ;E;R;J; ;1;7;0;-;2;0;0; ;L;R; ;(;E;R;J;-;1;7;5;L;R;)
+B;o;m;b;a;r;d;i;e;r; ;C;L;-;6;0;0;-;2;D;2;4; ;R;e;g;i;o;n;a;l; ;J;e;t; ;C;R;J;-;9;0;0;E;R
+D;a;s;s;a;u;l;t; ;F;a;l;c;o;n; ;5;0;E;X
+E;m;b;r;a;e;r; ;E;M;B;-;1;4;5;X;R
+C;e;s;s;n;a; ;5;6;0;X;L;S;+; ;C;i;t;a;t;i;o;n; ;X;L;S;+
+A;T;R; ;7;2;-;6;0;0; ;(;7;2;-;2;1;2;A;)
+L;o;c;k;h;e;e;d; ;P;-;3;C;-;I;I;.;5; ;O;r;i;o;n
+D;o;r;n;i;e;r; ;D;o;-;1;2;8;-;G;9;2; ;T;u;r;b;o; ;S;k;y;s;e;r;v;a;n;t
+A;i;r;b;u;s; ;A;3;1;0;-;3;2;4;E;T
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;3;9;9; ;L;F;D; ;S;r;s;.; ;2;B
+B;o;e;i;n;g; ;7;3;7;-;8;6;N; ;(;W;L;)
+V;i;k;i;n;g; ;A;i;r; ;D;H;C;-;6; ;T;w;i;n; ;O;t;t;e;r; ;4;0;0
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;3;7;1; ;L;F;D; ;S;r;s;.; ;2;B
+B;o;m;b;a;r;d;i;e;r; ;B;D;-;7;0;0;-;1;A;1;0; ;G;l;o;b;a;l; ;6;0;0;0
+B;o;e;i;n;g; ;7;3;7;-;3;6;Q; ;(;W;L;)
+A;i;r;b;u;s; ;A;3;3;0;-;2;2;3;F
+L;o;c;k;h;e;e;d; ;P;-;3;C;-;I;I;I; ;O;r;i;o;n
+R;o;c;k;w;e;l;l; ;S;a;b;r;e;l;i;n;e;r; ;6;0;E;L;X;M
+L;o;c;k;h;e;e;d; ;C;-;1;3;0;J; ;S;u;p;e;r; ;H;e;r;c;u;l;e;s
+B;o;e;i;n;g; ;7;5;7;-;2;2;3; ;(;W;L;)
+E;m;b;r;a;e;r; ;E;R;J; ;1;9;0;-;1;0;0; ;S;T;D; ;(;E;R;J;-;1;9;0;S;T;D;)
+C;a;n;a;d;a;i;r; ;C;L;-;6;0;0;-;2;B;1;6; ;C;h;a;l;l;e;n;g;e;r; ;6;0;1;-;3;R
+C;e;s;s;n;a; ;5;2;5;C; ;C;i;t;a;t;i;o;n; ;C;J;4
+B;o;e;i;n;g; ;7;3;7;-;9;G;P;E;R; ;(;W;L;)
+A;l;e;n;i;a; ;C;-;2;7;J; ;S;p;a;r;t;a;n
+L;e;a;r;j;e;t; ;6;0;X;R
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;1;2;5;-;8;0;0;S;P
+B;o;e;i;n;g; ;7;3;7;-;8;F;B; ;(;W;L;)
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;A;T;P;-;F; ;(;L;F;D;)
+C;e;s;s;n;a; ;2;0;8;B; ;S;u;p;e;r;v;a;n; ;9;0;0
+L;o;c;k;h;e;e;d; ;C;P;-;1;4;0; ;A;u;r;o;r;a
+A;i;r;b;u;s; ;A;4;0;0;M; ;A;t;l;a;s
+C;a;n;a;d;a;i;r; ;C;L;-;6;0;0;-;2;C;1;0; ;R;e;g;i;o;n;a;l; ;J;e;t; ;C;R;J;-;7;0;2;E;R
+C;e;s;s;n;a; ;5;6;0;X;L; ;C;i;t;a;t;i;o;n; ;E;x;c;e;l
+A;i;r;b;u;s; ;A;3;0;0;B;4;-;6;0;5;R;(;F;)
+B;o;e;i;n;g; ;7;5;7;-;2;8;A; ;(;P;C;F;)
+B;o;e;i;n;g; ;R;C;-;1;3;5;V; ;R;i;v;e;t; ;J;o;i;n;t
+B;o;e;i;n;g; ;7;3;7;-;3;2;2; ;(;W;L;)
+D;o;r;n;i;e;r; ;2;2;8
+E;m;b;r;a;e;r; ;E;M;B;-;1;4;5;M;P; ;(;E;R;J;-;1;4;5;M;P;)
+B;e;e;c;h;c;r;a;f;t; ;3;0;0; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r; ;3;5;0;E;R
+I;A;I; ;1;1;2;5; ;A;s;t;r;a
+D;o;r;n;i;e;r; ;3;2;8; ;?
+A;i;r;b;u;s; ;A;3;2;1;-;2;1;1; ;(;W;L;)
+C;e;s;s;n;a; ;2;0;8;B; ;C;a;r;a;v;a;n; ;I
+E;m;b;r;a;e;r; ;C;-;9;5;B;M; ;B;a;n;d;e;i;r;a;n;t;e; ;(;E;M;B;-;1;1;0;)
+S;h;i;n;M;a;y;w;a; ;U;S;-;2
+C;A;S;A; ;C;N;-;2;3;5;M;-;3;0;0
+L;e;a;r;j;e;t; ;3;1;A
+A;i;r;b;u;s; ;A;3;3;0;-;3;4;3
+C;e;s;s;n;a; ;2;0;8;B; ;G;r;a;n;d; ;C;a;r;a;v;a;n; ;E;X
+E;m;b;r;a;e;r; ;E;R;J; ;1;9;0;-;2;0;0; ;L;R; ; ;(;E;R;J;-;1;9;5;L;R;)
+R;o;c;k;w;e;l;l; ;S;a;b;r;e;l;i;n;e;r; ;6;0;S;C
+B;o;e;i;n;g; ;7;4;7;S;P;-;2;7
+L;o;c;k;h;e;e;d; ;A;C;-;1;3;0;J; ;G;h;o;s;t;r;i;d;e;r
+C;e;s;s;n;a; ;5;5;0; ;C;i;t;a;t;i;o;n; ;B;r;a;v;o
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;2;0;2;Q; ;D;a;s;h; ;8
+B;o;e;i;n;g; ;7;2;7;-;2;J;0; ;(;F;); ;A;d;v;a;n;c;e;d
+B;o;m;b;a;r;d;i;e;r; ;C;R;J;-;9;0;0;E;R; ;(;C;L;-;6;0;0;-;2;D;2;4;); ;R;e;g;i;o;n;a;l; ;J;e;t
+B;o;e;i;n;g; ;7;3;7;-;3;4;7; ;(;S;F;)
+B;e;e;c;h;c;r;a;f;t; ;B;2;0;0;T; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r
+C;a;n;a;d;a;i;r; ;C;L;-;6;0;0;-;2;B;1;9; ;R;e;g;i;o;n;a;l; ;J;e;t; ;C;R;J;-;2;0;0;P;F
+C;a;n;a;d;a;i;r; ;C;L;-;6;0;0;-;2;C;1;0; ;R;e;g;i;o;n;a;l; ;J;e;t; ;C;R;J;-;7;0;2
+E;m;b;r;a;e;r; ;E;R;J;-;1;4;5;M;P
+B;o;e;i;n;g; ;7;6;7;-;3;4;A;F;E;R; ;(;W;L;)
+E;m;b;r;a;e;r; ;E;R;J;-;1;9;0;S;T;D; ;(;E;R;J;-;1;9;0;-;1;0;0;)
+C;e;s;s;n;a; ;5;2;5;B; ;C;i;t;a;t;i;o;n;J;e;t; ;C;J;3;+
+C;e;s;s;n;a; ;A;C;-;2;0;8;B; ;C;o;m;b;a;t; ;C;a;r;a;v;a;n
+R;a;y;t;h;e;o;n; ;U;-;1;2;5; ;(;H;a;w;k;e;r; ;8;0;0;)
+B;e;r;i;e;v; ;B;e;-;2;0;0;E;S
+G;u;l;f;s;t;r;e;a;m; ;G;6;5;0;E;R
+A;i;r;b;u;s; ;A;3;3;0;-;3;0;2
+B;o;e;i;n;g; ;7;3;7;-;8;5;R; ;(;W;L;)
+A;i;r;b;u;s; ;A;3;3;0;-;3;2;3
+D;a;s;s;a;u;l;t; ;F;a;l;c;o;n; ;2;0;F;-;5
+C;e;s;s;n;a; ;5;2;5; ;C;i;t;a;t;i;o;n; ;M;2
+B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;B;-;2;0; ;I;s;l;a;n;d;e;r
+B;o;e;i;n;g; ;7;3;7;-;8;H;O; ;(;W;L;)
+B;o;e;i;n;g; ;P;-;8;A; ;P;o;s;e;i;d;o;n; ;(;7;3;7;-;8;F;V;)
+B;o;e;i;n;g; ;7;3;7;-;4;Q;8; ;(;S;F;)
+B;o;e;i;n;g; ;7;6;7;-;3;2;3;E;R; ;(;W;L;)
+A;T;R; ;4;2;-;6;0;0
+B;a;s;l;e;r; ;B;T;-;6;7; ;T;u;r;b;o; ;6;7; ;(;A;C;-;4;7;T;)
+S;w;e;a;r;i;n;g;e;n; ;S;A;2;2;7;-;D;C; ;M;e;t;r;o; ;2;3; ;(;C;-;2;6;B;)
+I;P;T;N;/;C;A;S;A; ;C;N;-;2;3;5;M;-;V;I;P
+C;A;S;A; ;C;-;2;1;2; ;A;v;i;o;c;a;r; ;4;0;0;M;P;A
+E;m;b;r;a;e;r; ;E;M;B;-;1;2;0;E;R
+B;o;e;i;n;g; ;7;3;7;-;8;3;8; ;(;W;L;)
+A;i;r;b;u;s; ;A;3;8;0;-;8;6;1
+B;e;e;c;h;c;r;a;f;t; ;B;2;0;0;G;T; ;K;i;n;g; ;A;i;r; ;2;5;0
+A;n;t;o;n;o;v; ;T;R;-;3;0;1
+S;h;a;a;n;x;i; ;Y;-;8;F;-;2;0;0;W
+C;a;n;a;d;a;i;r; ;C;L;-;6;0;0;-;2;C;1;0; ;R;e;g;i;o;n;a;l; ;J;e;t; ;C;R;J;-;7;0;1;E;R
+A;n;t;o;n;o;v; ;T;V;S;-;2;M;S
+B;o;e;i;n;g; ;7;3;7;-;4;7;6; ;(;S;F;)
+B;o;e;i;n;g; ;7;3;7;-;9;2;4;E;R; ;(;W;L;)
+A;i;r;b;u;s; ;A;3;1;9;-;1;1;5; ;(;W;L;)
+E;m;b;r;a;e;r; ;E;M;B;-;5;5;0; ;L;e;g;a;c;y; ;5;0;0
+B;o;e;i;n;g; ;7;6;7;-;3;3;8;E;R; ;(;W;L;)
+V;i;k;i;n;g; ;D;H;C;-;6; ;T;w;i;n; ;O;t;t;e;r; ;4;0;0
+E;m;b;r;a;e;r; ;E;R;J;-;1;4;5;E;P
+A;i;r;b;u;s; ;A;3;2;1;-;2;3;1; ;(;W;L;)
+G;u;l;f;s;t;r;e;a;m; ;G;4;5;0
+B;e;e;c;h;c;r;a;f;t; ;L;R;-;2; ;(;B;3;0;0; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r; ;3;5;0;)
+B;e;e;c;h;c;r;a;f;t; ;B;3;0;0; ;K;i;n;g; ;A;i;r; ;3;5;0;i
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;6; ;T;w;i;n; ;O;t;t;e;r; ;2;0;0;H;G
+B;o;e;i;n;g; ;7;3;7;-;3;0;1; ;(;S;F;)
+B;o;e;i;n;g; ;7;3;7;-;8;H;6; ;(;W;L;)
+B;o;e;i;n;g; ;7;3;7;-;3;2;2; ;(;S;F;)
+B;o;e;i;n;g; ;7;3;7;-;8;Q;8; ;(;W;L;)
+A;i;r;b;u;s; ;A;3;2;1;-;2;1;3
+I;l;y;u;h;s;i;n; ;I;l;-;7;6
+S;h;a;a;n;x;i; ;Y;-;8;G;X;-;3
+C;o;n;v;a;i;r; ;C;V;-;3;4;0
+B;e;e;c;h;c;r;a;f;t; ;9;9
+B;o;e;i;n;g; ;7;3;7;-;2;0;1; ;A;d;v;a;n;c;e;d
+B;e;e;c;h;c;r;a;f;t; ;B;3;0;0; ;K;i;n;g; ;A;i;r; ;3;5;0
+B;o;m;b;a;r;d;i;e;r; ;C;L;-;6;0;0;-;2;B;1;6; ;C;h;a;l;l;e;n;g;e;r; ;6;0;5
+A;T;R; ;7;2;-;2;1;2;A; ;(;A;T;R; ;7;2;-;5;0;0;)
+E;m;b;r;a;e;r; ;K;C;-;3;9;0
+B;o;e;i;n;g; ;7;3;7;-;7;6;J; ;(;W;L;)
+P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;A;-;2;0; ;I;s;l;a;n;d;e;r
+A;T;R; ;7;2;-;5;0;0; ;(;7;2;-;2;1;2;A;)
+A;n;t;o;n;o;n;v; ;A;n;-;2;T
+L;o;c;k;h;e;e;d; ;M;a;r;t;i;n; ;K;C;-;1;3;0;J
+B;e;e;c;h;c;r;a;f;t; ;2;0;0; ;K;i;n;g; ;A;i;r
+B;o;e;i;n;g; ;7;6;7;-;3;3;3;E;R; ;(;W;L;)
+A;i;r;b;u;s; ;A;3;2;1;-;2;7;1;N
+G;u;l;f;s;t;r;e;a;m; ;G;2;0;0; ;G;a;l;a;x;y
+B;o;e;i;n;g; ;7;3;7;-;8;2;R; ;(;W;L;)
+B;o;e;i;n;g; ;7;3;7;-;8;F;H; ;(;W;L;)
+C;A;S;A; ;C;-;2;1;2; ;A;v;i;o;c;a;r
+E;m;b;r;a;e;r; ;E;R;J;-;1;7;0;L;R; ;(;E;R;J;-;1;7;0;-;1;0;0; ;L;R;)
+E;m;b;r;a;e;r; ;E;R;J;-;1;9;0;L;R; ;(;E;R;J;-;1;9;0;-;1;0;0; ;L;R;)
+H;o;n;d;a; ;H;A;-;4;2;0; ;H;o;n;d;a;J;e;t
+B;o;e;i;n;g; ;7;3;7;-;8;5;C; ;(;W;L;)
+B;o;e;i;n;g; ;7;3;7;-;8;C;T; ;(;W;L;)
+L;e;a;r;j;e;t; ;4;0;X;R
+E;m;b;r;a;e;r; ;E;R;J;-;1;9;0;A;R
+B;r;i;t;i;s;h; ;A;e;r;o;s;p;a;c;e; ;B;A;e;-;7;4;8;-;3;4;7; ;S;r;s;.; ;2;A
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;2;0;0
+C;e;s;s;n;a; ;2;0;8; ;C;a;r;a;v;a;n; ;6;7;5
+B;o;e;i;n;g; ;7;3;7;-;8;2;4; ;(;W;L;)
+B;o;e;i;n;g; ;7;8;7;-;9; ;D;r;e;a;m;l;i;n;e;r
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;C;C;-;1;3;8; ;T;w;i;n; ;O;t;t;e;r; ;(;D;H;C;-;6;)
+B;o;e;i;n;g; ;7;3;7;-;8;E;9; ;(;W;L;)
+A;n;t;o;n;o;v; ;A;N;-;2;R
+B;o;m;b;a;r;d;i;e;r; ;C;L;-;6;0;0;-;2;C;1;0; ;R;e;g;i;o;n;a;l; ;J;e;t; ;C;R;J;-;7;0;2;E;R
+P;i;l;a;t;u;s; ;B;r;i;t;t;e;n;-;N;o;r;m;a;n; ;B;N;-;2;B;-;2;7; ;I;s;l;a;n;d;e;r
+C;i;r;r;u;s; ;S;F;5;0; ;V;i;s;i;o;n; ;J;e;t
+d;e; ;H;a;v;i;l;l;a;n;d; ;C;a;n;a;d;a; ;D;H;C;-;8;-;3;1;1; ;D;a;s;h; ;8
+C;e;s;s;n;a; ;6;8;0;A; ;C;i;t;a;t;i;o;n; ;L;a;t;i;t;u;d;e
+B;o;e;i;n;g; ;7;3;7;-;8;L;J; ;(;W;L;)
+G;u;l;f;s;t;r;e;a;m; ;A;e;r;o;s;p;a;c;e; ;G;-;1;1;5;9; ;G;u;l;f;s;t;r;e;a;m; ;I;I; ;S;P
+B;o;e;i;n;g; ;7;3;7;-;7;3;S; ;(;W;L;)
+E;m;b;r;a;e;r; ;E;R;J; ;1;9;0;A;R; ;(;E;R;J;-;1;9;0;-;1;0;0; ;I;G;W;)
+B;o;m;b;a;r;d;i;e;r; ;C;L;-;6;0;0;-;2;D;2;4; ;R;e;g;i;o;n;a;l; ;J;e;t; ;C;R;J;-;9;0;0;L;R
+A;i;r;b;u;s; ;C;C;-;1;5;0; ;P;o;l;a;r;i;s; ;(;A;3;1;0;-;3;0;0;)
+C;e;s;s;n;a; ;6;8;0; ;C;i;t;a;t;i;o;n; ;S;o;v;e;r;e;i;g;n
+C;e;s;s;n;a; ;2;0;8;B; ;C;a;r;g;o;m;a;s;t;e;r
+B;o;e;i;n;g; ;7;5;7;-;2;5;1; ;(;W;L;)
+B;o;e;i;n;g; ;7;2;7;-;2;B;6;F; ;A;d;v;.
+B;o;e;i;n;g; ;7;3;7;-;3;3;0; ;(;Q;C;)
+G;r;u;m;m;a;n; ;A;m;e;r;i;c;a;n; ;G;-;1;1;5;9; ;G;u;l;f;s;t;r;e;a;m; ;I;I;S;P
+C;o;n;v;a;i;r; ;C;-;1;3;1;B; ;S;a;m;a;r;i;t;a;n
+H;S;-;1;2;5;/;B;A;e;-;1;2;5
+B;e;e;c;h;c;r;a;f;t; ;S;u;p;e;r; ;K;i;n;g; ;A;i;r
+G;u;l;f;s;t;r;e;a;m; ;A;m;e;r;i;c;a;n; ;G;-;1;1;5;9; ;G;u;l;f;s;t;r;e;a;m; ;I;I; ;B
+V;i;k;i;n;g; ;A;i;r; ;D;H;C;-;6;-;4;0;0; ;T;w;i;n; ;O;t;t;e;r
+B;o;e;i;n;g; ;7;3;7;-;8;1;Q; ;(;W;L;)
+B;o;e;i;n;g; ;7;6;7;-;3;7;5;E;R; ;(;B;C;F;); ;(;W;L;)
+B;o;e;i;n;g; ;7;3;7;-;3;6;N; ;(;W;L;)
+B;o;e;i;n;g; ;7;3;7;-;3;3;A; ;(;W;L;)
+B;o;e;i;n;g; ;7;5;7;-;2;2;4; ;(;W;L;)
+C;e;s;s;n;a; ;2;0;8; ;G;r;a;n;d; ;C;a;r;a;v;a;n
+A;i;r;b;u;s; ;A;3;2;1;-;2;5;1;N
+A;i;r;b;u;s; ;A;3;2;0;-;2;1;4; ;(;W;L;)
+B;o;e;i;n;g; ;7;4;7;-;4;1;2;F; ;(;S;C;D;)
+H;a;w;k;e;r; ;S;i;d;d;e;l;e;y; ;H;S;-;1;2;5;-;F;4;0;0;B
+G;u;l;f;s;t;r;e;a;m; ;G;-;I;V;S;P
+B;o;m;b;a;r;d;i;e;r; ;E;-;1;1;A; ;(;G;l;o;b;a;l; ;E;x;p;r;e;s;s;)
+B;o;e;i;n;g; ;7;3;7;-;5;2;4; ;(;W;L;)
+B;o;e;i;n;g; ;7;3;7;-;8;K;V; ;(;W;L;)
+A;i;r;b;u;s; ;A;3;0;0;B;4;-;2;0;3;(;F;)
+B;o;e;i;n;g; ;7;5;7;-;2;5;6; ;(;W;L;)
