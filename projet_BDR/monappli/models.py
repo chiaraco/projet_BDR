@@ -1,52 +1,53 @@
 from django.db import models
+import numpy as np
 
 # Create your models here.
 class Pays(models.Model):
-	NomPays = models.CharField(max_length=200,primary_key=True)
-	ISO = models.CharField(max_length=3)
+	nom_pays = models.CharField(max_length=200,primary_key=True)
+	iso = models.CharField(max_length=3,null=True,default=np.nan)
 
 class Avion(models.Model):
-	IdAvion =  models.AutoField(primary_key=True)
-	Modele = models.CharField(max_length=200)
-	IATA = models.CharField(max_length=3)
-	OACI = models.CharField(max_length=4)
+	id_avion =  models.AutoField(primary_key=True)
+	modele = models.CharField(max_length=200,unique=True)
+	iata = models.CharField(max_length=3,null=True,default=np.nan)
+	oaci = models.CharField(max_length=4,null=True,default=np.nan)
 	
 class Compagnie(models.Model):
-	NomCompagnie = models.CharField(max_length=200,primary_key=True)
-	Alias = models.CharField(max_length=30)
-	IATA = models.CharField(max_length=3)
-	OACI = models.CharField(max_length=3)
-	NomPays = models.ForeignKey(Pays, on_delete=models.SET_NULL,null=True)
+	nom_compagnie = models.CharField(max_length=200,primary_key=True)
+	alias = models.CharField(max_length=30,null=True,default=np.nan)
+	iata = models.CharField(max_length=3,null=True,default=np.nan)
+	oaci = models.CharField(max_length=3,null=True,default=np.nan)
+	nom_pays = models.ForeignKey(Pays, on_delete=models.SET_NULL,null=True)
 
 class Ville(models.Model):
-	NomVille = models.CharField(max_length=200,primary_key=True)
-	NomPays = models.ForeignKey(Pays, on_delete=models.SET_NULL,null=True)
+	nom_ville = models.CharField(max_length=200,primary_key=True)
+	nom_pays = models.ForeignKey(Pays, on_delete=models.SET_NULL,null=True)
 
 class Aeroport(models.Model):
-	IdAeroport = models.AutoField(primary_key=True)
-	NomAeroport = models.CharField(max_length=200)
-	IATA = models.CharField(max_length=3)
-	OACI = models.CharField(max_length=4)
-	Latitude = models.FloatField(null=True,default=None)
-	Longitude = models.FloatField(null=True,default=None)
-	Altitude = models.FloatField(null=True,default=None)
-	Ville = models.ForeignKey(Ville,on_delete=models.SET_NULL,null=True)
+	id_aeroport = models.AutoField(primary_key=True)
+	nom_aeroport = models.CharField(max_length=200,unique=True)
+	iata = models.CharField(max_length=3,null=True,default=np.nan)
+	oaci = models.CharField(max_length=4,null=True,default=np.nan)
+	latitude = models.FloatField(null=True,default=None)
+	longitude = models.FloatField(null=True,default=None)
+	altitude = models.FloatField(null=True,default=None)
+	ville = models.ForeignKey(Ville,on_delete=models.SET_NULL,null=True)
 
 class Accident(models.Model):
-	IdAccident = models.AutoField(primary_key=True)
-	Time = models.DateTimeField(null=True,default=None)
-	IdAvion = models.ForeignKey(Avion, on_delete=models.SET_NULL,null=True)
-	NomCompagnie = models.ForeignKey(Compagnie, on_delete=models.SET_NULL,null=True)
-	NomPays = models.ForeignKey(Pays, on_delete=models.SET_NULL,null=True)
-	IdAeroport_depart = models.ForeignKey(Aeroport,related_name='depart',on_delete=models.SET_NULL,null=True)
-	IdAeroport_arrivee = models.ForeignKey(Aeroport,related_name='arrivee',on_delete=models.SET_NULL,null=True)
-	Nb_occupants = models.IntegerField(null=True,default=None)
+	id_accident = models.AutoField(primary_key=True)
+	time = models.DateTimeField(null=True,default=None)
+	id_avion = models.ForeignKey(Avion, on_delete=models.SET_NULL,null=True)
+	nom_compagnie = models.ForeignKey(Compagnie, on_delete=models.SET_NULL,null=True)
+	nom_pays = models.ForeignKey(Pays, on_delete=models.SET_NULL,null=True)
+	id_aeroport_depart = models.ForeignKey(Aeroport,related_name='depart',on_delete=models.SET_NULL,null=True)
+	id_aeroport_arrivee = models.ForeignKey(Aeroport,related_name='arrivee',on_delete=models.SET_NULL,null=True)
+	nb_occupants = models.IntegerField(null=True,default=None)
 	nb_deces = models.IntegerField(null=True,default=None)
-	Emplacement = models.CharField(max_length=200)
-	Phase_de_vol = models.CharField(max_length=200)
-	Nature = models.CharField(max_length=200)
-	Statut = models.CharField(max_length=200)
-	Degats = models.CharField(max_length=200)
+	emplacement = models.CharField(max_length=200,null=True,default=np.nan)
+	phase_de_vol = models.CharField(max_length=200,null=True,default=np.nan)
+	nature = models.CharField(max_length=200,null=True,default=np.nan)
+	statut = models.CharField(max_length=200,null=True,default=np.nan)
+	degats = models.CharField(max_length=200,null=True,default=np.nan)
 
 
 	
