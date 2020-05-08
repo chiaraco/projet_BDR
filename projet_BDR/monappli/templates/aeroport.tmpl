@@ -1,0 +1,74 @@
+<!-- fichier pays.tmpl --> 
+
+<html>
+<head> 
+  <title>Les aéroports référencés</title>
+  <style>   
+    table.mon_tableau  {
+        border-collapse: collapse;
+    }
+    table.mon_tableau td {
+       border: 1px solid #5555;
+       padding: 9px;
+       font-family: "Sans-serif";
+       font-size: 12px;
+    }
+    table.mon_tableau tr:nth-child(even)  {background: #EEE}
+    table.mon_tableau tr:nth-child(odd) {background: #FFF}
+  </style>
+</head>
+
+<body> 
+<h1>Aéroports enregistrés</h1>
+{% if rien %}
+  Aucun aéroport enregistré
+{% else %}
+  <table class="mon_tableau">
+  <p>{{ nb}} aéroports</p>
+  <tr><td>Aéroport</td><td>Code IATA</td><td>Code OACI</td><td>Latitude</td><td>Longitude</td><td>Altitude</td><td>Ville</td><td>Pays</td></tr>
+  {% for a in aeroport %}
+     {% ifnotequal 'Unknown' a.nom_aeroport %}
+        <tr>
+          <td>{{ a.nom_aeroport }} </td>
+            {% ifequal 'nan' a.iata %}
+            <td> </td>
+            {% else %}
+            <td>{{ a.iata }} </td>
+            {% endifequal %}
+            {% ifequal 'nan' a.oaci %}
+            <td> </td>
+            {% else %}
+            <td>{{ a.oaci }} </td>
+            {% endifequal %}
+            {% ifequal None a.latitude %}
+            <td> </td>
+            {% else %}
+            <td>{{ a.latitude }} </td>
+            {% endifequal %}
+            {% ifequal None a.longitude %}
+            <td> </td>
+            {% else %}
+            <td>{{ a.longitude }} </td>
+            {% endifequal %}
+            {% ifequal None a.altitude %}
+            <td> </td>
+            {% else %}
+            <td>{{ a.altitude }} </td>
+            {% endifequal %}
+            {% ifequal 'Unknown' a.ville.nom_ville %}
+            <td> </td>
+            {% else %}
+            <td>{{ a.ville.nom_ville}} </td>
+            {% endifequal %}
+            {% ifequal 'Unknown' a.ville.nom_pays.nom_pays%}
+            <td> </td>
+            {% else %}
+            <td>{{ a.ville.nom_pays.nom_pays }} </td>
+            {% endifequal %}
+        </tr>
+    {% endifnotequal %}
+  {% endfor %}
+  </table>
+ {% endif %}
+</body>
+</html>

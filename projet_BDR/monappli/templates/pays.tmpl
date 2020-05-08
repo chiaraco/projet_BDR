@@ -1,0 +1,44 @@
+<!-- fichier pays.tmpl --> 
+
+<html>
+<head> 
+  <title>Les pays référencés</title>
+  <style>   
+    table.mon_tableau  {
+        border-collapse: collapse;
+    }
+    table.mon_tableau td {
+       border: 1px solid #5555;
+       padding: 9px;
+       font-family: "Sans-serif";
+       font-size: 12px;
+    }
+    table.mon_tableau tr:nth-child(even)  {background: #EEE}
+    table.mon_tableau tr:nth-child(odd) {background: #FFF}
+  </style>
+</head>
+
+<body> 
+<h1>Pays enregistrés</h1>
+{% if rien %}
+  Aucune page n'a été consulté
+{% else %}
+  <table class="mon_tableau">
+  <p>{{ nb}} pays</p>
+  <tr><td>Pays</td><td>Code ISO</td></tr>
+  {% for p in pays %}
+     {% ifnotequal 'Unknown' p.nom_pays %}
+        <tr>
+          <td>{{ p.nom_pays }} </td>
+            {% ifequal 'nan' p.iso %}
+            <td> </td>
+            {% else %}
+            <td>{{ p.iso }} </td>
+            {% endifequal %}
+        </tr>
+    {% endifnotequal %}
+  {% endfor %}
+  </table>
+ {% endif %}
+</body>
+</html>

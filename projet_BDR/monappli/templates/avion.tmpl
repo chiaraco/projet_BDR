@@ -1,0 +1,49 @@
+<!-- fichier pays.tmpl --> 
+
+<html>
+<head> 
+  <title>Les avions référencés</title>
+  <style>   
+    table.mon_tableau  {
+        border-collapse: collapse;
+    }
+    table.mon_tableau td {
+       border: 1px solid #5555;
+       padding: 9px;
+       font-family: "Sans-serif";
+       font-size: 12px;
+    }
+    table.mon_tableau tr:nth-child(even)  {background: #EEE}
+    table.mon_tableau tr:nth-child(odd) {background: #FFF}
+  </style>
+</head>
+
+<body> 
+<h1>Avions enregistrés</h1>
+{% if rien %}
+  Aucun avion enregistré
+{% else %}
+  <table class="mon_tableau">
+  <p>{{ nb}} avions</p>
+  <tr><td>Modele</td><td>Code IATA</td><td>Code OACI</td></tr>
+  {% for a in avion %}
+     {% ifnotequal 'Unknown' a.modele %}
+        <tr>
+          <td>{{ a.modele}} </td>
+            {% ifequal 'nan' a.iata %}
+            <td> </td>
+            {% else %}
+            <td>{{ a.iata }} </td>
+            {% endifequal %}
+            {% ifequal 'nan' a.oaci %}
+            <td> </td>
+            {% else %}
+            <td>{{ a.oaci }} </td>
+            {% endifequal %}
+        </tr>
+    {% endifnotequal %}
+  {% endfor %}
+  </table>
+ {% endif %}
+</body>
+</html>

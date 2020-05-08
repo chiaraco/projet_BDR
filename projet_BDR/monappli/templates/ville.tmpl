@@ -1,0 +1,44 @@
+<!-- fichier pays.tmpl --> 
+
+<html>
+<head> 
+  <title>Les villes référencées</title>
+  <style>   
+    table.mon_tableau  {
+        border-collapse: collapse;
+    }
+    table.mon_tableau td {
+       border: 1px solid #5555;
+       padding: 9px;
+       font-family: "Sans-serif";
+       font-size: 12px;
+    }
+    table.mon_tableau tr:nth-child(even)  {background: #EEE}
+    table.mon_tableau tr:nth-child(odd) {background: #FFF}
+  </style>
+</head>
+
+<body> 
+<h1>Villes enregistrées</h1>
+{% if rien %}
+  Aucune ville enregistrée
+{% else %}
+  <table class="mon_tableau">
+  <p>{{ nb}} villes</p>
+  <tr><td>Ville</td><td>Pays</td></tr>
+  {% for v in ville %}
+     {% ifnotequal 'Unknown' v.nom_ville %}
+        <tr>
+          <td>{{ v.nom_ville }} </td>
+            {% ifequal 'nan' v.nom_pays.nom_pays %}
+            <td> </td>
+            {% else %}
+            <td>{{ v.nom_pays.nom_pays }} </td>
+            {% endifequal %}
+        </tr>
+    {% endifnotequal %}
+  {% endfor %}
+  </table>
+ {% endif %}
+</body>
+</html>

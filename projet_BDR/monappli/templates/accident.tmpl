@@ -1,0 +1,102 @@
+<!-- fichier pays.tmpl --> 
+
+<html>
+<head> 
+  <title>Les accidents référencés</title>
+  <style>   
+    table.mon_tableau  {
+        border-collapse: collapse;
+    }
+    table.mon_tableau td {
+       border: 1px solid #5555;
+       padding: 9px;
+       font-family: "Sans-serif";
+       font-size: 12px;
+    }
+    table.mon_tableau tr:nth-child(even)  {background: #EEE}
+    table.mon_tableau tr:nth-child(odd) {background: #FFF}
+  </style>
+</head>
+
+<body> 
+<h1>Accidents enregistrés</h1>
+{% if rien %}
+  Aucun accident enregistré
+{% else %}
+  <table class="mon_tableau">
+  <p>{{ nb}} accidents</p>
+  <tr><td>Date et heure</td><td>Modèle de l'avion</td><td>Nature du vol</td><td>Compagnie</td><td>Phase de vol</td><td>Nombre de décès - nombre d'occupants</td><td>Dégats</td><td>Statut</td><td>Pays</td><td>Localisation</td><td>Aéroport de départ</td><td>Aéroport d'arrivée</td></tr>
+  {% for a in accident %}
+        <tr>
+          <td>{{a.time|date:"d F Y H:i"}} </td>
+            {% ifequal 'Unknown' a.id_avion.modele %}
+            <td> </td>
+            {% else %}
+            <td>{{ a.id_avion.modele }} </td>
+            {% endifequal %}
+            {% ifequal 'nan' a.nature %}
+            <td> </td>
+            {% else %}
+            <td>{{ a.nature }} </td>
+            {% endifequal %}
+            {% ifequal 'Unknown' a.nom_compagnie.nom_compagnie %}
+            <td> </td>
+            {% else %}
+            <td>{{ a.nom_compagnie.nom_compagnie }} </td>
+            {% endifequal %}
+            {% ifequal 'Unknown' a.phase_de_vol%}
+            <td> </td>
+            {% else %}
+            <td>{{ a.phase_de_vol}} </td>
+            {% endifequal %}
+
+            {% ifequal None a.nb_deces%}
+               {%ifequal None a.nb_occupant%}
+                <td> </td>
+                {% else %}
+                <td> - {{ a.nb_occupant }} </td>
+                {% endifequal %}
+            {%else%}
+                {% ifequal None a.nb_occupant %}
+                 <td>{{ a.nb_deces }} - </td>
+                 {%else%}
+                  <td>{{a.nb_deces}} - {{a.nb_occupant}}</td>
+                  {% endifequal %}
+            {% endifequal %}
+
+            {% ifequal 'nan' a.degats %}
+            <td> </td>
+            {% else %}
+            <td>{{ a.degats}} </td>
+            {% endifequal %}
+            {% ifequal 'nan' a.statut %}
+            <td> </td>
+            {% else %}
+            <td>{{ a.statut }} </td>
+            {% endifequal %}
+            {% ifequal 'Unknown' a.nom_pays.nom_pays %}
+            <td> </td>
+            {% else %}
+            <td>{{ a.nom_pays.nom_pays }} </td>
+            {% endifequal %}
+            {% ifequal 'nan' a.emplacement %}
+            <td> </td>
+            {% else %}
+            <td>{{ a.emplacement }} </td>
+            {% endifequal %}
+            {% ifequal 'Unknown' a.id_aeroport_depart.nom_aeroport %}
+            <td> </td>
+            {% else %}
+            <td>{{ a.id_aeroport_depart.nom_aeroport  }} </td>
+            {% endifequal %}
+            {% ifequal 'Unknown' a.id_aeroport_arrivee.nom_aeroport %}
+            <td> </td>
+            {% else %}
+            <td>{{ a.id_aeroport_arrivee.nom_aeroport}} </td>
+            {% endifequal %}
+        </tr>
+  {% endfor %}
+  </table>
+ {% endif %}
+</body>
+</html>

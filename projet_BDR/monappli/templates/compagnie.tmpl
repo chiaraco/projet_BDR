@@ -1,0 +1,60 @@
+<!-- fichier pays.tmpl --> 
+
+<html>
+<head> 
+  <title>Les compagnies référencées</title>
+  <style>   
+    table.mon_tableau  {
+        border-collapse: collapse;
+    }
+    table.mon_tableau td {
+       border: 1px solid #5555;
+       padding: 9px;
+       font-family: "Sans-serif";
+       font-size: 12px;
+    }
+    table.mon_tableau tr:nth-child(even)  {background: #EEE}
+    table.mon_tableau tr:nth-child(odd) {background: #FFF}
+  </style>
+</head>
+
+<body> 
+<h1>Compagnies enregistrées</h1>
+{% if rien %}
+  Aucune compagnie enregistrée
+{% else %}
+  <table class="mon_tableau">
+  <p>{{ nb}} compagnies</p>
+  <tr><td>Compagnie</td><td>Alias</td><td>Code IATA</td><td>Code OACI</td><td>Pays</td></tr>
+  {% for c in compagnie %}
+     {% ifnotequal 'Unknown' c.nom_compagnie %}
+        <tr>
+          <td>{{ c.nom_compagnie }} </td>
+            {% ifequal 'nan' c.alias %}
+            <td> </td>
+            {% else %}
+            <td>{{ c.alias }} </td>
+            {% endifequal %}
+            {% ifequal 'nan' c.iata %}
+            <td> </td>
+            {% else %}
+            <td>{{ c.iata }} </td>
+            {% endifequal %}
+            {% ifequal 'nan' c.oaci %}
+            <td> </td>
+            {% else %}
+            <td>{{ c.oaci }} </td>
+            {% endifequal %}
+            {% ifequal 'Unknown' c.nom_pays.nom_pays %}
+            <td> </td>
+            {% else %}
+            <td>{{ c.nom_pays.nom_pays }} </td>
+            {% endifequal %}
+        </tr>
+    {% endifnotequal %}
+    
+  {% endfor %}
+  </table>
+ {% endif %}
+</body>
+</html>

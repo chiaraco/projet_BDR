@@ -20,7 +20,8 @@ class Compagnie(models.Model):
 	nom_pays = models.ForeignKey(Pays, on_delete=models.SET_NULL,null=True)
 
 class Ville(models.Model):
-	nom_ville = models.CharField(max_length=200,primary_key=True)
+	id_ville =  models.AutoField(primary_key=True)
+	nom_ville = models.CharField(max_length=200)
 	nom_pays = models.ForeignKey(Pays, on_delete=models.SET_NULL,null=True)
 
 class Aeroport(models.Model):

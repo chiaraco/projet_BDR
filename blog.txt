@@ -55,3 +55,8 @@
 
 07/05/2020 Modification de models.py
 07/05/2020 Début du framework web
+
+08/05/2020 Modification de récup_data, suppression de ville.csv
+08/05/2020 Modication de models.py (rajout d'une primary key automatique dans la classe ville)
+08/05/2020 Modification de peuplement_tables.py
+08/05/2020 Creation de templates et de page du site (tableau des différentes tables)
