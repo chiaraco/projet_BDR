@@ -49,14 +49,14 @@
 
 03/05/2020 changement du fichier recup_accidents.py pour faire coordonner les pays des accidents avec la table Pays
 
-04/05/2020 Erreur suite aux migrations
+04/05/2020 erreur suite aux migrations
 
-06/05/2020 Résolution de l'erreur en supprimant les migrations précédentes
+06/05/2020 résolution de l'erreur en supprimant les migrations précédentes
 
-07/05/2020 Modification de models.py
-07/05/2020 Début du framework web
+07/05/2020 modification de models.py
+07/05/2020 début du framework web
 
-08/05/2020 Modification de récup_data, suppression de ville.csv
-08/05/2020 Modication de models.py (rajout d'une primary key automatique dans la classe ville)
-08/05/2020 Modification de peuplement_tables.py
-08/05/2020 Creation de templates et de page du site (tableau des différentes tables)
+08/05/2020 modification de recup_data, suppression de ville.csv
+08/05/2020 modication de models.py (rajout d'une clé primaire automatique dans la classe ville)
+08/05/2020 modification de peuplement_tables.py
+08/05/2020 création de templates et de pages du site (tableau des différentes tables)

@@ -615,7 +615,7 @@ Skrydstrup Air Base;Skrydstrup;Denmark;SKS;EKSP;55.221047999999996;9.26702;141
 Skive Airport;Skive;Denmark;SQW;EKSV;56.55020141601562;9.172980308532717;74
 Thisted Airport;Thisted;Denmark;TED;EKTS;57.06880187988281;8.705220222473145;23
 Kolding Vamdrup Airfield;Kolding;Denmark;;EKVD;55.436298;9.330919999999999;143
-Vagar Airport;Vagar;Faroe Islands;FAE;EKVG;62.0635986328125;-7.277219772338867;280
+Vagar Airport;Vagar;Faeroe Islands;FAE;EKVG;62.0635986328125;-7.277219772338867;280
 Vesthimmerlands Flyveplads;Vesthimmerland;Denmark;;EKVH;56.846901;9.45861;119
 Stauning Airport;Stauning;Denmark;STA;EKVJ;55.9901008605957;8.353910446166992;17
 Aalborg Airport;Aalborg;Denmark;AAL;EKYT;57.092758913800004;9.84924316406;10
@@ -648,7 +648,7 @@ Notodden Airport;Notodden;Norway;NTB;ENNO;59.565701000000004;9.21222;63
 Ørland Airport;Orland;Norway;OLA;ENOL;63.69889831542969;9.604000091552734;28
 Røros Airport;Roros;Norway;RRS;ENRO;62.578399658203004;11.342300415039;2054
 Moss Airport, Rygge;Rygge;Norway;RYG;ENRY;59.378817000000005;10.785439;174
-Svalbard Airport, Longyear;Svalbard;Norway;LYR;ENSB;78.246101379395;15.465600013733;88
+Svalbard and Jan Mayen Islands Airport, Longyear;Svalbard and Jan Mayen Islands;Norway;LYR;ENSB;78.246101379395;15.465600013733;88
 Skien Airport;Skien;Norway;SKE;ENSN;59.18500137329102;9.566940307617188;463
 Stord Airport;Stord;Norway;SRP;ENSO;59.79190063476562;5.340849876403809;160
 Sandnessjøen Airport (Stokka);Sandnessjoen;Norway;SSJ;ENST;65.95680236816399;12.468899726868;56
@@ -862,16 +862,16 @@ Kasane Airport;Kasane;Botswana;BBK;FBKE;-17.83289909362793;25.16239929199219;328
 Maun Airport;Maun;Botswana;MUB;FBMN;-19.97260093688965;23.431100845336914;3093
 Sir Seretse Khama International Airport;Gaberone;Botswana;GBE;FBSK;-24.555201;25.9182;3299
 Selebi Phikwe Airport;Selebi-phikwe;Botswana;PKW;FBSP;-22.0583;27.8288;2925
-Maya-Maya Airport;Brazzaville;Congo (Brazzaville);BZV;FCBB;-4.251699924468993;15.253000259399414;1048
-Owando Airport;Owando;Congo (Kinshasa);FTX;FCOO;-0.5313500165939331;15.95009994506836;1214
-Ouesso Airport;Ouesso;Congo (Kinshasa);OUE;FCOU;1.6159900426899998;16.0379009247;1158
-Pointe Noire Airport;Pointe-noire;Congo (Brazzaville);PNR;FCPP;-4.816030025482178;11.88659954071045;55
-Matsapha Airport;Manzini;Swaziland;MTS;FDMS;-26.52899932861328;31.3075008392334;2075
+Maya-Maya Airport;Brazzaville;Congo Republic;BZV;FCBB;-4.251699924468993;15.253000259399414;1048
+Owando Airport;Owando;DR Congo;FTX;FCOO;-0.5313500165939331;15.95009994506836;1214
+Ouesso Airport;Ouesso;DR Congo;OUE;FCOU;1.6159900426899998;16.0379009247;1158
+Pointe Noire Airport;Pointe-noire;Congo Republic;PNR;FCPP;-4.816030025482178;11.88659954071045;55
+Matsapha Airport;Manzini;Eswatini;MTS;FDMS;-26.52899932861328;31.3075008392334;2075
 Bangui M'Poko International Airport;Bangui;Central African Republic;BGF;FEFF;4.39847993850708;18.518800735473636;1208
 Berbérati Airport;Berberati;Central African Republic;BBT;FEFT;4.221580028533936;15.786399841308596;1929
 Bata Airport;Bata;Equatorial Guinea;BSG;FGBT;1.9054700136184688;9.80568027496338;13
 Malabo Airport;Malabo;Equatorial Guinea;SSG;FGSL;3.7552700042724614;8.708720207214355;76
-RAF Ascension Island;Wide Awake;Saint Helena;ASI;FHAW;-7.9696;-14.3937;278
+RAF Ascension Island;Wide Awake;St. Helena;ASI;FHAW;-7.9696;-14.3937;278
 Sir Seewoosagur Ramgoolam International Airport;Plaisance;Mauritius;MRU;FIMP;-20.430201;57.683601;186
 Sir Charles Gaetan Duval Airport;Rodriguez Island;Mauritius;RRG;FIMR;-19.7577;63.361000000000004;95
 Diego Garcia Naval Support Facility;Diego Garcia Island;British Indian Ocean Territory;NKW;FJDG;-7.313269999999999;72.411102;9
@@ -996,30 +996,30 @@ Lilongwe International Airport;Lilongwe;Malawi;LLW;FWKI;-13.7894001007;33.780998
 Mzuzu Airport;Mzuzu;Malawi;ZZU;FWUU;-11.444700241088867;34.01179885864258;4115
 Moshoeshoe I International Airport;Maseru;Lesotho;MSU;FXMM;-29.462299346923828;27.552499771118164;5348
 Mejametalana Airbase;Maseru;Lesotho;;FXMU;-29.30410003662109;27.50349998474121;5105
-Ndjili International Airport;Kinshasa;Congo (Kinshasa);FIH;FZAA;-4.38575;15.4446;1027
-Ndolo Airport;Kinshasa;Congo (Kinshasa);NLO;FZAB;-4.32666015625;15.327500343322999;915
-Muanda Airport;Muanda;Congo (Kinshasa);MNB;FZAG;-5.9308600425720215;12.351799964904785;89
-Kitona Base Airport;Kitona Base;Congo (Kinshasa);;FZAI;-5.918059825897218;12.447699546813965;394
-Bandundu Airport;Bandoundu;Congo (Kinshasa);FDU;FZBO;-3.3113200664520264;17.38170051574707;1063
-Kikwit Airport;Kikwit;Congo (Kinshasa);KKW;FZCA;-5.0357699394226065;18.785600662231445;1572
-Mbandaka Airport;Mbandaka;Congo (Kinshasa);MDK;FZEA;0.0226000007242;18.2887001038;1040
-Gbadolite Airport;Gbadolite;Congo (Kinshasa);BDT;FZFD;4.2532100677490225;20.975299835205078;1509
-Gemena Airport;Gemena;Congo (Kinshasa);GMA;FZFK;3.23536992073;19.7712993622;1378
-Kotakoli Airport;Kotakoli;Congo (Kinshasa);KLI;FZFP;4.157639980316162;21.65089988708496;1801
-Lisala Airport;Lisala;Congo (Kinshasa);LIQ;FZGA;2.17066;21.496901;1509
-Bangoka International Airport;Kisangani;Congo (Kinshasa);FKI;FZIC;0.48163899779299996;25.337999343899998;1417
-Matari Airport;Isiro;Congo (Kinshasa);IRP;FZJH;2.8276100158691406;27.58830070495605;2438
-Bunia Airport;Bunia;Congo (Kinshasa);BUX;FZKA;1.5657199621200562;30.220800399780273;4045
-Buta Zega Airport;Buta Zega;Congo (Kinshasa);BZU;FZKJ;2.818350076675415;24.79369926452637;1378
-Bukavu Kavumu Airport;Bukavu/kavumu;Congo (Kinshasa);BKY;FZMA;-2.3089799880981445;28.808799743652344;5643
-Goma International Airport;Goma;Congo (Kinshasa);GOM;FZNA;-1.670809984207153;29.23850059509277;5089
-Kindu Airport;Kindu;Congo (Kinshasa);KND;FZOA;-2.91917991638;25.9153995514;1630
-Lubumbashi International Airport;Lubumashi;Congo (Kinshasa);FBM;FZQA;-11.5913000107;27.5308990479;4295
-Kolwezi Airport;Kolwezi;Congo (Kinshasa);KWZ;FZQM;-10.765899658203123;25.505699157714844;5007
-Kalemie Airport;Kalemie;Congo (Kinshasa);FMI;FZRF;-5.8755598068237305;29.25;2569
-Kamina Base Airport;Kamina Base;Congo (Kinshasa);KMN;FZSA;-8.642020225524902;25.252899169921875;3543
-Kananga Airport;Kananga;Congo (Kinshasa);KGA;FZUA;-5.90005016327;22.4692001343;2139
-Mbuji Mayi Airport;Mbuji-mayi;Congo (Kinshasa);MJM;FZWA;-6.121240139010001;23.5690002441;2221
+Ndjili International Airport;Kinshasa;DR Congo;FIH;FZAA;-4.38575;15.4446;1027
+Ndolo Airport;Kinshasa;DR Congo;NLO;FZAB;-4.32666015625;15.327500343322999;915
+Muanda Airport;Muanda;DR Congo;MNB;FZAG;-5.9308600425720215;12.351799964904785;89
+Kitona Base Airport;Kitona Base;DR Congo;;FZAI;-5.918059825897218;12.447699546813965;394
+Bandundu Airport;Bandoundu;DR Congo;FDU;FZBO;-3.3113200664520264;17.38170051574707;1063
+Kikwit Airport;Kikwit;DR Congo;KKW;FZCA;-5.0357699394226065;18.785600662231445;1572
+Mbandaka Airport;Mbandaka;DR Congo;MDK;FZEA;0.0226000007242;18.2887001038;1040
+Gbadolite Airport;Gbadolite;DR Congo;BDT;FZFD;4.2532100677490225;20.975299835205078;1509
+Gemena Airport;Gemena;DR Congo;GMA;FZFK;3.23536992073;19.7712993622;1378
+Kotakoli Airport;Kotakoli;DR Congo;KLI;FZFP;4.157639980316162;21.65089988708496;1801
+Lisala Airport;Lisala;DR Congo;LIQ;FZGA;2.17066;21.496901;1509
+Bangoka International Airport;Kisangani;DR Congo;FKI;FZIC;0.48163899779299996;25.337999343899998;1417
+Matari Airport;Isiro;DR Congo;IRP;FZJH;2.8276100158691406;27.58830070495605;2438
+Bunia Airport;Bunia;DR Congo;BUX;FZKA;1.5657199621200562;30.220800399780273;4045
+Buta Zega Airport;Buta Zega;DR Congo;BZU;FZKJ;2.818350076675415;24.79369926452637;1378
+Bukavu Kavumu Airport;Bukavu/kavumu;DR Congo;BKY;FZMA;-2.3089799880981445;28.808799743652344;5643
+Goma International Airport;Goma;DR Congo;GOM;FZNA;-1.670809984207153;29.23850059509277;5089
+Kindu Airport;Kindu;DR Congo;KND;FZOA;-2.91917991638;25.9153995514;1630
+Lubumbashi International Airport;Lubumashi;DR Congo;FBM;FZQA;-11.5913000107;27.5308990479;4295
+Kolwezi Airport;Kolwezi;DR Congo;KWZ;FZQM;-10.765899658203123;25.505699157714844;5007
+Kalemie Airport;Kalemie;DR Congo;FMI;FZRF;-5.8755598068237305;29.25;2569
+Kamina Base Airport;Kamina Base;DR Congo;KMN;FZSA;-8.642020225524902;25.252899169921875;3543
+Kananga Airport;Kananga;DR Congo;KGA;FZUA;-5.90005016327;22.4692001343;2139
+Mbuji Mayi Airport;Mbuji-mayi;DR Congo;MJM;FZWA;-6.121240139010001;23.5690002441;2221
 Modibo Keita International Airport;Bamako;Mali;BKO;GABS;12.5335;-7.94994;1247
 Gao Airport;Gao;Mali;GAQ;GAGO;16.24839973449707;-0.005456000100821257;870
 Kayes Dag Dag Airport;Kayes;Mali;KYS;GAKY;14.481200218200685;-11.404399871826172;164
@@ -1076,11 +1076,11 @@ Bir Moghrein Airport;Bir Moghrein;Mauritania;;GQPT;25.2367000579834;-11.58870029
 Fria Airport;Fira;Guinea;FIG;GUFA;10.350600242615;-13.569199562072999;499
 Faranah Airport;Faranah;Guinea;FAA;GUFH;10.0354995728;-10.7698001862;1476
 Tata Airport;Labe;Guinea;LEK;GULB;11.326100349426;-12.286800384521001;3396
-Amílcar Cabral International Airport;Amilcar Cabral;Cape Verde;SID;GVAC;16.7414;-22.9494;177
-Rabil Airport;Boa Vista;Cape Verde;BVC;GVBA;16.136499404907227;-22.888900756835934;69
-Maio Airport;Maio;Cape Verde;MMO;GVMA;15.15590000152588;-23.21369934082031;36
-Preguiça Airport;Sao Nocolau Island;Cape Verde;SNE;GVSN;16.58839988708496;-24.28470039367676;669
-São Pedro Airport;Sao Vicente Island;Cape Verde;VXE;GVSV;16.833200454711914;-25.05529975891113;66
+Amílcar Cabral International Airport;Amilcar Cabral;Cabo Verde;SID;GVAC;16.7414;-22.9494;177
+Rabil Airport;Boa Vista;Cabo Verde;BVC;GVBA;16.136499404907227;-22.888900756835934;69
+Maio Airport;Maio;Cabo Verde;MMO;GVMA;15.15590000152588;-23.21369934082031;36
+Preguiça Airport;Sao Nocolau Island;Cabo Verde;SNE;GVSN;16.58839988708496;-24.28470039367676;669
+São Pedro Airport;Sao Vicente Island;Cabo Verde;VXE;GVSV;16.833200454711914;-25.05529975891113;66
 Addis Ababa Bole International Airport;Addis Ababa;Ethiopia;ADD;HAAB;8.97789001465;38.7993011475;7630
 Lideta Army Airport;Addis Ababa;Ethiopia;;HAAL;9.003685;38.725497999999995;7749
 Arba Minch Airport;Arba Minch;Ethiopia;AMH;HAAM;6.0393900871276855;37.59049987792969;3901
@@ -1403,8 +1403,8 @@ Luxeuil-Saint-Sauveur (BA 116) Air Base;Luxeuil;France;;LFSX;47.783055600000004;
 Cuers-Pierrefeu Airport;Cuers;France;;LFTF;43.24779891967773;6.126699924468994;266
 Toulon-Hyères Airport;Hyeres;France;TLN;LFTH;43.0973014832;6.14602994919;7
 Nîmes-Arles-Camargue Airport;Nimes;France;FNI;LFTW;43.75740051269531;4.4163498878479;309
-Miquelon Airport;Miquelon;Saint Pierre and Miquelon;MQC;LFVM;47.095500946;-56.3802986145;10
-St Pierre Airport;St.-pierre;Saint Pierre and Miquelon;FSP;LFVP;46.762901306152344;-56.17309951782226;27
+Miquelon Airport;Miquelon;St. Pierre and Miquelon;MQC;LFVM;47.095500946;-56.3802986145;10
+St Pierre Airport;St.-pierre;St. Pierre and Miquelon;FSP;LFVP;46.762901306152344;-56.17309951782226;27
 Ambérieu Air Base (BA 278);Amberieu;France;;LFXA;45.987301;5.3284400000000005;823
 Damblain Airport;Damblain;France;;LFYD;48.08629989624024;5.664060115814209;1280
 Andravida Air Base;Andravida;Greece;PYR;LGAD;37.9207;21.292601;55
@@ -1899,7 +1899,7 @@ Fua'amotu International Airport;Tongatapu;Tonga;TBU;NFTF;-21.241199493408203;-17
 Vava'u International Airport;Vava'u;Tonga;VAV;NFTV;-18.58530044555664;-173.96200561523438;236
 Bonriki International Airport;Tarawa;Kiribati;TRW;NGTA;1.3816399574279783;173.14700317382812;9
 Tabiteuea North Airport;Tabiteuea North;Kiribati;TBF;NGTE;-1.2244700193405151;174.7760009765625;7
-Hihifo Airport;Wallis;Wallis and Futuna;WLS;NLWW;-13.238300323499999;-176.19900512700002;79
+Hihifo Airport;Wallis;Wallis and Futuna Islands;WLS;NLWW;-13.238300323499999;-176.19900512700002;79
 Faleolo International Airport;Faleolo;Samoa;APW;NSFA;-13.829999923706055;-172.00799560546875;58
 Pago Pago International Airport;Pago Pago;American Samoa;PPG;NSTU;-14.3310003281;-170.710006714;32
 Rurutu Airport;Rurutu;French Polynesia;RUR;NTAR;-22.43409919738769;-151.36099243164062;18
@@ -2086,7 +2086,7 @@ Queen Alia International Airport;Amman;Jordan;AMM;OJAI;31.7226009369;35.99319839
 Amman-Marka International Airport;Amman;Jordan;ADJ;OJAM;31.972700119018555;35.991600036621094;2555
 Aqaba King Hussein International Airport;Aqaba;Jordan;AQJ;OJAQ;29.61160087585449;35.01810073852539;175
 Prince Hassan Air Base;Hotel Four;Jordan;;OJHF;32.160702;37.149399;2220
-Jerusalem Airport;Jerusalem;West Bank;;OJJR;31.864700317382997;35.219200134277;2485
+Jerusalem Airport;Jerusalem;Israel;;OJJR;31.864700317382997;35.219200134277;2485
 King Hussein Air College;Mafraq;Jordan;OMF;OJMF;32.3564;36.259201000000004;2240
 Kuwait International Airport;Kuwait;Kuwait;KWI;OKBK;29.226600646972656;47.96889877319336;206
 Beirut Rafic Hariri International Airport;Beirut;Lebanon;BEY;OLBA;33.820899963378906;35.488399505615234;87
@@ -2157,11 +2157,11 @@ Dyess Army Air Field;Kwajalein;Marshall Islands;;PKRO;9.396889686580002;167.4709
 Bucholz Army Air Field;Kwajalein;Marshall Islands;KWA;PKWA;8.720120429992676;167.73199462890625;9
 Cassidy International Airport;Kiritimati;Kiribati;CXI;PLCH;1.9861600399017332;-157.35000610351562;5
 Henderson Field;Midway;Midway Islands;MDY;PMDY;28.20170021057129;-177.38099670410156;13
-Chuuk International Airport;Chuuk;Micronesia;TKK;PTKK;7.461870193481445;151.84300231933594;11
-Pohnpei International Airport;Pohnpei;Micronesia;PNI;PTPN;6.985099792480469;158.20899963378906;10
+Chuuk International Airport;Chuuk;Micronesia, Fed. Sts.;TKK;PTKK;7.461870193481445;151.84300231933594;11
+Pohnpei International Airport;Pohnpei;Micronesia, Fed. Sts.;PNI;PTPN;6.985099792480469;158.20899963378906;10
 Babelthuap Airport;Babelthuap;Palau;ROR;PTRO;7.367310000000001;134.544236;176
-Kosrae International Airport;Kosrae;Micronesia;KSA;PTSA;5.35698;162.957993;11
-Yap International Airport;Yap;Micronesia;YAP;PTYA;9.49891;138.082993;91
+Kosrae International Airport;Kosrae;Micronesia, Fed. Sts.;KSA;PTSA;5.35698;162.957993;11
+Yap International Airport;Yap;Micronesia, Fed. Sts.;YAP;PTYA;9.49891;138.082993;91
 Kinmen Airport;Kinmen;Taiwan;KNH;RCBS;24.4279;118.359001;93
 Pingtung South Airport;Pingtung;Taiwan;;RCDC;22.672399520874023;120.46199798583984;78
 Longtan Air Base;Longtang;Taiwan;;RCDI;24.85510063171387;121.23799896240234;790
@@ -2737,17 +2737,17 @@ Martinique Aimé Césaire International Airport;Fort-de-france;Martinique;FDF;TF
 L'Espérance Airport;St. Martin;Guadeloupe;SFG;TFFG;18.099899291992;-63.047199249268;7
 Pointe-à-Pitre Le Raizet;Pointe-a-pitre;Guadeloupe;PTP;TFFR;16.265301;-61.531799;36
 Point Salines International Airport;Point Salines;Grenada;GND;TGPY;12.004199981689453;-61.78620147705078;41
-Cyril E. King Airport;St. Thomas;Virgin Islands;STT;TIST;18.337299346923828;-64.97339630126953;23
-Henry E Rohlsen Airport;St. Croix Island;Virgin Islands;STX;TISX;17.701900482177734;-64.79859924316406;74
+Cyril E. King Airport;St. Thomas;United States Virgin Islands;STT;TIST;18.337299346923828;-64.97339630126953;23
+Henry E Rohlsen Airport;St. Croix Island;United States Virgin Islands;STX;TISX;17.701900482177734;-64.79859924316406;74
 Rafael Hernandez Airport;Aguadilla;Puerto Rico;BQN;TJBQ;18.49489974975586;-67.12940216064453;237
 Diego Jimenez Torres Airport;Fajardo;Puerto Rico;FAJ;TJFA;18.308900833129886;-65.66190338134766;64
 Fernando Luis Ribas Dominicci Airport;San Juan;Puerto Rico;SIG;TJIG;18.45680046081543;-66.09809875488281;10
 Eugenio Maria De Hostos Airport;Mayaguez;Puerto Rico;MAZ;TJMZ;18.255699157714844;-67.14849853515625;28
 Mercedita Airport;Ponce;Puerto Rico;PSE;TJPS;18.00830078125;-66.56300354003906;29
 Luis Munoz Marin International Airport;San Juan;Puerto Rico;SJU;TJSJ;18.4393997192;-66.0018005371;9
-Robert L. Bradshaw International Airport;Basse Terre;Saint Kitts and Nevis;SKB;TKPK;17.311199188232422;-62.71870040893555;170
-George F. L. Charles Airport;Castries;Saint Lucia;SLU;TLPC;14.0202;-60.992901;22
-Hewanorra International Airport;Hewandorra;Saint Lucia;UVF;TLPL;13.7332;-60.952599;14
+Robert L. Bradshaw International Airport;Basse Terre;St. Kitts and Nevis;SKB;TKPK;17.311199188232422;-62.71870040893555;170
+George F. L. Charles Airport;Castries;St. Lucia;SLU;TLPC;14.0202;-60.992901;22
+Hewanorra International Airport;Hewandorra;St. Lucia;UVF;TLPL;13.7332;-60.952599;14
 Queen Beatrix International Airport;Oranjestad;Aruba;AUA;TNCA;12.5014;-70.015198;60
 Flamingo International Airport;Kralendijk;Netherlands Antilles;BON;TNCB;12.130999565124512;-68.26850128173828;20
 Hato International Airport;Willemstad;Netherlands Antilles;CUR;TNCC;12.1889;-68.959801;29
@@ -2757,15 +2757,15 @@ Clayton J Lloyd International Airport;The Valley;Anguilla;AXA;TQPF;18.2048;-63.0
 Tobago-Crown Point Airport;Scarborough;Trinidad and Tobago;TAB;TTCP;11.149700164794922;-60.83219909667969;38
 Piarco International Airport;Port-of-spain;Trinidad and Tobago;POS;TTPP;10.595399856567383;-61.33720016479492;58
 Terrance B. Lettsome International Airport;Tortola;British Virgin Islands;EIS;TUPJ;18.444799423217773;-64.54299926757811;15
-Canouan Airport;Canouan Island;Saint Vincent and the Grenadines;CIW;TVSC;12.699000000000002;-61.3424;11
-Mustique Airport;Mustique;Saint Vincent and the Grenadines;MQS;TVSM;12.887900352478027;-61.1801986694336;8
-Argyle International Airport;Kingstown;Saint Vincent and the Grenadines;SVD;TVSA;13.156695000000001;-61.149944999999995;136
+Canouan Airport;Canouan Island;St. Vincent and the Grenadines;CIW;TVSC;12.699000000000002;-61.3424;11
+Mustique Airport;Mustique;St. Vincent and the Grenadines;MQS;TVSM;12.887900352478027;-61.1801986694336;8
+Argyle International Airport;Kingstown;St. Vincent and the Grenadines;SVD;TVSA;13.156695000000001;-61.149944999999995;136
 Almaty Airport;Alma-ata;Kazakhstan;ALA;UAAA;43.35210037231445;77.04049682617188;2234
 Balkhash Airport;Balkhash;Kazakhstan;BXH;UAAH;46.8932991027832;75.00499725341797;1446
 Astana International Airport;Tselinograd;Kazakhstan;TSE;UACC;51.02220153808594;71.46690368652344;1165
 Taraz Airport;Dzhambul;Kazakhstan;DMB;UADD;42.853599548339844;71.30359649658203;2184
-Manas International Airport;Bishkek;Kyrgyzstan;FRU;UAFM;43.0612983704;74.4776000977;2058
-Osh Airport;Osh;Kyrgyzstan;OSS;UAFO;40.6090011597;72.793296814;2927
+Manas International Airport;Bishkek;Kyrgyz Republic;FRU;UAFM;43.0612983704;74.4776000977;2058
+Osh Airport;Osh;Kyrgyz Republic;OSS;UAFO;40.6090011597;72.793296814;2927
 Shymkent Airport;Chimkent;Kazakhstan;CIT;UAII;42.364200592041016;69.47889709472656;1385
 Uralsk Airport;Uralsk;Kazakhstan;URA;UARR;51.15079879760742;51.54309844970703;125
 Pavlodar Airport;Pavlodar;Kazakhstan;PWQ;UASP;52.19499969482422;77.07389831542969;410
@@ -2956,7 +2956,7 @@ Phonesavanh Airport;Phong Savanh;Laos;;VLPV;19.45490074157715;103.21800231933594
 Savannakhet Airport;Savannakhet;Laos;ZVK;VLSK;16.55660057067871;104.76000213623048;509
 Sam Neua Airport;Sam Neua;Laos;NEU;VLSN;20.418399810791016;104.06700134277344;3281
 Wattay International Airport;Vientiane;Laos;VTE;VLVT;17.988300323500003;102.56300354;564
-Macau International Airport;Macau;Macau;MFM;VMMC;22.149599;113.592003;20
+Macau International Airport;Macau;Macao;MFM;VMMC;22.149599;113.592003;20
 Gautam Buddha Airport;Bhairawa;Nepal;BWA;VNBW;27.505684999999996;83.41629300000001;358
 Janakpur Airport;Janakpur;Nepal;JKR;VNJP;26.708799362199997;85.92240142819999;256
 Tribhuvan International Airport;Kathmandu;Nepal;KTM;VNKT;27.6966;85.3591;4390
@@ -3028,32 +3028,32 @@ Nha Trang Air Base;Nhatrang;Vietnam;NHA;VVNT;12.2275;109.192001;20
 Phu Bai Airport;Hue;Vietnam;HUI;VVPB;16.401500701899998;107.70300293;48
 Phu Quoc International Airport;Phuquoc;Vietnam;PQC;VVPQ;10.1698;103.9931;37
 Tan Son Nhat International Airport;Ho Chi Minh City;Vietnam;SGN;VVTS;10.8187999725;106.652000427;33
-Ann Airport;Ann;Burma;VBA;VYAN;19.769199;94.0261;74
-Anisakan Airport;Anisakan;Burma;;VYAS;21.955400466918945;96.40609741210938;3000
-Bagan Airport;Bagan;Burma;NYU;VYBG;21.178800582885746;94.9301986694336;312
-Coco Island Airport;Coco Island;Burma;;VYCI;14.141500473022461;93.36849975585938;20
-Heho Airport;Heho;Burma;HEH;VYHH;20.746999740600586;96.79199981689452;3858
-Hommalinn Airport;Hommalin;Burma;HOX;VYHL;24.899599075317386;94.91400146484376;534
-Kengtung Airport;Kengtung;Burma;KET;VYKG;21.30159950256348;99.63600158691406;2798
-Kyaukpyu Airport;Kyaukpyu;Burma;KYP;VYKP;19.42639923095703;93.53479766845705;20
-Lashio Airport;Lashio;Burma;LSH;VYLS;22.9778995513916;97.752197265625;2450
-Lanywa Airport;Lanywa;Burma;;VYLY;20.940399169921875;94.82260131835938;175
-Mandalay International Airport;Mandalay;Burma;MDL;VYMD;21.702199935913086;95.97789764404295;300
-Myeik Airport;Myeik;Burma;MGZ;VYME;12.439800262451172;98.62149810791016;75
-Myitkyina Airport;Myitkyina;Burma;MYT;VYMK;25.38360023498535;97.35189819335938;475
-Momeik Airport;Momeik;Burma;MOE;VYMO;23.09250068664551;96.64530181884766;600
-Mong Hsat Airport;Mong Hsat;Burma;MOG;VYMS;20.51679992675781;99.25679779052734;1875
-Nampong Air Base;Nampong;Burma;;VYNP;25.3544006348;97.2951965332;459
-Namsang Airport;Namsang;Burma;NMS;VYNS;20.890499114990234;97.73590087890624;3100
-Hpa-N Airport;Hpa-an;Burma;PAA;VYPA;16.893699645996097;97.67459869384766;150
-Putao Airport;Putao;Burma;PBU;VYPT;27.32990074157715;97.42630004882812;1500
-Pyay Airport;Pyay;Burma;PRU;VYPY;18.824499130249023;95.26599884033205;120
-Shante Air Base;Shante;Burma;;VYST;20.941699981689453;95.91449737548828;630
-Sittwe Airport;Sittwe;Burma;AKY;VYSW;20.132699966430664;92.87259674072266;27
-Thandwe Airport;Thandwe;Burma;SNW;VYTD;18.4606990814209;94.30010223388672;20
-Tachileik Airport;Tachilek;Burma;THL;VYTL;20.483800888061523;99.9354019165039;1280
-Taungoo Airport;Taungoo;Burma;;VYTO;19.031299591064453;96.40119934082031;160
-Yangon International Airport;Yangon;Burma;RGN;VYYY;16.907300949099998;96.1332015991;109
+Ann Airport;Ann;Myanmar;VBA;VYAN;19.769199;94.0261;74
+Anisakan Airport;Anisakan;Myanmar;;VYAS;21.955400466918945;96.40609741210938;3000
+Bagan Airport;Bagan;Myanmar;NYU;VYBG;21.178800582885746;94.9301986694336;312
+Coco Island Airport;Coco Island;Myanmar;;VYCI;14.141500473022461;93.36849975585938;20
+Heho Airport;Heho;Myanmar;HEH;VYHH;20.746999740600586;96.79199981689452;3858
+Hommalinn Airport;Hommalin;Myanmar;HOX;VYHL;24.899599075317386;94.91400146484376;534
+Kengtung Airport;Kengtung;Myanmar;KET;VYKG;21.30159950256348;99.63600158691406;2798
+Kyaukpyu Airport;Kyaukpyu;Myanmar;KYP;VYKP;19.42639923095703;93.53479766845705;20
+Lashio Airport;Lashio;Myanmar;LSH;VYLS;22.9778995513916;97.752197265625;2450
+Lanywa Airport;Lanywa;Myanmar;;VYLY;20.940399169921875;94.82260131835938;175
+Mandalay International Airport;Mandalay;Myanmar;MDL;VYMD;21.702199935913086;95.97789764404295;300
+Myeik Airport;Myeik;Myanmar;MGZ;VYME;12.439800262451172;98.62149810791016;75
+Myitkyina Airport;Myitkyina;Myanmar;MYT;VYMK;25.38360023498535;97.35189819335938;475
+Momeik Airport;Momeik;Myanmar;MOE;VYMO;23.09250068664551;96.64530181884766;600
+Mong Hsat Airport;Mong Hsat;Myanmar;MOG;VYMS;20.51679992675781;99.25679779052734;1875
+Nampong Air Base;Nampong;Myanmar;;VYNP;25.3544006348;97.2951965332;459
+Namsang Airport;Namsang;Myanmar;NMS;VYNS;20.890499114990234;97.73590087890624;3100
+Hpa-N Airport;Hpa-an;Myanmar;PAA;VYPA;16.893699645996097;97.67459869384766;150
+Putao Airport;Putao;Myanmar;PBU;VYPT;27.32990074157715;97.42630004882812;1500
+Pyay Airport;Pyay;Myanmar;PRU;VYPY;18.824499130249023;95.26599884033205;120
+Shante Air Base;Shante;Myanmar;;VYST;20.941699981689453;95.91449737548828;630
+Sittwe Airport;Sittwe;Myanmar;AKY;VYSW;20.132699966430664;92.87259674072266;27
+Thandwe Airport;Thandwe;Myanmar;SNW;VYTD;18.4606990814209;94.30010223388672;20
+Tachileik Airport;Tachilek;Myanmar;THL;VYTL;20.483800888061523;99.9354019165039;1280
+Taungoo Airport;Taungoo;Myanmar;;VYTO;19.031299591064453;96.40119934082031;160
+Yangon International Airport;Yangon;Myanmar;RGN;VYYY;16.907300949099998;96.1332015991;109
 Hasanuddin International Airport;Ujung Pandang;Indonesia;UPG;WAAA;-5.061629772186278;119.5540008544922;47
 Frans Kaisiepo Airport;Biak;Indonesia;BIK;WABB;-1.190019965171814;136.10800170898438;46
 Nabire Airport;Nabire;Indonesia;NBX;WABI;-3.36818;135.496002;20
@@ -3084,7 +3084,7 @@ Lahad Datu Airport;Lahad Datu;Malaysia;LDU;WBKD;5.032249927520752;118.3239974975
 Kota Kinabalu International Airport;Kota Kinabalu;Malaysia;BKI;WBKK;5.9372100830078125;116.0510025024414;10
 Labuan Airport;Labuan;Malaysia;LBU;WBKL;5.300680160522461;115.25;101
 Tawau Airport;Tawau;Malaysia;TWU;WBKW;4.320159912109375;118.12799835205078;57
-Brunei International Airport;Bandar Seri Begawan;Brunei;BWN;WBSB;4.944200038909912;114.9280014038086;73
+Brunei Darussalam International Airport;Bandar Seri Begawan;Brunei Darussalam;BWN;WBSB;4.944200038909912;114.9280014038086;73
 Sultan Syarif Kasim Ii (Simpang Tiga) Airport;Pekanbaru;Indonesia;PKU;WIBB;0.4607860147953034;101.44499969482422;102
 Pinang Kampai Airport;Dumai;Indonesia;DUM;WIBD;1.60919;101.433998;55
 Soekarno-Hatta International Airport;Jakarta;Indonesia;CGK;WIII;-6.1255698204;106.65599823;34
@@ -3116,9 +3116,9 @@ Langkawi International Airport;Langkawi;Malaysia;LGK;WMKL;6.329730033874513;99.7
 Malacca Airport;Malacca;Malaysia;MKZ;WMKM;2.2633600234999998;102.25199890100001;35
 Sultan Mahmud Airport;Kuala Terengganu;Malaysia;TGG;WMKN;5.3826398849487305;103.10299682617188;21
 Penang International Airport;Penang;Malaysia;PEN;WMKP;5.297140121459961;100.2770004272461;11
-Suai Airport;Suai;East Timor;UAI;WPDB;-9.30331039428711;125.28700256347656;96
-Presidente Nicolau Lobato International Airport;Dili;East Timor;DIL;WPDL;-8.54640007019;125.52600097700001;154
-Cakung Airport;Baucau;East Timor;BCH;WPEC;-8.489029884339999;126.40100097700001;1771
+Suai Airport;Suai;Timor-Leste;UAI;WPDB;-9.30331039428711;125.28700256347656;96
+Presidente Nicolau Lobato International Airport;Dili;Timor-Leste;DIL;WPDL;-8.54640007019;125.52600097700001;154
+Cakung Airport;Baucau;Timor-Leste;BCH;WPEC;-8.489029884339999;126.40100097700001;1771
 Sembawang Air Base;Sembawang;Singapore;;WSAG;1.4252599477767944;103.81300354003906;86
 Paya Lebar Air Base;Paya Lebar;Singapore;QPG;WSAP;1.360419988632202;103.91000366210938;65
 Tengah Air Base;Tengah;Singapore;TGA;WSAT;1.3872599601700002;103.708999634;50
@@ -3921,8 +3921,8 @@ John A. Osborne Airport;Geralds;Montserrat;MNI;TRPG;16.791400909423828;-62.19329
 Petersburg James A Johnson Airport;Petersburg;United States;PSG;PAPG;56.80170059;-132.9450073;111
 Luoyang Airport;Luoyang;China;LYA;ZHLY;34.741100311299995;112.38800048799999;840
 Xuzhou Guanyin Airport;Xuzhou;China;XUZ;ZSXZ;34.059056;117.555278;0
-Magway Airport;Magwe;Burma;MWQ;VYMW;20.1656;94.941399;279
-Kanti Airport;Khamti;Burma;KHM;VYKI;25.988300323486328;95.67440032958984;6000
+Magway Airport;Magwe;Myanmar;MWQ;VYMW;20.1656;94.941399;279
+Kanti Airport;Khamti;Myanmar;KHM;VYKI;25.988300323486328;95.67440032958984;6000
 Lien Khuong Airport;Dalat;Vietnam;DLI;VVDL;11.75;108.366997;3156
 Dong Hoi Airport;Dong Hoi;Vietnam;VDH;VVDH;17.515;106.590556;59
 Rach Gia Airport;Rach Gia;Vietnam;VKG;VVRG;9.95802997234;105.132379532;7
@@ -4016,7 +4016,7 @@ Martha's Vineyard Airport;Vineyard Haven MA;United States;MVY;KMVY;41.3931007384
 Concord Municipal Airport;Concord NH;United States;CON;KCON;43.20270157;-71.50229645;342
 Groton New London Airport;Groton CT;United States;GON;KGON;41.3301010131836;-72.04509735107422;9
 St Cloud Regional Airport;Saint Cloud;United States;STC;KSTC;45.54660034179688;-94.05989837646484;1031
-Qinhuangdao Beidaihe Airport;Bagan;Burma;BPE;ZBDH;39.666389;119.058889;46
+Qinhuangdao Beidaihe Airport;Bagan;Myanmar;BPE;ZBDH;39.666389;119.058889;46
 Golden Triangle Regional Airport;Columbus Mississippi;United States;GTR;KGTR;33.450298309299995;-88.59140014649999;264
 Nizhny Novgorod Strigino International Airport;Nizhniy Novgorod;Russia;GOJ;UWGG;56.23009872436499;43.784000396729;256
 Bowerman Airport;Hoquiam;United States;HQM;KHQM;46.9711990356;-123.93699646;18
@@ -4313,7 +4313,7 @@ Ghanzi Airport;Ghanzi;Botswana;GNZ;FBGZ;-21.6924991607666;21.658100128173828;373
 Orapa Airport;Orapa;Botswana;ORP;FBOR;-21.266701;25.3167;3100
 Shakawe Airport;Shakawe;Botswana;SWX;FBSW;-18.373899459838867;21.832599639892575;3379
 Limpopo Valley Airport;Tuli Lodge;Botswana;TLD;FBTL;-22.189199447600004;29.1268997192;1772
-Ngot Nzoungou Airport;Loubomo;Congo (Brazzaville);DIS;FCPL;-4.20635;12.6599;1079
+Ngot Nzoungou Airport;Loubomo;Congo Republic;DIS;FCPL;-4.20635;12.6599;1079
 Chipata Airport;Chipata;Zambia;CIP;FLCP;-13.558300018310547;32.58720016479492;3360
 Los Alamitos Army Air Field;Solwesi;Zambia;;KSLI;33.79000092;-118.052002;32
 Iconi Airport;Moroni;Comoros;YVA;FMCN;-11.710800170899999;43.2439002991;33
@@ -4347,15 +4347,15 @@ Ondangwa Airport;Ondangwa;Namibia;OND;FYOA;-17.878201;15.9526;3599
 Oranjemund Airport;Oranjemund;Namibia;OMD;FYOG;-28.5847;16.446699;14
 Swakopmund Airport;Swakopmund;Namibia;SWP;FYSM;-22.66189956665;14.568099975586;207
 Eros Airport;Windhoek;Namibia;ERS;FYWE;-22.612199783325195;17.080400466918945;5575
-Boma Airport;Boma;Congo (Kinshasa);BOA;FZAJ;-5.8540000915527335;13.064000129699707;26
-Tshimpi Airport;Matadi;Congo (Kinshasa);MAT;FZAM;-5.799610137939452;13.440400123596193;1115
-Inongo Airport;Inongo;Congo (Kinshasa);INO;FZBA;-1.9472199678421018;18.28580093383789;1040
-Nioki Airport;Nioki;Congo (Kinshasa);NIO;FZBI;-2.7174999713897705;17.68470001220703;1043
-Basango Mboliasa Airport;Kiri;Congo (Kinshasa);KRZ;FZBT;-1.434999942779541;19.02400016784668;1013
-Basankusu Airport;Basankusu;Congo (Kinshasa);BSU;FZEN;1.2247200012207031;19.78890037536621;1217
-Tshikapa Airport;Tshikapa;Congo (Kinshasa);TSH;FZUK;-6.4383300000000006;20.794701;1595
-Lodja Airport;Lodja;Congo (Kinshasa);LJA;FZVA;-3.4170000553131104;23.45000076293945;1647
-Ilebo Airport;Ilebo;Congo (Kinshasa);PFR;FZVS;-4.329919;20.590124;1450
+Boma Airport;Boma;DR Congo;BOA;FZAJ;-5.8540000915527335;13.064000129699707;26
+Tshimpi Airport;Matadi;DR Congo;MAT;FZAM;-5.799610137939452;13.440400123596193;1115
+Inongo Airport;Inongo;DR Congo;INO;FZBA;-1.9472199678421018;18.28580093383789;1040
+Nioki Airport;Nioki;DR Congo;NIO;FZBI;-2.7174999713897705;17.68470001220703;1043
+Basango Mboliasa Airport;Kiri;DR Congo;KRZ;FZBT;-1.434999942779541;19.02400016784668;1013
+Basankusu Airport;Basankusu;DR Congo;BSU;FZEN;1.2247200012207031;19.78890037536621;1217
+Tshikapa Airport;Tshikapa;DR Congo;TSH;FZUK;-6.4383300000000006;20.794701;1595
+Lodja Airport;Lodja;DR Congo;LJA;FZVA;-3.4170000553131104;23.45000076293945;1647
+Ilebo Airport;Ilebo;DR Congo;PFR;FZVS;-4.329919;20.590124;1450
 Outer Skerries Airport;Outer Skerries;United Kingdom;OUK;EGOU;60.4252;-0.75;76
 La Gomera Airport;La Gomera;Spain;GMZ;GCGM;28.029600143432614;-17.214599609375;716
 Sherbro International Airport;Bonthe;Sierra Leone;BTE;GFBN;7.5324201583862305;-12.518899917602539;14
@@ -4367,8 +4367,8 @@ Dakhla Airport;Dakhla;Western Sahara;VIL;GMMH;23.7183;-15.932;36
 Mogador Airport;Essadouira;Morocco;ESU;GMMI;31.397499084499998;-9.6816701889;384
 Hassan I Airport;El Aaiún;Western Sahara;EUN;GMML;27.151699;-13.2192;207
 Nador International Airport;El Aroui;Morocco;NDR;GMMW;34.988800048799995;-3.0282099247000005;574
-Praia International Airport;Praia, Santiago Island;Cape Verde;RAI;GVNP;14.924500465393065;-23.49349975585937;230
-São Filipe Airport;Sao Filipe, Fogo Island;Cape Verde;SFL;GVSF;14.885000228900001;-24.479999542199998;617
+Praia International Airport;Praia, Santiago Island;Cabo Verde;RAI;GVNP;14.924500465393065;-23.49349975585937;230
+São Filipe Airport;Sao Filipe, Fogo Island;Cabo Verde;SFL;GVSF;14.885000228900001;-24.479999542199998;617
 Baco Airport;Baco;Ethiopia;BCO;HABC;5.78287;36.562;4580
 Beica Airport;Beica;Ethiopia;BEI;HABE;9.38638973236084;34.521900177001946;5410
 Combolcha Airport;Dessie;Ethiopia;DSE;HADC;11.082500457763672;39.71139907836914;6117
@@ -4552,7 +4552,7 @@ Mata'aho Airport;Angaha, Niuafo'ou Island;Tonga;NFO;NFTO;-15.5707998276;-175.632
 Kuini Lavenia Airport;Niuatoputapu;Tonga;NTT;NFTP;-15.977297;-173.791089;30
 Vanua Balavu Airport;Vanua Balavu;Fiji;VBV;NFVB;-17.268999099731445;-178.9759979248047;76
 Niue International Airport;Alofi;Niue;IUE;NIUE;-19.079030990600586;-169.92559814453125;209
-Pointe Vele Airport;Futuna Island;Wallis and Futuna;FUT;NLWF;-14.3114004135;-178.065994263;20
+Pointe Vele Airport;Futuna Island;Wallis and Futuna Islands;FUT;NLWF;-14.3114004135;-178.065994263;20
 Maota Airport;Savaii Island;Samoa;MXS;NSMA;-13.742300033569336;-172.25799560546875;0
 Apataki Airport;Apataki;French Polynesia;APK;NTGD;-15.5736;-146.41499299999998;8
 Ahe Airport;Ahe;French Polynesia;AHE;NTHE;-14.428099632263185;-146.2570037841797;11
@@ -4719,10 +4719,10 @@ La Désirade Airport;Grande Anse;Guadeloupe;DSD;TFFA;16.296902;-61.0844;10
 Baillif Airport;Basse Terre;Guadeloupe;BBR;TFFB;16.013299942016598;-61.7421989440918;59
 St-François Airport;St-François;Guadeloupe;SFC;TFFC;16.25779914855957;-61.26250076293945;10
 Les Bases Airport;Grand Bourg;Guadeloupe;GBJ;TFFM;15.86870002746582;-61.27000045776367;16
-Vance W. Amory International Airport;Charlestown;Saint Kitts and Nevis;NEV;TKPN;17.205699920654293;-62.58990097045898;14
+Vance W. Amory International Airport;Charlestown;St. Kitts and Nevis;NEV;TKPN;17.205699920654293;-62.58990097045898;14
 Virgin Gorda Airport;Spanish Town;British Virgin Islands;VIJ;TUPW;18.446399688720703;-64.42749786376953;9
-J F Mitchell Airport;Bequia;Saint Vincent and the Grenadines;BQU;TVSB;12.988400459300001;-61.2620010376;15
-Union Island International Airport;Union Island;Saint Vincent and the Grenadines;UNI;TVSU;12.60013484954834;-61.41194534301758;16
+J F Mitchell Airport;Bequia;St. Vincent and the Grenadines;BQU;TVSB;12.988400459300001;-61.2620010376;15
+Union Island International Airport;Union Island;St. Vincent and the Grenadines;UNI;TVSU;12.60013484954834;-61.41194534301758;16
 Kokshetau Airport;Kokshetau;Kazakhstan;KOV;UACK;53.329102;69.594597;900
 Petropavlosk South Airport;Petropavlosk;Kazakhstan;PPK;UACP;54.77470016479492;69.18389892578125;453
 Zhezkazgan Airport;Zhezkazgan;Kazakhstan;DZN;UAKD;47.708302;67.733299;1250
@@ -4828,13 +4828,13 @@ Dien Bien Phu Airport;Dienbienphu;Vietnam;DIN;VVDB;21.3974990845;103.008003235;1
 Phu Cat Airport;Phucat;Vietnam;UIH;VVPC;13.955;109.042;80
 Pleiku Airport;Pleiku;Vietnam;PXU;VVPK;14.00450038909912;108.01699829101562;2434
 Vinh Airport;Vinh;Vietnam;VII;VVVH;18.7376003265;105.67099762;23
-Banmaw Airport;Banmaw;Burma;BMO;VYBM;24.268999099731445;97.24620056152344;370
-Dawei Airport;Dawei;Burma;TVY;VYDW;14.103899955749512;98.20359802246094;84
-Kawthoung Airport;Kawthoung;Burma;KAW;VYKT;10.04930019378662;98.53800201416016;180
-Loikaw Airport;Loikaw;Burma;LIW;VYLK;19.691499710083008;97.2147979736328;2940
-Mawlamyine Airport;Mawlamyine;Burma;MNU;VYMM;16.444700241088867;97.66069793701172;52
-Pathein Airport;Pathein;Burma;BSX;VYPN;16.815201000000002;94.7799;20
-Pakhokku Airport;Pakhokku;Burma;PKK;VYPU;21.4043;95.11125;151
+Banmaw Airport;Banmaw;Myanmar;BMO;VYBM;24.268999099731445;97.24620056152344;370
+Dawei Airport;Dawei;Myanmar;TVY;VYDW;14.103899955749512;98.20359802246094;84
+Kawthoung Airport;Kawthoung;Myanmar;KAW;VYKT;10.04930019378662;98.53800201416016;180
+Loikaw Airport;Loikaw;Myanmar;LIW;VYLK;19.691499710083008;97.2147979736328;2940
+Mawlamyine Airport;Mawlamyine;Myanmar;MNU;VYMM;16.444700241088867;97.66069793701172;52
+Pathein Airport;Pathein;Myanmar;BSX;VYPN;16.815201000000002;94.7799;20
+Pakhokku Airport;Pakhokku;Myanmar;PKK;VYPU;21.4043;95.11125;151
 Sumbawa Besar Airport;Sumbawa Island;Indonesia;SWQ;WADS;-8.489040374755861;117.41200256347656;16
 Tambolaka Airport;Waikabubak-Sumba Island;Indonesia;TMC;WADT;-9.40972;119.244003;161
 Bokondini Airport;Bokondini-Papua Island;Indonesia;BUI;WAJB;-3.6822;138.6755;4550
@@ -5070,7 +5070,7 @@ Tannheim Airfield;Tannheim;Germany;;EDMT;48.009997999999996;10.098611;1903
 Unst Airport;Unst;United Kingdom;UNT;EGPW;60.74720001220703;-0.8538500070571899;0
 Berkley Structures Heliport;Pagerungan;Indonesia;;WA19;47.682043;-122.14845600000001;50
 Provincetown Municipal Airport;Provincetown;United States;PVC;KPVC;42.071899414099995;-70.2213973999;9
-Anduki Airport;Seria;Brunei;;WBAK;4.637000083920001;114.38200378399999;7
+Anduki Airport;Seria;Brunei Darussalam;;WBAK;4.637000083920001;114.38200378399999;7
 Gustaf III Airport;Gustavia;France;SBH;TFFJ;17.904399871826172;-62.84360122680664;49
 Kostroma Sokerkino Airport;Kostroma;Russia;KMW;UUBA;57.7969017029;41.0194015503;446
 Sukhumi Dranda Airport;Sukhumi;Georgia;SUI;UGSS;42.8582000732;41.128101348899996;53
@@ -5267,10 +5267,10 @@ Drake Bay Airport;Puntarenas;Costa Rica;DRK;MRDK;8.71889019012;-83.6417007446;12
 Altay Air Base;Altay;China;AAT;ZWAT;47.7498855591;88.0858078003;2460
 Tuzla International Airport;Null;Bosnia and Herzegovina;TZL;LQTZ;44.45869827270508;18.72480010986328;784
 NAS Fort Worth JRB/Carswell Field;Dallas;United States;FWH;KNFW;32.76919937;-97.4414978;650
-Naypyidaw Airport;Naypyidaw;Burma;NYT;VYEL;19.623501;96.20099599999999;302
-Kyaukhtu South Airport;Kyauktu;Burma;;VYXG;21.406700134277344;94.13030242919922;1345
+Naypyidaw Airport;Naypyidaw;Myanmar;NYT;VYEL;19.623501;96.20099599999999;302
+Kyaukhtu South Airport;Kyauktu;Myanmar;;VYXG;21.406700134277344;94.13030242919922;1345
 Jan Mayensfield;Jan Mayen;Norway;;ENJA;70.9441166;-8.6520736;39
-Bokpyinn Airport;Bokepyin;Burma;VBP;VYBP;11.1494;98.735901;100
+Bokpyinn Airport;Bokepyin;Myanmar;VBP;VYBP;11.1494;98.735901;100
 Manzhouli Xijiao Airport;Manzhouli;China;NZH;ZBMZ;49.566666999999995;117.33;2231
 Wuhai Airport;Wuhai;China;WUA;ZBUH;39.7934;106.7993;3650
 Gary Chicago International Airport;Gary;United States;GYY;KGYY;41.61629867553711;-87.41280364990234;591
@@ -5495,7 +5495,7 @@ Playa Samara/Carrillo Airport;Carrillo;Costa Rica;PLD;MRCR;9.8705101013184;-85.4
 Constanza - Expedición 14 de Junio National Airport;Constanza;Dominican Republic;COZ;MDCZ;18.907499313354002;-70.721900939941;3950
 Negril Airport;Negril;Jamaica;NEG;MKNG;18.34280014038086;-78.33209991455078;9
 José Aponte de la Torre Airport;Ceiba;Puerto Rico;NRR;TJRV;18.245300293;-65.6434020996;38
-Charlotte Amalie Harbor Seaplane Base;Charlotte Amalie;Virgin Islands;SPB;VI22;18.338600158691406;-64.94069671630861;0
+Charlotte Amalie Harbor Seaplane Base;Charlotte Amalie;United States Virgin Islands;SPB;VI22;18.338600158691406;-64.94069671630861;0
 D. Casimiro Szlapelis Airport;Alto Rio Senguer;Argentina;ARR;SAVR;-45.013599;-70.812202;2286
 Jose De San Martin Airport;Jose de San Martin;Argentina;JSM;SAWS;-44.048599243199995;-70.4589004517;2407
 Uyuni Airport;Uyuni;Bolivia;UYU;SLUY;-20.4463005066;-66.8483963013;11136
@@ -5591,8 +5591,8 @@ Enfidha - Hammamet International Airport;Enfidha;Tunisia;NBE;DTNH;36.075833;10.4
 Kidepo Airport;Kidepo;Uganda;;HUKD;3.7176;33.7487;4033
 Kitgum Airport;Kitgum;Uganda;;HUKT;3.2817;32.8882;3130
 Bugungu Airport;Pakuba;Uganda;;HUPA;2.2;31.55;2472
-Svea Airport;Sveagruva;Svalbard;;ENSA;77.8969444;16.725;32
-Ny-Ålesund Airport (Hamnerabben);Ny-Alesund;Svalbard;;ENAS;78.9274978638;11.8743;50
+Svea Airport;Sveagruva;Svalbard and Jan Mayen Islands;;ENSA;77.8969444;16.725;32
+Ny-Ålesund Airport (Hamnerabben);Ny-Alesund;Svalbard and Jan Mayen Islands;;ENAS;78.9274978638;11.8743;50
 Hatay Airport;Hatay;Turkey;HTY;LTDA;36.36277771;36.282222747800006;269
 Kihnu Airfield;Kihnu;Estonia;;EEKU;58.14830017089844;24.002500534057614;10
 Ruhnu Airfield;Ruhnu;Estonia;;EERU;57.78390121459961;23.26609992980957;10
@@ -5811,7 +5811,7 @@ Zonguldak Airport;Zonguldak;Turkey;ONQ;LTAS;41.506401061999995;32.0886001587;39
 Rocky Mountain Metropolitan Airport;Broomfield-CO;United States;BJC;KBJC;39.90879822;-105.11699679999998;5673
 Salem Municipal Airport/McNary Field;Salem;United States;SLE;KSLE;44.90950012;-123.00299840000002;214
 Tunica Municipal Airport;Tunica;United States;UTM;KUTA;34.680999755859;-90.34670257568399;194
-Batken Airport;Batken;Kyrgyzstan;;UA30;40.042899;70.83784;3517
+Batken Airport;Batken;Kyrgyz Republic;;UA30;40.042899;70.83784;3517
 Kasaba Bay Airport;Kasaba Bay;Zambia;ZKB;FLKY;-8.524999618530272;30.663000106811523;2780
 Hunt Field;Lindau;Germany;LND;KLND;42.8152008057;-108.730003357;5586
 Hoogeveen Airfield;Hoogeveen;Netherlands;;EHHO;52.730801;6.51611;40
@@ -5856,7 +5856,7 @@ Toronto/Oshawa Executive Airport;Oshawa;Canada;YOO;CYOO;43.922798;-78.894997;460
 Marl-Loemühle Airfield;Recklinghausen;Germany;;EDLM;51.647202;7.16333;240
 Färila Air Base;Farila;Sweden;;ESNF;61.897998809814;15.705300331116;0
 Lahr Airport;Lahr;Germany;LHA;EDTL;48.36930084229999;7.82772016525;511
-Monywar Airport;Monywa;Burma;NYW;VYMY;22.221638000000002;95.093479;298
+Monywar Airport;Monywa;Myanmar;NYW;VYMY;22.221638000000002;95.093479;298
 Ohio University Snyder Field;Athens;United States;ATO;KUNI;39.2109985352;-82.23139953610001;766
 Springfield-Beckley Municipal Airport;Springfield;United States;SGH;KSGH;39.840301513671996;-83.840202331543;1051
 Sun Island Resort and SPA;South Aari Atoll;Maldives;;;3.4883339999999996;72.862989;0
@@ -5921,7 +5921,7 @@ Spremberg-Welzow Airport;Welzow;Germany;;EDCY;51.57555770874024;14.1369438171386
 Taichung Airport;Taichung;Taiwan;TXG;RCLG;24.18630027770996;120.65399932861328;369
 Wheeling Ohio County Airport;Wheeling;United States;HLG;KHLG;40.1749992371;-80.6463012695;1195
 Fitzgerald Municipal Airport;Fitzgerald;United States;;KFZG;31.68370056152344;-83.27050018310547;365
-Ye Airport;Ye;Burma;XYE;VYYE;15.300000190734865;97.86699676513672;30
+Ye Airport;Ye;Myanmar;XYE;VYYE;15.300000190734865;97.86699676513672;30
 Isla San Felix Airport;Isla San Felix;Chile;;SCFX;-26.29389953613281;-80.09619903564453;165
 Shaibah Airport;Shaybah;Saudi Arabia;;OESB;22.51449966430664;53.9640998840332;300
 Al Maktoum International Airport;Dubai;United Arab Emirates;DWC;OMDW;24.896356;55.161389;114
@@ -5973,7 +5973,7 @@ One Police Plaza Heliport;New York;United States;;NK39;40.71260070800781;-73.999
 Leverkusen Airport;Leverkusen;Germany;;EDKL;51.01527786254883;7.005556106567383;157
 Wershofen/Eifel Airfield;Wershofen;Germany;;EDRV;50.451389;6.783333;1581
 Khost Airport;Khost;Afghanistan;KHT;OAKS;33.3334007263;69.952003479;3756
-Namtu Airport;Naypyidaw;Burma;NMT;VYNT;23.083000000000002;97.383003;2000
+Namtu Airport;Naypyidaw;Myanmar;NMT;VYNT;23.083000000000002;97.383003;2000
 Bend Municipal Airport;Bend;United States;;KBDN;44.09479904;-121.20099640000001;3460
 Christmas Valley Airport;Christmas Valley;United States;;K62S;43.23649978637695;-120.66600036621094;4317
 Burns Municipal Airport;Burns;United States;BNO;KBNO;43.5918998718;-118.955001831;4148
@@ -5992,7 +5992,7 @@ Suffield Heliport;Suffield;Canada;YSD;CYSD;50.2667007446289;-111.18299865722656;
 Blumenau Airport;BLUMENAU;Brazil;BNU;SSBL;-26.83060073852539;-49.09030151367188;60
 Bolshoye Gryzlovo Airfield;Stupino;Russia;;UUDG;54.785;37.645;797
 Charlevoix Municipal Airport;Charelvoix;United States;;KCVX;45.3047981262207;-85.2748031616211;669
-Mykines Heliport;Mykines;Faroe Islands;;EKMS;62.102100372299994;-7.6459197998000015;110
+Mykines Heliport;Mykines;Faeroe Islands;;EKMS;62.102100372299994;-7.6459197998000015;110
 Cornwall Regional Airport;Cornwall;Canada;YCC;CYCC;45.09280014038086;-74.56330108642578;175
 Seppe Airfield;Bosschenhoofd;Netherlands;;EHSE;51.554699;4.5525;30
 St Stephan Airport;St.Stephan;Switzerland;;LSTS;46.49739837646485;7.412569999694824;3304
@@ -6470,7 +6470,7 @@ Maranggo Airport;Sulawesi Tenggara;Indonesia;TQQ;WA44;-5.7645702362061;123.91699
 Rancho San Simeon Airport;Cambria;United States;;66CA;35.60770034790039;-121.11000061035156;320
 Yichun Mingyueshan Airport;Yichun;China;YIC;ZSYC;27.8025;114.3062;430
 Dinwiddie County Airport;Petersburg;United States;PTB;KPTB;37.183799743652;-77.507400512695;193
-Kasongo Airport;Kasongo;Congo (Kinshasa);;FZOK;-4.5329999923706055;26.617000579833984;1785
+Kasongo Airport;Kasongo;DR Congo;;FZOK;-4.5329999923706055;26.617000579833984;1785
 McMurdo Station Pegasus Field;McMurdo Station;Antarctica;;NZPG;-77.9634017944336;166.52499389648438;18
 Klatovy Airport;Klatovy;Czech Republic;;LKKT;49.41830062866211;13.321900367736815;1299
 Sheboygan County Memorial Airport;Sheboygan;United States;SBM;KSBM;43.76959991;-87.85140228;755
@@ -6791,9 +6791,9 @@ Meschede-Schüren Airport;Meschede;Germany;;EDKM;51.30277633666992;8.23916721343
 Jumandy Airport;Tena;Ecuador;TNW;SEJD;-1.0597219999999998;-77.583333;1234
 Morro da Urca Heliport;Rio de Janeiro;Brazil;;SDHU;-22.95166778564453;-43.16583251953125;692
 Dongji Aiport;Fuyuan;China;FYJ;ZYFY;48.199494;134.366447;0
-Skúvoy Heliport;Skuvoy;Faroe Islands;;EKSY;61.76959991455078;-6.803410053253174;70
-Stóra Dímun Heliport;Stora Dimun;Faroe Islands;;EKSR;61.68529891967773;-6.758500099182129;305
-Frooba Heliport;Frooba;Faroe Islands;;EKFA;61.543701171875;-6.7744197845458975;77
+Skúvoy Heliport;Skuvoy;Faeroe Islands;;EKSY;61.76959991455078;-6.803410053253174;70
+Stóra Dímun Heliport;Stora Dimun;Faeroe Islands;;EKSR;61.68529891967773;-6.758500099182129;305
+Frooba Heliport;Frooba;Faeroe Islands;;EKFA;61.543701171875;-6.7744197845458975;77
 Person County Airport;Roxboro;United States;;KTDF;36.28490067;-78.98419952;609
 Zulu Inyala Airport;Phinda;South Africa;PZL;FADQ;-27.84939956665039;32.30970001220703;160
 Liupanshui Yuezhao Airport;Liupanshui;China;LPF;ZUPS;26.609416999999997;104.979;0
@@ -6891,9 +6891,9 @@ Maricá Airport;Marica;Brazil;;SDMC;-22.9195;-42.830898;13
 Resende Airport;Resende;Brazil;REZ;SDRS;-22.4785003662;-44.4803009033;1320
 Saquarema Airport;Saquarema;Brazil;;SDSK;-22.92972183227539;-42.50694274902344;26
 Drumheller Municipal Airport;Drumheller;Canada;;CEG4;51.49639892578125;-112.7490005493164;2597
-Mwene-Ditu Airport;Mwene-Ditu;Congo (Kinshasa);;FZWE;-6.982999801635742;23.08300018310547;3198
-Tunta Airport;Kabinda;Congo (Kinshasa);KBN;FZWT;-6.132999897;24.4829998016;2766
-Ikela Airport;Ikela;Congo (Kinshasa);IKL;FZGV;-1.048109;23.372501;1283
+Mwene-Ditu Airport;Mwene-Ditu;DR Congo;;FZWE;-6.982999801635742;23.08300018310547;3198
+Tunta Airport;Kabinda;DR Congo;KBN;FZWT;-6.132999897;24.4829998016;2766
+Ikela Airport;Ikela;DR Congo;IKL;FZGV;-1.048109;23.372501;1283
 Aripuanã Airport;Aripuana;Brazil;AIR;SWRP;-10.188278;-59.457273;623
 Juruena Airport;Juruena;Brazil;JRN;SWJU;-10.305832862854004;-58.48944473266602;525
 Juína Airport;Juina;Brazil;JIA;SWJN;-11.419444;-58.701668000000005;1083
@@ -6904,13 +6904,13 @@ Posto Leonardo Vilas Boas Airport;Chapada dos Guimaraes;Brazil;;SWPL;-12.1983327
 Tangará da Serra Airport;Tangara da Serra;Brazil;TGQ;SWTS;-14.6619997025;-57.4435005188;1460
 Canarana Airport;Canarana;Brazil;CQA;SWEK;-13.574443817138672;-52.27055740356445;1314
 Vila Bela da Santíssima Trindade Airport;Vila Bela da Santissima Trindade ;Brazil;MTG;SWVB;-14.9942;-59.9458;660
-Bumbar Airport;Bumba;Congo (Kinshasa);BMB;FZFU;2.1827799999999997;22.481701;0
+Bumbar Airport;Bumba;DR Congo;BMB;FZFU;2.1827799999999997;22.481701;0
 Sobral Airport;Sobral;Brazil;;SNOB;-3.67889;-40.336802;210
 Arapiraca Airport;Arapiraca;Brazil;APQ;SNAL;-9.775360107421877;-36.62919998168945;886
 Cangapara Airport;Floriano;Brazil;FLB;SNQG;-6.8463897705078125;-43.07730102539063;689
 Picos Airport;Picos;Brazil;PCS;SNPC;-7.0620598793029785;-41.52370071411133;1050
-Beni Airport;Beni;Congo (Kinshasa);BNC;FZNP;0.575;29.4739;3517
-Boende Airport;Boende;Congo (Kinshasa);BNB;FZGN;-0.21699999272823334;20.850000381469727;1168
+Beni Airport;Beni;DR Congo;BNC;FZNP;0.575;29.4739;3517
+Boende Airport;Boende;DR Congo;BNB;FZGN;-0.21699999272823334;20.850000381469727;1168
 Montauk Airport;Montauk;United States;MTP;KMTP;41.0765;-71.920797;6
 Porter County Municipal Airport;Valparaiso IN;United States;VPZ;KVPZ;41.45399857;-87.00710297;770
 Dharavandhoo Airport;DHARAVANDHOO;Maldives;DRV;VRMD;5.1561;73.1302;6
@@ -6923,9 +6923,9 @@ Horsham Airport;Horsham;Australia;HSM;YHSM;-36.669700622558594;142.1730041503906
 Swan Hill Airport;Swan Hill;Australia;SWH;YSWH;-35.37580108642578;143.5330047607422;234
 Turtle Island Seaplane Base;Turtle Island;Fiji;TTL;NFUL;-16.965999999999998;177.368;0
 Dewadaru - Kemujan Island;Karimunjawa;Indonesia;KWB;WARU;-5.80091;110.47838;35
-Kongolo Airport;Kongolo;Congo (Kinshasa);KOO;FZRQ;-5.39444;26.99;1850
+Kongolo Airport;Kongolo;DR Congo;KOO;FZRQ;-5.39444;26.99;1850
 Attopeu Airport;Attopeu;Laos;AOU;VLAP;14.814715357;106.82169914200001;344
-Kahemba Airport;Kahemba;Congo (Kinshasa);;FZCF;-7.333000183105469;19.017000198364254;3425
+Kahemba Airport;Kahemba;DR Congo;;FZCF;-7.333000183105469;19.017000198364254;3425
 Francisco de Miranda Airport;Caracas;Venezuela;;SVFM;10.485033035299999;-66.8435134888;2739
 São Miguel do Oeste Airport;Sao Miguel do Oeste;Brazil;SQX;SSOE;-26.78160095214844;-53.503501892089844;2180
 Mason County Airport;Ludington;United States;LDM;KLDM;43.96250153;-86.40789795;646
@@ -7184,8 +7184,8 @@ Marandúa Air Base;Marandúa;Colombia;;SKUA;5.5244800000000005;-68.6856;285
 Juan Simons Vela Airport;Rioja;Peru;RIJ;SPJA;-6.067860126495361;-77.16000366210938;2707
 Shumba Airport;Jaén;Peru;JAE;SPJE;-5.59248;-78.774002;2477
 Metropolitano Airport;;Venezuela;;SVMP;10.133169174194336;-66.78782653808594;574
-Issyk-Kul International Airport;Tamchy;Kyrgyzstan;IKU;UAFL;42.587920000000004;76.71304599999999;5425
-Kant Air Base;Kant;Kyrgyzstan;;UAFW;42.85319900512695;74.84649658203125;2549
+Issyk-Kul International Airport;Tamchy;Kyrgyz Republic;IKU;UAFL;42.587920000000004;76.71304599999999;5425
+Kant Air Base;Kant;Kyrgyz Republic;;UAFW;42.85319900512695;74.84649658203125;2549
 Ayaguz Airport;Ayaguz;Kazakhstan;;UASA;47.91859817504883;80.45279693603516;2119
 Chelkar Airport;Chelkar;Kazakhstan;;UATR;47.90499877929688;59.61999893188477;0
 Kyzyl-Syr Airport;Kyzyl-Syr;Russia;;UENK;63.8849983215332;122.7770004272461;331
@@ -7239,7 +7239,7 @@ Ambala Air Force Station;;India;;VIAM;30.368099212646484;76.81670379638672;909
 Sirsa Air Force Station;;India;;VISA;29.56060028076172;75.006103515625;650
 Udhampur Air Force Station;;India;;VIUX;32.902198791503906;75.15619659423828;2066
 Sri Sathya Sai Airport;Puttaparthi;India;PUT;VOPN;14.1492996216;77.7910995483;1558
-Meiktila Air Base;Meiktila;Burma;;VYML;20.88640022277832;95.89279174804688;699
+Meiktila Air Base;Meiktila;Myanmar;;VYML;20.88640022277832;95.89279174804688;699
 Changi Air Base (East);Singapore;Singapore;;WSAC;1.3441400528;104.009002686;22
 Soltsy-2 Air Base;Soltsy;Russia;;XLLL;58.139545;30.33042;266
 Severomorsk-3 Naval Air Base;Severomorsk;Russia;;XLMV;68.86666899999999;33.716667;564
@@ -7376,7 +7376,7 @@ Grundarfjörður Airport;Grundarfjordur;Iceland;GUU;BIGF;64.99140167236328;-23.2
 Prairie Du Chien Municipal Airport;Prairie du Chien;United States;PCD;KPDC;43.019298553466996;-91.12370300293001;661
 Cascade Heliport;Kobok;Indonesia;;WA98;47.512346;-120.48869099999999;860
 Air Orlando Heliport;Orlando;United States;;2FD7;28.43560028076172;-81.47309875488281;120
-Tórshavn/Bodanes Heliport;Torshavn;Faroe Islands;;EKTB;62.02170181274414;-6.757420063018799;68
+Tórshavn/Bodanes Heliport;Torshavn;Faeroe Islands;;EKTB;62.02170181274414;-6.757420063018799;68
 Otjiwarongo Airport;Otjiwarongo;Namibia;OTJ;FYOW;-20.434700012207;16.660800933838;4859
 RAF Mona;Mona;United Kingdom;;EGOQ;53.258598;-4.37355;202
 Rerik-Zweedorf Airport;Rerik;Germany;;EDCR;54.08194351196289;11.64916706085205;30
@@ -7420,7 +7420,7 @@ Bajawa Soa Airport;Bajawa;Indonesia;BJW;WATB;-8.70743498008;121.057426929;4326
 Torgau-Beilrode Airport;Gransee;Germany;;EDOG;51.570907;13.051641;0
 Annobón Airport;San Antonio de Pale;Equatorial Guinea;NBN;FGAB;-1.410277;5.621944;82
 Renk Airport;Huangshan;China;;HSRN;11.832469272300001;32.81049728390001;1278
-Oyo Ollombo Airport;Oyo;Congo (Brazzaville);OLL;FCOD;-1.226666;15.91;1073
+Oyo Ollombo Airport;Oyo;Congo Republic;OLL;FCOD;-1.226666;15.91;1073
 Port Hardy Seaplane Base;Port Hardy;Canada;;CAW5;50.71670150756836;-127.48300170898438;0
 Tri-City Airport;Parsons;United States;PPF;KPPF;37.32989883;-95.5062027;900
 Boun Neau Airport;Phongsaly;Laos;PCQ;VLFL;21.6475;101.9;3050
@@ -7508,7 +7508,7 @@ Oakland Troy Airport;Troy;United States;;KVLL;42.54290009;-83.17790222;727
 Stratford Municipal Airport;Stratford;Canada;;CYSA;43.415599823;-80.93440246579998;1215
 Edmundston Airport;Edmundston;Canada;;CYES;47.4906005859375;-68.48190307617189;490
 Red Dog Airport;Red Dog;United States;RDB;PADG;68.03209686279999;-162.899002075;969
-Impfondo Airport;Impfondo;Congo (Brazzaville);ION;FCOI;1.6169999837875366;18.066999435424805;1099
+Impfondo Airport;Impfondo;Congo Republic;ION;FCOI;1.6169999837875366;18.066999435424805;1099
 El Bayadh Airport;El Bayadh;Algeria;EBH;DAOY;33.7216666667;1.0925;4493
 Alzintan Airport;Zintan;Libya;ZIS;HLZN;31.774878;12.250060000000001;2080
 Monkey Bay Airport;Monkey Bay;Malawi;MYZ;FWMY;-14.0836000443;34.919700622600004;1580
@@ -7519,7 +7519,7 @@ Gombe Lawanti International Airport;Gombe;Nigeria;GMO;DNGO;10.2983333333;10.8963
 Dutse International Airport;Dutse;Nigeria;;DNDS;11.795167999999999;9.311667;1365
 Jalingo Airport;Jalingo;Nigeria;;DNJA;8.900587;11.27946;685
 Kolda North Airport;Kolda;Senegal;KDA;GODK;12.898500442504885;-14.968099594116213;33
-King Mswati III International Airport;Manzini;Swaziland;SHO;FDSK;-26.358611;31.716944;1092
+King Mswati III International Airport;Manzini;Eswatini;SHO;FDSK;-26.358611;31.716944;1092
 Kilwa Masoko Airport;Kilwa Masoko;Tanzania;KIY;HTKI;-8.91123;39.508619;50
 West Kilimanjaro Airport;Kilimanjaro;Tanzania;;HTWK;-3.0499999523162837;37.0;4300
 Moshi Airport;Moshi;Tanzania;QSI;HTMS;-3.3633298873901367;37.32690048217773;2801
@@ -7574,9 +7574,9 @@ Jask Airport;Jask;Iran;JSK;OIZJ;25.653601000000002;57.799301;19
 Frankfort Dow Memorial Field;Frankfort;United States;;KFKS;44.62519836425781;-86.20079803466797;633
 Cheboygan County Airport;Cheboygan;United States;;KSLH;45.65370178;-84.51930237;639
 Kozushima Airport;Kozushima;Japan;;RJAZ;34.1899986267;139.134002686;452
-Kazarman Airport;Kazarman;Kyrgyzstan;;UAFZ;41.4102908129;74.044418335;4298
-Kerben Airport;Kerben;Kyrgyzstan;;UAFE;41.484500885;71.7337036133;4199
-Naryn Airport;Naryn;Kyrgyzstan;;UAFN;41.44150161739999;76.13059997559999;6998
+Kazarman Airport;Kazarman;Kyrgyz Republic;;UAFZ;41.4102908129;74.044418335;4298
+Kerben Airport;Kerben;Kyrgyz Republic;;UAFE;41.484500885;71.7337036133;4199
+Naryn Airport;Naryn;Kyrgyz Republic;;UAFN;41.44150161739999;76.13059997559999;6998
 Sayaboury Airport;Sainyabuli;Laos;ZBY;VLSB;19.2436;101.7093;962
 Baglung Airport;Baglung;Nepal;BGL;VNBL;28.212799072265625;83.66629791259766;3320
 Rajbiraj Airport;Rajbiraj;Nepal;RJB;VNRB;26.510066;86.733902;250
@@ -7663,7 +7663,7 @@ Whitehorse Seaplane Base;Whitehorse;Canada;;CEZ5;60.69110107421875;-135.03700256
 Pertominsk Airport;Pertominsk;Russia;;ULAT;64.7900009155;38.4199981689;56
 Mount Weld Airport;Laverton;Australia;;YMNW;-28.77169990539551;122.44000244140624;0
 Kidston Airport;Kidston;Australia;;YKID;-18.8700008392334;144.17300415039062;494
-Klaksvik Heliport;Klaksvik;Faroe Islands;;EKKV;62.2178497314;-6.5764546394300005;263
+Klaksvik Heliport;Klaksvik;Faeroe Islands;;EKKV;62.2178497314;-6.5764546394300005;263
 Mitchell Municipal Airport;Mitchell;United States;MHE;KMHE;43.7747993469;-98.0385971069;1304
 Hunda Airport;Tubu Tree Camp;Botswana;;FBHU;-19.2765;22.475645999999998;3195
 Mchauru Airport;Geita;Tanzania;GIT;HTRU;-2.8136669999999997;32.172472;3955
@@ -7685,7 +7685,7 @@ Songwe Airport;Mbeya;Tanzania;MBI;HTGW;-8.919942;33.273981;4412
 Kalocsa/Foktő Airport;Kalocsa/Foktő;Hungary;;LHKA;46.549613;18.942421;284
 Bilogai-Sugapa Airport;Sugapa-Papua Island;Indonesia;UGU;WABV;-3.73956;137.031998;7348
 Jakkur Aerodrome;Bengaluru;India;;VOJK;13.07674;77.597645;3013
-Jalal-Abad Airport;Jalal-Abad;Kyrgyzstan;;UAFJ;40.944401;72.97779799999999;2591
+Jalal-Abad Airport;Jalal-Abad;Kyrgyz Republic;;UAFJ;40.944401;72.97779799999999;2591
 Ramon Airport;Eilat;Israel;ETM;LLER;29.723694000000002;35.011416;288
 Rustaq Airport;Al Masna'ah;Oman;MNH;OORQ;23.640556;57.4875;349
 Laguindingan Airport;Cagayan de Oro City;Philippines;CGY;RPMY;8.612203;124.456496;190
