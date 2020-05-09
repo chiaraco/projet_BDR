@@ -11,7 +11,7 @@ import numpy as np
 
 pays=pd.read_csv('pays.csv',sep=';')
 avion=pd.read_csv('avion.csv',sep=';')
-aeroport=pd.read_csv('aeroportV1.csv',sep=';')
+aeroport=pd.read_csv('aeroport.csv',sep=';')
 compagnie=pd.read_csv('compagnie.csv',sep=';')
 accident=pd.read_csv('Donnees_accidents.csv',sep=';')
 
