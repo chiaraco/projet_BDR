@@ -25,7 +25,7 @@
 {% else %}
   <table class="mon_tableau">
   <p>{{ nb}} accidents</p>
-  <tr><td>Date et heure</td><td>Modèle de l'avion</td><td>Nature du vol</td><td>Compagnie</td><td>Phase de vol</td><td>Nombre de décès - nombre d'occupants</td><td>Dégats</td><td>Statut</td><td>Pays</td><td>Localisation</td><td>Aéroport de départ</td><td>Aéroport d'arrivée</td></tr>
+  <tr><b><td><b>Date et heure</b></td><td><b>Modèle de l'avion</b></td><td><b>Nature du vol</b></td><td><b>Compagnie</b></td><td><b>Phase de vol</b></td><td><b>Nombre de décès | nombre d'occupants<b></td><td><b>Dégats</b></td><td><b>Statut</b></td><td><b>Pays</b></td><td><b>Localisation</b></td><td><b>Aéroport de départ</b></td><td><b>Aéroport d'arrivée</b></td></b></tr>
   {% for a in accident %}
         <tr>
           <td>{{a.time|date:"d F Y H:i"}} </td>
@@ -54,13 +54,13 @@
                {%ifequal None a.nb_occupant%}
                 <td> </td>
                 {% else %}
-                <td> - {{ a.nb_occupant }} </td>
+                <td> ? | {{ a.nb_occupant }} </td>
                 {% endifequal %}
             {%else%}
                 {% ifequal None a.nb_occupant %}
-                 <td>{{ a.nb_deces }} - </td>
+                 <td>{{ a.nb_deces }} | ? </td>
                  {%else%}
-                  <td>{{a.nb_deces}} - {{a.nb_occupant}}</td>
+                  <td>{{a.nb_deces}} | {{a.nb_occupant}}</td>
                   {% endifequal %}
             {% endifequal %}
 

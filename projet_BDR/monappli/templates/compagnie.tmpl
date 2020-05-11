@@ -25,7 +25,7 @@
 {% else %}
   <table class="mon_tableau">
   <p>{{ nb}} compagnies</p>
-  <tr><td>Compagnie</td><td>Alias</td><td>Code IATA</td><td>Code OACI</td><td>Pays</td></tr>
+  <tr><td><b>Compagnie</b></td><td><b>Alias</b></td><td><b>Code IATA</b></td><td><b>Code OACI</b></td><td><b>Pays</b></td></tr>
   {% for c in compagnie %}
      {% ifnotequal 'Unknown' c.nom_compagnie %}
         <tr>

@@ -6,7 +6,7 @@ from .models import Aeroport,Compagnie,Avion,Accident,Pays,Ville
 
 
 def accueil(request):
-	return HttpResponse("ceci est la future page d'accueil\n")
+	return render(request,'accueil.tmpl')
 
 def nombre_deces(request,annee1,annee2):
 	reponse=HttpResponse()
@@ -19,15 +19,15 @@ def nombre_deces(request,annee1,annee2):
 	return reponse
 
 def donnees(request,table):
-
-	if table=='pays':
+	
+	if table=='/pays':
 		return render(request, 'pays.tmpl', 
 			{                                          
             	'pays': Pays.objects.all().order_by('nom_pays'),
             	'nb': Pays.objects.count()-1,
 		        'rien': Pays.objects.count()==0
 		    })
-	elif table=='ville':
+	elif table=='/ville':
 		return render(request, 'ville.tmpl', 
 			{                                          
             	'ville': Ville.objects.all().order_by('nom_ville'),
@@ -35,32 +35,34 @@ def donnees(request,table):
 		        'rien': Ville.objects.count()==0
 		    })
 
-	elif table=='avion':
+	elif table=='/avion':
 		return render(request, 'avion.tmpl', 
 		    {                                          
 		        'avion': Avion.objects.all().order_by('modele'),
 		        'nb': Avion.objects.count()-1,
 		        'rien': Avion.objects.count()==0
 		    })
-	elif table=='compagnie':
+	elif table=='/compagnie':
 		return render(request, 'compagnie.tmpl', 
 		    {                                          
 		        'compagnie': Compagnie.objects.all().order_by('nom_compagnie'),
 		        'nb': Compagnie.objects.count()-1,
 		        'rien': Compagnie.objects.count()==0
 		    })
-	elif table=='aeroport':
+	elif table=='/aeroport':
 		return render(request, 'aeroport.tmpl', 
 		    {                                          
 		        'aeroport': Aeroport.objects.all().order_by('nom_aeroport'),
 		        'nb': Aeroport.objects.count()-1,
 		        'rien': Aeroport.objects.count()==0
 		    })
-	elif table=='accident':
+	elif table=='/accident':
 		return render(request, 'accident.tmpl', 
 		    {                                          
 		        'accident': Accident.objects.all().order_by('time'),
 		        'nb': Accident.objects.count(),
 		        'rien': Accident.objects.count()==0
 		    })
+	else: return render(request,'choix_table.tmpl')
+
 

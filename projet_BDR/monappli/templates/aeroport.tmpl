@@ -25,7 +25,7 @@
 {% else %}
   <table class="mon_tableau">
   <p>{{ nb}} aéroports</p>
-  <tr><td>Aéroport</td><td>Code IATA</td><td>Code OACI</td><td>Latitude</td><td>Longitude</td><td>Altitude</td><td>Ville</td><td>Pays</td></tr>
+  <tr><td><b>Aéroport</b></td><td><b>Code IATA</b></td><td><b>Code OACI</b></td><td><b>Latitude</b></td><td><b>Longitude</b></td><td><b>Altitude</b></td><td><b>Ville</b></td><td><b>Pays</b></td></tr>
   {% for a in aeroport %}
      {% ifnotequal 'Unknown' a.nom_aeroport %}
         <tr>

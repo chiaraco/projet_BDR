@@ -25,7 +25,7 @@
 {% else %}
   <table class="mon_tableau">
   <p>{{ nb}} avions</p>
-  <tr><td>Modele</td><td>Code IATA</td><td>Code OACI</td></tr>
+  <tr><td><b>Modele</b></td><td><b>Code IATA</b></td><td><b>Code OACI</b></td></tr>
   {% for a in avion %}
      {% ifnotequal 'Unknown' a.modele %}
         <tr>
