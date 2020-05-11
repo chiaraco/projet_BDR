@@ -60,3 +60,6 @@
 08/05/2020 modication de models.py (rajout d'une clé primaire automatique dans la classe ville)
 08/05/2020 modification de peuplement_tables.py
 08/05/2020 création de templates et de pages du site (tableau des différentes tables)
+
+11/05/2020 Rédaction de la page d'accueil (ajout des liens et du descriptif du site.)
+11/05/2020 On voudrait ajouter des images et des logos. On souhaite faire des recherches dans nos tables.
