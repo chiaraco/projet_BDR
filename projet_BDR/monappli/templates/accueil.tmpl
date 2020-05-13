@@ -27,8 +27,8 @@
 <body>
      <h1> Accueil</h1>
      <p>Bienvenue dans notre application ! 
-<br>
-<br>
+<br/>
+<br/>
 Elle recense tous les accidents d'avion depuis 1919. Vous pouvez naviguer dans :
 <li><span>toutes nos <a href="donnees">données</a> :</span>
       <ul>
@@ -46,14 +46,18 @@ Elle recense tous les accidents d'avion depuis 1919. Vous pouvez naviguer dans :
           <li><span><a href="">Carte / Tableau des pays les plus touchées</a></span></li>
           <li><span><a href="">Tableau des compagnies les plus touchées</a></span></li>
      </ul>
-<br>
-<br>
-<div width=300 height=200>
-    <img src="templates/images/accueil.png" alt="Image d'accueil" width='100%' height='100%'>
+<br/>
+<br/>
+<div>
+{% load static %}
+<!img src="{% static "templates/images/accueil.png" %}" alt="My image">
+
+    <img src="{% static "templates/images/accueil.png" %}" alt="Image d'accueil" width='100px' height='100px' />
 </div>
-<br>
-<br>
+<br/>
+<br/>
 Application réalisée par <em>Chiara Cordier</em> et <em>Nolwenn David</em>.</p>
+
   
   
 </body>

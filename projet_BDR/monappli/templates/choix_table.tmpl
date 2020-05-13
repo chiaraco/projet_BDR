@@ -3,7 +3,24 @@
 <html>
 <head> 
   <title>Choix des tables</title>
-  <style>   
+  <style>
+   body{font-family:Arial;
+         margin : 20px 50px 20px;
+         font-size:16px;}
+
+    h1 {text-align:center;
+        color:#d47217;}
+
+    a{color:black;
+      text-decoration:none;}
+
+    li{color:#d47217;
+       font-size:14px;
+       list-style-type:disc;}
+
+    li span{font-size:16px;
+            color:black;}
+
     table.mon_tableau  {
         border-collapse: collapse;
     }
@@ -18,14 +35,17 @@
   </style>
 </head>
 
-<body> 
-<h1>Quelle table souhaitez-vous consulter ?</h1>
-<li><a href="donnees/accident">Table des accidents</a></li>
-<li><a href="donnees/aeroport">Table des aeroports</a></li>
-<li><a href="donnees/avion">Table des avions</a></li>
-<li><a href="donnees/compagnie">Table des compagnies</a></li>
-<li><a href="donnees/pays">Table des pays</a></li>
-<li><a href="donnees/ville">Table des villes</a></li>
+<body>
+<a href="{% url 'accueil'%}">Retour à l'accueil</a> 
+<h1>Liste des tables de données</h1>
+<p>Quelle table souhaitez-vous consulter ?
+<li><span><a href="donnees/accident">Table des accidents</a></span></li>
+<li><span><a href="donnees/aeroport">Table des aeroports</a></span></li>
+<li><span><a href="donnees/avion">Table des avions</a></span></li>
+<li><span><a href="donnees/compagnie">Table des compagnies</a></span></li>
+<li><span><a href="donnees/pays">Table des pays</a></span></li>
+<li><span><a href="donnees/ville">Table des villes</a></span></li>
+</p>
 
 
 </body>

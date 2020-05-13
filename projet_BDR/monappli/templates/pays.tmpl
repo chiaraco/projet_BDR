@@ -3,7 +3,17 @@
 <html>
 <head> 
   <title>Les pays référencés</title>
-  <style>   
+  <style>
+    body{font-family:Arial;
+         margin : 10px 20px 10px;
+         font-size:16px;}
+
+    h1 {text-align:center;
+        color:#d47217;}
+
+    a{color:black;
+      text-decoration:none;}
+   
     table.mon_tableau  {
         border-collapse: collapse;
     }
@@ -18,7 +28,8 @@
   </style>
 </head>
 
-<body> 
+<body>
+<a href="{% url 'accueil'%}">Retour à l'accueil</a> 
 <h1>Pays enregistrés</h1>
 {% if rien %}
   Aucune page n'a été consulté

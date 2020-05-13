@@ -4,21 +4,31 @@
 <head> 
   <title>Les accidents référencés</title>
   <style>   
-    table.mon_tableau  {
-        border-collapse: collapse;
-    }
+    body{font-family:Arial;
+         margin : 10px 20px 10px;
+         font-size:16px;}
+
+    h1 {text-align:center;
+        color:#d47217;}
+
+    a{color:black;
+      text-decoration:none;}
+
+    table.mon_tableau  {border-collapse: collapse;}
+
     table.mon_tableau td {
        border: 1px solid #5555;
        padding: 9px;
        font-family: "Sans-serif";
-       font-size: 12px;
-    }
+       font-size: 12px;}
+
     table.mon_tableau tr:nth-child(even)  {background: #EEE}
     table.mon_tableau tr:nth-child(odd) {background: #FFF}
   </style>
 </head>
 
-<body> 
+<body>
+<a href="{% url 'accueil'%}">Retour à l'accueil</a>
 <h1>Accidents enregistrés</h1>
 {% if rien %}
   Aucun accident enregistré
