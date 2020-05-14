@@ -3,6 +3,7 @@ from django.shortcuts import render
 # Create your views here.
 from django.http import HttpResponse
 from .models import Aeroport,Compagnie,Avion,Accident,Pays,Ville
+from itertools import chain
 
 
 def accueil(request):
@@ -28,12 +29,40 @@ def donnees(request,table):
 		        'rien': Pays.objects.count()==0
 		    })
 	elif table=='/ville':
-		return render(request, 'ville.tmpl', 
+		print(request.GET.keys())
+		if not 'pays_ville' in request.GET.keys(): 
+			return render(request, 'ville.tmpl', 
 			{                                          
             	'ville': Ville.objects.all().order_by('nom_ville'),
             	'nb': Ville.objects.count()-1,
 		        'rien': Ville.objects.count()==0
 		    })
+		else :
+			vi_b=False
+			pa_b=False
+			pays_ville=request.GET['pays_ville']
+			#print(chercher_ville)
+			if request.GET['chercher_ville']=='on':
+				vi=Ville.objects.filter(nom_ville=pays_ville)
+				vi_b=True
+			if chercher_pays=='on':
+				pa=Ville.objects.filter(nom_pays=pays_ville)
+				pa_b=True
+			if pa_b and vi_b: vi_pa=list(chain(vi,pa))
+			elif pa_b: vi_pa=pa
+			elif vi_b: vi_pa=vi
+			else: return render(request, 'ville.tmpl', 
+			{                                          
+		        'rien': True
+		    })
+			print(vi_pa)
+			return render(request, 'ville.tmpl', 
+			{                                          
+            	'ville': vi_pa.order_by('nom_ville'),
+            	'nb': vi_pa.count(),
+		        'rien': vi_pa.count()==0
+		    })
+		
 
 	elif table=='/avion':
 		return render(request, 'avion.tmpl', 
@@ -64,5 +93,8 @@ def donnees(request,table):
 		        'rien': Accident.objects.count()==0
 		    })
 	else: return render(request,'choix_table.tmpl')
+
+
+
 
 

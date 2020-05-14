@@ -9,6 +9,10 @@
          margin : 20px 50px 20px;
          font-size:16px;}
 
+    body.centrer{margin-left:auto;
+                 margin-right:auto;
+                 width:25em;}
+    
     h1 {text-align:center;
         color:#d47217;}
 
@@ -21,10 +25,13 @@
 
     li span{font-size:16px;
             color:black;}
+    img.centrer{display:block ;
+                margin-left: auto;
+                margin-right:auto;}
   </style>
    
 </head>
-<body>
+<body class="centrer">
      <h1> Accueil</h1>
      <p>Bienvenue dans notre application ! 
 <br/>
@@ -48,12 +55,9 @@ Elle recense tous les accidents d'avion depuis 1919. Vous pouvez naviguer dans :
      </ul>
 <br/>
 <br/>
-<div>
-{% load static %}
-<!img src="{% static "templates/images/accueil.png" %}" alt="My image">
 
-    <img src="{% static "templates/images/accueil.png" %}" alt="Image d'accueil" width='100px' height='100px' />
-</div>
+{% load static %}
+<img class="centrer" src="{% static "accueil.png" %}" alt="Image d'accueil">
 <br/>
 <br/>
 Application réalisée par <em>Chiara Cordier</em> et <em>Nolwenn David</em>.</p>

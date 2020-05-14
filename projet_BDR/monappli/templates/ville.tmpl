@@ -34,6 +34,13 @@
 {% if rien %}
   Aucune ville enregistrée
 {% else %}
+<form method="get">
+<input type="text" name="pays_ville" value="Pays ou ville" >
+<input type="submit" value="Rechercher" >
+<input type="radio" name="chercher_ville" ><label for="chercher_ville">Ville</label>
+<input type="radio" name="chercher_pays" ><label for="chercher_pays">Pays</label>
+</form>
+
   <table class="mon_tableau">
   <p>{{ nb}} villes</p>
   <tr><td><b>Ville</b></td><td><b>Pays</b></td></tr>
