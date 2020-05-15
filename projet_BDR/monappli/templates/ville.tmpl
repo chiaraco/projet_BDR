@@ -30,19 +30,19 @@
 
 <body>
 <a href="{% url 'accueil'%}">Retour à l'accueil</a> 
-<h1>Villes enregistrées</h1>
+<h1>Villes référencées</h1>
 {% if rien %}
-  Aucune ville enregistrée
+  Aucune ville ou pays ne correspond à votre recherche !
 {% else %}
 <form method="get">
 <input type="text" name="pays_ville" value="Pays ou ville" >
+<input type="checkbox" name="chercher_ville" ><label for="chercher_ville">Ville</label>
+<input type="checkbox" name="chercher_pays" ><label for="chercher_pays">Pays</label>
 <input type="submit" value="Rechercher" >
-<input type="radio" name="chercher_ville" ><label for="chercher_ville">Ville</label>
-<input type="radio" name="chercher_pays" ><label for="chercher_pays">Pays</label>
 </form>
 
   <table class="mon_tableau">
-  <p>{{ nb}} villes</p>
+  <p>{{nb}} villes affichées</p>
   <tr><td><b>Ville</b></td><td><b>Pays</b></td></tr>
   {% for v in ville %}
      {% ifnotequal 'Unknown' v.nom_ville %}

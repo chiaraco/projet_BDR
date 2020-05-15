@@ -29,12 +29,50 @@
 
 <body>
 <a href="{% url 'accueil'%}">Retour à l'accueil</a>
-<h1>Accidents enregistrés</h1>
+<h1>Accidents référencés</h1>
 {% if rien %}
-  Aucun accident enregistré
+  Aucun accident ne correspond à votre recherche !
 {% else %}
+
+
+<form method="get">
+	<p>
+	Trajet : <br>
+	de <input type="search" name="depart" placeholder="aéroport ou pays de départ" >
+	à <input type="search" name="arrivee" placeholder="aéroport ou pays d'arrivée" >
+	</p>
+	<p>
+	Lieu de l'accident : <br>
+	<input type="text" name="lieu" placeholder="Localisation ou pays" >
+	</p>
+	<p>
+	Compagnie aérienne : <br>
+	<input type="text" name="compagnie" placeholder="Nom, alias, IATA ou OACI" >
+	</p>
+	<p>
+	Avion : <br>
+	<input type="text" name="avion" placeholder="Modèle, IATA ou OACI" >
+	</p>
+	
+	</p>
+	<p>
+	Nature du vol : <br>
+	<select name="nature">
+		<option select value=""></option>
+		<option value="Passenger">Passenger</option>
+		<option value="Test">Test</option>
+		<option value="Demonstration">Demonstration</option>
+		<option value="Domestic Scheduled Passenger">Domestic Scheduled Passenger</option>
+		<option value="International Scheduled Passenger">International Scheduled Passenger</option>
+	</p>	
+	
+<input type="checkbox" name="chercher_ville" ><label for="chercher_ville">Ville</label>
+<input type="checkbox" name="chercher_pays" ><label for="chercher_pays">Pays</label>
+<input type="submit" value="Rechercher" >
+</form>
+
   <table class="mon_tableau">
-  <p>{{ nb}} accidents</p>
+  <p>{{nb}} accidents affichés</p>
   <tr><b><td><b>Date et heure</b></td><td><b>Modèle de l'avion</b></td><td><b>Nature du vol</b></td><td><b>Compagnie</b></td><td><b>Phase de vol</b></td><td><b>Nombre de décès | nombre d'occupants<b></td><td><b>Dégats</b></td><td><b>Statut</b></td><td><b>Pays</b></td><td><b>Localisation</b></td><td><b>Aéroport de départ</b></td><td><b>Aéroport d'arrivée</b></td></b></tr>
   {% for a in accident %}
         <tr>
