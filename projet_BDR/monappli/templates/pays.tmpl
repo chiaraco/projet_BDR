@@ -30,12 +30,19 @@
 
 <body>
 <a href="{% url 'accueil'%}">Retour à l'accueil</a> 
-<h1>Pays enregistrés</h1>
+<h1>Pays référencés</h1>
 {% if rien %}
-  Aucune page n'a été consulté
+  Aucune pays ne correspond à votre recherche !
 {% else %}
+<form method="get">
+	<input type="search" name="pays_iso" placeholder="Pays ou ISO" >
+	<input type="checkbox" name="chercher_pays" ><label for="chercher_pays">Pays</label>
+	<input type="checkbox" name="chercher_iso" ><label for="chercher_iso">ISO</label>
+	<input type="submit" value="Rechercher" >
+</form>
+
   <table class="mon_tableau">
-  <p>{{ nb}} pays</p>
+  <p>{{nb}} pays affichés</p>
   <tr><td><b>Pays</b></td><td><b>Code ISO</b></td></tr>
   {% for p in pays %}
      {% ifnotequal 'Unknown' p.nom_pays %}

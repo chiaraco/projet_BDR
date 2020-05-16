@@ -37,24 +37,26 @@
 
 <form method="get">
 	<p>
-	Trajet : <br>
-	de <input type="search" name="depart" placeholder="aéroport ou pays de départ" >
-	à <input type="search" name="arrivee" placeholder="aéroport ou pays d'arrivée" >
-	</p>
-	<p>
-	Lieu de l'accident : <br>
-	<input type="text" name="lieu" placeholder="Localisation ou pays" >
-	</p>
-	<p>
-	Compagnie aérienne : <br>
-	<input type="text" name="compagnie" placeholder="Nom, alias, IATA ou OACI" >
-	</p>
-	<p>
-	Avion : <br>
-	<input type="text" name="avion" placeholder="Modèle, IATA ou OACI" >
+	Trajet : <br> 
+	De <input type="search" name="depart" placeholder="départ (aéroport ou pays)" >
+	à <input type="search" name="arrivee" placeholder="arrivée (aéroport ou pays)" >
 	</p>
 	
+	<p>
+	Lieu de l'accident : <br>
+	<input type="search" name="lieu" placeholder="Localisation ou pays" >
 	</p>
+	
+	<p>
+	Compagnie aérienne : <br>
+	<input type="search" name="compagnie" placeholder="Nom, alias, IATA ou OACI" >
+	</p>
+	
+	<p>
+	Avion : <br>
+	<input type="search" name="avion" placeholder="Modèle, IATA ou OACI" >
+	</p>
+
 	<p>
 	Nature du vol : <br>
 	<select name="nature">
@@ -64,11 +66,79 @@
 		<option value="Demonstration">Demonstration</option>
 		<option value="Domestic Scheduled Passenger">Domestic Scheduled Passenger</option>
 		<option value="International Scheduled Passenger">International Scheduled Passenger</option>
-	</p>	
+		<option value="Military">Military</option>
+		<option value="Private">Private</option>
+		<option value="Ferry/positioning">Ferry/positioning</option>
+		<option value="Training">Training</option>
+		<option value="Executive">Executive</option>
+		<option value="Int'l Non Scheduled Passenger">Int'l Non Scheduled Passenger</option>
+		<option value="Survey/research">Survey/research</option>
+		<option value="Aerial Work (Calibration, Photo)">Aerial Work (Calibration, Photo)</option>
+		<option value="Illegal flight">Illegal flight</option>
+		<option value="Non Scheduled Passenger">Non Scheduled Passenger</option>
+		<option value="Agricultural">Agricultural</option>
+		<option value="Parachuting">Parachuting</option>
+		<option value="Official state flight">Official state flight</option>
+		<option value="Ambulance">Ambulance</option>
+		<option value="Fire Fighting">Fire Fighting</option>
+		<option value="Cargo">Cargo</option>
+		<option value="Scheduled Passenger">Scheduled Passenger</option>
+		<option value="Domestic Non Scheduled Passenger">Domestic Non Scheduled Passenger</option>
+	</p>
+
+	<p>
+	Phase de vol : <br>
+	<select name="phase">
+		<option select value=""></option>
+		<option value="En route">En route</option>
+		<option value="Landing">Landing</option>
+		<option value="Takeoff">Takeoff</option>
+		<option value="Maneuvering">Maneuvering</option>
+		<option value="Initial climb">Initial climb</option>
+		<option value="Standing">Standing</option>
+		<option value="Approach">Approach</option>
+		<option value="Taxi">Taxi</option>
+		<option value="Pushback / towing">Pushback / towing</option>
+	</p>
 	
-<input type="checkbox" name="chercher_ville" ><label for="chercher_ville">Ville</label>
-<input type="checkbox" name="chercher_pays" ><label for="chercher_pays">Pays</label>
-<input type="submit" value="Rechercher" >
+	<p>
+	Statut de l'enquête : <br>
+	<select name="statut">
+		<option select value=""></option>
+		<option value="Preliminary">Preliminary</option>
+		<option value="Final">Final</option>
+	</p>
+	
+	<p>
+	Dégats : <br>
+	<select name="degats">
+		<option select value=""></option>
+		<option value="Destroyed">Passenger</option>
+		<option value="Damaged beyond repair">Damaged beyond repair</option>
+		<option value="Substantial">Substantial</option>
+		<option value="Minor">Minor</option>
+		<option value="Missing">Missing</option>
+	</p>
+	
+	<p>
+	Nombre de <input type="checkbox" name="deces" ><label for="deces">décès</label><input type="checkbox" name="occupants" ><label for="occupants">occupants :</label><br>
+	Entre <input type="number" name="nb_min" placeholder="minimum" >
+	et <input type="number" name="nb_max" placeholder="maximum" >
+	</p>
+	
+	<p>
+	Date : <br>
+	De <input type="date" name="date_min">
+	à <input type="date" name="date_max">
+	</p>
+
+	<p>
+	Heure : <br>
+	De <input type="date" name="hmin">
+	à <input type="date" name="hmax">
+	</p>
+
+	<input type="submit" value="Rechercher" >
 </form>
 
   <table class="mon_tableau">

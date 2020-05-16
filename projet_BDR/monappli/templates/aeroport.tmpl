@@ -30,12 +30,21 @@
 
 <body>
 <a href="{% url 'accueil'%}">Retour à l'accueil</a> 
-<h1>Aéroports enregistrés</h1>
+<h1>Aéroports référencés</h1>
 {% if rien %}
-  Aucun aéroport enregistré
+  Aucun aéroport ne correspond à votre recherche !
 {% else %}
+<form method="get">
+	<input type="search" name="aero" placeholder="Aéroport, IATA, OACI ou Ville" >
+	<input type="checkbox" name="chercher_aero" ><label for="chercher_aero">Aéroport</label>
+	<input type="checkbox" name="chercher_iata" ><label for="chercher_iata">IATA</label>
+	<input type="checkbox" name="chercher_oaci" ><label for="chercher_oaci">OACI</label>
+	<input type="checkbox" name="chercher_ville" ><label for="chercher_ville">Ville</label>
+	<input type="submit" value="Rechercher" >
+</form>
+
   <table class="mon_tableau">
-  <p>{{ nb}} aéroports</p>
+  <p>{{nb}} aéroports affichés</p>
   <tr><td><b>Aéroport</b></td><td><b>Code IATA</b></td><td><b>Code OACI</b></td><td><b>Latitude</b></td><td><b>Longitude</b></td><td><b>Altitude</b></td><td><b>Ville</b></td><td><b>Pays</b></td></tr>
   {% for a in aeroport %}
      {% ifnotequal 'Unknown' a.nom_aeroport %}

@@ -69,5 +69,8 @@
 14/05/2020 ajout d'une image sur la page d'accueil
 14/05/2020 ajout d'une barre de recherche dans la page ville (en cours)
 
-15/05/2020 options de recherche dans la page ville opérationnelle
+15/05/2020 options de recherche dans la page ville opérationnelles
 15/05/2020 ajout d'options de recherche dans la page accident (en cours)
+
+16/05/2020 options de recherche dans les pages aeroport et pays opérationnelles
+16/05/2020 évolution des options de recherche dans la page accident (toujours en cours)
