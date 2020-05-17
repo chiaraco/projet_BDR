@@ -9,6 +9,7 @@ from itertools import chain
 def accueil(request):
 	return render(request,'accueil.tmpl')
 
+
 def nombre_deces(request,annee1,annee2):
 	reponse=HttpResponse()
 	reponse.write(f"<h1>Accidents causant le plus de décès entre {annee1} et {annee2}</h1>")
@@ -19,8 +20,10 @@ def nombre_deces(request,annee1,annee2):
 	reponse.write("</table></body>")
 	return reponse
 
+
 def donnees(request):
 	return render(request,'choix_table.tmpl')
+
 	
 def pays(request):
 	if not 'pays_iso' in request.GET.keys():
@@ -48,6 +51,7 @@ def pays(request):
 	    	    'rien': pa_iso.count()==0
 	    	})
 
+
 def ville(request):
 	if not 'pays_ville' in request.GET.keys(): 
 		return render(request, 'ville.tmpl', 
@@ -74,22 +78,71 @@ def ville(request):
            	'nb': vi_pa.count(),
 	        'rien': vi_pa.count()==0
 	    })
+
 		
 def avion(request):
-	return render(request, 'avion.tmpl', 
-	    {                                          
-	        'avion': Avion.objects.all().order_by('modele'),
-	        'nb': Avion.objects.count()-1,
-	        'rien': Avion.objects.count()==0
+	if not 'rech_avion' in request.GET.keys():
+		return render(request, 'avion.tmpl', 
+	    	{                                          
+	        	'avion': Avion.objects.all().order_by('modele'),
+	        	'nb': Avion.objects.count()-1,
+	        	'rien': Avion.objects.count()==0
+	    	})
+	else :
+		av=Avion.objects.none()
+		rech_avion=request.GET['rech_avion']
+		if 'chercher_modele' in request.GET.keys():
+			av=Avion.objects.filter(modele__icontains=rech_avion)
+		if 'chercher_iata' in request.GET.keys():
+			iata=Avion.objects.filter(iata__icontains=rech_avion)
+			av=av | iata
+		if 'chercher_oaci' in request.GET.keys():
+			oaci=Avion.objects.filter(oaci__icontains=rech_avion)
+			av=av | oaci
+
+		return render(request, 'avion.tmpl', 
+		{                                          
+           	'avion': av.order_by('modele'),
+           	'nb': av.count(),
+	        'rien': av.count()==0
 	    })
+
 	    
 def compagnie(request):
-	return render(request, 'compagnie.tmpl', 
-	    {                                          
-	        'compagnie': Compagnie.objects.all().order_by('nom_compagnie'),
-	        'nb': Compagnie.objects.count()-1,
-	        'rien': Compagnie.objects.count()==0
+	if not 'rech_compagnie' in request.GET.keys():
+		return render(request, 'compagnie.tmpl', 
+	    	{                                          
+	        	'compagnie': Compagnie.objects.all().order_by('nom_compagnie'),
+	        	'nb': Compagnie.objects.count()-1,
+	        	'rien': Compagnie.objects.count()==0
+	   		})
+
+	else :
+		comp=Compagnie.objects.none()
+		rech_compagnie=request.GET['rech_compagnie']
+		if 'chercher_compagnie' in request.GET.keys():
+			comp=Compagnie.objects.filter(nom_compagnie__icontains=rech_compagnie)
+		if 'chercher_alias' in request.GET.keys():
+			alias=Compagnie.objects.filter(alias__icontains=rech_compagnie)
+			comp=comp | alias
+		if 'chercher_iata' in request.GET.keys():
+			iata=Compagnie.objects.filter(iata__icontains=rech_compagnie)
+			comp=comp | iata
+		if 'chercher_oaci' in request.GET.keys():
+			oaci=Compagnie.objects.filter(oaci__icontains=rech_compagnie)
+			comp=comp | oaci
+		if 'chercher_pays' in request.GET.keys():
+			pays=Pays.objects.filter(nom_pays__icontains=rech_compagnie)			
+			pa=Compagnie.objects.filter(nom_pays__in=pays)
+			comp=comp | pa			
+
+		return render(request, 'compagnie.tmpl', 
+		{                                          
+           	'compagnie': comp.order_by('nom_compagnie'),
+           	'nb': comp.count(),
+	        'rien': comp.count()==0
 	    })
+
 
 def aeroport(request):
 	if not 'aero' in request.GET.keys():
@@ -123,6 +176,7 @@ def aeroport(request):
         	   	'nb': vi_pa.count(),
 	    	    'rien': vi_pa.count()==0
 	    	})
+
 	    
 def accident(request):
 	return render(request, 'accident.tmpl', 

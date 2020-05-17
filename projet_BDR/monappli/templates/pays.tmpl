@@ -1,62 +1,61 @@
-<!-- fichier pays.tmpl --> 
-
 <html>
 <head> 
-  <title>Les pays référencés</title>
-  <style>
-    body{font-family:Arial;
-         margin : 10px 20px 10px;
-         font-size:16px;}
+   <title>Les pays référencés</title>
+   <style>
+      body{font-family:Arial;
+           margin : 10px 20px 10px;
+           font-size:16px;}
 
-    h1 {text-align:center;
-        color:#d47217;}
+      h1 {text-align:center;
+          color:#d47217;}
 
-    a{color:black;
-      text-decoration:none;}
+      a{color:black;
+        text-decoration:none;}
    
-    table.mon_tableau  {
-        border-collapse: collapse;
-    }
-    table.mon_tableau td {
-       border: 1px solid #5555;
-       padding: 9px;
-       font-family: "Sans-serif";
-       font-size: 12px;
-    }
-    table.mon_tableau tr:nth-child(even)  {background: #EEE}
-    table.mon_tableau tr:nth-child(odd) {background: #FFF}
+      table.mon_tableau {border-collapse: collapse;}
+
+      table.mon_tableau td {border: 1px solid #5555;
+                            padding: 9px;
+                            font-family: "Sans-serif";
+                            font-size: 12px;}
+
+      table.mon_tableau tr:nth-child(even)  {background: #EEE}
+      table.mon_tableau tr:nth-child(odd) {background: #FFF}
   </style>
 </head>
 
 <body>
-<a href="{% url 'accueil'%}">Retour à l'accueil</a> 
-<h1>Pays référencés</h1>
-{% if rien %}
-  Aucune pays ne correspond à votre recherche !
-{% else %}
-<form method="get">
-	<input type="search" name="pays_iso" placeholder="Pays ou ISO" >
-	<input type="checkbox" name="chercher_pays" ><label for="chercher_pays">Pays</label>
-	<input type="checkbox" name="chercher_iso" ><label for="chercher_iso">ISO</label>
-	<input type="submit" value="Rechercher" >
-</form>
+   <a href="{% url 'accueil'%}">Retour à l'accueil</a>
+   </br>
+   <a href="{% url 'donnees'%}">Retour aux données</a>
+   </br>
+   <h1>Pays référencés</h1>
+   {% if rien %}
+      Aucune pays ne correspond à votre recherche !
+   {% else %}
+      <form method="get">
+	     <input type="search" name="pays_iso" placeholder="Pays ou ISO" >
+	     <input type="checkbox" name="chercher_pays" ><label for="chercher_pays">Pays</label>
+	     <input type="checkbox" name="chercher_iso" ><label for="chercher_iso">ISO</label>
+	     <input type="submit" value="Rechercher" >
+      </form>
 
-  <table class="mon_tableau">
-  <p>{{nb}} pays affichés</p>
-  <tr><td><b>Pays</b></td><td><b>Code ISO</b></td></tr>
-  {% for p in pays %}
-     {% ifnotequal 'Unknown' p.nom_pays %}
-        <tr>
-          <td>{{ p.nom_pays }} </td>
-            {% ifequal 'nan' p.iso %}
-            <td> </td>
-            {% else %}
-            <td>{{ p.iso }} </td>
-            {% endifequal %}
-        </tr>
-    {% endifnotequal %}
-  {% endfor %}
-  </table>
- {% endif %}
+      <table class="mon_tableau">
+         <p>{{nb}} pays affichés</p>
+         <tr><td><b>Pays</b></td><td><b>Code ISO</b></td></tr>
+         {% for p in pays %}
+            {% ifnotequal 'Unknown' p.nom_pays %}
+               <tr>
+                  <td>{{ p.nom_pays }} </td>
+                  {% ifequal 'nan' p.iso %}
+                     <td> </td>
+                  {% else %}
+                     <td>{{ p.iso }} </td>
+                  {% endifequal %}
+              </tr>
+            {% endifnotequal %}
+         {% endfor %}
+      </table>
+   {% endif %}
 </body>
 </html>

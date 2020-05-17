@@ -1,60 +1,69 @@
-<!-- fichier pays.tmpl --> 
-
 <html>
 <head> 
-  <title>Les avions référencés</title>
-  <style> 
-    body{font-family:Arial;
-         margin : 10px 20px 10px;
-         font-size:16px;}
+   <title>Les avions référencés</title>
+   <style> 
+      body{font-family:Arial;
+           margin : 10px 20px 10px;
+           font-size:16px;}
 
-    h1 {text-align:center;
-        color:#d47217;}
+      h1 {text-align:center;
+          color:#d47217;}
 
-    a{color:black;
-      text-decoration:none;}
+      a{color:black;
+        text-decoration:none;}
   
-    table.mon_tableau  {
-        border-collapse: collapse;
-    }
-    table.mon_tableau td {
-       border: 1px solid #5555;
-       padding: 9px;
-       font-family: "Sans-serif";
-       font-size: 12px;
-    }
-    table.mon_tableau tr:nth-child(even)  {background: #EEE}
-    table.mon_tableau tr:nth-child(odd) {background: #FFF}
-  </style>
+      table.mon_tableau {border-collapse: collapse;}
+
+      table.mon_tableau td {border: 1px solid #5555;
+                            padding: 9px;
+                            font-family: "Sans-serif";
+                            font-size: 12px;}
+
+      table.mon_tableau tr:nth-child(even){background: #EEE}
+      table.mon_tableau tr:nth-child(odd) {background: #FFF}
+   </style>
 </head>
 
 <body>
-<a href="{% url 'accueil'%}">Retour à l'accueil</a>
-<h1>Avions enregistrés</h1>
-{% if rien %}
-  Aucun avion enregistré
-{% else %}
-  <table class="mon_tableau">
-  <p>{{ nb}} avions</p>
-  <tr><td><b>Modele</b></td><td><b>Code IATA</b></td><td><b>Code OACI</b></td></tr>
-  {% for a in avion %}
-     {% ifnotequal 'Unknown' a.modele %}
-        <tr>
-          <td>{{ a.modele}} </td>
-            {% ifequal 'nan' a.iata %}
-            <td> </td>
-            {% else %}
-            <td>{{ a.iata }} </td>
-            {% endifequal %}
-            {% ifequal 'nan' a.oaci %}
-            <td> </td>
-            {% else %}
-            <td>{{ a.oaci }} </td>
-            {% endifequal %}
-        </tr>
-    {% endifnotequal %}
-  {% endfor %}
-  </table>
- {% endif %}
+   <a href="{% url 'accueil'%}">Retour à l'accueil</a>
+   </br>
+   <a href="{% url 'donnees'%}">Retour aux données</a>
+   </br>
+   <h1>Avions enregistrés</h1>
+   {% if rien %}
+      Aucun avion enregistré
+   {% else %}
+      <form method="get">
+	     <input type="search" name="rech_avion" placeholder="Modèle, IATA, OACI" >
+	     <input type="checkbox" name="chercher_modele" ><label for="chercher_compagnie">Modèle</label>
+	     <input type="checkbox" name="chercher_iata" ><label for="chercher_iata">IATA</label>
+	     <input type="checkbox" name="chercher_oaci" ><label for="chercher_oaci">OACI</label>
+	     <input type="submit" value="Rechercher" >
+      </form>
+
+      <table class="mon_tableau">
+      <p>{{ nb}} avions</p>
+      <tr><td><b>Modèle</b></td><td><b>Code IATA</b></td><td><b>Code OACI</b></td></tr>
+      {% for a in avion %}
+         {% ifnotequal 'Unknown' a.modele %}
+            <tr>
+               <td>{{ a.modele}} </td>
+
+               {% ifequal 'nan' a.iata %}
+                  <td> </td>
+               {% else %}
+                  <td>{{ a.iata }} </td>
+               {% endifequal %}
+
+               {% ifequal 'nan' a.oaci %}
+                  <td> </td>
+               {% else %}
+                  <td>{{ a.oaci }} </td>
+               {% endifequal %}
+            </tr>
+         {% endifnotequal %}
+      {% endfor %}
+      </table>
+   {% endif %}
 </body>
 </html>

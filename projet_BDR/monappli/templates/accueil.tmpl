@@ -1,68 +1,65 @@
-<!DOCTYPE html>
 <html lang="fr">
 <head>
-  {% block title %}<title>Home</title>{% endblock %}
-   
+   <title>Home</title>
+ 
+   <style>
+      body{font-family:Arial;
+           margin : 20px 50px 20px;
+           font-size:16px;}
 
-  <style>
-    body{font-family:Arial;
-         margin : 20px 50px 20px;
-         font-size:16px;}
-
-    body.centrer{margin-left:auto;
-                 margin-right:auto;
-                 width:25em;}
+      body.centrer{margin-left:auto;
+                   margin-right:auto;
+                   width:25em;}
     
-    h1 {text-align:center;
-        color:#d47217;}
+      h1 {text-align:center;
+          color:#d47217;}
 
-    a{color:black;
-      text-decoration:none;}
+      a{color:black;
+        text-decoration:none;}
 
-    li{color:#d47217;
-       font-size:14px;
-       list-style-type:disc;}
+      li{color:#d47217;
+         font-size:14px;
+         list-style-type:disc;}
 
-    li span{font-size:16px;
-            color:black;}
-    img.centrer{display:block ;
-                margin-left: auto;
-                margin-right:auto;}
-  </style>
+      li span{font-size:16px;
+              color:black;}
+
+      img.centrer{display:block ;
+                  margin-left: auto;
+                  margin-right:auto;}
+   </style>
    
 </head>
 <body class="centrer">
-     <h1> Accueil</h1>
-     <p>Bienvenue dans notre application ! 
-<br/>
-<br/>
-Elle recense tous les accidents d'avion depuis 1919. Vous pouvez naviguer dans :
-<li><span>toutes nos <a href="donnees">données</a> :</span>
-      <ul>
-          <li><span><a href="donnees/accident">Accidents</a></span></li>
-          <li><span><a href="donnees/aeroport">Aéroports</a></span></li>
-          <li><span><a href="donnees/avion">Avions</a></span></li>
-          <li><span><a href="donnees/compagnie">Compagnies</a></span></li>
-          <li><span><a href="donnees/pays">Pays</a></span></li>
-          <li><span><a href="donnees/ville">Villes</a></li></span></li>
-     </ul>
-<li><span>nos outils de visualisation statistique ??:</span></li>
-      <ul>
-          <li><span><a href="">Diagramme circulaire</a></span></li>
-          <li><span><a href="">Histogramme</a></span></li>
-          <li><span><a href="">Carte / Tableau des pays les plus touchées</a></span></li>
-          <li><span><a href="">Tableau des compagnies les plus touchées</a></span></li>
-     </ul>
-<br/>
-<br/>
+   <h1> Accueil</h1>
+   <p>Bienvenue dans notre application ! 
+   <br/>
+   <br/>
+      Elle recense tous les accidents d'avion depuis 1919. Vous pouvez naviguer dans :
+      <li><span>toutes nos <a href="donnees">données</a> :</span>
+         <ul>
+            <li><span><a href="donnees/accident">Accidents</a></span></li>
+            <li><span><a href="donnees/aeroport">Aéroports</a></span></li>
+            <li><span><a href="donnees/avion">Avions</a></span></li>
+            <li><span><a href="donnees/compagnie">Compagnies</a></span></li>
+            <li><span><a href="donnees/pays">Pays</a></span></li>
+            <li><span><a href="donnees/ville">Villes</a></li></span></li>
+         </ul>
+      <li><span>nos outils de visualisation statistique ??:</span></li>
+         <ul>
+            <li><span><a href="">Diagramme circulaire</a></span></li>
+            <li><span><a href="">Histogramme</a></span></li>
+            <li><span><a href="">Carte / Tableau des pays les plus touchées</a></span></li>
+            <li><span><a href="">Tableau des compagnies les plus touchées</a></span></li>
+         </ul>
+   <br/>
+   <br/>
 
-{% load static %}
-<img class="centrer" src="{% static "accueil.png" %}" alt="Image d'accueil">
-<br/>
-<br/>
-Application réalisée par <em>Chiara Cordier</em> et <em>Nolwenn David</em>.</p>
-
-  
+   {% load static %}
+   <img class="centrer" src="{% static "accueil.png" %}" alt="Image d'accueil">
+   <br/>
+   <br/>
+   Application réalisée par <em>Chiara Cordier</em> et <em>Nolwenn David</em>.</p>
   
 </body>
 </html>

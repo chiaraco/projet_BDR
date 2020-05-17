@@ -1,52 +1,47 @@
-<!-- fichier pays.tmpl --> 
-
 <html>
 <head> 
-  <title>Choix des tables</title>
-  <style>
-   body{font-family:Arial;
+   <title>Choix des tables</title>
+   <style>
+      body{font-family:Arial;
          margin : 20px 50px 20px;
          font-size:16px;}
 
-    h1 {text-align:center;
-        color:#d47217;}
+       h1 {text-align:center;
+           color:#d47217;}
 
-    a{color:black;
-      text-decoration:none;}
+       a{color:black;
+         text-decoration:none;}
 
-    li{color:#d47217;
-       font-size:14px;
-       list-style-type:disc;}
+       li{color:#d47217;
+          font-size:14px;
+          list-style-type:disc;}
 
-    li span{font-size:16px;
-            color:black;}
+       li span{font-size:16px;
+               color:black;}
 
-    table.mon_tableau  {
-        border-collapse: collapse;
-    }
-    table.mon_tableau td {
-       border: 1px solid #5555;
-       padding: 9px;
-       font-family: "Sans-serif";
-       font-size: 12px;
-    }
-    table.mon_tableau tr:nth-child(even)  {background: #EEE}
-    table.mon_tableau tr:nth-child(odd) {background: #FFF}
-  </style>
+       table.mon_tableau  {border-collapse: collapse;}
+
+       table.mon_tableau td {border: 1px solid #5555;
+                             padding: 9px;
+                             font-family: "Sans-serif";
+                             font-size: 12px;}
+
+       table.mon_tableau tr:nth-child(even){background: #EEE}
+       table.mon_tableau tr:nth-child(odd) {background: #FFF}
+   </style>
 </head>
 
 <body>
-<a href="{% url 'accueil'%}">Retour à l'accueil</a> 
-<h1>Liste des tables de données</h1>
-<p>Quelle table souhaitez-vous consulter ?
-<li><span><a href="{% url 'accident'%}">Table des accidents</a></span></li>
-<li><span><a href="{% url 'aeroport'%}">Table des aeroports</a></span></li>
-<li><span><a href="{% url 'avion'%}">Table des avions</a></span></li>
-<li><span><a href="{% url 'compagnie'%}">Table des compagnies</a></span></li>
-<li><span><a href="{% url 'pays'%}">Table des pays</a></span></li>
-<li><span><a href="{% url 'ville'%}">Table des villes</a></span></li>
-</p>
-
+   <a href="{% url 'accueil'%}">Retour à l'accueil</a> 
+   <h1>Liste des tables de données</h1>
+   <p>Quelle table souhaitez-vous consulter ?
+      <li><span><a href="{% url 'accident'%}">Table des accidents</a></span></li>
+      <li><span><a href="{% url 'aeroport'%}">Table des aeroports</a></span></li>
+      <li><span><a href="{% url 'avion'%}">Table des avions</a></span></li>
+      <li><span><a href="{% url 'compagnie'%}">Table des compagnies</a></span></li>
+      <li><span><a href="{% url 'pays'%}">Table des pays</a></span></li>
+      <li><span><a href="{% url 'ville'%}">Table des villes</a></span></li>
+   </p>
 
 </body>
 </html>
