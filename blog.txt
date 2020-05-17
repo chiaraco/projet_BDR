@@ -74,3 +74,5 @@
 
 16/05/2020 options de recherche dans les pages aeroport et pays opérationnelles
 16/05/2020 évolution des options de recherche dans la page accident (toujours en cours)
+
+17/05/2020 options de recherche dans les pages avion et compagnie opérationnelles
