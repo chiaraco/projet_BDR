@@ -1,4 +1,4 @@
-from django.shortcuts import render
+﻿from django.shortcuts import render
 
 # Create your views here.
 from django.http import HttpResponse
@@ -154,28 +154,39 @@ def aeroport(request):
 		    })
 		 
 	else :
-		liste=Aeroport.objects.none()
+		liste=Aeroport.objects.all()
 		aero=request.GET['aero']
-		if 'chercher_aero' in request.GET.keys():
+		if not aero=='':
 			nom=Aeroport.objects.filter(nom_aeroport__icontains=aero)
-			liste=nom
-		if 'chercher_iata' in request.GET.keys():
-			iata=Aeroport.objects.filter(iata__icontains=aero)
-			liste=liste | iata
-		if 'chercher_oaci' in request.GET.keys():
-			oaci=Aeroport.objects.filter(oaci__icontains=aero)
-			liste=liste | oaci
+			liste=liste & nom
+		
+		code=request.GET['code']
+		if ('co' in request.GET.keys()) and (code!=''):
+			co=request.GET['co']
+			if co=='iata':
+				iata=Aeroport.objects.filter(iata__iexact=code)
+				liste=liste & iata				
+			elif co=='oaci':
+				oaci=Aeroport.objects.filter(oaci__iexact=code)
+				liste=liste & oaci
+
 		if 'chercher_ville' in request.GET.keys():
-			ville=Ville.objects.filter(nom_ville__icontains=aero)
+			ville=Ville.objects.filter(nom_ville__icontains=vipa)
 			ae=Aeroport.objects.filter(ville__in=ville)
-			liste=liste | ae
+			liste=liste & ae
+
+		if 'chercher_pays' in request.GET.keys():
+			pays=Pays.objects.filter(nom_pays__icontains=vipa)
+			ville=Ville.objects.filter(nom_pays__in=pays)
+			ae=Aeroport.objects.filter(ville__in=ville)
+			liste=liste & ae
 			
-		return render(request, 'aeroport.tmpl', 
-			{                                          
-       	    	'aeroport': vi_pa.order_by('nom_aeroport'),
-        	   	'nb': vi_pa.count(),
-	    	    'rien': vi_pa.count()==0
-	    	})
+		return render(request, 'aeroport.tmpl',
+		{
+			'aeroport': vi_pa.order_by('nom_aeroport'),
+			'nb': vi_pa.count(),
+			'rien': vi_pa.count()==0
+		})
 
 	    
 def accident(request):
@@ -185,7 +196,7 @@ def accident(request):
 	        	'accident': Accident.objects.all().order_by('time'),
 	        	'nb': Accident.objects.count(),
 	        	'rien': Accident.objects.count()==0
-	   		})
+	   	})
 	else:
 		liste=Accident.objects.all()
 		depart=request.GET['depart']
