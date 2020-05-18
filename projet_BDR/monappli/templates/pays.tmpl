@@ -42,7 +42,7 @@
 
       <table class="mon_tableau">
          <p>{{nb}} pays affichés</p>
-         <tr><td><b>Pays</b></td><td><b>Code ISO</b></td></tr>
+         <tr><th>Pays</th><th>Code ISO</th></tr>
          {% for p in pays %}
             {% ifnotequal 'Unknown' p.nom_pays %}
                <tr>

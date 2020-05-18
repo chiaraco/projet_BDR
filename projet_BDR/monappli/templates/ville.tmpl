@@ -44,7 +44,7 @@
 
       <table class="mon_tableau">
       <p>{{nb}} villes affichées</p>
-      <tr><td><b>Ville</b></td><td><b>Pays</b></td></tr>
+      <tr><th>Ville</th><th>Pays</th></tr>
       {% for v in ville %}
          {% ifnotequal 'Unknown' v.nom_ville %}
            <tr>

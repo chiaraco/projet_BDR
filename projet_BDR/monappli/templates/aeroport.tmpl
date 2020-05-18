@@ -33,22 +33,22 @@
       Aucun aéroport ne correspond à votre recherche !
    {% else %}
    <form method="get">
-	  Nom de l'aéroport : <input type="search" name="aero">
+	  Nom de l'aéroport : <input type="search" name="aero"> <br>
 
 	  Code <input type="radio" name="co" value="iata"><label for="iata">IATA</label>
-               <input type="radio" name="co" value="oaci"><label for="oaci">OACI :</label>
-	       <input type="search" name="code">
+           <input type="radio" name="co" value="oaci"><label for="oaci">OACI :</label>
+	       <input type="search" name="code"> <br>
 
-	  Localisation <input type="checkbox" name="chercher_ville" ><label for="chercher_ville">Ville</label>
-	  	       <input type="checkbox" name="chercher_pays" ><label for="chercher_pays">Pays :</label>
-		       <input type="search" name="vipa">
+	  Localisation : <input type="search" name="vipa"> 
+	  	       		 <input type="checkbox" name="chercher_pays" ><label for="chercher_pays">Pays</label>
+		      		 <input type="checkbox" name="chercher_ville" ><label for="chercher_ville">Ville</label> <br>
 
 	  <input type="submit" value="Rechercher" >
    </form>
 
    <table class="mon_tableau">
       <p>{{nb}} aéroports affichés</p>
-      <tr><td><b>Aéroport</b></td><td><b>Code IATA</b></td><td><b>Code OACI</b></td><td><b>Latitude</b></td><td><b>Longitude</b></td><td><b>Altitude</b></td><td><b>Ville</b></td><td><b>Pays</b></td></tr>
+      <tr><th>Aéroport</th><th>Code IATA</th><th>Code OACI</th><th>Latitude</th><th>Longitude</th><th>Altitude</th><th>Ville</th><th>Pays</th></tr>
       {% for a in aeroport %}
          {% ifnotequal 'Unknown' a.nom_aeroport %}
             <tr>
