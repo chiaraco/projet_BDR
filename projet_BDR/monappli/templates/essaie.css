@@ -1,0 +1,15 @@
+/*essaie*/
+
+		
+thead, tbody ,tr {
+  display:block; /*aligne sur les données d'après ? */
+}
+
+tbody  {
+  height:200px; /*taille du scroll*/
+  overflow:auto;
+  display:block;
+  
+  margin-right:-1.6em;
+}
+

@@ -1,7 +1,8 @@
 <html>
 <head> 
-   <link rel="stylesheet" href="style.css" >
 	<title>Les accidents référencés</title>
+    {% load static %}
+    <link rel='stylesheet' href={%static "style.css" %}>
 </head>
 
 <body>
@@ -16,123 +17,133 @@
 
 	
    <form method="get">
-	  <table class="search">
-		<tr><td colspan ="4">
-         Trajet :
-	     de <input type="search" name="depart" placeholder="départ (aéroport ou pays ou ville)" class="saisie">
-	     à <input type="search" name="arrivee" placeholder="arrivée (aéroport ou pays ou ville)" class="saisie">
-		</td></tr>
+      <table class="search">
+	     <tr>
+            <td colspan ="4">
+               Trajet :
+	           de <input type="search" name="depart" placeholder="départ (aéroport ou pays ou ville)" class="saisie">
+	           à <input type="search" name="arrivee" placeholder="arrivée (aéroport ou pays ou ville)" class="saisie">
+            </td>
+         </tr>
 		
-	  <tr><td colspan=4 class="int">
-			<table class="search"><tr><td>
-         Lieu de l'accident : <br>
-	     <input type="search" name="lieu" placeholder="Localisation ou pays" class="saisie">
-	  </td>
-	
-      <td>
-	     Compagnie aérienne : <br>
-	     <input type="search" name="compagnie" placeholder="Nom, alias, IATA ou OACI" class="saisie">
-	  </td>
-	  <td>
-	     Avion : <br>
-	     <input type="search" name="avion" placeholder="Modèle, IATA ou OACI" class="saisie">
-	  </td></tr></table>
+	     <tr>
+            <td colspan=4 class="int">
+			   <table class="search">
+                  <tr>
+                     <td>
+                        Lieu de l'accident : <br>
+	                    <input type="search" name="lieu" placeholder="Localisation ou pays" class="saisie">
+	                 </td>
+	                 <td>
+	                    Compagnie aérienne : <br>
+	                    <input type="search" name="compagnie" placeholder="Nom, alias, IATA ou OACI" class="saisie">
+	                 </td>
+	                 <td>
+	                    Avion : <br>
+	                    <input type="search" name="avion" placeholder="Modèle, IATA ou OACI" class="saisie">
+	                 </td>
+                  </tr>
+               </table>
+            </td>
+         </tr>
 
-	  <tr><td>
-	     Nature du vol : <br>
-	     <select name="nature" class="menu">
-		    <option select value=""></option>
-		    <option value="Passenger">Passenger</option>
-		    <option value="Test">Test</option>
-		    <option value="Demonstration">Demonstration</option>
-		    <option value="Domestic_SP">Domestic Scheduled Passenger</option>
-		    <option value="International_SP">International Scheduled Passenger</option>
-	    	<option value="Military">Military</option>
-	    	<option value="Private">Private</option>
-	    	<option value="Ferry_positioning">Ferry -positioning</option>
-	    	<option value="Training">Training</option>
-	    	<option value="Executive">Executive</option>
-    		<option value="INSP">Int'l Non Scheduled Passenger</option>
-    		<option value="Survey_research">Survey - research</option>
-    		<option value="Aerial_Work">Aerial Work (Calibration, Photo)</option>
-	     	<option value="Illegal_flight">Illegal flight</option>
-	    	<option value="Non_SP">Non Scheduled Passenger</option>
-	    	<option value="Agricultural">Agricultural</option>
-            <option value="Parachuting">Parachuting</option>
-		    <option value="Official_state_flight">Official state flight</option>
-		    <option value="Ambulance">Ambulance</option>
-		    <option value="Fire_Fighting">Fire Fighting</option>
-		    <option value="Cargo">Cargo</option>
-		    <option value="Scheduled_Passenger">Scheduled Passenger</option>
-		    <option value="Domestic_NSP">Domestic Non Scheduled Passenger</option>
-         </select>
-      </td>
-
-      <td>
-	     Phase de vol : <br>
-	     <select name="phase" class="menu">
-		    <option select value=""></option>
-		    <option value="En_route">En route</option>
-		    <option value="Landing">Landing</option>
-		    <option value="Takeoff">Takeoff</option>
-		    <option value="Maneuvering">Maneuvering</option>
-		    <option value="Initial_climb">Initial climb</option>
-		    <option value="Standing">Standing</option>
-		    <option value="Approach">Approach</option>
-		    <option value="Taxi">Taxi</option>
-		    <option value="Pushback_towing">Pushback - towing</option>
-         </select>
-      </td>
-	
-      <td>
-	     Statut de l'enquête : <br>
-	     <select name="statut" class="menu">
-		    <option select value=""></option>
-		    <option value="Preliminary">Preliminary</option>
-		    <option value="Final">Final</option>
-         </select>
-      </td>
-	
-      <td>
-	     Dégats : <br>
-	     <select name="degats" class="menu">
-		    <option select value=""></option>
-		    <option value="Destroyed">Passenger</option>
-		    <option value="Damaged_beyond_repair">Damaged beyond repair</option>
-		    <option value="Substantial">Substantial</option>
-		    <option value="Minor">Minor</option>
-         </select>
-      </td></tr>
+         <tr>
+            <td>
+				 Nature du vol : <br>
+				 <select name="nature" class="menu">
+					<option select value=""></option>
+					<option value="Passenger">Passenger</option>
+					<option value="Test">Test</option>
+					<option value="Demonstration">Demonstration</option>
+					<option value="Domestic_SP">Domestic Scheduled Passenger</option>
+					<option value="International_SP">International Scheduled Passenger</option>
+					<option value="Military">Military</option>
+					<option value="Private">Private</option>
+					<option value="Ferry_positioning">Ferry -positioning</option>
+					<option value="Training">Training</option>
+					<option value="Executive">Executive</option>
+					<option value="INSP">Int'l Non Scheduled Passenger</option>
+					<option value="Survey_research">Survey - research</option>
+					<option value="Aerial_Work">Aerial Work (Calibration, Photo)</option>
+				 	<option value="Illegal_flight">Illegal flight</option>
+					<option value="Non_SP">Non Scheduled Passenger</option>
+					<option value="Agricultural">Agricultural</option>
+				    <option value="Parachuting">Parachuting</option>
+					<option value="Official_state_flight">Official state flight</option>
+					<option value="Ambulance">Ambulance</option>
+					<option value="Fire_Fighting">Fire Fighting</option>
+					<option value="Cargo">Cargo</option>
+					<option value="Scheduled_Passenger">Scheduled Passenger</option>
+					<option value="Domestic_NSP">Domestic Non Scheduled Passenger</option>
+				 </select>
+            </td>
+            <td>
+				 Phase de vol : <br>
+				 <select name="phase" class="menu">
+					<option select value=""></option>
+					<option value="En_route">En route</option>
+					<option value="Landing">Landing</option>
+					<option value="Takeoff">Takeoff</option>
+					<option value="Maneuvering">Maneuvering</option>
+					<option value="Initial_climb">Initial climb</option>
+					<option value="Standing">Standing</option>
+					<option value="Approach">Approach</option>
+					<option value="Taxi">Taxi</option>
+					<option value="Pushback_towing">Pushback - towing</option>
+				 </select>
+            </td>
+            <td>
+				 Statut de l'enquête : <br>
+				 <select name="statut" class="menu">
+					<option select value=""></option>
+					<option value="Preliminary">Preliminary</option>
+					<option value="Final">Final</option>
+				 </select>
+            </td>
+            <td>
+				 Dégats : <br>
+				 <select name="degats" class="menu">
+					<option select value=""></option>
+					<option value="Destroyed">Passenger</option>
+					<option value="Damaged_beyond_repair">Damaged beyond repair</option>
+					<option value="Substantial">Substantial</option>
+					<option value="Minor">Minor</option>
+				 </select>
+            </td>
+         </tr>
       
-	
-      <tr><td colspan="4">
-	     Nombre de 
-                  <input type="radio" name="nb_personne" value="nb_deces"><label for="nb_deces">décès</label>
-                  <input type="radio" name="nb_personne" value="nb_occupants"><label for="nb_occupants">occupants :</label>
-	     entre <input type="number" name="nb_min" placeholder="minimum" class="saisie">
-	     et <input type="number" name="nb_max" placeholder="maximum" class="saisie">
-      </td></tr>
-      
-	
-      <tr><td colspan="2">
-         Date : 
-	     de <input type="date" name="date_min" class="saisie">
-	     à <input type="date" name="date_max" class="saisie">
-      </td>
+         <tr>
+            <td colspan="4">
+	           Nombre de 
+                        <input type="radio" name="nb_personne" value="nb_deces"><label for="nb_deces">décès</label>
+                        <input type="radio" name="nb_personne" value="nb_occupants"><label for="nb_occupants">occupants :</label>
+	              entre <input type="number" name="nb_min" placeholder="minimum" class="saisie">
+	                 et <input type="number" name="nb_max" placeholder="maximum" class="saisie">
+            </td>
+         </tr>
 
-      <td colspan="2">
-	     Heure :
-	     de <input type="time" name="hmin" class="saisie">
-	     à <input type="time" name="hmax" class="saisie">
-      </td></tr>
+         <tr>
+            <td colspan="2">
+               Date : 
+	           de <input type="date" name="date_min" class="saisie">
+	            à <input type="date" name="date_max" class="saisie">
+            </td>
+            <td colspan="2">
+	           Heure :
+	           de <input type="time" name="hmin" class="saisie">
+	            à <input type="time" name="hmax" class="saisie">
+            </td>
+         </tr>
       </table>
+
 	  <p class="bouton">
       <input type="submit" value="Rechercher" class=bouton >
 	  </p>
    </form>
-
+   
+   <p>{{nb}} accidents affichés</p>
+   <div>
    <table class="mon_tableau">
-      <p>{{nb}} accidents affichés</p>
       <tr><th>Date et heure</th><th>Modèle de l'avion</th><th>Nature du vol</th><th>Compagnie</th><th>Phase de vol</th><th>Nombre de décès | nombre d'occupants</th><th>Dégats</th><th>Statut</th><th>Pays</th><th>Localisation</th><th>Aéroport de départ</th><th>Aéroport d'arrivée</th></tr>
       {% for a in accident %}
          <tr>
@@ -215,5 +226,6 @@
       {% endfor %}
    </table>
    {% endif %}
+	</div>
 </body>
 </html>

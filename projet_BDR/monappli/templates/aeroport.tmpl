@@ -1,26 +1,8 @@
 ﻿<html>
 <head> 
    <title>Les aéroports référencés</title>
-   <style>
-      body{font-family:Arial;
-           margin : 10px 20px 10px;
-           font-size:16px;}
-
-      h1 {text-align:center;
-          color:#d47217;}
-
-      a{color:black;
-        text-decoration:none;}
- 
-      table.mon_tableau {border-collapse: collapse;}
-      table.mon_tableau td {border: 1px solid #5555;
-                            padding: 9px;
-                            font-family: "Sans-serif";
-                            font-size: 12px;}
-
-      table.mon_tableau tr:nth-child(even){background: #EEE}
-      table.mon_tableau tr:nth-child(odd) {background: #FFF}
-  </style>
+       {% load static %}
+    <link rel='stylesheet' href={%static "style.css" %}>
 </head>
 
 <body>
@@ -33,17 +15,27 @@
       Aucun aéroport ne correspond à votre recherche !
    {% else %}
    <form method="get">
-	  Nom de l'aéroport : <input type="search" name="aero"> <br>
-
-	  Code <input type="radio" name="co" value="iata"><label for="iata">IATA</label>
-           <input type="radio" name="co" value="oaci"><label for="oaci">OACI :</label>
-	       <input type="search" name="code"> <br>
-
-	  Localisation : <input type="search" name="vipa"> 
+      <table class="search">
+	     <tr>
+            <td>
+	           Nom de l'aéroport : <input type="search" name="aero" placeholder="Aéroport" class="saisie">
+			</td>
+            <td>
+               Code :<input type="radio" name="co" value="iata"><label for="iata">IATA</label>
+                     <input type="radio" name="co" value="oaci"><label for="oaci">OACI</label>
+	                 <input type="search" name="code" placeholder="Code" class="saisie"> <br>
+            </td>
+            <td>
+	           Localisation :  
 	  	       		 <input type="checkbox" name="chercher_pays" ><label for="chercher_pays">Pays</label>
-		      		 <input type="checkbox" name="chercher_ville" ><label for="chercher_ville">Ville</label> <br>
-
-	  <input type="submit" value="Rechercher" >
+		      		 <input type="checkbox" name="chercher_ville" ><label for="chercher_ville">Ville</label> 
+                     <input type="search" name="vipa" placeholder="Localisation" class="saisie"><br>
+            </td>
+         </tr>
+      </table>
+	  <p class="bouton">
+         <input type="submit" value="Rechercher" class=bouton >
+	  </p>
    </form>
 
    <table class="mon_tableau">

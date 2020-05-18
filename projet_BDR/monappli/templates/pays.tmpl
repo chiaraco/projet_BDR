@@ -1,27 +1,8 @@
 <html>
 <head> 
    <title>Les pays référencés</title>
-   <style>
-      body{font-family:Arial;
-           margin : 10px 20px 10px;
-           font-size:16px;}
-
-      h1 {text-align:center;
-          color:#d47217;}
-
-      a{color:black;
-        text-decoration:none;}
-   
-      table.mon_tableau {border-collapse: collapse;}
-
-      table.mon_tableau td {border: 1px solid #5555;
-                            padding: 9px;
-                            font-family: "Sans-serif";
-                            font-size: 12px;}
-
-      table.mon_tableau tr:nth-child(even)  {background: #EEE}
-      table.mon_tableau tr:nth-child(odd) {background: #FFF}
-  </style>
+       {% load static %}
+    <link rel='stylesheet' href={%static "style.css" %}>
 </head>
 
 <body>
@@ -34,10 +15,22 @@
       Aucune pays ne correspond à votre recherche !
    {% else %}
       <form method="get">
-	     <input type="search" name="pays_iso" placeholder="Pays ou ISO" >
-	     <input type="checkbox" name="chercher_pays" ><label for="chercher_pays">Pays</label>
-	     <input type="checkbox" name="chercher_iso" ><label for="chercher_iso">ISO</label>
-	     <input type="submit" value="Rechercher" >
+	     <table class="search">
+		    <tr>
+               <td>
+	              <input type="search" name="pays_iso" placeholder="Pays ou ISO" class="saisie">
+               </td>
+			   <td>
+                  <input type="checkbox" name="chercher_pays" ><label for="chercher_pays">Pays</label>
+			   </td>
+			   <td>
+                  <input type="checkbox" name="chercher_iso" ><label for="chercher_iso">ISO</label>
+			   </td>
+            </tr>
+         </table>
+	     <p class="bouton">
+            <input type="submit" value="Rechercher" class=bouton >
+	     </p>
       </form>
 
       <table class="mon_tableau">

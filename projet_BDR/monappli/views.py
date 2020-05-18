@@ -118,24 +118,29 @@ def compagnie(request):
 	   		})
 
 	else :
-		comp=Compagnie.objects.none()
+		comp=Compagnie.objects.all()
 		rech_compagnie=request.GET['rech_compagnie']
-		if 'chercher_compagnie' in request.GET.keys():
-			comp=Compagnie.objects.filter(nom_compagnie__icontains=rech_compagnie)
+		if 'rech_compagnie' in request.GET.keys():
+			comp=comp & Compagnie.objects.filter(nom_compagnie__icontains=rech_compagnie)
 		if 'chercher_alias' in request.GET.keys():
 			alias=Compagnie.objects.filter(alias__icontains=rech_compagnie)
-			comp=comp | alias
-		if 'chercher_iata' in request.GET.keys():
-			iata=Compagnie.objects.filter(iata__icontains=rech_compagnie)
-			comp=comp | iata
-		if 'chercher_oaci' in request.GET.keys():
-			oaci=Compagnie.objects.filter(oaci__icontains=rech_compagnie)
-			comp=comp | oaci
-		if 'chercher_pays' in request.GET.keys():
-			pays=Pays.objects.filter(nom_pays__icontains=rech_compagnie)			
-			pa=Compagnie.objects.filter(nom_pays__in=pays)
-			comp=comp | pa			
+			comp=comp & alias
 
+		code=request.GET['code']
+		if ('co' in request.GET.keys()) and (code!=''):
+			co=request.GET['co']
+			if co=='iata':
+				iata=Compagnie.objects.filter(iata__iexact=code)
+				comp=comp & iata				
+			elif co=='oaci':
+				oaci=Compagnie.objects.filter(oaci__iexact=code)
+				comp=comp & oaci
+
+		chercher_pays=request.GET['chercher_pays']
+		if not chercher_pays=='':
+			pays=Pays.objects.filter(nom_pays__icontains=chercher_pays)			
+			pa=Compagnie.objects.filter(nom_pays__in=pays)
+			comp=comp & pa
 		return render(request, 'compagnie.tmpl', 
 		{                                          
            	'compagnie': comp.order_by('nom_compagnie'),
