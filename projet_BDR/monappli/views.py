@@ -3,7 +3,7 @@ from django.shortcuts import render
 # Create your views here.
 from django.http import HttpResponse
 from .models import Aeroport,Compagnie,Avion,Accident,Pays,Ville
-from itertools import chain
+import datetime
 
 
 def accueil(request):
@@ -26,7 +26,7 @@ def donnees(request):
 
 	
 def pays(request):
-	if not 'pays_iso' in request.GET.keys():
+	if not request.GET.keys():
 		return render(request, 'pays.tmpl', 
 			{                                          
         	    'pays': Pays.objects.all().order_by('nom_pays'),
@@ -53,7 +53,7 @@ def pays(request):
 
 
 def ville(request):
-	if not 'pays_ville' in request.GET.keys(): 
+	if not request.GET.keys(): 
 		return render(request, 'ville.tmpl', 
 		{                                          
            	'ville': Ville.objects.all().order_by('nom_ville'),
@@ -81,7 +81,7 @@ def ville(request):
 
 		
 def avion(request):
-	if not 'rech_avion' in request.GET.keys():
+	if not request.GET.keys():
 		return render(request, 'avion.tmpl', 
 	    	{                                          
 	        	'avion': Avion.objects.all().order_by('modele'),
@@ -109,7 +109,7 @@ def avion(request):
 
 	    
 def compagnie(request):
-	if not 'rech_compagnie' in request.GET.keys():
+	if not request.GET.keys():
 		return render(request, 'compagnie.tmpl', 
 	    	{                                          
 	        	'compagnie': Compagnie.objects.all().order_by('nom_compagnie'),
@@ -145,7 +145,7 @@ def compagnie(request):
 
 
 def aeroport(request):
-	if not 'aero' in request.GET.keys():
+	if not request.GET.keys():
 		return render(request, 'aeroport.tmpl', 
 		    {                                          
 		        'aeroport': Aeroport.objects.all().order_by('nom_aeroport'),
@@ -179,13 +179,126 @@ def aeroport(request):
 
 	    
 def accident(request):
-	return render(request, 'accident.tmpl', 
-	    {                                          
-	        'accident': Accident.objects.all().order_by('time'),
-	        'nb': Accident.objects.count(),
-	        'rien': Accident.objects.count()==0
-	    })
+	if not request.GET.keys():
+		return render(request, 'accident.tmpl', 
+	    	{                                          
+	        	'accident': Accident.objects.all().order_by('time'),
+	        	'nb': Accident.objects.count(),
+	        	'rien': Accident.objects.count()==0
+	   		})
+	else:
+		liste=Accident.objects.all()
+		depart=request.GET['depart']
+		if not depart=='':
+			aero=Aeroport.objects.filter(nom_aeroport__icontains=depart)
+			dep=Accident.objects.filter(id_aeroport_depart__in=aero)
 
+			pays=Pays.objects.filter(nom_pays__icontains=depart)
+			pays_ville=Ville.objects.filter(nom_pays__in=pays)
+			pays_aero=Aeroport.objects.filter(ville__in=pays_ville)
+			dep= dep | Accident.objects.filter(id_aeroport_depart__in=pays_aero)
+
+			ville=Ville.objects.filter(nom_ville__icontains=depart)
+			ville_aero=Aeroport.objects.filter(ville__in=ville)
+			dep= dep | Accident.objects.filter(id_aeroport_depart__in=ville_aero)
+		
+			liste=liste & dep
+
+		arrivee=request.GET['arrivee']
+		if not arrivee=='':
+			aero=Aeroport.objects.filter(nom_aeroport__icontains=arrivee)
+			arr=Accident.objects.filter(id_aeroport_arrivee__in=aero)
+
+			pays=Pays.objects.filter(nom_pays__icontains=arrivee)
+			pays_ville=Ville.objects.filter(nom_pays__in=pays)
+			pays_aero=Aeroport.objects.filter(ville__in=pays_ville)
+			arr= arr | Accident.objects.filter(id_aeroport_arrivee__in=pays_aero)
+
+			ville=Ville.objects.filter(nom_ville__icontains=arrivee)
+			ville_aero=Aeroport.objects.filter(ville__in=ville)
+			arr= arr | Accident.objects.filter(id_aeroport_arrivee__in=ville_aero)
+
+			liste=liste & arr
+
+		lieu=request.GET['lieu']
+		if not lieu=='':
+			liste_lieu=Accident.objects.filter(emplacement__icontains=lieu)
+
+			pays=Pays.objects.filter(nom_pays__icontains=lieu)
+			pa=Accident.objects.filter(nom_pays__in=pays)
+			liste_lieu=liste_lieu | pa
+
+			liste=liste & liste_lieu
+		
+		compagnie=request.GET['compagnie']
+		if not compagnie=='':
+			comp=Compagnie.objects.filter(nom_compagnie__icontains=compagnie)
+			comp=comp | Compagnie.objects.filter(alias__icontains=compagnie)
+			comp=comp | Compagnie.objects.filter(iata__iexact=compagnie)
+			comp=comp | Compagnie.objects.filter(oaci__iexact=compagnie)
+			co=Accident.objects.filter(nom_compagnie__in=comp)
+			liste= liste & co
+
+		avion=request.GET['avion']
+		if not avion=='':
+			av=Avion.objects.filter(modele__icontains=avion)
+			av=av | Avion.objects.filter(iata__iexact=avion)
+			av=av | Avion.objects.filter(oaci__iexact=avion)
+			av=Accident.objects.filter(id_avion__in=comp)
+			liste= liste & av
+
+#################
+		if 'nb_personne' in request.GET.keys():
+			nb_personne=request.GET['nb_personne']
+			if nb_personne=='nb_deces':
+				acc=Accident.objects.all().exclude(nb_deces__isnull=True)
+				nb_min=request.GET['nb_min']
+				if not nb_min=='' :
+					acc=acc & Accident.objects.filter(nb_deces__gte=nb_min)
+					print(acc)
+				nb_max=request.GET['nb_max']
+				if not nb_max=='':
+					acc= acc & Accident.objects.filter(nb_deces__lte=nb_max)
+				liste= liste & acc
+
+			if nb_personne=='nb_occupants':
+				acc=Accident.objects.all().exclude(nb_occupants__isnull=True)
+				print(acc)
+				print(len(acc))
+				nb_min=request.GET['nb_min']
+				if not nb_min=='' :
+					acc=acc & Accident.objects.filter(nb_occupants__gte=nb_min)
+				nb_max=request.GET['nb_max']
+				if not nb_max=='':
+					acc= acc & Accident.objects.filter(nb_occupants__lte=nb_max)
+				liste= liste & acc
+#################
+
+		date_min=request.GET['date_min']
+		if not date_min=='':
+			date=Accident.objects.filter(time__gte=datetime.datetime.strptime(date_min,"%Y-%m-%d"))
+			liste = liste & date
+		
+		date_max=request.GET['date_max']
+		if not date_max=='':
+			date=Accident.objects.filter(time__lte=datetime.datetime.strptime(date_max,"%Y-%m-%d"))
+			liste = liste & date
+
+		hmin=request.GET['hmin']
+		if not hmin=='':
+			heure=Accident.objects.filter(time__gte=datetime.datetime.strptime(hmin,"%H:%M"))
+			liste = liste & heure
+		
+		hmax=request.GET['hmax']
+		if not hmax=='':
+			heure=Accident.objects.filter(time__lte=datetime.datetime.strptime(hmax,"%H:%M"))
+			liste = liste & heure
+		return render(request, 'accident.tmpl', 
+			{                                          
+       	    	'accident': liste.order_by('time'),
+        	   	'nb': liste.count(),
+	    	    'rien': liste.count()==0
+	    	})
 
 
 
