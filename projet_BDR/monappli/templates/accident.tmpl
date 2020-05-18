@@ -1,27 +1,7 @@
 <html>
 <head> 
-   <title>Les accidents référencés</title>
-   <style>   
-      body{font-family:Arial;
-           margin : 10px 20px 10px;
-           font-size:16px;}
-
-      h1 {text-align:center;
-          color:#d47217;}
-
-      a{color:black;
-        text-decoration:none;}
-
-      table.mon_tableau {border-collapse: collapse;}
-
-      table.mon_tableau td {border: 1px solid #5555;
-                            padding: 9px;
-                            font-family: "Sans-serif";
-                            font-size: 12px;}
-
-      table.mon_tableau tr:nth-child(even)  {background: #EEE}
-      table.mon_tableau tr:nth-child(odd) {background: #FFF}
-   </style>
+   <link rel="stylesheet" href="style.css" >
+	<title>Les accidents référencés</title>
 </head>
 
 <body>
@@ -36,27 +16,31 @@
 
 	
    <form method="get">
-      <div ><!regarder div flexbox>
-	     Trajet : <br> 
-	     De <input type="search" name="depart" placeholder="départ (aéroport ou pays ou ville)" >
-	     à <input type="search" name="arrivee" placeholder="arrivée (aéroport ou pays ou ville)" >
-	  </div>
+	  <table class="search">
+		<tr><td colspan ="4">
+         Trajet :
+	     de <input type="search" name="depart" placeholder="départ (aéroport ou pays ou ville)" class="saisie">
+	     à <input type="search" name="arrivee" placeholder="arrivée (aéroport ou pays ou ville)" class="saisie">
+		</td></tr>
+		
+	  <tr><td colspan=4 class="int">
+			<table class="search"><tr><td>
+         Lieu de l'accident : <br>
+	     <input type="search" name="lieu" placeholder="Localisation ou pays" class="saisie">
+	  </td>
 	
-	  <div>
-	     Lieu de l'accident : <br>
-	     <input type="search" name="lieu" placeholder="Localisation ou pays" >
-	  </div>
-	
-      <div>
+      <td>
 	     Compagnie aérienne : <br>
-	     <input type="search" name="compagnie" placeholder="Nom, alias, IATA ou OACI" >
-	  </div>
-	
-	  
+	     <input type="search" name="compagnie" placeholder="Nom, alias, IATA ou OACI" class="saisie">
+	  </td>
+	  <td>
+	     Avion : <br>
+	     <input type="search" name="avion" placeholder="Modèle, IATA ou OACI" class="saisie">
+	  </td></tr></table>
 
-	  <p>
+	  <tr><td>
 	     Nature du vol : <br>
-	     <select name="nature">
+	     <select name="nature" class="menu">
 		    <option select value=""></option>
 		    <option value="Passenger">Passenger</option>
 		    <option value="Test">Test</option>
@@ -82,11 +66,11 @@
 		    <option value="Scheduled_Passenger">Scheduled Passenger</option>
 		    <option value="Domestic_NSP">Domestic Non Scheduled Passenger</option>
          </select>
-      </p>
+      </td>
 
-      <p>
+      <td>
 	     Phase de vol : <br>
-	     <select name="phase">
+	     <select name="phase" class="menu">
 		    <option select value=""></option>
 		    <option value="En_route">En route</option>
 		    <option value="Landing">Landing</option>
@@ -98,54 +82,58 @@
 		    <option value="Taxi">Taxi</option>
 		    <option value="Pushback_towing">Pushback - towing</option>
          </select>
-      </p>
+      </td>
 	
-      <p>
+      <td>
 	     Statut de l'enquête : <br>
-	     <select name="statut">
+	     <select name="statut" class="menu">
 		    <option select value=""></option>
 		    <option value="Preliminary">Preliminary</option>
 		    <option value="Final">Final</option>
          </select>
-      </p>
+      </td>
 	
-      <p>
+      <td>
 	     Dégats : <br>
-	     <select name="degats">
+	     <select name="degats" class="menu">
 		    <option select value=""></option>
 		    <option value="Destroyed">Passenger</option>
 		    <option value="Damaged_beyond_repair">Damaged beyond repair</option>
 		    <option value="Substantial">Substantial</option>
 		    <option value="Minor">Minor</option>
          </select>
-      </p>
+      </td></tr>
+      
 	
-      <p>
+      <tr><td colspan="4">
 	     Nombre de 
                   <input type="radio" name="nb_personne" value="nb_deces"><label for="nb_deces">décès</label>
-                  <input type="radio" name="nb_personne" value="nb_occupants"><label for="nb_occupants">occupants :</label><br>
-	     Entre <input type="number" name="nb_min" placeholder="minimum" >
-	     et <input type="number" name="nb_max" placeholder="maximum" >
-      </p>
+                  <input type="radio" name="nb_personne" value="nb_occupants"><label for="nb_occupants">occupants :</label>
+	     entre <input type="number" name="nb_min" placeholder="minimum" class="saisie">
+	     et <input type="number" name="nb_max" placeholder="maximum" class="saisie">
+      </td></tr>
+      
 	
-      <p>
-         Date : <br>
-	     De <input type="date" name="date_min">
-	     à <input type="date" name="date_max">
-      </p>
+      <tr><td colspan="2">
+         Date : 
+	     de <input type="date" name="date_min" class="saisie">
+	     à <input type="date" name="date_max" class="saisie">
+      </td>
 
-      <p>
-	     Heure : <br>
-	     De <input type="time" name="hmin">
-	     à <input type="time" name="hmax">
-      </p>
-
-      <input type="submit" value="Rechercher" >
+      <td colspan="2">
+	     Heure :
+	     de <input type="time" name="hmin" class="saisie">
+	     à <input type="time" name="hmax" class="saisie">
+      </td></tr>
+      </table>
+	  <p class="bouton">
+      <input type="submit" value="Rechercher" class=bouton >
+	  </p>
    </form>
 
    <table class="mon_tableau">
       <p>{{nb}} accidents affichés</p>
-      <tr><b><td><b>Date et heure</b></td><td><b>Modèle de l'avion</b></td><td><b>Nature du vol</b></td><td><b>Compagnie</b></td><td><b>Phase de vol</b></td><td><b>Nombre de décès | nombre d'occupants<b></td><td><b>Dégats</b></td><td><b>Statut</b></td><td><b>Pays</b></td><td><b>Localisation</b></td><td><b>Aéroport de départ</b></td><td><b>Aéroport d'arrivée</b></td></b></tr>
+      <tr><th>Date et heure</th><th>Modèle de l'avion</th><th>Nature du vol</th><th>Compagnie</th><th>Phase de vol</th><th>Nombre de décès | nombre d'occupants</th><th>Dégats</th><th>Statut</th><th>Pays</th><th>Localisation</th><th>Aéroport de départ</th><th>Aéroport d'arrivée</th></tr>
       {% for a in accident %}
          <tr>
             <td>{{a.time|date:"d F Y H:i"}} </td>
