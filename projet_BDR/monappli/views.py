@@ -5,7 +5,6 @@ from django.http import HttpResponse
 from .models import Aeroport,Compagnie,Avion,Accident,Pays,Ville
 import datetime
 
-
 def accueil(request):
 	return render(request,'accueil.tmpl')
 
@@ -315,7 +314,6 @@ def accident(request):
         	   	'nb': liste.count(),
 	    	    'rien': liste.count()==0
 	    	})
-
 
 
 
