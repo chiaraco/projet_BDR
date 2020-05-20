@@ -32,10 +32,12 @@
             <input type="submit" value="Rechercher" class=bouton >
 	     </p>
       </form>
-
+	  <p>{{nb}} pays affichés</p>
       <table class="mon_tableau">
-         <p>{{nb}} pays affichés</p>
+         
          <tr><th>Pays</th><th>Code ISO</th></tr>
+		
+		 
          {% for p in pays %}
             {% ifnotequal 'Unknown' p.nom_pays %}
                <tr>

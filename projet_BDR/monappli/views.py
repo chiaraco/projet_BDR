@@ -4,20 +4,12 @@
 from django.http import HttpResponse
 from .models import Aeroport,Compagnie,Avion,Accident,Pays,Ville
 import datetime
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib.backends.backend_agg import FigureCanvasAgg
 
 def accueil(request):
 	return render(request,'accueil.tmpl')
-
-
-def nombre_deces(request,annee1,annee2):
-	reponse=HttpResponse()
-	reponse.write(f"<h1>Accidents causant le plus de décès entre {annee1} et {annee2}</h1>")
-	reponse.write("<body><table border='1'>")
-	reponse.write(f"<tr><td>Nombre de decès</td> <td>Date</td><td>Pays</td><td>Nature du vol</td></tr>")
-	for ac in Accident.objects.raw(f"SELECT * FROM monappli_accident WHERE  nb_deces>0 AND (EXTRACT(YEAR FROM time) BETWEEN {int(annee1)} AND {int(annee2)}) ORDER BY nb_deces DESC" ):
-		reponse.write(f"<tr><td>{ac.nb_deces}</td> <td>{ac.time.strftime('%d/%m/%Y')}</td><td>{ac.nom_pays.nom_pays}</td><td>{ac.nature}</td></tr>") 
-	reponse.write("</table></body>")
-	return reponse
 
 
 def donnees(request):
@@ -316,4 +308,20 @@ def accident(request):
 	    	})
 
 
+def pie_chart(request):
+
+	f = plt.figure()
+	x = np.arange(10)
+	h = [0,1,2,3,5,6,4,2,1,0]
+	plt.title('Title')
+	plt.xlim(0, 10)
+	plt.ylim(0, 8)
+	plt.xlabel('x label')
+	plt.ylabel('y label')
+	bar1 = plt.bar(x,h,width=1.0,bottom=0,color='Green',alpha=0.65,label='Legend')
+	plt.legend()
+
+	f.savefig('monappli/static/image.png')
+	plt.close(f)   
+	return render(request,'figure_pie_chart.tmpl')
 
