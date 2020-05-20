@@ -142,9 +142,11 @@
    </form>
    
    <p>{{nb}} accidents affichés</p>
-   <div>
+   
    <table class="mon_tableau">
+      
       <tr><th>Date et heure</th><th>Modèle de l'avion</th><th>Nature du vol</th><th>Compagnie</th><th>Phase de vol</th><th>Nombre de décès | nombre d'occupants</th><th>Dégats</th><th>Statut</th><th>Pays</th><th>Localisation</th><th>Aéroport de départ</th><th>Aéroport d'arrivée</th></tr>
+      
       {% for a in accident %}
          <tr>
             <td>{{a.time|date:"d F Y H:i"}} </td>
@@ -224,8 +226,8 @@
                {% endifequal %}
          </tr>
       {% endfor %}
+      
    </table>
    {% endif %}
-	</div>
 </body>
 </html>

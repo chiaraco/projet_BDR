@@ -23,7 +23,7 @@
             <td>
                Code :<input type="radio" name="co" value="iata"><label for="iata">IATA</label>
                      <input type="radio" name="co" value="oaci"><label for="oaci">OACI</label>
-	                 <input type="search" name="code" placeholder="Code" class="saisie"> <br>
+	                 <input type="search" name="code" placeholder="Code (3 ou 4 charactères)" class="saisie" minlength="3" maxlength="4"> <br>
             </td>
             <td>
 	           Localisation :  
@@ -38,8 +38,9 @@
 	  </p>
    </form>
 
+   <p>{{nb}} aéroports affichés</p>
+
    <table class="mon_tableau">
-      <p>{{nb}} aéroports affichés</p>
       <tr><th>Aéroport</th><th>Code IATA</th><th>Code OACI</th><th>Latitude</th><th>Longitude</th><th>Altitude</th><th>Ville</th><th>Pays</th></tr>
       {% for a in aeroport %}
          {% ifnotequal 'Unknown' a.nom_aeroport %}

@@ -27,7 +27,7 @@
 			   <td>
                   Code :<input type="radio" name="co" value="iata"><label for="iata">IATA</label>
                         <input type="radio" name="co" value="oaci"><label for="oaci">OACI</label>
-                        <input type="search" name="code" placeholder="Code" class="saisie"> <br>
+                        <input type="search" name="code" placeholder="Code (2 ou 3 charactères)" class="saisie" minlength="2" maxlength="3"> <br>
                </td>
 			   <td>
                   Pays : <input type="search" name="chercher_pays" placeholder="Pays" class="saisie"> 
@@ -38,9 +38,9 @@
             <input type="submit" value="Rechercher" class=bouton >
 	     </p>
       </form>
-
-     <table class="mon_tableau">
      <p>{{ nb}} compagnies</p>
+     <table class="mon_tableau">
+     
      <tr><th>Compagnie</th><th>Alias</th><th>Code IATA</th><th>Code OACI</th><th>Pays</th></tr>
      {% for c in compagnie %}
         {% ifnotequal 'Unknown' c.nom_compagnie %}

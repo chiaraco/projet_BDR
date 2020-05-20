@@ -10,7 +10,7 @@ body.choix_table{
 }
 h1 {
   text-align:center;
-  color:#d47217;
+  color:#d38a1c;
 }
 a{
   color:black;
@@ -18,6 +18,8 @@ a{
 }
 table.mon_tableau {
   border-collapse: collapse;
+  table-layout: fixed;
+ 
 }
 table.mon_tableau td {
   border: 1px solid #5555;
@@ -47,7 +49,7 @@ table.search td.int {
   padding: 0px;
 }
 input.bouton {
-  background:#e3964f;
+  background:#d38a1c;
   color:black;
   border-radius:5px;
   padding: 5px;
@@ -67,11 +69,11 @@ select.menu{
 }
 th{
   text-align:left;
+  border: 1px solid #5555;
+  padding: 10px;
+  background-color: #d38a1c;
+  color: #fff;
 }
-   
-li{color:#d47217;
-   font-size:14px;
-   list-style-type:disc;}
 
 li span{font-size:16px;
         color:black;}
