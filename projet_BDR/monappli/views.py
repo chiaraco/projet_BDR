@@ -4,9 +4,8 @@
 from django.http import HttpResponse
 from .models import Aeroport,Compagnie,Avion,Accident,Pays,Ville
 import datetime
+from django.db.models import Count
 import matplotlib.pyplot as plt
-import numpy as np
-from matplotlib.backends.backend_agg import FigureCanvasAgg
 
 def accueil(request):
 	return render(request,'accueil.tmpl')
@@ -111,7 +110,7 @@ def compagnie(request):
 	else :
 		comp=Compagnie.objects.all()
 		rech_compagnie=request.GET['rech_compagnie']
-		if 'rech_compagnie' in request.GET.keys():
+		if 'chercher_compagnie' in request.GET.keys():
 			comp=comp & Compagnie.objects.filter(nom_compagnie__icontains=rech_compagnie)
 		if 'chercher_alias' in request.GET.keys():
 			alias=Compagnie.objects.filter(alias__icontains=rech_compagnie)
@@ -146,7 +145,7 @@ def aeroport(request):
 		    {                                          
 		        'aeroport': Aeroport.objects.all().order_by('nom_aeroport'),
 		        'nb': Aeroport.objects.count()-1,
-		        'rien': Aeroport.objects.count()==0
+		        'rien': Aeroport.objects.count()==0,
 		    })
 		 
 	else :
@@ -186,15 +185,18 @@ def aeroport(request):
 
 	    
 def accident(request):
+	bool_fig=False
+	liste=Accident.objects.all()
 	if not request.GET.keys():
 		return render(request, 'accident.tmpl', 
 	    	{                                          
-	        	'accident': Accident.objects.all().order_by('time'),
-	        	'nb': Accident.objects.count(),
-	        	'rien': Accident.objects.count()==0
+	        	'accident': liste.order_by('time'),
+	        	'nb': liste.count(),
+	        	'rien': liste.count()==0,
+				'bool_fig':bool_fig
 	   	})
-	else:
-		liste=Accident.objects.all()
+	
+	elif 'depart' in request.GET.keys():
 		depart=request.GET['depart']
 		if not depart=='':
 			aero=Aeroport.objects.filter(nom_aeroport__icontains=depart)
@@ -300,28 +302,51 @@ def accident(request):
 		if not hmax=='':
 			heure=Accident.objects.filter(time__lte=datetime.datetime.strptime(hmax,"%H:%M"))
 			liste = liste & heure
-		return render(request, 'accident.tmpl', 
-			{                                          
-       	    	'accident': liste.order_by('time'),
-        	   	'nb': liste.count(),
-	    	    'rien': liste.count()==0
-	    	})
+
+######Figure######
+	
+	if 'aff_graphe' in request.GET.keys():
+		fig=request.GET['graphe']
+		bool_fig=True
+		if fig=='Phase':	
+			pie=liste.values('phase_de_vol').annotate(compt=Count('phase_de_vol'))	
+			pie_chart(pie,'leur phase de vol','phase_de_vol')
+			
+		if fig=='Nature':	
+			pie=liste.values('nature').annotate(compt=Count('nature'))	
+			pie_chart(pie,'la nature du vol','nature')
+
+		if fig=='Statut':	
+			pie=liste.values('statut').annotate(compt=Count('statut'))	
+			pie_chart(pie,"le statut de l'enquête",'statut')
+		
+		if fig=='Degats':	
+			pie=liste.values('degats').annotate(compt=Count('degats'))	
+			pie_chart(pie,'les dégats occasionnés','degats')
+
+	return render(request, 'accident.tmpl', 
+		{                                          
+        	'accident': liste.order_by('time'),
+       	   	'nb': liste.count(),
+	   	    'rien': liste.count()==0,
+			'bool_fig': bool_fig
+	   	})
 
 
-def pie_chart(request):
-
+def pie_chart(pie,titre,col):
 	f = plt.figure()
-	x = np.arange(10)
-	h = [0,1,2,3,5,6,4,2,1,0]
-	plt.title('Title')
-	plt.xlim(0, 10)
-	plt.ylim(0, 8)
-	plt.xlabel('x label')
-	plt.ylabel('y label')
-	bar1 = plt.bar(x,h,width=1.0,bottom=0,color='Green',alpha=0.65,label='Legend')
-	plt.legend()
+	
+	labels=[]
+	sizes=[]
+	for i in range(len(pie)):
+		labels.append(pie[i][col])
+		sizes.append(pie[i]['compt'])
+	
+	plt.pie(sizes, labels=labels,autopct='%1.1f%%',pctdistance=0.7)
+	plt.title(f'Répartition des accidents selon {titre}',fontdict={'weight':'bold'}, pad=20)
+	plt.axis('equal')
 
-	f.savefig('monappli/static/image.png')
-	plt.close(f)   
-	return render(request,'figure_pie_chart.tmpl')
+	f.savefig(f'monappli/static/graphe.png')
+	plt.close(f)  	
+
 

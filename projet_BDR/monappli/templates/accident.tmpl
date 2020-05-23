@@ -11,7 +11,7 @@
    <a href="{% url 'donnees'%}">Retour aux données</a>
    </br>
    <h1>Accidents référencés</h1>
-   {% if rien %}
+   {% if rien  %}
       Aucun accident ne correspond à votre recherche !
    {% else %}
 
@@ -135,12 +135,23 @@
             </td>
          </tr>
       </table>
-
-	  <p class="bouton">
+      <p>
+	  Souhaitez-vous afficher un graphique ? <input type="checkbox" name="aff_graphe" value="oui"><label for="aff_graphe">Oui, en fonction de :</label> 
+		
+      <select name="graphe" class="menu">
+		 <option value="Phase">Phase de vol</option>
+		 <option value="Nature">Nature du vol</option>
+	     <option value="Degats">Dégats occasionnés</option>
+		 <option value="Statut">Statut de l'enquête</option>
+	  </select>
+	<p class=bouton>
       <input type="submit" value="Rechercher" class=bouton >
-	  </p>
+   </p>
    </form>
-   
+   {% if bool_fig %}
+      {% load static %}
+      <img class="centrer" src="{% static "graphe.png" %}" alt="Graphique">
+   {% endif %}
    <p>{{nb}} accidents affichés</p>
    
    <table class="mon_tableau">

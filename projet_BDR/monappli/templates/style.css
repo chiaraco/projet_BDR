@@ -42,7 +42,7 @@ table.search td.int {
   padding: 0px;
 }
 input.bouton {
-  background:#e3964f;
+  background:#d47217;
   color:black;
   border-radius:5px;
   padding: 5px;
@@ -59,6 +59,11 @@ input.saisie{
 }
 select.menu{
   width:200px;
+}
+img.centrer{
+  display:block ;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 
