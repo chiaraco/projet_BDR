@@ -5,13 +5,19 @@ import numpy as np
 class Pays(models.Model):
 	nom_pays = models.CharField(max_length=200,primary_key=True)
 	iso = models.CharField(max_length=3,null=True,default=np.nan)
+	
+	def __str__(self):
+		return self.nom_pays+" , "+self.iso
 
 class Avion(models.Model):
 	id_avion =  models.AutoField(primary_key=True)
 	modele = models.CharField(max_length=200,unique=True)
 	iata = models.CharField(max_length=3,null=True,default=np.nan)
 	oaci = models.CharField(max_length=4,null=True,default=np.nan)
-	
+
+	def __str__(self):
+		return self.modele
+			
 class Compagnie(models.Model):
 	nom_compagnie = models.CharField(max_length=200,primary_key=True)
 	alias = models.CharField(max_length=30,null=True,default=np.nan)
@@ -19,11 +25,17 @@ class Compagnie(models.Model):
 	oaci = models.CharField(max_length=3,null=True,default=np.nan)
 	nom_pays = models.ForeignKey(Pays, on_delete=models.SET_NULL,null=True)
 
+	def __str__(self):
+		return self.nom_compagnie
+		
 class Ville(models.Model):
 	id_ville =  models.AutoField(primary_key=True)
 	nom_ville = models.CharField(max_length=200)
 	nom_pays = models.ForeignKey(Pays, on_delete=models.SET_NULL,null=True)
 
+	def __str__(self):
+		return self.nom_ville+" , "+self.nom_pays.nom_pays
+		
 class Aeroport(models.Model):
 	id_aeroport = models.AutoField(primary_key=True)
 	nom_aeroport = models.CharField(max_length=200,unique=True)
@@ -34,6 +46,9 @@ class Aeroport(models.Model):
 	altitude = models.FloatField(null=True,default=None)
 	ville = models.ForeignKey(Ville,on_delete=models.SET_NULL,null=True)
 
+	def __str__(self):
+		return self.nom_aeroport+" , "+self.ville.nom_ville
+		
 class Accident(models.Model):
 	id_accident = models.AutoField(primary_key=True)
 	time = models.DateTimeField(null=True,default=None)
@@ -50,5 +65,7 @@ class Accident(models.Model):
 	statut = models.CharField(max_length=200,null=True,default=np.nan)
 	degats = models.CharField(max_length=200,null=True,default=np.nan)
 
+	def __str__(self):
+		return str(self.time)+" , "+self.nom_pays.nom_pays+" ("+str(self.id_accident)+")"
 
 	

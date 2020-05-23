@@ -9,8 +9,10 @@ Chiara CORDIER et Nolwenn DAVID
 ## Etat actuel de la réalisation du projet
  - [x] création du projet sur django
  - [x] récupération et nettoyage des données
+ - [x] création du modèle de la base
  - [x] peuplement de la base
- - [ ] création des pages du site en cours
+ - [x] création des pages du site
+ - [x] page d'administration
   
 ## Description des fichiers du dépôt
  - blog.txt : idées, problèmes et réalisations au jour le jour
@@ -36,5 +38,12 @@ Chiara CORDIER et Nolwenn DAVID
     
 ## Programmes réalisés et fonctionnalités opérationnelles
  - [x] création de pages pour afficher nos données
- - [ ] page d'accueil à modifier
+ - [x] page d'accueil
+ - [x] tableaux de recherche dans chaque page
+ - [x] page des accidents : 
+	* tableau de recherche
+	* options pour croiser, regrouper, interroger les données
+	* affichage de graphes
+	* options de tri
+ - [ ] graphiques pour avoir une vue d'ensemble des accidents
 

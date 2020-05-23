@@ -3,9 +3,14 @@ body{
   margin : 10px 20px 10px;
   font-size:16px;
 }
+body.choix_table{
+  font-family:Arial;
+  margin : 20px 50px 20px;
+  font-size:16px;
+}
 h1 {
   text-align:center;
-  color:#d47217;
+  color:#d38a1c;
 }
 a{
   color:black;
@@ -13,6 +18,8 @@ a{
 }
 table.mon_tableau {
   border-collapse: collapse;
+  table-layout: fixed;
+ 
 }
 table.mon_tableau td {
   border: 1px solid #5555;
@@ -25,10 +32,6 @@ table.mon_tableau tr:nth-child(even)  {
 }
 table.mon_tableau tr:nth-child(odd) {
   background: #FFF
-}
-table.mon_tableau th {
-  background:#d47217;
-  color:white;
 }
 table.search {
   border-collapse: collapse;
@@ -46,11 +49,11 @@ table.search td.int {
   padding: 0px;
 }
 input.bouton {
-  background:#d47217;
+  background:#d38a1c;
   color:black;
   border-radius:5px;
   padding: 5px;
-  width:200px;
+  width:100px;
 }
 p.bouton{
   text-align:center;
@@ -64,10 +67,13 @@ input.saisie{
 select.menu{
   width:200px;
 }
-img.centrer{
-  display:block ;
-  margin-left: auto;
-  margin-right:auto;
+th{
+  text-align:left;
+  border: 1px solid #5555;
+  padding: 10px;
+  background-color: #d38a1c;
+  color: #fff;
 }
 
-
+li span{font-size:16px;
+        color:black;}

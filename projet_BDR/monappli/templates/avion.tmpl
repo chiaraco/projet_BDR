@@ -2,7 +2,7 @@
 <head> 
    <title>Les avions référencés</title>
        {% load static %}
-    <link rel='stylesheet' href={%static "style.css" %}>
+    <link rel='stylesheet' type='text/css' href="{%static 'style.css' %}">
 </head>
 
 <body>
@@ -12,7 +12,7 @@
    </br>
    <h1>Avions enregistrés</h1>
    {% if rien %}
-      Aucun avion enregistré
+      Aucun avion ne correspond à votre recherche !
    {% else %}
       <form method="get">
 	     <table class="search">
@@ -32,7 +32,7 @@
             </tr>
          </table>
 	     <p class="bouton">
-            <input type="submit" value="Rechercher" class=bouton >
+            <input type="submit" value="Afficher" class=bouton >
 	     </p>
       </form>
 

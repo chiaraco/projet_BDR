@@ -2,7 +2,7 @@
 <head> 
 	<title>Les accidents référencés</title>
     {% load static %}
-    <link rel='stylesheet' href={%static "style.css" %}>
+    <link rel='stylesheet' type='text/css' href="{%static 'style.css' %}">
 </head>
 
 <body>
@@ -21,8 +21,8 @@
 	     <tr>
             <td colspan ="4">
                Trajet :
-	           de <input type="search" name="depart" placeholder="départ (aéroport ou pays ou ville)" class="saisie">
-	           à <input type="search" name="arrivee" placeholder="arrivée (aéroport ou pays ou ville)" class="saisie">
+	           départ de <input type="search" name="depart" placeholder="aéroport, pays, ville" class="saisie">
+	           et arrivée à <input type="search" name="arrivee" placeholder="aéroport, pays, ville" class="saisie">
             </td>
          </tr>
 		
@@ -36,7 +36,7 @@
 	                 </td>
 	                 <td>
 	                    Compagnie aérienne : <br>
-	                    <input type="search" name="compagnie" placeholder="Nom, alias, IATA ou OACI" class="saisie">
+	                    <input type="search" name="compagnie" placeholder="Nom, alias, IATA, OACI" class="saisie">
 	                 </td>
 	                 <td>
 	                    Avion : <br>
@@ -50,7 +50,7 @@
          <tr>
             <td>
 				 Nature du vol : <br>
-				 <select name="nature" class="menu">
+				 <select size=4 multiple name="nature" class="menu">
 					<option select value=""></option>
 					<option value="Passenger">Passenger</option>
 					<option value="Test">Test</option>
@@ -79,7 +79,7 @@
             </td>
             <td>
 				 Phase de vol : <br>
-				 <select name="phase" class="menu">
+				 <select size=4 multiple name="phase" class="menu">
 					<option select value=""></option>
 					<option value="En_route">En route</option>
 					<option value="Landing">Landing</option>
@@ -93,6 +93,16 @@
 				 </select>
             </td>
             <td>
+				 Dégats : <br>
+				 <select size=4 multiple name="degats" class="menu">
+					<option select value=""></option>
+					<option value="Destroyed">Passenger</option>
+					<option value="Substantial">Substantial</option>
+					<option value="Minor">Minor</option>
+					<option value="Damaged_beyond_repair">Damaged beyond repair</option>
+				 </select>
+            </td>
+            <td>
 				 Statut de l'enquête : <br>
 				 <select name="statut" class="menu">
 					<option select value=""></option>
@@ -100,56 +110,65 @@
 					<option value="Final">Final</option>
 				 </select>
             </td>
-            <td>
-				 Dégats : <br>
-				 <select name="degats" class="menu">
-					<option select value=""></option>
-					<option value="Destroyed">Passenger</option>
-					<option value="Damaged_beyond_repair">Damaged beyond repair</option>
-					<option value="Substantial">Substantial</option>
-					<option value="Minor">Minor</option>
-				 </select>
-            </td>
          </tr>
       
          <tr>
             <td colspan="4">
 	           Nombre de 
-                        <input type="radio" name="nb_personne" value="nb_deces"><label for="nb_deces">décès</label>
-                        <input type="radio" name="nb_personne" value="nb_occupants"><label for="nb_occupants">occupants :</label>
-	              entre <input type="number" name="nb_min" placeholder="minimum" class="saisie">
-	                 et <input type="number" name="nb_max" placeholder="maximum" class="saisie">
+               <input type="radio" name="nb_personne" value="nb_deces"><label for="nb_deces">décès</label>
+               <input type="radio" name="nb_personne" value="nb_occupants"><label for="nb_occupants">occupants :</label>
+	           entre 
+	           <input type="number" name="nb_min" placeholder="minimum" class="saisie">
+	           et 
+	           <input type="number" name="nb_max" placeholder="maximum" class="saisie">
             </td>
          </tr>
 
          <tr>
             <td colspan="2">
                Date : 
-	           de <input type="date" name="date_min" class="saisie">
-	            à <input type="date" name="date_max" class="saisie">
+	           de 
+	           <input type="date" name="date_min" class="saisie">
+	           à 
+	           <input type="date" name="date_max" class="saisie">
             </td>
             <td colspan="2">
 	           Heure :
-	           de <input type="time" name="hmin" class="saisie">
-	            à <input type="time" name="hmax" class="saisie">
+	           de 
+	           <input type="time" name="hmin" class="saisie">
+	           à 
+	           <input type="time" name="hmax" class="saisie">
             </td>
          </tr>
       </table>
       <p>
-	  Souhaitez-vous afficher un graphique ? <input type="checkbox" name="aff_graphe" value="oui"><label for="aff_graphe">Oui, en fonction de :</label> 
-		
+	  Souhaitez-vous afficher un graphique ? <input type="checkbox" name="aff_graphe" value="oui"><label for="aff_graphe">Oui, afficher </label> 
       <select name="graphe" class="menu">
 		 <option value="Phase">Phase de vol</option>
 		 <option value="Nature">Nature du vol</option>
 	     <option value="Degats">Dégats occasionnés</option>
 		 <option value="Statut">Statut de l'enquête</option>
+		 <option value="Statut">Nombre d'accidents</option>
+		 <option value="Statut">Nombre d'accidents</option>
 	  </select>
+	  </p>
+	  <p>
+	  Trié par 
+	  <select name="tri" class="menu">
+	  	 <option select value="time">date</option>
+		 <option value="nb_deces">nombre de décès</option>
+		 <option value="nb_occupants">nombre d'occupants</option>
+	     <option value="nom_pays">pays</option>
+	  </select>
+	  dans l'ordre 
+	  <input type="radio" checked name="ordre" value="asc"><label for="asc">ascendant</label>
+	  <input type="radio" name="ordre" value="desc"><label for="desc">descendant</label>
+                        
 	<p class=bouton>
-      <input type="submit" value="Rechercher" class=bouton >
+      <input type="submit" value="Afficher" class=bouton>
    </p>
    </form>
    {% if bool_fig %}
-      {% load static %}
       <img class="centrer" src="{% static "graphe.png" %}" alt="Graphique">
    {% endif %}
    <p>{{nb}} accidents affichés</p>
@@ -187,16 +206,16 @@
                {% endifequal %}
 
                {% ifequal None a.nb_deces%}
-                  {%ifequal None a.nb_occupant%}
+                  {%ifequal None a.nb_occupants%}
                      <td> </td>
                   {% else %}
-                     <td> ? | {{ a.nb_occupant }} </td>
+                     <td> ? | {{ a.nb_occupants }} </td>
                   {% endifequal %}
                {% else %}
-                  {% ifequal None a.nb_occupant %}
+                  {% ifequal None a.nb_occupants %}
                      <td>{{ a.nb_deces }} | ? </td>
                   {%else%}
-                     <td>{{a.nb_deces}} | {{a.nb_occupant}}</td>
+                     <td>{{a.nb_deces}} | {{a.nb_occupants}}</td>
                   {% endifequal %}
                {% endifequal %}
 

@@ -80,3 +80,20 @@
 18/05/2020 évolution des options de recherche dans la page accident (aeroport, lieu, compagnie, avion, date, heure opérationnelles). Nature du vol, phase de vol, statut, dégats, nombre de personne toujours en cours.
 18/05/2020 création d'un tableau pour les recherches
 18/05/2020 création d'une feuille de style (en cours)
+
+19/05/2020 feuille de style terminée 
+
+20/05/2020 quelques options de recherche ajoutées
+20/05/2020 création d'un premier graphe
+
+23/05/2020 ajout d'une fonctionnalité pour trier le tableau des accidents
+23/05/2020 recherches opérationnelles dans toutes les pages
+23/05/2020 ajout de graphes dans la page accident
+23/05/2020 on souhaite faire d'autres graphes
+23/05/2020 ajout de commentaires dans views.py
+23/05/2020 création de gestionnaires dans administration de django
+23/05/2020 ajout de str dans models.py
+
+
+
+

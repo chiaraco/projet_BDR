@@ -2,7 +2,7 @@
 <head> 
    <title>Les compagnies référencées</title>
    {% load static %}
-   <link rel='stylesheet' href={%static "style.css" %}>
+   <link rel='stylesheet' type='text/css' href="{%static 'style.css' %}">
 </head>
 
 <body>
@@ -12,7 +12,7 @@
    </br>
    <h1>Compagnies enregistrées</h1>
    {% if rien %}
-      Aucune compagnie enregistrée
+      Aucune compagnie ne correspond à votre recherche !
    {% else %}
 
       <form method="get">
@@ -35,7 +35,7 @@
 			</tr>
          </table>
 	     <p class="bouton">
-            <input type="submit" value="Rechercher" class=bouton >
+            <input type="submit" value="Afficher" class=bouton >
 	     </p>
       </form>
      <p>{{ nb}} compagnies</p>

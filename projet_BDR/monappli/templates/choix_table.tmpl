@@ -2,7 +2,7 @@
 <head> 
    <title>Choix des tables</title>
    {% load static %}
-   <link rel='stylesheet' href={%static "style.css" %}>
+   <link rel='stylesheet' type='text/css' href="{%static 'style.css' %}">
 </head>
 
 <body class="choix_table">
@@ -10,7 +10,7 @@
    <h1>Liste des tables de données</h1>
    <p>Quelle table souhaitez-vous consulter ?
       <li><span><a href="{% url 'accident'%}">Table des accidents</a></span></li>
-      <li><span><a href="{% url 'aeroport'%}">Table des aeroports</a></span></li>
+      <li><span><a href="{% url 'aeroport'%}">Table des aéroports</a></span></li>
       <li><span><a href="{% url 'avion'%}">Table des avions</a></span></li>
       <li><span><a href="{% url 'compagnie'%}">Table des compagnies</a></span></li>
       <li><span><a href="{% url 'pays'%}">Table des pays</a></span></li>
