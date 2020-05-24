@@ -6,9 +6,9 @@
 </head>
 
 <body>
-   <a href="{% url 'accueil'%}">Retour à l'accueil</a>
+   <a href="{% url 'accueil'%}"><img src="{% static "logo_accueil.png" %}" alt="Logo home" width=20> Retour à l'accueil</a>
    </br>
-   <a href="{% url 'donnees'%}">Aller aux données</a>
+   <a href="{% url 'donnees'%}"><img src="{% static "logo_retour.png" %}" alt="Logo home" width=15> Aller aux données</a>
    </br>
    <h1>Visualisation des données</h1>
    {% if rien  %}
@@ -19,7 +19,7 @@
 	<br>
 
 	<form method="get">
-	<p class=bouton>
+	<p class=centrer>
 	    Année : 
 		de 
         <input type="number" name="annee_min" class="saisie" class="saisie" placeholder="1919" min=1919 max=2020 value=1919>  
@@ -29,7 +29,7 @@
 	</p>
 	</form>
 
-	<table>
+	<table class=graphique>
 		<tr>
 			<td>
 			   <img class="centrer" src="{% static "nb_accident.png" %}" alt="Graphique">
@@ -48,7 +48,6 @@
 		</tr>
 	</table>
   
-
 
 	{% endif %}
 </body>

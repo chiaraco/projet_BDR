@@ -418,7 +418,7 @@ def accident(request):
 		
 		### Diagramme en bar horizontal
 		if fig=='Nature':	
-			bar=liste.values('nature').annotate(compt=Count('nature'))	
+			bar=liste.values('nature').annotate(compt=Count('nature')).order_by('compt')
 			bar_h(bar,'la nature du vol','nature')
 
 	
@@ -463,9 +463,10 @@ def graphique_globaux(request):
 	nombre_accident(dico,compt_deces)
 	
 	## Affichage des compagnies et avions les moins fiables
-	comp=liste.values('nom_compagnie').annotate(compt=Count('nom_compagnie'))
-	avion=liste.values('id_avion_id').annotate(compt=Count('id_avion_id'))
-	#fiabilite(comp,avion)
+	
+	comp=liste.select_related('nom_compagnie').values('nom_compagnie').annotate(compt=Count('nom_compagnie')).order_by('-compt')
+	avion=liste.select_related('id_avion').values('id_avion').annotate(compt=Count('id_avion')).order_by('-compt')
+	fiabilite(comp,avion)
 
 	## Affichage des accidents en fonction de l'heure
 	dico=dict()
@@ -476,6 +477,14 @@ def graphique_globaux(request):
 	accident_heure(dico)
 	
 	return render(request, 'graphique.tmpl')	
+
+
+
+
+
+
+
+
 
 ##########################
 
@@ -500,23 +509,26 @@ def pie_chart(pie,titre,col):
 def bar_h(bar,titre,col):
 	f = plt.figure()
 	
-	labels=[bar[0][col]]
-	sizes=[bar[0]['compt']]
-	for i in range(1,len(bar)):
-		k=0
-		taille=len(sizes)
-		while bar[i]['compt']<sizes[k] and k<taille:
-			k+=1
-		labels.insert(k,bar[i][col])
-		sizes.insert(k,bar[i]['compt'])
+	print("######bar",bar)
 	
-	plt.barh(y=labels, width=sizes, height=1)
+	labels=[]
+	sizes=[]
+	for i in range(len(bar)):
+		labels.append(bar[i][col])
+		sizes.append(bar[i]['compt'])
+	
+	plt.barh(y=labels, width=sizes,color='teal')
+	plt.gca().yaxis.set_tick_params(labelsize=6)
+	plt.grid(axis='x')
 	plt.title(f'Répartition des accidents selon {titre}',fontdict={'weight':'bold'}, pad=20)
 	
 	f.savefig('monappli/static/graphe.png')
 	plt.close(f) 
 
-""" Fonctions pour la création des histogrammes verticaux""" 
+
+
+
+""" Fonction pour la création de l'histogramme vertical nb accidents et décès """ 
 def nombre_accident(dico,compt_deces):
 	f = plt.figure()
 	
@@ -524,47 +536,70 @@ def nombre_accident(dico,compt_deces):
 	annee=list(dico.keys())
 	nb_accident=list(dico.values())
 	
-	plt.bar(annee, compt_deces)
-	plt.plot(annee,nb_accident,color='red')
-	plt.title(f"Nombre d'accidents en fonction de l'année",fontdict={'weight':'bold'}, pad=20)
+	plt.bar(annee, compt_deces,label='Décès',color='royalblue')
+	plt.plot(annee,nb_accident,color='red',label='Accidents')
+	plt.legend()
+	plt.title(f"Nombre d'accidents et de décès en fonction de l'année",fontdict={'weight':'bold'}, pad=20)
 	
 	f.savefig('monappli/static/nb_accident.png')
 	plt.close(f) 
 
+""" Fonction pour les histogrammes horizontaux pour fiabilité des compagnies et avions """ 
 def fiabilite(comp,avion):
-	#print(comp)
+	##COMPAGNIE
 	f = plt.figure()
+
+	pfcomp=[]
+	pfcomp_val=[]
+	i=0
+	while len(pfcomp)<15:
+		if comp[i]['nom_compagnie'] != 'Unknown':
+			pfcomp.insert(0,comp[i]['nom_compagnie'])
+			pfcomp_val.insert(0,comp[i]['compt'])
+		i+=1
+
+	plt.barh(y=pfcomp, width=pfcomp_val,color='darkgreen')
+	plt.gca().yaxis.set_tick_params(labelsize=6)
 	
-	pfc_cle=[]
-	pfc_val=[]
-
-	while len(pfc_cle)<10:
-		print('dddd',list(comp.values()))
-		maximum=max(list(comp.values()))
-		cle=list(comp.keys())
-		for c in cle:
-			if comp[c]==maximum:
-				pfc_cle.append(c)
-				pfc_val.append(maximum)
-				del comp['c']
-
-			
-
-	plt.barh(y=pfc_cle, width=pfc_val, height=1)
+	plt.grid()
 	plt.title(f'Compagnies les moins fiables',fontdict={'weight':'bold'}, pad=20)
 	
 	f.savefig('monappli/static/compagnie.png')
 	plt.close(f) 
+	
+	##AVION
+	g = plt.figure()
+	print("avion##########",avion)
+	pfav=[]
+	pfav_val=[]
+	i=0
+	while len(pfav)<15:
+		obj=Avion.objects.get(id_avion=avion[i]['id_avion'])
+		if obj.modele != 'Unknown':
+			pfav.insert(0,obj.modele)
+			pfav_val.insert(0,avion[i]['compt'])
+		i+=1
 
+	plt.barh(y=pfav, width=pfav_val, color='orange')
+	plt.gca().yaxis.set_tick_params(labelsize=6)
+
+	plt.grid()
+	plt.title(f'Avions les moins fiables',fontdict={'weight':'bold'}, pad=20)
+	
+	g.savefig('monappli/static/avion.png')
+	plt.close(g) 
+
+""" Fonctions pour la création de l'histogramme vertical selon l'heure """ 
 def accident_heure(dico):
 	f = plt.figure()
 	
 	heure=list(dico.keys())
 	nb_accident=list(dico.values())
 	
-	plt.bar(heure, nb_accident)
+	plt.bar(heure, nb_accident, color='teal')
 	plt.xticks(np.arange(0,24,2),np.arange(0,24,2))
-
+	
+	plt.grid(axis='y')
 	plt.title(f"Nombre d'accidents en fonction de l'heure",fontdict={'weight':'bold'}, pad=20)
 	
 	f.savefig('monappli/static/heure.png')

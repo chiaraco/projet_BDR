@@ -6,9 +6,9 @@
 </head>
 
 <body>
-   <a href="{% url 'accueil'%}">Retour à l'accueil</a>
+   <a href="{% url 'accueil'%}"><img src="{% static "logo_accueil.png" %}" alt="Logo home" width=20> Retour à l'accueil</a>
    </br>
-   <a href="{% url 'donnees'%}">Retour aux données</a>
+   <a href="{% url 'donnees'%}"><img src="{% static "logo_retour.png" %}" alt="Logo home" width=15> Retour aux données</a>
    </br>
    <h1>Avions enregistrés</h1>
    {% if rien %}
@@ -31,8 +31,8 @@
                </td>
             </tr>
          </table>
-	     <p class="bouton">
-            <input type="submit" value="Afficher" class=bouton >
+	     <p class="centrer">
+            <input type="submit" value="Rechercher" class=bouton >
 	     </p>
       </form>
 

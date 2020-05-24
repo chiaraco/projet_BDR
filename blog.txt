@@ -82,6 +82,7 @@
 18/05/2020 création d'une feuille de style (en cours)
 
 19/05/2020 feuille de style terminée 
+19/05/2020 test non concluant d'une barre pour scroller dans un tableau (à revoir plus tard si temps dispo)
 
 20/05/2020 quelques options de recherche ajoutées
 20/05/2020 création d'un premier graphe
@@ -94,6 +95,9 @@
 23/05/2020 création de gestionnaires dans administration de django
 23/05/2020 ajout de str dans models.py
 
-
+24/05/2020 idée de pagination pour tableau des accidents
+24/05/2020 ajout d'une page pour graphiques globaux
+24/05/2020 ajout de logos
+24/05/2020 essai pagination du tableau
 
 

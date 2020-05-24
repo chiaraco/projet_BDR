@@ -9,13 +9,14 @@
 
       body.centrer{margin-left:auto;
                    margin-right:auto;
-                   width:25em;}
+                   width:30em;}
     
       h1 {text-align:center;
           color:#d47217;}
 
       a{color:black;
-        text-decoration:none;}
+        text-decoration:none;
+          font-style:italic;}
 
       li{color:#d47217;
          font-size:14px;
@@ -35,22 +36,24 @@
    <p>Bienvenue dans notre application ! 
    <br/>
    <br/>
-      Elle recense tous les accidents d'avion depuis 1919. Vous pouvez naviguer dans :
+      Elle recense tous les accidents d'avion depuis 1919. 
+      <br>
+      Vous pouvez naviguer dans :
       <li><span>toutes nos <a href="donnees">données</a> :</span>
          <ul>
-            <li><span><a href="donnees/accident">Accidents</a></span></li>
-            <li><span><a href="donnees/aeroport">Aéroports</a></span></li>
-            <li><span><a href="donnees/avion">Avions</a></span></li>
-            <li><span><a href="donnees/compagnie">Compagnies</a></span></li>
-            <li><span><a href="donnees/pays">Pays</a></span></li>
-            <li><span><a href="donnees/ville">Villes</a></li></span></li>
+            <li><span><a href="{% url 'accident' %}">Accidents</a></span></li>
+            <li><span><a href="{% url 'aeroport' %}">Aéroports</a></span></li>
+            <li><span><a href="{% url 'avion' %}">Avions</a></span></li>
+            <li><span><a href="{% url 'compagnie' %}">Compagnies</a></span></li>
+            <li><span><a href="{% url 'pays' %}">Pays</a></span></li>
+            <li><span><a href="{% url 'ville' %}">Villes</a></li></span></li>
          </ul>
-      <li><span>nos outils de visualisation statistique ??:</span></li>
+      <li><span>notre <a href="{% url 'graphique' %}">page de visualisation globale</a>, où vous pourrez définir un intervalle de temps sur lequel examiner :</span></li>
          <ul>
-            <li><span><a href="">Diagramme circulaire</a></span></li>
-            <li><span><a href="">Histogramme</a></span></li>
-            <li><span><a href="">Carte / Tableau des pays les plus touchées</a></span></li>
-            <li><span><a href="">Tableau des compagnies les plus touchées</a></span></li>
+            <li><span>le nombre d'accidents et de décès en fonction de l'année</a></span></li>
+            <li><span>les compagnies les moins fiables</a></span></li>
+            <li><span>les avions les moins fiables</a></span></li>
+            <li><span>le nombre d'accidents en fonction de l'heure</a></span></li>
          </ul>
    <br/>
    <br/>

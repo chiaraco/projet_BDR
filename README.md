@@ -45,5 +45,5 @@ Chiara CORDIER et Nolwenn DAVID
 	* options pour croiser, regrouper, interroger les données
 	* affichage de graphes
 	* options de tri
- - [ ] graphiques pour avoir une vue d'ensemble des accidents
+ - [x] graphiques pour avoir une vue d'ensemble des accidents
 
