@@ -8,13 +8,22 @@
 <body class="choix_table">
    <a href="{% url 'accueil'%}"><img src="{% static "logo_accueil.png" %}" alt="Logo home" width=20> Retour à l'accueil</a> 
    <h1>Liste des tables de données</h1>
-   <p>Quelle table souhaitez-vous consulter ?
-      <li><span><a href="{% url 'accident'%}">Table des accidents</a></span></li>
-      <li><span><a href="{% url 'aeroport'%}">Table des aéroports</a></span></li>
-      <li><span><a href="{% url 'avion'%}">Table des avions</a></span></li>
-      <li><span><a href="{% url 'compagnie'%}">Table des compagnies</a></span></li>
-      <li><span><a href="{% url 'pays'%}">Table des pays</a></span></li>
-      <li><span><a href="{% url 'ville'%}">Table des villes</a></span></li>
+   <p>Quelle table souhaitez-vous consulter ? <br><br>
+   <table>
+   	<tr>
+   	 <td><img src="{% static "logo_accident.png" %}" alt="Logo home" width=40></td><td><a href="{% url 'accident'%}">Table des accidents</a></td>
+    </tr><tr>
+     <td><img src="{% static "logo_aeroport.png" %}" alt="Logo home" width=40></td><td><a href="{% url 'aeroport'%}">Table des aéroports</a></td>
+    </tr><tr>
+      <td><img src="{% static "logo_avion.png" %}" alt="Logo home" width=40></td><td><a href="{% url 'avion'%}">Table des avions</a></td>
+    </tr><tr>
+      <td><img src="{% static "logo_compagnie.jpg" %}" alt="Logo home" width=40></td><td><a href="{% url 'compagnie'%}">Table des compagnies</a></td>
+    </tr><tr>
+      <td><img src="{% static "logo_pays.jpg" %}" alt="Logo home" width=40></td><td><a href="{% url 'pays'%}">Table des pays</a></td>
+     </tr><tr>
+      <td><img src="{% static "logo_ville.png" %}" alt="Logo home" width=40></td><td><a href="{% url 'ville'%}">Table des villes</a></td>
+  	 </tr>
+   </table>
    </p>
 
 </body>
