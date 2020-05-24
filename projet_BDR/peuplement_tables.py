@@ -95,7 +95,7 @@ index_depart=[]
 index_arrivee=[]
 index_pas_de_date=[]
 
-for n in range(1500,1700):
+for n in range(len(accident)):
 	try:
 		modele_avion=Avion.objects.get(modele=accident.iloc[n][8])#elle existe, on ne fait rien de plus
 	except ObjectDoesNotExist:
