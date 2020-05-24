@@ -4,7 +4,7 @@
 from django.http import HttpResponse
 from .models import Aeroport,Compagnie,Avion,Accident,Pays,Ville
 import datetime
-from django.db.models import Count
+from django.db.models import Count,Sum
 import matplotlib.pyplot as plt
 import numpy as np
 import os
@@ -258,7 +258,7 @@ def accident(request):
 	if not request.GET.keys():
 		return render(request, 'accident.tmpl', 
 	    	{                                          
-	        	'accident': liste.order_by('time'),
+	        	'accident': liste.order_by('time')[0:200],
 	        	'nb': liste.count(),
 	        	'rien': liste.count()==0,
 				'bool_fig': bool_fig
@@ -416,25 +416,66 @@ def accident(request):
 			pie=liste.values('degats').annotate(compt=Count('degats'))	
 			pie_chart(pie,'les dégats occasionnés','degats')
 		
-		### Histogramme
+		### Diagramme en bar horizontal
 		if fig=='Nature':	
 			bar=liste.values('nature').annotate(compt=Count('nature'))	
 			bar_h(bar,'la nature du vol','nature')
+
 	
 	#### Tri des accidents ####
 	tri=request.GET['tri']
 	ordre=request.GET['ordre']
 	if ordre=='desc': tri='-'+tri
-	
+
+	#### Réduction de l'affichage ####
+	accident=liste.order_by(tri)
+	if liste.count()>200: accident=liste.order_by(tri)[0:200]
+
+
 	return render(request, 'accident.tmpl', 
 		{                                          
-        	'accident': liste.order_by(tri),
+        	'accident': accident,
        	   	'nb': liste.count(),
 	   	    'rien': liste.count()==0,
 			'bool_fig': bool_fig
 	   	})
 
 
+
+""" Création de graphique globaux en fonction des années """ 
+def graphique_globaux(request):
+	liste=Accident.objects.all()
+	annee_min='1919'
+	annee_max='2020'
+	if request.GET.keys() :
+		annee_min=str(request.GET['annee_min'])
+		annee_max=str(request.GET['annee_max'])+"-12-31-23:59"
+		liste=liste.filter(time__gte=datetime.datetime.strptime(annee_min,"%Y")).filter(time__lte=datetime.datetime.strptime(annee_max,"%Y-%m-%d-%H:%M"))
+		annee_max=str(request.GET['annee_max'])
+
+	## Affichage du nb accidents et nb deces selon l'année
+	dico=dict()
+	compt_deces=[]
+	for i in range(int(annee_min),int(annee_max)+1):
+		compt_acc=liste.filter(time__year=i).count()
+		compt_deces.append(liste.filter(time__year=i).aggregate(Sum('nb_deces'))['nb_deces__sum'])
+		dico[i]=compt_acc
+	nombre_accident(dico,compt_deces)
+	
+	## Affichage des compagnies et avions les moins fiables
+	comp=liste.values('nom_compagnie').annotate(compt=Count('nom_compagnie'))
+	avion=liste.values('id_avion_id').annotate(compt=Count('id_avion_id'))
+	#fiabilite(comp,avion)
+
+	## Affichage des accidents en fonction de l'heure
+	dico=dict()
+	liste2=liste.exclude(time__hour=0,time__minute=0)
+	for i in range(0,23):
+		compt_heure=liste2.filter(time__hour=i).count()
+		dico[i]=compt_heure
+	accident_heure(dico)
+	
+	return render(request, 'graphique.tmpl')	
 
 ##########################
 
@@ -459,11 +500,15 @@ def pie_chart(pie,titre,col):
 def bar_h(bar,titre,col):
 	f = plt.figure()
 	
-	labels=[]
-	sizes=[]
-	for i in range(len(bar)):
-		labels.append(bar[i][col])
-		sizes.append(bar[i]['compt'])
+	labels=[bar[0][col]]
+	sizes=[bar[0]['compt']]
+	for i in range(1,len(bar)):
+		k=0
+		taille=len(sizes)
+		while bar[i]['compt']<sizes[k] and k<taille:
+			k+=1
+		labels.insert(k,bar[i][col])
+		sizes.insert(k,bar[i]['compt'])
 	
 	plt.barh(y=labels, width=sizes, height=1)
 	plt.title(f'Répartition des accidents selon {titre}',fontdict={'weight':'bold'}, pad=20)
@@ -472,17 +517,55 @@ def bar_h(bar,titre,col):
 	plt.close(f) 
 
 """ Fonctions pour la création des histogrammes verticaux""" 
-def bar(bar,titre,col):
+def nombre_accident(dico,compt_deces):
 	f = plt.figure()
 	
-	labels=[]
-	sizes=[]
-	for i in range(len(bar)):
-		labels.append(bar[i][col])
-		sizes.append(bar[i]['compt'])
 	
-	plt.barh(y=labels, width=sizes, height=1)
+	annee=list(dico.keys())
+	nb_accident=list(dico.values())
+	
+	plt.bar(annee, compt_deces)
+	plt.plot(annee,nb_accident,color='red')
 	plt.title(f"Nombre d'accidents en fonction de l'année",fontdict={'weight':'bold'}, pad=20)
 	
-	f.savefig('monappli/static/graphe.png')
+	f.savefig('monappli/static/nb_accident.png')
 	plt.close(f) 
+
+def fiabilite(comp,avion):
+	#print(comp)
+	f = plt.figure()
+	
+	pfc_cle=[]
+	pfc_val=[]
+
+	while len(pfc_cle)<10:
+		print('dddd',list(comp.values()))
+		maximum=max(list(comp.values()))
+		cle=list(comp.keys())
+		for c in cle:
+			if comp[c]==maximum:
+				pfc_cle.append(c)
+				pfc_val.append(maximum)
+				del comp['c']
+
+			
+
+	plt.barh(y=pfc_cle, width=pfc_val, height=1)
+	plt.title(f'Compagnies les moins fiables',fontdict={'weight':'bold'}, pad=20)
+	
+	f.savefig('monappli/static/compagnie.png')
+	plt.close(f) 
+
+def accident_heure(dico):
+	f = plt.figure()
+	
+	heure=list(dico.keys())
+	nb_accident=list(dico.values())
+	
+	plt.bar(heure, nb_accident)
+	plt.xticks(np.arange(0,24,2),np.arange(0,24,2))
+
+	plt.title(f"Nombre d'accidents en fonction de l'heure",fontdict={'weight':'bold'}, pad=20)
+	
+	f.savefig('monappli/static/heure.png')
+	plt.close(f)

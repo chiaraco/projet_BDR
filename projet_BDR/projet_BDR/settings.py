@@ -55,7 +55,7 @@ ROOT_URLCONF = 'projet_BDR.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/projet_BDR/monappli/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

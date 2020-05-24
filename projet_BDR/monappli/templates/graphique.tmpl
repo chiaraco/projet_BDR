@@ -1,0 +1,55 @@
+<html>
+<head> 
+	<title>Quelques graphiques</title>
+    {% load static %}
+    <link rel='stylesheet' type='text/css' href="{%static 'style.css' %}">
+</head>
+
+<body>
+   <a href="{% url 'accueil'%}">Retour à l'accueil</a>
+   </br>
+   <a href="{% url 'donnees'%}">Aller aux données</a>
+   </br>
+   <h1>Visualisation des données</h1>
+   {% if rien  %}
+      Aucun accident à cette période !
+   {% else %}
+	<br>
+	<br>
+	<br>
+
+	<form method="get">
+	<p class=bouton>
+	    Année : 
+		de 
+        <input type="number" name="annee_min" class="saisie" class="saisie" placeholder="1919" min=1919 max=2020 value=1919>  
+        à 
+        <input type="number" name="annee_max" class="saisie" class="saisie" placeholder="2020" min=1919 max=2020 value=2020>  
+	    <input type="submit" value="Afficher" class=bouton>
+	</p>
+	</form>
+
+	<table>
+		<tr>
+			<td>
+			   <img class="centrer" src="{% static "nb_accident.png" %}" alt="Graphique">
+			</td>
+			<td>
+			   <img class="centrer" src="{% static "compagnie.png" %}" alt="Graphique">
+			</td>
+		</tr>
+		<tr>
+			<td>
+			   <img class="centrer" src="{% static "avion.png" %}" alt="Graphique">
+			</td>
+			<td>
+			   <img class="centrer" src="{% static "heure.png" %}" alt="Graphique">
+			</td>
+		</tr>
+	</table>
+  
+
+
+	{% endif %}
+</body>
+</html>

@@ -10,5 +10,5 @@ urlpatterns = [
 	path('donnees/avion' , views.avion, name='avion'),
 	path('donnees/aeroport' , views.aeroport, name='aeroport'),
 	path('donnees/accident' , views.accident, name='accident'),
-	path('pie_chart',views.pie_chart,name='pie_chart'),
+	path('graphique',views.graphique_globaux,name='graphique'),
 ]
